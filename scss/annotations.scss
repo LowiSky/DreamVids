@@ -1,0 +1,13 @@
+@import 'partials/header.scss';
+@import 'partials/player.scss';
+@import 'video/titre.scss';
+@import 'video/player.scss';
+@import 'video/video-infos.scss';
+@import 'annotations/annotations.scss';
+
+
+#video{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}

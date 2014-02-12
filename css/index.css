@@ -1,0 +1,315 @@
+/* line 17, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("../fonts/sourcesanspro-light-webfont.eot");
+  src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-light-webfont.woff") format("woff"), url("../fonts/sourcesanspro-light-webfont.ttf") format("truetype"), url("../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* NAV VARIABLES */
+/* line 19, ../scss/partials/_header.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 20, ../scss/partials/_header.scss */
+body {
+  font-family: 'Source Sans Pro', Arial;
+}
+
+/* NAV SCSS */
+/* line 26, ../scss/partials/_header.scss */
+#top-nav {
+  width: 100%;
+  height: 60px;
+  background-color: #40a6e0;
+  border-bottom: 2px solid #33799f;
+}
+
+/* line 33, ../scss/partials/_header.scss */
+#inner-top-nav {
+  margin: auto;
+  max-width: 1000px;
+  padding: 0;
+}
+/* line 38, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-left {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 43, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-left .top-nav-icon-logo {
+  margin-top: 15px;
+}
+/* line 47, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-left .top-nav-text-logo {
+  position: relative;
+  left: 15px;
+  top: -4px;
+}
+/* line 54, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+/* line 59, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form {
+  display: inline-block;
+  margin-right: -3px;
+  border-left: 1px solid #33799f;
+  border-right: 1px solid #33799f;
+  /* firefox 19+ */
+  /* ie */
+}
+/* line 65, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form input[type="text"] {
+  height: 58px;
+  border: 0;
+  background-color: #40a6e0;
+  width: 150px;
+  padding-left: 20px;
+  color: white;
+}
+/* line 74, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form input[type="text"]::-webkit-input-placeholder {
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', Arial;
+  position: relative;
+}
+/* line 75, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form input[type="text"]::-moz-input-placeholder {
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', Arial;
+  position: relative;
+}
+/* line 76, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form input[type="text"]:-ms-input-placeholder {
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', Arial;
+  position: relative;
+}
+/* line 77, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form input[type="text"]:input-placeholder {
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', Arial;
+  position: relative;
+}
+/* line 79, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form input[type="submit"] {
+  height: 12px;
+  width: 12px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  background-image: url("../img/search_icon.png");
+  background-repeat: none;
+  position: relative;
+  left: -20px;
+}
+/* line 90, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right form input[type="submit"]:hover {
+  cursor: pointer;
+}
+/* line 95, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+/* line 100, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0;
+  padding-right: 15px;
+  position: relative;
+  border-right: 1px solid #33799f;
+}
+/* line 108, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img, #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+/* line 115, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 126, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button:hover {
+  background-color: #3d9ed5;
+  cursor: pointer;
+}
+/* line 131, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu {
+  display: none;
+  position: absolute;
+  z-index: 101;
+}
+/* line 136, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li {
+  margin-top: 2px;
+  margin-bottom: -2px;
+  width: 200px;
+  position: relative;
+  left: -200px;
+  display: block;
+  background-color: #a7a7a7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+/* line 154, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li:hover {
+  background-color: #9c9c9c;
+}
+
+/* line 164, ../scss/partials/_header.scss */
+#bottom-nav {
+  height: 40px;
+  background-color: #f1f0f0;
+}
+/* line 168, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav {
+  max-width: 1000px;
+  margin: auto;
+}
+/* line 172, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav {
+  display: inline-block;
+  position: relative;
+  left: -10px;
+}
+/* line 177, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav li {
+  display: inline-block;
+  line-height: 41px;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 120px;
+  margin-left: 10px;
+  text-align: center;
+}
+/* line 186, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav li a {
+  color: #959595;
+}
+/* line 190, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav li a:hover {
+  color: #40a6e0;
+}
+/* line 194, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav li a:hover ~ .bottom-nav-underline {
+  display: block;
+}
+/* line 198, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav li .bottom-nav-underline {
+  width: 100%;
+  height: 3px;
+  top: -4px;
+  position: relative;
+  background-color: #40a6e0;
+  display: none;
+}
+/* line 210, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav #mobile-nav-icon {
+  display: none;
+}
+/* line 214, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav #bottom-nav-social {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+/* line 219, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav #bottom-nav-social li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 42px;
+}

@@ -1,0 +1,20 @@
+@import 'partials/header.scss';
+@import 'partials/player.scss';
+@import 'partials/wysiwyg.scss';
+@import 'video/titre.scss';
+@import 'video/player.scss';
+@import 'video/comments.scss';
+@import 'video/recomandations.scss';
+@import 'video/video-infos.scss';
+
+
+#video {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+#bottom {
+	width: 1000px;
+	margin: auto;
+}

@@ -1,0 +1,77 @@
+$video-h3-color: #858484;
+$comment-color: #959595;
+
+#comments{
+	width: 650px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -3px;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+	padding-right: 10px;
+
+	#comments-title{
+		margin-left: 25px;
+
+		h3{
+			font-weight: normal;
+			font-size: 18px;
+			color: $video_h3_color;
+			line-height: 90px;
+		}
+
+		hr{
+			height: 4px;
+			width: 25px;
+			background-color: $hr_bg_color;
+			border: none;
+			float: left;
+			position: relative;
+			top: -40px;
+		}
+	}
+
+	.comment{
+
+		p{
+			font-size: 14px;
+			color: $comment-color;
+			width: 570px;
+			float: right;
+		}
+
+		.comment-head{
+			.user{
+				display: inline-block;
+
+				p, img{
+					display: inline-block;
+					vertical-align: top;
+				}
+
+				p{
+					position: relative;
+					top: -20px;
+					color: #40a6e0;
+					font-weight: bold;
+					margin-left: 20px;
+					width: 200px;
+				}
+			}
+
+			.date{
+				display: inline-block;
+				vertical-align: middle;
+				width: 200px;
+				float: right;
+				p{
+					width: auto;
+				}
+			}	
+		}
+
+
+	}
+
+}
