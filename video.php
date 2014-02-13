@@ -76,7 +76,7 @@
 					<hr/>
 					<div id="description">
 						<div id="innerDescription">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam sem sed tincidunt tincidunt. Cras varius varius nunc vel cursus. Curabitur sit amet metus dignissim, egestas sem dapibus, suscipit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Ceci est une description que j'ai écrite à la main très très très longtemps pour avoir quelque chose de plus réaliste et inutile et pour pouvoir commiter quelquechose vu que je n'avais aucune idée de quoi faire.
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laudantium, labore assumenda corporis ea dolor saepe nostrum quae molestias nobis illum accusamus magnam rerum! Velit, fuga, laborum qui ducimus nesciunt sequi necessitatibus dolores illo itaque tenetur ea cupiditate temporibus vero amet dolorem veniam possimus perferendis explicabo sed debitis delectus aliquam.
 						</div>
 					</div>
