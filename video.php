@@ -136,7 +136,36 @@
 									<p>12 / 06 à 8h09</p>
 								</div>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ad, voluptate, molestias, necessitatibus ex a rerum laudantium aperiam sit recusandae perferendis quod deleniti minima consequatur dicta vitae praesentium inventore earum mollitia cumque iste totam nostrum fugit porro sed quibusdam velit! Officiis, temporibus doloribus consequuntur debitis assumenda quidem obcaecati adipisci quaerat.</p>
+							<div class="comment-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ad, voluptate, molestias, necessitatibus ex a rerum laudantium aperiam sit recusandae perferendis quod deleniti minima consequatur dicta vitae praesentium inventore earum mollitia cumque iste totam nostrum fugit porro sed quibusdam velit! Officiis, temporibus doloribus consequuntur debitis assumenda quidem obcaecati adipisci quaerat.</p>
+							</div>
+							<div class="comment-notation">
+								<ul>
+									<li class="plus"><a href="#">+</a>141</li>
+									<li class="moins"><a href="#">-</a>3</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="comment">
+							<div class="comment-head">
+								<div class="user">
+									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
+									<p>Louis A.</p>
+								</div>
+								<div class="date">
+									<p>12 / 06 à 8h09</p>
+								</div>
+							</div>
+							<div class="comment-text">
+								<p>Commentaire de félicitations à Dimitri notre inétgrateur adoré ! ;)</p>
+							</div>
+							<div class="comment-notation">
+								<ul>
+									<li class="plus"><a href="#">+</a>25</li>
+									<li class="moins"><a href="#">-</a>1</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 

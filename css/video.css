@@ -1,4 +1,4 @@
-/* line 17, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -1523,6 +1523,11 @@ video {
 }
 
 /* line 1, ../scss/partials/_wysiwyg.scss */
+#createComment {
+  display: none;
+}
+
+/* line 4, ../scss/partials/_wysiwyg.scss */
 label {
   text-align: right;
   display: inline-block;
@@ -1530,7 +1535,7 @@ label {
   padding-right: 5px;
 }
 
-/* line 8, ../scss/partials/_wysiwyg.scss */
+/* line 11, ../scss/partials/_wysiwyg.scss */
 #createComment #editor {
   display: inline-block;
   margin: 5px 0;
@@ -1541,13 +1546,13 @@ label {
   font-size: 0.9em;
 }
 
-/* line 17, ../scss/partials/_wysiwyg.scss */
+/* line 20, ../scss/partials/_wysiwyg.scss */
 #createComment #editor:focus {
   outline: none;
   border: 1px solid #888;
 }
 
-/* line 22, ../scss/partials/_wysiwyg.scss */
+/* line 25, ../scss/partials/_wysiwyg.scss */
 #createComment #editor {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1560,12 +1565,12 @@ label {
   padding-top: -15px;
 }
 
-/* line 35, ../scss/partials/_wysiwyg.scss */
+/* line 38, ../scss/partials/_wysiwyg.scss */
 #createComment #editor > img {
   max-width: 100%;
 }
 
-/* line 39, ../scss/partials/_wysiwyg.scss */
+/* line 42, ../scss/partials/_wysiwyg.scss */
 #createComment span[data-tag], .button {
   display: inline-block;
   width: 41px;
@@ -1573,24 +1578,24 @@ label {
   cursor: pointer;
 }
 
-/* line 45, ../scss/partials/_wysiwyg.scss */
+/* line 48, ../scss/partials/_wysiwyg.scss */
 #createComment span[data-tag].big, .button.big {
   width: 100px;
 }
 
-/* line 48, ../scss/partials/_wysiwyg.scss */
+/* line 51, ../scss/partials/_wysiwyg.scss */
 #createComment span[data-tag]:active, .button:active {
   background-position: 0 -100%;
 }
 
-/* line 52, ../scss/partials/_wysiwyg.scss */
+/* line 55, ../scss/partials/_wysiwyg.scss */
 #createComment span.smiley {
   cursor: pointer;
   margin-top: 15px;
   margin-bottom: -5px;
 }
 
-/* line 58, ../scss/partials/_wysiwyg.scss */
+/* line 61, ../scss/partials/_wysiwyg.scss */
 #createComment #modal {
   display: none;
   width: 200px;
@@ -1617,7 +1622,7 @@ label {
   box-sizing: border-box;
 }
 
-/* line 84, ../scss/partials/_wysiwyg.scss */
+/* line 87, ../scss/partials/_wysiwyg.scss */
 #createComment #modal.view {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1625,7 +1630,7 @@ label {
   transform: scale(1);
 }
 
-/* line 91, ../scss/partials/_wysiwyg.scss */
+/* line 94, ../scss/partials/_wysiwyg.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -1640,12 +1645,12 @@ label {
   transition: 0.2s;
 }
 
-/* line 104, ../scss/partials/_wysiwyg.scss */
+/* line 107, ../scss/partials/_wysiwyg.scss */
 #overlay.view {
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* line 108, ../scss/partials/_wysiwyg.scss */
+/* line 111, ../scss/partials/_wysiwyg.scss */
 .close {
   cursor: pointer;
   position: absolute;
@@ -1653,7 +1658,7 @@ label {
   right: 10px;
 }
 
-/* line 115, ../scss/partials/_wysiwyg.scss */
+/* line 118, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"] {
   display: block;
   width: 250px;
@@ -1667,22 +1672,22 @@ label {
   cursor: pointer;
 }
 
-/* line 127, ../scss/partials/_wysiwyg.scss */
+/* line 130, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"]:hover {
   background-color: #0c6c95;
 }
 
-/* line 130, ../scss/partials/_wysiwyg.scss */
+/* line 133, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"]:active {
   background-color: #06384d;
 }
 
-/* line 133, ../scss/partials/_wysiwyg.scss */
+/* line 136, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"]:focus {
   outline: none;
 }
 
-/* line 137, ../scss/partials/_wysiwyg.scss */
+/* line 140, ../scss/partials/_wysiwyg.scss */
 #wysiwygImage {
   cursor: pointer;
   margin-top: -5px;
@@ -1695,12 +1700,12 @@ label {
   padding-top: 10px;
 }
 
-/* line 148, ../scss/partials/_wysiwyg.scss */
+/* line 151, ../scss/partials/_wysiwyg.scss */
 #wysiwygImage:hover {
   background-color: #e8e8e8;
 }
 
-/* line 151, ../scss/partials/_wysiwyg.scss */
+/* line 154, ../scss/partials/_wysiwyg.scss */
 #wysiwygImage:active {
   background-color: #e1e1e1;
 }
@@ -1859,19 +1864,22 @@ label {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-right: 10px;
+  margin-bottom: 20px;
 }
-/* line 14, ../scss/video/_comments.scss */
+/* line 15, ../scss/video/_comments.scss */
 #comments #comments-title {
   margin-left: 25px;
+  height: 100px;
+  overflow: hidden;
 }
-/* line 17, ../scss/video/_comments.scss */
+/* line 20, ../scss/video/_comments.scss */
 #comments #comments-title h3 {
   font-weight: normal;
   font-size: 18px;
   color: #858484;
   line-height: 90px;
 }
-/* line 24, ../scss/video/_comments.scss */
+/* line 27, ../scss/video/_comments.scss */
 #comments #comments-title hr {
   height: 4px;
   width: 25px;
@@ -1881,41 +1889,78 @@ label {
   position: relative;
   top: -40px;
 }
-/* line 37, ../scss/video/_comments.scss */
-#comments .comment p {
+/* line 38, ../scss/video/_comments.scss */
+#comments .comment {
+  float: left;
   font-size: 14px;
+  padding-left: 10px;
   color: #959595;
-  width: 570px;
-  float: right;
 }
-/* line 45, ../scss/video/_comments.scss */
+/* line 44, ../scss/video/_comments.scss */
+#comments .comment .comment-head {
+  width: 100%;
+  margin-bottom: 5px;
+  padding-bottom: 15px;
+}
+/* line 49, ../scss/video/_comments.scss */
 #comments .comment .comment-head .user {
   display: inline-block;
-}
-/* line 48, ../scss/video/_comments.scss */
-#comments .comment .comment-head .user p, #comments .comment .comment-head .user img {
-  display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 /* line 53, ../scss/video/_comments.scss */
+#comments .comment .comment-head .user img, #comments .comment .comment-head .user p {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 57, ../scss/video/_comments.scss */
 #comments .comment .comment-head .user p {
-  position: relative;
-  top: -20px;
+  margin-left: 15px;
   color: #40a6e0;
   font-weight: bold;
-  margin-left: 20px;
-  width: 200px;
 }
 /* line 63, ../scss/video/_comments.scss */
 #comments .comment .comment-head .date {
   display: inline-block;
-  vertical-align: middle;
-  width: 200px;
+  vertical-align: baseline;
   float: right;
 }
-/* line 68, ../scss/video/_comments.scss */
+/* line 67, ../scss/video/_comments.scss */
 #comments .comment .comment-head .date p {
-  width: auto;
+  font-size: 14px;
+  line-height: 27px;
+}
+/* line 74, ../scss/video/_comments.scss */
+#comments .comment .comment-text {
+  width: 100%;
+  margin-bottom: 5px;
+  padding-left: 25px;
+}
+/* line 80, ../scss/video/_comments.scss */
+#comments .comment .comment-notation {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* line 85, ../scss/video/_comments.scss */
+#comments .comment .comment-notation ul {
+  list-style: none;
+}
+/* line 89, ../scss/video/_comments.scss */
+#comments .comment .comment-notation li {
+  display: inline-block;
+  margin-right: 30px;
+}
+/* line 93, ../scss/video/_comments.scss */
+#comments .comment .comment-notation li a {
+  margin-right: 10px;
+}
+/* line 98, ../scss/video/_comments.scss */
+#comments .comment .comment-notation .plus, #comments .comment .comment-notation .plus a {
+  color: #48a84f;
+}
+/* line 102, ../scss/video/_comments.scss */
+#comments .comment .comment-notation .moins, #comments .comment .comment-notation .moins a {
+  color: #dd4e47;
 }
 
 /* line 1, ../scss/video/_recomandations.scss */

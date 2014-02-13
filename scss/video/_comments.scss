@@ -10,9 +10,12 @@ $comment-color: #959595;
 	-moz-box-sizing: border-box; 
 	box-sizing: border-box; 
 	padding-right: 10px;
+	margin-bottom: 20px;
 
 	#comments-title{
 		margin-left: 25px;
+		height: 100px;
+		overflow: hidden;
 
 		h3{
 			font-weight: normal;
@@ -33,44 +36,73 @@ $comment-color: #959595;
 	}
 
 	.comment{
-
-		p{
-			font-size: 14px;
-			color: $comment-color;
-			width: 570px;
-			float: right;
-		}
+		float: left;
+		font-size: 14px;
+		padding-left: 10px;
+		color: #959595;
 
 		.comment-head{
+			width: 100%;
+			margin-bottom: 5px;
+			padding-bottom: 15px;
+
 			.user{
 				display: inline-block;
+				vertical-align: middle;
 
-				p, img{
+				img, p{
 					display: inline-block;
-					vertical-align: top;
+					vertical-align: middle;
 				}
-
 				p{
-					position: relative;
-					top: -20px;
+					margin-left: 15px;
 					color: #40a6e0;
 					font-weight: bold;
-					margin-left: 20px;
-					width: 200px;
+				}		
+			}
+			.date{
+				display: inline-block;
+				vertical-align: baseline;
+				float: right;
+				p{
+					font-size: 14px;
+					line-height: 27px;
+				}
+			}
+		}
+
+		.comment-text{
+			width: 100%;
+			margin-bottom: 5px;
+			padding-left: 25px;
+		}
+
+		.comment-notation{
+			width: 100%;
+			margin-top: 20px;
+			margin-bottom: 30px;
+			
+			ul{
+				list-style: none;
+			}
+
+			li{
+				display: inline-block;
+				margin-right: 30px;
+
+				a{
+					margin-right: 10px;
 				}
 			}
 
-			.date{
-				display: inline-block;
-				vertical-align: middle;
-				width: 200px;
-				float: right;
-				p{
-					width: auto;
-				}
-			}	
-		}
+			.plus, .plus a{
+				color: #48a84f;
+			}
 
+			.moins, .moins a{
+				color: #dd4e47;
+			}
+		}
 
 	}
 
