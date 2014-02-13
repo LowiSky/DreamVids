@@ -19,8 +19,6 @@
 
 		<?php include 'header.php'; ?>
 
-
-
 			<section id="video">
 				<div id="video-top-infos">
 					<div id="video-top-title">
@@ -28,12 +26,12 @@
 						<hr/>
 					</div>
 					<div id="video-top-channel">
-						<img src="img/avatar_channel.png" alt="Image de la chaîne">
+						<img src="img/avatar_top_nav.png" alt="Image de la chaîne">
+						<span id="hover_subscribe" data-vid="0"><i>S'abonner</i></span>
 						<div id="video-top-channel-infos">
 							<p id="video-top-pseudo">Pseudo</p>
 							<hr>
 							<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
-							<!--<p id="subscribe" onclick="toogleSubscribe(1);" data-subscribed="Abonné" data-unsubscribed="S'abonner">S'abonner</p> -->
 						</div>
 					</div>
 				</div>
