@@ -195,8 +195,33 @@
 						<h3>Recommandations</h3>
 						<hr/>
 					</div>
-					Yolo<br />
-					Swag !
+					
+					<div class="recomandation">
+						<div class="recomandation-thumbnail">
+							<a href="#"><img src="img/recomandation_sample.png" alt="Video title here"></a>
+							<div class="recomandation-time"><p>12:05</p></div>
+						</div>
+						<div class="recomandation-description">
+							<a href="#"><h4>[Découverte] GTA V : Franklin le garagiste !</h4></a>
+							<div class="recomandation-bottom-description">
+								<span class="recomandation-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
+								<span class="recomandation-channel"><a href="#">Nom de la chaine</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="recomandation">
+						<div class="recomandation-thumbnail">
+							<a href="#"><img src="img/recomandation_sample_2.png" alt="Video title here"></a>
+							<div class="recomandation-time"><p>12:05</p></div>
+						</div>
+						<div class="recomandation-description">
+							<a href="#"><h4>LOL - Trevor et ses pulsions !</h4></a>
+							<div class="recomandation-bottom-description">
+								<span class="recomandation-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
+								<span class="recomandation-channel"><a href="#">Nom de la chaine</a></span>
+							</div>
+						</div>
+					</div>
 
 				</aside>
 			</div>
@@ -213,7 +238,7 @@
 		<script src="js/wysiwyg.js"></script>
 		<script src="js/player.js"></script>
 		<script>
-			setVideo([
+			/*setVideo([
 				{
 					format: 360,
 					mp4: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_360p.mp4',
@@ -233,7 +258,7 @@
 					start: 5, end: 12
 				}
 			]);
-			setVolume(1);
+			setVolume(1);*/
 		</script>
 	</body>
 

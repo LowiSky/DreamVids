@@ -28,6 +28,79 @@
 		}
 	}
 
+	.recomandation{
+		background-color: #f1f0f0;
+		width: 95%;
+		margin-top: -15px;
+		margin-bottom: 30px;
+		float: right;
+		height: 200px;
+		-webkit-box-shadow: 1px 2px 0px #e2e2e2;
+		-moz-box-shadow: 1px 2px 0px #e2e2e2;
+		box-shadow: 1px 2px 0px #e2e2e2;
+
+		.recomandation-thumbnail{
+			height: 135px;
+			overflow: hidden;
+
+			.recomandation-time{
+				color: white;
+				background-color: rgba(0, 0, 0, 0.75);
+				display: inline-block;
+				position: relative;
+				top: -130px;
+				float: right;
+				line-height: 14px;
+				font-size: 14px;
+				padding-left: 15px;
+				padding-top: 8px;
+				padding-bottom: 8px;
+				padding-right: 15px;
+			}
+
+			img{
+				width: 100%;
+				display: inline-block;
+			}
+		}
+
+		.recomandation-description{
+
+			h4{
+				font-size: 14px;
+				font-weight: bold;
+				margin-left: 13px;
+				margin-top: 15px;
+				color: #525252;
+			}
+
+			.recomandation-bottom-description{
+				font-size: 14px;
+				margin-top: 10px;
+				padding-left: 15px;
+				padding-right: 15px;
+
+				.recomandation-view{
+					color: #525252;
+
+					img{
+						margin-right: 10px;
+					}
+				}
+
+				.recomandation-channel{
+					float: right;
+
+					a{
+						color: #40a6e0;
+					}
+				}
+			}
+
+
+		}
+	}
+
 }
 
 @media all and (max-width: 1015px) {
@@ -39,5 +112,27 @@
 	#recomandations{
 		float: none;
 		max-width: 100%;
+	}
+
+	.recomandation{
+		margin-right: 20px;
+		text-align: center;
+
+		.recomandation-thumbnail{
+			background-color: #e9e9e9;
+
+			.recomandation-time{
+				display: none;
+			}
+
+			img{
+				width: 100%;
+				position: relative;
+			}
+		}
+
+		.recomandation-description{
+			text-align: left;
+		}
 	}
 }
