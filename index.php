@@ -18,9 +18,9 @@
 			<?php include 'header.php'; ?>
 	
 			<h2>Quelques liens :</h2>
-			<a href="video.php" style="color: blue">Page d'une vidéo</a><br />
-			<a href="annotations.php" style="color: blue">Éditeur d'annotations</a><br />
-			<a href="embed.php" style="color: blue">Embed d'une vidéo</a><br />
+			<a href="video" style="color: blue">Page d'une vidéo</a><br />
+			<a href="annotations" style="color: blue">Éditeur d'annotations</a><br />
+			<a href="embed" style="color: blue">Embed d'une vidéo</a><br />
 
 		</div>
 
