@@ -1,17 +1,11 @@
 #recomandations{
 	margin: auto;
-	width: 350px;
-	height: 100px;
+	width: 100%;
+	max-width: 350px;
+	min-height: 100px;
 	display: inline-block;
 	vertical-align: top;
-}
-
-#recomandations{
-	width: 345px;
 	float: right;
-	display: inline-block;
-	vertical-align: top;
-	height: 100px;
 
 	#recomandations-title{
 		margin-left: 25px;
@@ -34,4 +28,11 @@
 		}
 	}
 
+}
+
+@media all and (max-width: 1015px) {
+	#recomandations{
+		float: none;
+		max-width: 100%;
+	}
 }

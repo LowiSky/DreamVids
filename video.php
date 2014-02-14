@@ -154,11 +154,32 @@
 									<p>Louis A.</p>
 								</div>
 								<div class="date">
-									<p>12 / 06 à 8h09</p>
+									<p>13 / 02 à 22h09</p>
 								</div>
 							</div>
 							<div class="comment-text">
 								<p>Commentaire de félicitations à Dimitri notre inétgrateur adoré ! ;)</p>
+							</div>
+							<div class="comment-notation">
+								<ul>
+									<li class="plus"><a href="#">+</a>25</li>
+									<li class="moins"><a href="#">-</a>1</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="comment">
+							<div class="comment-head">
+								<div class="user">
+									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
+									<p>Dimou</p>
+								</div>
+								<div class="date">
+									<p>14 / 02 à 7h32</p>
+								</div>
+							</div>
+							<div class="comment-text">
+								<p>Et GG à Louis pour ces magnifiques commentaires !</p>
 							</div>
 							<div class="comment-notation">
 								<ul>
@@ -177,7 +198,8 @@
 						<h3>Recommandations</h3>
 						<hr/>
 					</div>
-
+					Yolo<br />
+					Swag !
 
 				</aside>
 			</div>

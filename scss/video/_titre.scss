@@ -47,6 +47,7 @@
 				margin-left: -60px;
 				margin-right: 8px;
 				background-image: url(../img/subscribe_hover.png);
+				background-position: 0 0;
 				cursor: pointer;
 				opacity: 0;
 				z-index: 500;
@@ -88,7 +89,7 @@
 				opacity: 1;
 			}
 			~ #hover_subscribe.subscribed{
-				background-image: url(../img/unsubscribe_hover.png);
+				background-position: 42px 0;
 			}
 			@media all and (min-width: 640px) {
 				~ #hover_subscribe{
