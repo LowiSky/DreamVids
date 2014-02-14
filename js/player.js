@@ -14,7 +14,7 @@ if (document.body.clientWidth < 640) {
 if (videoInfos)
     videoInfos.style.height = player.offsetWidth / (16 / 9) + 'px';
 
-window.addEventListener("resize", function(event) { // Player responsive
+function resized() {
     if (document.body.clientWidth < 640) {
         player.style.width = document.body.clientWidth + 'px';
         player.style.height = typeof embeded != 'undefined' ? document.documentElement.clientHeight + 'px' : player.offsetWidth / (16 / 9) + 'px';
@@ -24,7 +24,7 @@ window.addEventListener("resize", function(event) { // Player responsive
         player.style.width = '';
         player.style.height = '';
         if (videoInfos) {
-            if (player.className == '' || player.className == 'animated') {
+            if (player.className.search('wide') > 0) {
                 player.style.height = typeof embeded != 'undefined' ? document.documentElement.clientHeight + 'px' : player.offsetWidth / (16 / 9) + 'px';
                 videoInfos.style.height = player.offsetWidth / (16 / 9) + 'px';
             } else
@@ -32,7 +32,8 @@ window.addEventListener("resize", function(event) { // Player responsive
         }
     }
     player.style.height = typeof embeded != 'undefined' ? document.documentElement.clientHeight + 'px' : player.style.height;
-}, false);
+}
+window.addEventListener("resize", resized, false);
 
 video = player.getElementsByTagName('video')[0];
 
@@ -238,13 +239,16 @@ widescreen.addEventListener("click", function() {
     if (videoInfos)
         videoInfos.style.height = '';
 
-    if (player.className == '' || player.className == 'animated') {
+    if (player.className.search('wide') < 0) {
         player.className = 'animated wide';
         widescreen.className = 'smallscreen';
     } else {
         player.className = 'animated';
         widescreen.className = 'widescreen';
     }
+    var unAnimate = setTimeout(function() {
+        player.className = player.className.search('wide') > 0 ? 'wide' : '';
+    }, 400);
 });
 
 /*
@@ -258,7 +262,7 @@ function toogleFullScreen() {
     if (typeof annoTimeLine != 'undefined')
         return;
 
-    player.className = (player.className == 'wide' || player.className == 'animated wide') ? 'wide' : '';
+    player.className = player.className.search('wide') > 0 ? 'wide' : '';
 
     if (!(document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement)) {
         if (player.requestFullscreen)

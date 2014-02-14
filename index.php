@@ -3,7 +3,6 @@
 	<!-- // // HEAD \\ \\-->
 	<head>
 		<link rel="stylesheet" href="css/index.css">
-		<link rel="stylesheet" media="screen and (max-width: 600px)" href="css/m_index.css">
 		<link rel="icon" href="img/favicon.png" />
 
 		<meta name="viewport" content="width = device-width, initial-scale = 0.9, maximum-scale = 1.0, user-scalable = no">

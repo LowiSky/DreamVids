@@ -3,7 +3,6 @@
 	<!-- // // HEAD \\ \\-->
 	<head>
 		<link rel="stylesheet" href="css/video.css">
-		<link rel="stylesheet" media="screen and (max-width: 600px)" href="css/m_video.css">
 
 		<link rel="icon" href="img/favicon.png" />
 
@@ -86,8 +85,6 @@
 					</div>
 				</section>
 			</section>
-
-
 
 
 			<div id="bottom">
@@ -216,7 +213,7 @@
 		<script src="js/wysiwyg.js"></script>
 		<script src="js/player.js"></script>
 		<script>
-			/*setVideo([
+			setVideo([
 				{
 					format: 360,
 					mp4: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_360p.mp4',
@@ -227,7 +224,7 @@
 					mp4: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_720p.mp4',
 					webm: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_720p.webm'
 				}
-			]);*/
+			]);
 			setAnnotations([
 				{
 					text: "Oh une annotation !",

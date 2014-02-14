@@ -3,7 +3,6 @@
 	<!-- // // HEAD \\ \\-->
 	<head>
 		<link rel="stylesheet" href="css/annotations.css">
-		<link rel="stylesheet" media="screen and (max-width: 600px)" href="css/m_annotations.css">
 
 		<link rel="icon" href="img/favicon.png" />
 

@@ -32,6 +32,11 @@
 
 @media all and (max-width: 1015px) {
 	#recomandations{
+		max-width: 40%;
+	}
+}
+@media all and (max-width: 750px) {
+	#recomandations{
 		float: none;
 		max-width: 100%;
 	}
