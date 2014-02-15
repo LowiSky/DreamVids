@@ -200,6 +200,7 @@
 						<div class="recomandation-thumbnail">
 							<a href="#"><img src="img/recomandation_sample.png" alt="Video title here"></a>
 							<div class="recomandation-time"><p>12:05</p></div>
+							<a href="#"><div class="recomandation-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
 						</div>
 						<div class="recomandation-description">
 							<a href="#"><h4>[Découverte] GTA V : Franklin le garagiste !</h4></a>
@@ -226,7 +227,7 @@
 				</aside>
 			</div>
 
-
+		<?php include 'footer.php'; ?>
 
 		</div>
 

@@ -10,6 +10,9 @@ var hover_subscribe = document.getElementById("hover_subscribe");
 
 // Functions
 
+
+// Menu utilisateur
+
 button_nav_mobile.addEventListener('click', function() {
     if (button_nav_mobile.className == "open") {
         button_nav_mobile.className = '';
@@ -46,3 +49,6 @@ hover_subscribe.addEventListener('click', function() {
         });
     }
 });
+
+// Overlay des recommandations
+

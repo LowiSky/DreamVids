@@ -1,5 +1,6 @@
 @import "compass/reset";
 @import "partials/fonts.scss";
+@import "partials/footer.scss";
 
 /* NAV VARIABLES */
 $hr_bg_color: #f1f0f0;
@@ -73,10 +74,12 @@ body{ font-family: 'Source Sans Pro', Arial;}
 
 			input[type="text"]::-webkit-input-placeholder { color:#fff; font-style: italic; font-size: 14px; font-family: 'Source Sans Pro', Arial; position: relative;}
 			input[type="text"]::-moz-input-placeholder { color:#fff; font-style: italic; font-size: 14px; font-family: 'Source Sans Pro', Arial; position: relative;} /* firefox 19+ */
-			input[type="text"]:-ms-input-placeholder { color:#fff; font-style: italic; font-size: 14px; font-family: 'Source Sans Pro', Arial; position: relative;} /* ie */
-			input[type="text"]:input-placeholder { color:#fff; font-style: italic; font-size: 14px; font-family: 'Source Sans Pro', Arial; position: relative;}
+			input[type="text"]::-ms-input-placeholder { color:#fff; font-style: italic; font-size: 14px; font-family: 'Source Sans Pro', Arial; position: relative;} /* ie */
+			input[type="text"]::input-placeholder { color:#fff; font-style: italic; font-size: 14px; font-family: 'Source Sans Pro', Arial; position: relative;}
 
 			input[type="submit"]{
+				vertical-align: top;
+				margin-top: 15px;
 				height: 30px;
 				width: 30px;
 				background-color: rgba(0, 0, 0, 0);
@@ -85,8 +88,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 				background-repeat: no-repeat;
 				background-position: center center;
 				position: relative;
-				left: -10px;
-				top: 8px;
+				right: 5px;
 				cursor: pointer;
 			}
 
