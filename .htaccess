@@ -3,3 +3,4 @@ RewriteEngine On
 RewriteRule	^video$	video.php	[L]
 RewriteRule	^annotations$	annotations.php	[L]
 RewriteRule	^embed$	embed.php	[L]
+RewriteRule	^login$	login.php	[L]

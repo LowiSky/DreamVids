@@ -148,19 +148,19 @@
 							<div class="comment-head">
 								<div class="user">
 									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
-									<p>Louis A.</p>
+									<p>Lorem</p>
 								</div>
 								<div class="date">
-									<p>13 / 02 à 22h09</p>
+									<p>18 / 06 à 15h09</p>
 								</div>
 							</div>
 							<div class="comment-text">
-								<p>Commentaire de félicitations à Dimitri notre inétgrateur adoré ! ;)</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 							</div>
 							<div class="comment-notation">
 								<ul>
 									<li class="plus"><a href="#">+</a>25</li>
-									<li class="moins"><a href="#">-</a>1</li>
+									<li class="moins"><a href="#">-</a>0</li>
 								</ul>
 							</div>
 						</div>
@@ -169,22 +169,23 @@
 							<div class="comment-head">
 								<div class="user">
 									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
-									<p>Dimou</p>
+									<p>Pseudo</p>
 								</div>
 								<div class="date">
-									<p>14 / 02 à 7h32</p>
+									<p>12 / 06 à 8h09</p>
 								</div>
 							</div>
 							<div class="comment-text">
-								<p>Et GG à Louis pour ces magnifiques commentaires !</p>
+								<p>Laudantium aperiam sit recusandae perferendis quod deleniti minima consequatur dicta vitae praesentium inventore earum mollitia cumque iste totam nostrum fugit porro sed quibusdam velit! Officiis, temporibus doloribus consequuntur debitis assumenda quidem obcaecati adipisci quaerat.</p>
 							</div>
 							<div class="comment-notation">
 								<ul>
-									<li class="plus"><a href="#">+</a>25</li>
-									<li class="moins"><a href="#">-</a>1</li>
+									<li class="plus"><a href="#">+</a>854</li>
+									<li class="moins"><a href="#">-</a>24</li>
 								</ul>
 							</div>
 						</div>
+
 					</div>
 
 				</section>
@@ -213,7 +214,8 @@
 					<div class="recomandation">
 						<div class="recomandation-thumbnail">
 							<a href="#"><img src="img/recomandation_sample_2.png" alt="Video title here"></a>
-							<div class="recomandation-time"><p>12:05</p></div>
+							<div class="recomandation-time"><p>24:34</p></div>
+							<a href="#"><div class="recomandation-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
 						</div>
 						<div class="recomandation-description">
 							<a href="#"><h4>LOL - Trevor et ses pulsions !</h4></a>
@@ -239,7 +241,7 @@
 		<script src="js/wysiwyg.js"></script>
 		<script src="js/player.js"></script>
 		<script>
-			/*setVideo([
+			setVideo([
 				{
 					format: 360,
 					mp4: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_360p.mp4',
@@ -259,7 +261,7 @@
 					start: 5, end: 12
 				}
 			]);
-			setVolume(1);*/
+			setVolume(1);
 		</script>
 	</body>
 
