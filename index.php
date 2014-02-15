@@ -23,6 +23,8 @@
 			<a href="embed" style="color: blue">Embed d'une vidéo</a><br />
 			<a href="login" style="color: blue">Connection</a><br />
 
+			<?php include 'footer.php'; ?>
+			
 		</div>
 
 		<script src="js/ajax.js"></script>

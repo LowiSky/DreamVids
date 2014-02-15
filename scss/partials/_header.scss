@@ -35,6 +35,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 	margin: auto;
 	max-width: 1000px;
 	padding: 0;
+	position: relative;
 
 	#inner-top-nav-left{
 		display: inline-block;
@@ -54,8 +55,9 @@ body{ font-family: 'Source Sans Pro', Arial;}
 
 	#inner-top-nav-right{
 		display: inline-block;
-		vertical-align: top;
-		float: right;
+		position: absolute;
+		top: 0;
+		right: 0;
 
 		form{
 			display: inline-block;
@@ -110,6 +112,63 @@ body{ font-family: 'Source Sans Pro', Arial;}
 				position: relative;
 				border-right: 1px solid $nav_borders;
 
+				img:first-child {
+					width: 60px;
+					height: 60px;
+					border-right: 1px solid $nav_borders;
+				}
+
+				img, h4{
+					position: relative;
+					display: inline-block;
+					vertical-align: middle;
+					color: $nav_texts;
+				}
+
+				h4{
+					position: relative;
+					margin-left: 20px;
+					margin-right: 20px;
+					font-weight: normal;
+					font-size: 14px;
+					font-weight: bold;
+				}
+
+				&:hover{
+					background-color: $nav_top_hover;
+					cursor: pointer;
+				}
+			}
+			#top-connection {
+				display: inline-block;
+				width: 179px;
+				height: 100%;
+				padding-top: 12px;
+				border-right: 1px solid $nav_borders;
+				text-align: center;
+
+				hr {
+					display: inline-block;
+					vertical-align: middle;
+					width: 1px;
+					height: 20px;
+					border: 0;
+					background-color: #dedede;
+					border: none;
+					margin-bottom: 10px;
+					margin-left: 3px;
+					margin-right: 3px;
+				}
+			}
+
+			#top-nav-user-information-button{
+				display: inline-block;
+				vertical-align: top;
+				margin-left: 0;
+				padding-right: 15px;
+				position: relative;
+				border-right: 1px solid $nav_borders;
+
 				img, h4{
 					position: relative;
 					display: inline-block;
@@ -138,13 +197,13 @@ body{ font-family: 'Source Sans Pro', Arial;}
 				position: absolute;
 				z-index: 101;
 				top: 27px;
+				right: 0;
 
 				li{
 					margin-top: 2px;
 					margin-bottom: -2px;
 					width: 200px;
 					position: relative;
-					left: -200px;
 					display: block;
 					background-color: #a7a7a7;
 					-webkit-box-sizing: border-box; 
@@ -172,6 +231,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 	background-color: $nav_bottom_background;
 
 	#inner-bottom-nav{
+		position: relative;
 		max-width: 1000px;
 		margin: auto;
 
@@ -221,6 +281,9 @@ body{ font-family: 'Source Sans Pro', Arial;}
 			display: inline-block;
 			vertical-align: top;
 			float: right;
+			position: absolute;
+			top: 0;
+			right: 0;
 
 			li{
 				display: inline-block;

@@ -98,6 +98,8 @@
 				<ul id="annoList"></ul>
 			</section>
 
+			<?php include 'footer.php'; ?>*
+			
 		</div>
 
 

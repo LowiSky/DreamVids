@@ -1,7 +1,15 @@
+html {
+	background-color: #f1f0f0;
+}
+body {
+	background-color: white;
+}
+
 footer{
 	width: 100%;
-	border-top: 2px solid #d1d1d1;
+	border-top: 1px solid #d1d1d1;
 	background-color: #f1f0f0;
+	position: absolute;
 
 	#inner-footer{
 		max-width: 1000px;

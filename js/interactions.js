@@ -1,12 +1,12 @@
 // Variables
 var body = document.getElementById('page');
 
-var button_nav_mobile = document.getElementById('mobile-nav-icon');
-var nav = document.getElementsByTagName('nav')[0];
+var button_nav_mobile = document.getElementById('mobile-nav-icon') || document.createElement('div');
+var nav = document.getElementsByTagName('nav')[0] || document.createElement('div');
 
-var button_user_info = document.getElementById("top-nav-user-information-button");
-var user_info_menu = document.getElementById("top-nav-user-information-menu");
-var hover_subscribe = document.getElementById("hover_subscribe");
+var button_user_info = document.getElementById("top-nav-user-information-button") || document.createElement('div');
+var user_info_menu = document.getElementById("top-nav-user-information-menu") || document.createElement('div');
+var hover_subscribe = document.getElementById("hover_subscribe") || document.createElement('div');
 
 // Functions
 
@@ -51,4 +51,3 @@ hover_subscribe.addEventListener('click', function() {
 });
 
 // Overlay des recommandations
-

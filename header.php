@@ -15,18 +15,28 @@
 				</form>
 
 				<div id="top-nav-user-information">
-					<a id="top-nav-user-information-button">
-						<img src="img/avatar_top_nav.png" alt="Votre avatar" id="top-nav-user-information-button-img">
-						<h4 id="top-nav-user-information-button-h4">Pseudo</h4>
-						<img src="img/arrow_top_nav.png" alt="Voir vos informations" id="top-nav-user-arrow">
-						<div id="top-nav-user-information-menu">
-							<ul>
-								<li><a href="#">Ma chaîne</a></li>
-								<li><a href="#">Mon compte</a></li>
-								<li><a href="#">Réseaux sociaux</a></li>
-							</ul>
-						</div>
-					</a>
+					<?php 
+						if (rand(0, 1)) { ?>
+							<a id="top-nav-user-information-button">
+								<img src="img/avatar_top_nav.png" alt="Votre avatar" id="top-nav-user-information-button-img">
+								<h4 id="top-nav-user-information-button-h4">Pseudo</h4>
+								<img src="img/arrow_top_nav.png" alt="Voir vos informations" id="top-nav-user-arrow">
+								<div id="top-nav-user-information-menu">
+									<ul>
+										<li><a href="#">Ma chaîne</a></li>
+										<li><a href="#">Mon compte</a></li>
+										<li><a href="#">Déconnection</a></li>
+									</ul>
+								</div>
+							</a>
+					<?php }
+						else { ?>
+							<div id="top-connection">
+								<a href="login">Connection</a>
+								<hr/>
+								<a href="register">Inscription</a>
+							</div>
+					<?php } ?>
 				</div>
 
 			</div>
