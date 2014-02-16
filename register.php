@@ -18,7 +18,7 @@
 			<?php include 'header.php'; ?>
 	
 			<section id="register">
-				<h1>Inscription <a href="login">Connection</a></h1>
+				<h1>Inscription <a href="login">Connexion</a></h1>
 				<form method="post" action="">
 					<label for="email">Adresse email :</label>
 					<input type="text" name="email" id="email" placeholder="Pseudo" value=""/><br />

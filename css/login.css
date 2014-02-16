@@ -1,4 +1,4 @@
-/* line 17, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -264,21 +264,21 @@ body {
   display: inline-block;
   width: 179px;
   height: 100%;
-  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 25px;
   border-right: 1px solid #33799f;
   text-align: center;
+  font-size: 14px;
+  height: 60px;
 }
-/* line 150, ../scss/partials/_header.scss */
-#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection hr {
-  display: block;
-  vertical-align: middle;
-  height: 1px;
-  width: 30px;
-  border: 0;
-  background-color: white;
-  border: none;
-  margin-top: 5px;
-  margin-bottom: 5px;
+/* line 155, ../scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection p {
+  display: inline;
+  color: #d8d8d8;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 /* line 163, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button {
@@ -507,27 +507,29 @@ body {
 #login h1, #register h1 {
   font-size: 25px;
   margin: 0;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+  color: #858484;
 }
-/* line 14, ../scss/partials/_login-register.scss */
+/* line 16, ../scss/partials/_login-register.scss */
 #login h1 a, #register h1 a {
   color: #ccc;
   font-size: 20px;
 }
-/* line 18, ../scss/partials/_login-register.scss */
+/* line 20, ../scss/partials/_login-register.scss */
 #login h1 a:hover, #register h1 a:hover {
   color: #aaa;
 }
-/* line 20, ../scss/partials/_login-register.scss */
+/* line 22, ../scss/partials/_login-register.scss */
 #login h1 a:hover:before, #register h1 a:hover:before {
   color: #ccc;
 }
-/* line 24, ../scss/partials/_login-register.scss */
+/* line 26, ../scss/partials/_login-register.scss */
 #login h1 a:before, #register h1 a:before {
   content: " / ";
 }
-/* line 29, ../scss/partials/_login-register.scss */
+/* line 31, ../scss/partials/_login-register.scss */
 #login h1:after, #register h1:after {
   content: "";
   display: block;
@@ -538,11 +540,13 @@ body {
   position: relative;
   bottom: -5px;
 }
-/* line 41, ../scss/partials/_login-register.scss */
+/* line 43, ../scss/partials/_login-register.scss */
 #login form, #register form {
   margin: auto;
   background-color: #f1f0f0;
   padding: 15px;
+  color: #858484;
+  margin-bottom: 30px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -550,7 +554,7 @@ body {
   -moz-box-shadow: 1px 2px 0px #e2e2e2;
   box-shadow: 1px 2px 0px #e2e2e2;
 }
-/* line 53, ../scss/partials/_login-register.scss */
+/* line 57, ../scss/partials/_login-register.scss */
 #login form input[type=text], #login form input[type=password], #register form input[type=text], #register form input[type=password] {
   display: block;
   border: none;
@@ -562,17 +566,17 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 64, ../scss/partials/_login-register.scss */
+/* line 68, ../scss/partials/_login-register.scss */
 #login form input[type=text]:focus, #login form input[type=text]:active, #login form input[type=password]:focus, #login form input[type=password]:active, #register form input[type=text]:focus, #register form input[type=text]:active, #register form input[type=password]:focus, #register form input[type=password]:active {
   outline: none;
 }
-/* line 69, ../scss/partials/_login-register.scss */
+/* line 73, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox], #register form input[type=checkbox] {
   cursor: pointer;
   width: 25px;
   margin: 10px 5px 15px 10px;
 }
-/* line 74, ../scss/partials/_login-register.scss */
+/* line 78, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox]:before, #register form input[type=checkbox]:before {
   content: "";
   background-color: #dddddd;
@@ -585,39 +589,40 @@ body {
   right: 5px;
   line-height: 0;
   text-indent: 0;
+  margin-left: -2px;
 }
-/* line 87, ../scss/partials/_login-register.scss */
+/* line 92, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox]:checked:before, #login form input[type=checkbox]:hover:before, #login form input[type=checkbox][disabled]:checked:before, #register form input[type=checkbox]:checked:before, #register form input[type=checkbox]:hover:before, #register form input[type=checkbox][disabled]:checked:before {
   content: "✓";
 }
-/* line 90, ../scss/partials/_login-register.scss */
+/* line 95, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox]:checked:before, #register form input[type=checkbox]:checked:before {
   background-color: #2ecc71;
 }
-/* line 93, ../scss/partials/_login-register.scss */
+/* line 98, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled], #register form input[type=checkbox][disabled] {
   cursor: default;
 }
-/* line 95, ../scss/partials/_login-register.scss */
+/* line 100, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled]:hover:before, #register form input[type=checkbox][disabled]:hover:before {
   content: "";
 }
-/* line 98, ../scss/partials/_login-register.scss */
+/* line 103, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled]:checked:before, #register form input[type=checkbox][disabled]:checked:before {
   background-color: #dddddd;
 }
-/* line 101, ../scss/partials/_login-register.scss */
+/* line 106, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled] + label, #register form input[type=checkbox][disabled] + label {
   color: #999999;
   cursor: default;
 }
-/* line 107, ../scss/partials/_login-register.scss */
+/* line 112, ../scss/partials/_login-register.scss */
 #login form input[type=checkbox] + label, #register form input[type=checkbox] + label {
   position: relative;
   right: 5px;
   cursor: pointer;
 }
-/* line 114, ../scss/partials/_login-register.scss */
+/* line 119, ../scss/partials/_login-register.scss */
 #login form input[type=submit], #register form input[type=submit] {
   display: block;
   border: none;
@@ -632,18 +637,18 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 129, ../scss/partials/_login-register.scss */
+/* line 134, ../scss/partials/_login-register.scss */
 #login form input[type=submit]:focus, #login form input[type=submit]:active, #login form input[type=submit]:hover, #register form input[type=submit]:focus, #register form input[type=submit]:active, #register form input[type=submit]:hover {
   outline: none;
   background-color: #4dace2;
 }
-/* line 133, ../scss/partials/_login-register.scss */
+/* line 138, ../scss/partials/_login-register.scss */
 #login form input[type=submit]:active, #register form input[type=submit]:active {
   background-color: #33a0de;
 }
 
 @media all and (max-width: 630px) {
-  /* line 142, ../scss/partials/_login-register.scss */
+  /* line 147, ../scss/partials/_login-register.scss */
   #login h1, #register h1 {
     margin-left: 10px;
   }

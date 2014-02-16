@@ -32,8 +32,8 @@
 					<?php }
 						else { ?>
 							<div id="top-connection">
-								<a href="login">Connection</a>
-								<hr/>
+								<a href="login">Connexion</a>
+								<p>/</p>
 								<a href="register">Inscription</a>
 							</div>
 					<?php } ?>

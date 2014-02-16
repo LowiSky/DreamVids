@@ -143,20 +143,20 @@ body{ font-family: 'Source Sans Pro', Arial;}
 				display: inline-block;
 				width: 179px;
 				height: 100%;
-				padding-top: 10px;
+				-webkit-box-sizing: border-box;
+    			-moz-box-sizing: border-box;
+    			box-sizing: border-box;
+				padding-top: 25px;
 				border-right: 1px solid $nav_borders;
 				text-align: center;
+				font-size: 14px;
+				height: 60px;
 
-				hr {
-					display: block;
-					vertical-align: middle;
-					height: 1px;
-					width: 30px;
-					border: 0;
-					background-color: white;
-					border: none;
-					margin-top: 5px;
-					margin-bottom: 5px;
+				p{
+					display: inline;
+					color: #d8d8d8;
+					margin-left: 7px;
+					margin-right: 7px;
 				}
 			}
 
