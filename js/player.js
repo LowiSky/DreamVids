@@ -286,7 +286,7 @@ function toogleFullScreen() {
 }
 
 window.addEventListener("orientationchange", function() {
-    if (window.orientation == 90 || window.orientation == -90) {
+    if (window.orientation == 0) {
         if (document.fullscreenElement || document.mozFullScreenElement || document.webkitFullscreenElement || document.msFullscreenElement)
             toogleFullScreen();
     }

@@ -1,205 +1,100 @@
 #video-top-infos{
-	height: 90px;
-	padding-left: 30px;
+	display: block;
+	width: 100%;
+	margin-top: 10px;
 	padding-bottom: 7px;
+	position: relative;
 	
 	#video-top-title{
-		display: inline-block;
+		display: block;
+		padding-left: 30px;
+		padding-right: 30px;
 
 		h1{
 			font-weight: normal;
 			font-size: 24px;
 			color: $video_h1_color;
-			line-height: 90px;
-		}
+			line-height: 30px;
+			margin-top: 20px;
+			margin-bottom: 30px;
 
-		hr{
-			height: 4px;
-			width: 25px;
-			background-color: $hr_bg_color;
-			border: none;
-			float: left;
-			position: relative;
-			top: -33px;
-		}
-	}
-
-	#video-top-channel{
-		display: inline-block;
-		vertical-align: top;
-		float: right;
-		padding-top: 30px;
-
-		img{
-			width: 42px;
-			height: 42px;
-			display: inline-block;
-			margin-right: 15px;
-			position: relative;
-			top: -4px;
-
-			~ #hover_subscribe{
-				width: 42px;
-				height: 42px;
-				display: inline-block;
-				position: relative;
-				top: -4px;
-				margin-left: -60px;
-				margin-right: 8px;
-				background-image: url(../img/subscribe_hover.png);
-				background-position: 0 0;
-				cursor: pointer;
-				opacity: 0;
-				z-index: 500;
-
-				> i {
-					text-align: center;
-					color: white;
-					background: #{'rgba(0, 0, 0, 0.5)'};
-					position: absolute;
-					width: 100px;
-					left: 50%;
-					margin-left: -50px;
-					padding: 8px 0;
-					top: 100%;
-					margin-top: 10px;
-				}
-				
-				> i:before {
-					content: "";
-					border-left: 7px solid transparent;
-					border-right: 7px solid transparent;
-					border-bottom: 7px solid #{'rgba(0, 0, 0, 0.5)'};
-					margin-left: -7px;
-					position: absolute;
-					bottom: 100%;
-					left: 50%;
-					margin-top: 0;
-				}
-			}
-			~ #hover_subscribe.subscribed > i {
+			&:after {
 				content: "";
-				background: #{'rgba(150, 195, 152, 0.8)'};
-			}
-			~ #hover_subscribe.subscribed > i:before {
-				border-bottom: 7px solid #{'rgba(150, 195, 152, 0.8)'};
-			}
-			~ #hover_subscribe:hover{
-				opacity: 1;
-			}
-			~ #hover_subscribe.subscribed{
-				background-position: 42px 0;
-			}
-			@media all and (min-width: 640px) {
-				~ #hover_subscribe{
-					-webkit-transition: opacity 0.2s;
-					-moz-transition: opacity 0.2s;
-					-ms-transition: opacity 0.2s;
-					-o-transition: opacity 0.2s;
-					transition: opacity 0.2s;
-				}
-			}
-		}
-
-		#video-top-channel-infos{
-			display: inline-block;
-			vertical-align: top;
-			font-size: 14px;
-			position: relative;
-			top: 2px;
-			line-height: 16px;
-			padding-right: 10px;
-
-			hr{
-				display: none;
-			}
-
-			#video-top-pseudo{
-				color: #40a6e0;
-			}
-
-			.strong{
-				font-weight: bold;
-				margin-right: 4px;
-			}
-		}
-	}
-}
-
-@media all and (max-width: 600px) {
-	#video-top-infos{
-		height: 90px;
-		padding-left: 30px;
-		
-		#video-top-title{
-			display: block;
-	
-			h1{
-				font-weight: normal;
-				font-size: 16px;
-				color: $video_h1_color;
-				line-height: 70px;
-				font-size: 24px;
-			}
-	
-			hr{
+				display: block;
 				height: 4px;
 				width: 25px;
 				background-color: $hr_bg_color;
 				border: none;
-				float: left;
 				position: relative;
-				top: -24px;
+				bottom: -5px;
 			}
 		}
-	
+
 		#video-top-channel{
 			display: block;
-			float: left;
-			position: relative;
-			left: -25px;
-			top: -30px;
-			padding-top: 33px;
-			margin-bottom: -30px;
-	
+			vertical-align: top;
+			padding-top: 10px;
+			float: right;
+
 			img{
+				width: 42px;
+				height: 42px;
+				display: inline-block;
 				margin-right: 15px;
-				height: 25px;
-				width: 25px;
-				margin-top: 8px;
-				margin-bottom: -3px;
+				position: relative;
+				top: -4px;
 
 				~ #hover_subscribe{
-					width: 25px;
-					height: 25px;
+					width: 42px;
+					height: 42px;
 					display: inline-block;
 					position: relative;
-					top: -1px;
-					margin-left: -43px;
-					margin-right: 12px;
-					background-size: 50px 25px;
+					top: -4px;
+					margin-left: -60px;
+					margin-right: 8px;
+					background-image: url(../img/subscribe_hover.png);
+					background-position: 0 0;
+					cursor: pointer;
+					opacity: 0;
+					z-index: 500;
 
 					> i {
-						width: 80px;
-						font-size: 15px;
+						text-align: center;
+						color: white;
+						background: #{'rgba(0, 0, 0, 0.5)'};
+						position: absolute;
+						width: 100px;
 						left: 50%;
-						margin-left: -40px;
-						padding-top: 7px;
-						margin-top: 8px;
+						margin-left: -50px;
+						padding: 8px 0;
+						top: 100%;
+						margin-top: 10px;
 					}
-
+					
 					> i:before {
-						border-left: 5px solid transparent;
-						border-right: 5px solid transparent;
-						border-bottom: 5px solid #{'rgba(0, 0, 0, 0.5)'};
-						margin-left: -5px;
+						content: "";
+						border-left: 7px solid transparent;
+						border-right: 7px solid transparent;
+						border-bottom: 7px solid #{'rgba(0, 0, 0, 0.5)'};
+						margin-left: -7px;
+						position: absolute;
+						bottom: 100%;
+						left: 50%;
+						margin-top: 0;
 					}
+				}
+				~ #hover_subscribe.subscribed > i {
+					content: "";
+					background: #{'rgba(150, 195, 152, 0.8)'};
 				}
 				~ #hover_subscribe.subscribed > i:before {
-					border-bottom: 5px solid #{'rgba(150, 195, 152, 0.8)'};
+					border-bottom: 7px solid #{'rgba(150, 195, 152, 0.8)'};
+				}
+				~ #hover_subscribe:hover{
+					opacity: 1;
 				}
 				~ #hover_subscribe.subscribed{
-					background-position: 25px 0;
+					background-position: 42px 0;
 				}
 				@media all and (min-width: 640px) {
 					~ #hover_subscribe{
@@ -211,31 +106,135 @@
 					}
 				}
 			}
-	
+
 			#video-top-channel-infos{
-				vertical-align: baseline;
-				top: -10px;
-				margin-bottom: 20px;
-	
-				#video-top-pseudo{
-					display: inline-block;
-					top: -2px;
-				}
-	
+				display: inline-block;
+				vertical-align: top;
+				font-size: 14px;
+				position: relative;
+				top: 2px;
+				line-height: 16px;
+				padding-right: 10px;
+
 				hr{
-					display: inline-block;
-					vertical-align: middle;
-					width: 1px;
-					height: 15px;
-					border: 0;
-					background-color: #ebebeb;
-					margin-left: 15px;
+					display: none;
 				}
+
+				#video-top-pseudo{
+					color: #40a6e0;
+				}
+
+				.strong{
+					font-weight: bold;
+					margin-right: 4px;
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 600px) {
+	#video-top-infos{
+		padding: 0;
+		
+		#video-top-title{
+			display: block;
+			padding: 10px;
+			margin-top: -5px;
+			padding-right: 10px;
 	
-				#video-top-abonnes{
-					display: inline-block;
-					vertical-align: middle;
-					left: 20px;
+			h1{
+				clear: both;
+				font-weight: normal;
+				font-size: 16px;
+				color: $video_h1_color;
+				line-height: 30px;
+				font-size: 24px;
+			}
+
+			#video-top-channel{
+				display: block;
+				float: left;
+				position: relative;
+				top: 10px;
+				margin-bottom: -5px;
+			
+				img{
+					margin-right: 15px;
+					height: 25px;
+					width: 25px;
+					margin-top: 8px;
+					margin-bottom: -3px;
+
+					~ #hover_subscribe{
+						width: 25px;
+						height: 25px;
+						display: inline-block;
+						position: relative;
+						top: -1px;
+						margin-left: -43px;
+						margin-right: 12px;
+						background-size: 50px 25px;
+
+						> i {
+							width: 80px;
+							font-size: 15px;
+							left: 100%;
+							margin-left: -25px;
+							padding-top: 7px;
+							margin-top: 8px;
+						}
+
+						> i:before {
+							left: 12px;
+							border-left: 5px solid transparent;
+							border-right: 5px solid transparent;
+							border-bottom: 5px solid #{'rgba(0, 0, 0, 0.5)'};
+							margin-left: -5px;
+						}
+					}
+					~ #hover_subscribe.subscribed > i:before {
+						border-bottom: 5px solid #{'rgba(150, 195, 152, 0.8)'};
+					}
+					~ #hover_subscribe.subscribed{
+						background-position: 25px 0;
+					}
+					@media all and (min-width: 640px) {
+						~ #hover_subscribe{
+							-webkit-transition: opacity 0.2s;
+							-moz-transition: opacity 0.2s;
+							-ms-transition: opacity 0.2s;
+							-o-transition: opacity 0.2s;
+							transition: opacity 0.2s;
+						}
+					}
+				}
+			
+				#video-top-channel-infos{
+					vertical-align: baseline;
+					top: -10px;
+					margin-bottom: 20px;
+			
+					#video-top-pseudo{
+						display: inline-block;
+						top: -2px;
+					}
+			
+					hr{
+						display: inline-block;
+						vertical-align: middle;
+						width: 1px;
+						height: 15px;
+						border: 0;
+						background-color: #ebebeb;
+						margin-left: 15px;
+					}
+			
+					#video-top-abonnes{
+						display: inline-block;
+						vertical-align: middle;
+						left: 20px;
+					}
 				}
 			}
 		}

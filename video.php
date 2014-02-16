@@ -21,18 +21,18 @@
 		<section id="video">
 			<div id="video-top-infos">
 				<div id="video-top-title">
-					<h1>Titre de la vidéo DreamVids</h1>
-					<hr/>
-				</div>
-				<div id="video-top-channel">
-					<img src="img/avatar_top_nav.png" alt="Image de la chaîne">
-					<span id="hover_subscribe" data-vid="0"><i>S'abonner</i></span>
-					<div id="video-top-channel-infos">
-						<p id="video-top-pseudo">Pseudo</p>
-						<hr>
-						<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
+					<div id="video-top-channel">
+						<img src="img/avatar_top_nav.png" alt="Image de la chaîne">
+						<span id="hover_subscribe" data-vid="0"><i>S'abonner</i></span>
+						<div id="video-top-channel-infos">
+							<p id="video-top-pseudo">Pseudo</p>
+							<hr>
+							<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
+						</div>
 					</div>
+					<h1>Titre de la vidéo DreamVids Titre de la vidéo DreamVids Titre de la vidéo DreamVids</h1>
 				</div>
+				
 			</div>
 			<div id="player">
 				<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png"></video>

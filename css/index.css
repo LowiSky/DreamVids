@@ -264,24 +264,23 @@ body {
   display: inline-block;
   width: 179px;
   height: 100%;
-  padding-top: 12px;
+  padding-top: 10px;
   border-right: 1px solid #33799f;
   text-align: center;
 }
 /* line 150, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection hr {
-  display: inline-block;
+  display: block;
   vertical-align: middle;
-  width: 1px;
-  height: 20px;
+  height: 1px;
+  width: 30px;
   border: 0;
-  background-color: #dedede;
+  background-color: white;
   border: none;
-  margin-bottom: 10px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-/* line 164, ../scss/partials/_header.scss */
+/* line 163, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button {
   display: inline-block;
   vertical-align: top;
@@ -290,14 +289,14 @@ body {
   position: relative;
   border-right: 1px solid #33799f;
 }
-/* line 172, ../scss/partials/_header.scss */
+/* line 171, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img, #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   color: white;
 }
-/* line 179, ../scss/partials/_header.scss */
+/* line 178, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   margin-left: 20px;
@@ -306,12 +305,12 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 190, ../scss/partials/_header.scss */
+/* line 189, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button:hover {
   background-color: #3d9ed5;
   cursor: pointer;
 }
-/* line 195, ../scss/partials/_header.scss */
+/* line 194, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu {
   display: none;
   position: absolute;
@@ -319,7 +318,7 @@ body {
   top: 27px;
   right: 0;
 }
-/* line 202, ../scss/partials/_header.scss */
+/* line 201, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li {
   margin-top: 2px;
   margin-bottom: -2px;
@@ -336,29 +335,29 @@ body {
   padding-left: 15px;
   font-size: 14px;
 }
-/* line 219, ../scss/partials/_header.scss */
+/* line 218, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li:hover {
   background-color: #9c9c9c;
 }
 
-/* line 229, ../scss/partials/_header.scss */
+/* line 228, ../scss/partials/_header.scss */
 #bottom-nav {
   height: 40px;
   background-color: #f1f0f0;
 }
-/* line 233, ../scss/partials/_header.scss */
+/* line 232, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav {
   position: relative;
   max-width: 1000px;
   margin: auto;
 }
-/* line 238, ../scss/partials/_header.scss */
+/* line 237, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav {
   display: inline-block;
   position: relative;
   left: -10px;
 }
-/* line 243, ../scss/partials/_header.scss */
+/* line 242, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li {
   display: inline-block;
   line-height: 41px;
@@ -368,19 +367,19 @@ body {
   margin-left: 10px;
   text-align: center;
 }
-/* line 252, ../scss/partials/_header.scss */
+/* line 251, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a {
   color: #959595;
 }
-/* line 256, ../scss/partials/_header.scss */
+/* line 255, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a:hover {
   color: #40a6e0;
 }
-/* line 260, ../scss/partials/_header.scss */
+/* line 259, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a:hover ~ .bottom-nav-underline {
   display: block;
 }
-/* line 264, ../scss/partials/_header.scss */
+/* line 263, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li .bottom-nav-underline {
   width: 100%;
   height: 3px;
@@ -389,11 +388,11 @@ body {
   background-color: #40a6e0;
   display: none;
 }
-/* line 276, ../scss/partials/_header.scss */
+/* line 275, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #mobile-nav-icon {
   display: none;
 }
-/* line 280, ../scss/partials/_header.scss */
+/* line 279, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social {
   display: inline-block;
   vertical-align: top;
@@ -402,7 +401,7 @@ body {
   top: 0;
   right: 0;
 }
-/* line 288, ../scss/partials/_header.scss */
+/* line 287, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social li {
   display: inline-block;
   margin-right: 10px;
@@ -410,25 +409,25 @@ body {
 }
 
 @media all and (max-width: 600px) {
-  /* line 299, ../scss/partials/_header.scss */
+  /* line 298, ../scss/partials/_header.scss */
   #top-nav #top-nav-logo-text {
     display: none;
   }
 
-  /* line 306, ../scss/partials/_header.scss */
+  /* line 305, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information {
     text-align: right;
   }
-  /* line 310, ../scss/partials/_header.scss */
+  /* line 309, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
     display: none;
   }
-  /* line 313, ../scss/partials/_header.scss */
+  /* line 312, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button #top-nav-user-arrow {
     margin-left: 15px;
   }
 
-  /* line 323, ../scss/partials/_header.scss */
+  /* line 322, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav {
     background-color: #e5e3e3;
     position: fixed;
@@ -438,24 +437,24 @@ body {
     z-index: 100;
     box-shadow: 0 0 12px #555;
   }
-  /* line 332, ../scss/partials/_header.scss */
+  /* line 331, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li {
     display: block;
     width: 170px;
     margin-left: 5px;
   }
-  /* line 337, ../scss/partials/_header.scss */
+  /* line 336, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li .bottom-nav-underline {
     height: 40px;
     width: 4px;
     top: -40px;
     margin-bottom: -40px;
   }
-  /* line 345, ../scss/partials/_header.scss */
+  /* line 344, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav.open {
     left: -5px;
   }
-  /* line 349, ../scss/partials/_header.scss */
+  /* line 348, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon {
     display: inline-block;
     float: left;
@@ -463,28 +462,36 @@ body {
     position: relative;
     left: 15px;
   }
-  /* line 356, ../scss/partials/_header.scss */
+  /* line 355, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open {
     left: 183px;
   }
 }
 @media all and (max-width: 450px) {
-  /* line 365, ../scss/partials/_header.scss */
+  /* line 364, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right {
     position: absolute;
     top: 0;
     right: 0;
   }
-  /* line 370, ../scss/partials/_header.scss */
+  /* line 369, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 100px;
     padding-left: 10px;
   }
+  /* line 376, ../scss/partials/_header.scss */
+  #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
+    width: 120px;
+  }
 }
 @media all and (max-width: 350px) {
-  /* line 382, ../scss/partials/_header.scss */
+  /* line 387, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 50px;
     padding-left: 5px;
+  }
+  /* line 394, ../scss/partials/_header.scss */
+  #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
+    width: 100px;
   }
 }

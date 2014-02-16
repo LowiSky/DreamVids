@@ -22,7 +22,6 @@
 				<div id="video-top-infos">
 					<div id="video-top-title">
 						<h1>Titre de la vidéo DreamVids</h1>
-						<hr/>
 					</div>
 					<div id="video-top-channel">
 						<img src="http://lorempixel.com/50/50/cats/4/" alt="Image de la chaîne">

@@ -2,13 +2,13 @@
 <html>
 	<!-- // // HEAD \\ \\-->
 	<head>
-		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/register.css">
 		<link rel="icon" href="img/favicon.png" />
 
 		<meta name="viewport" content="width = device-width, initial-scale = 0.9, maximum-scale = 1.0, user-scalable = no">
 		<meta cHarset="utf-8">
 
-		<title>Connection - DreamVids</title>
+		<title>Inscription - DreamVids</title>
 	</head>
 
 	<!-- // // BODY \\ \\-->
@@ -17,18 +17,22 @@
 
 			<?php include 'header.php'; ?>
 	
-			<section id="login">
-				<h1>Connection <a href="register">Inscription</a></h1>
+			<section id="register">
+				<h1>Inscription <a href="login">Connection</a></h1>
 				<form method="post" action="">
+					<label for="email">Adresse email :</label>
+					<input type="text" name="email" id="email" placeholder="Pseudo" value=""/><br />
 					<label for="username">Pseudo :</label>
 					<input type="text" name="username" id="username" placeholder="Pseudo" value=""/><br />
 					
 					<label for="pass">Mot de passe :</label>
 					<input type="password" name="pass" id="pass" placeholder="Mot de passe" vaue=""/><br />
+					<label for="passConfirm">Confirmez le mot de passe :</label>
+					<input type="password" name="passConfirm" id="passConfirm" placeholder="Mot de passe" vaue=""/><br />
 					
-					<input type="checkbox" id="remember" name="remember"/><label for="remember">Se souvenir de moi</label><br />
+					<input type="checkbox" id="CGU" name="CGU"/><label for="CGU">J'accepte les conditions d'utilisations</label><br />
 					
-					<input type="submit" name="submit" value="Se connecter" class="btn btn-primary" />
+					<input type="submit" name="submit" value="S'inscrire" class="btn btn-primary" />
 				</form>
 			</section>
 
