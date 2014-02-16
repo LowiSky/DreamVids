@@ -18,7 +18,21 @@
 			<?php include 'header.php'; ?>
 	
 			<section id="error404">
-				404
+
+				<div id="cloud">404</div>
+
+				
+
+				<ul id="rain">
+					<li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+				</ul>
+
+				<div id="text">
+					<h1>Perdu sur DreamVids ?</h1>
+					Il semblerait que la page que vous cherchez n'existe pas. Vous pouvez faire une recherche ou retourner à l'<a href="/">accueil</a>.<br />
+					Si vous pensez que c'est un bug, informez-en l'équipe : <a href="mailto:bugreport@dreamvids.fr">bugreport@dreamvids.fr</a>
+				</div>
+
 			</section>
 
 			<?php include 'footer.php'; ?>
