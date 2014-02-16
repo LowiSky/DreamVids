@@ -175,10 +175,18 @@
 		.recomandation{
 			.recomandation-thumbnail{
 				.recomandation-overlay{
-					@include transition-duration(0.2s);
+					-webkit-transition: 0.2s;
+					-moz-transition: 0.2s;
+					-ms-transition: 0.2s;
+					-o-transition: 0.2s;
+					transition: 0.2s;
 
 					img{
-						@include transition-duration(0.2s);
+						-webkit-transition: 0.2s;
+						-moz-transition: 0.2s;
+						-ms-transition: 0.2s;
+						-o-transition: 0.2s;
+						transition: 0.2s;
 					}
 				}
 			}

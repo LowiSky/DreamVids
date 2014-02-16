@@ -244,6 +244,20 @@ function STsetColor(newColor) {
     updateAnnotations();
 }
 
+function STsetLink(newLink) {
+    element = document.getElementById('ann' + (selectedAnnotation + 1));
+    annotation = annotations[selectedAnnotation];
+
+    if (newLink) {
+        console.log('test');
+        element.innerHTML = "<a href=" + newLink + " contentEditable=\"true\" target=\"_blank\" onkeydown=\"keyPressAnno(event, this.parentNode);\">" + annotation.text + "</a>";
+    } else
+        element.innerHTML = "<p contentEditable=\"true\" onkeydown=\"keyPressAnno(event, this.parentNode);\">" + annotation.text + "</p>";
+
+    annotation.link = newLink;
+    updateAnnotations();
+}
+
 document.onmousemove = function(event) {
     mouseX = document.all ? window.event.clientX : event.pageX;
     mouseY = document.all ? window.event.clientY : event.pageY;
@@ -306,7 +320,6 @@ document.onmousemove = function(event) {
         newLeft = (mouseX - annoTimeLine.offsetLeft) / annoTimeLine.clientWidth * 100;
         newLeft = Math.max(0, newLeft)
         newWidth = lastElementX / annoTimeLine.clientWidth * 100 + lastElementWidth - newLeft;
-
 
         resizeLeftListElement.style.width = Math.floor(newWidth * 10) / 10 + "%";
         resizeLeftListElement.style.left = Math.floor(newLeft * 10) / 10 + "%";

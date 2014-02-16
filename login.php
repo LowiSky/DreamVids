@@ -18,7 +18,7 @@
 			<?php include 'header.php'; ?>
 	
 			<section id="login">
-				<h1>Connection <a href="register">Inscription</a></h1>
+				<h1>Connexion <a href="register">Inscription</a></h1>
 				<form method="post" action="">
 					<label for="username">Pseudo :</label>
 					<input type="text" name="username" id="username" placeholder="Pseudo" value=""/><br />

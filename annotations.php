@@ -16,23 +16,15 @@
 	<body>
 		<div id="page">
 
-		<?php include 'header.php'; ?>
-
+			<?php include 'header.php'; ?>
+	
 			<section id="video">
 				<div id="video-top-infos">
 					<div id="video-top-title">
-						<h1>Titre de la vidéo DreamVids</h1>
-					</div>
-					<div id="video-top-channel">
-						<img src="http://lorempixel.com/50/50/cats/4/" alt="Image de la chaîne">
-						<div id="video-top-channel-infos">
-							<p id="video-top-pseudo">Pseudo</p>
-							<hr>
-							<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
-							<p id="subscribe" onclick="toogleSubscribe(1);" data-subscribed="Abonné" data-unsubscribed="S'abonner">S'abonner</p>
-						</div>
+						<h1>Titre de la vidéo</h1>
 					</div>
 				</div>
+
 				<div id="player">
 					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png"></video>
 					<div id="annotationsElement"></div>
@@ -65,16 +57,15 @@
 				<section id="videoInfos">
 					<div id="annoTools">
 						<button onclick="addAnnotation();">Créer une annotation</button>
-						<hr>
 						<div id="selectedTools" style="display: none;">
 							<input type="text" id="STtitle" value="Oh une annotation !" oninput="valueSTchange(this.value);"/>
-
+	
 							Gauche : <input type="text" id="STleft" value="20" maxlength="5" oninput="leftSTchange(this, this.value);"/><p class="purcent">%</p><br />
 							Haut : <input type="text" id="STtop" value="20" maxlength="5" oninput="topSTchange(this, this.value);"/><p class="purcent">%</p><br />
-
+	
 							Largeur : <input type="text" id="STwidth" value="45" maxlength="5" oninput="widthSTchange(this, this.value);"/><p class="purcent">%</p><br />
 							Hauteur : <input type="text" id="STheight" value="10" maxlength="5" oninput="heightSTchange(this, this.value);"/><p class="purcent">%</p><br />
-
+	
 							<div style="text-align: center;">
 								<button class="colorSelect blue" onclick="STsetColor('blue')"></button>
 								<button class="colorSelect orange" onclick="STsetColor('orange')"></button>
@@ -85,20 +76,24 @@
 								<button class="colorSelect purple" onclick="STsetColor('purple')"></button>
 								<button class="colorSelect white" onclick="STsetColor('white')"></button>
 								<button class="colorSelect black" onclick="STsetColor('black')"></button>
+								<button class="colorSelect transparent b" onclick="STsetColor('transparent b')">a</button>
+								<button class="colorSelect transparent w" onclick="STsetColor('transparent w')">a</button>
 							</div>
+		
+							Lien : <input type="url" id="STlink" autocorrect="off" autocapitalize="off" spellcheck="false" value="" oninput="STsetLink(this.value);"/>
 
 							<button class="red" onclick="deleteAnnotation(document.getElementById('ann' + (selectedAnnotation + 1)));">Supprimer l'annotation</button>
 						</div>
 					</div>
 				</section>
 			</section>
-
+	
 			<section id="annoTimeLine">
 				<ul id="annoList"></ul>
 			</section>
-
+	
 			<?php include 'footer.php'; ?>*
-			
+				
 		</div>
 
 

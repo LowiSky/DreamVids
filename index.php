@@ -21,7 +21,7 @@
 			<a href="video" style="color: blue">Page d'une vidéo</a><br />
 			<a href="annotations" style="color: blue">Éditeur d'annotations</a><br />
 			<a href="embed" style="color: blue">Embed d'une vidéo</a><br />
-			<a href="login" style="color: blue">Connection</a><br />
+			<a href="login" style="color: blue">Connexion</a><br />
 			<a href="register" style="color: blue">Inscription</a><br />
 			<a href="404" style="color: blue">404</a><br />
 

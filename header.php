@@ -32,7 +32,7 @@
 					<?php }
 						else { ?>
 							<div id="top-connection">
-								<a href="login">Connection</a>
+								<a href="login">Connexion</a>
 								<hr/>
 								<a href="register">Inscription</a>
 							</div>
