@@ -88,6 +88,23 @@
 						margin-top: 0;
 					}
 				}
+
+				@media all and (min-width: 640px) {
+					~ #hover_subscribe > i {
+						top: 90%;
+					}
+					~ #hover_subscribe > i {
+						-webkit-transition: top 0.3s;
+						-moz-transition: top 0.3s;
+						-ms-transition: top 0.3s;
+						-o-transition: top 0.3s;
+						transition: top 0.3s;
+					}
+					~ #hover_subscribe:hover > i {
+						top: 100%;
+					}
+				}
+
 				~ #hover_subscribe.subscribed > i {
 					content: "";
 					background: #{'rgba(150, 195, 152, 0.8)'};
@@ -95,7 +112,7 @@
 				~ #hover_subscribe.subscribed > i:before {
 					border-bottom: 7px solid #{'rgba(150, 195, 152, 0.8)'};
 				}
-				~ #hover_subscribe:hover{
+				~ #hover_subscribe:hover {
 					opacity: 1;
 				}
 				~ #hover_subscribe.subscribed{
@@ -103,11 +120,11 @@
 				}
 				@media all and (min-width: 640px) {
 					~ #hover_subscribe{
-						-webkit-transition: opacity 0.2s;
-						-moz-transition: opacity 0.2s;
-						-ms-transition: opacity 0.2s;
-						-o-transition: opacity 0.2s;
-						transition: opacity 0.2s;
+						-webkit-transition: 0.3s;
+						-moz-transition: 0.3s;
+						-ms-transition: 0.3s;
+						-o-transition: 0.3s;
+						transition: 0.3s;
 					}
 				}
 			}
@@ -203,15 +220,6 @@
 					}
 					~ #hover_subscribe.subscribed{
 						background-position: 25px 0;
-					}
-					@media all and (min-width: 640px) {
-						~ #hover_subscribe{
-							-webkit-transition: opacity 0.2s;
-							-moz-transition: opacity 0.2s;
-							-ms-transition: opacity 0.2s;
-							-o-transition: opacity 0.2s;
-							transition: opacity 0.2s;
-						}
 					}
 				}
 			

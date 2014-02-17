@@ -1,4 +1,4 @@
-/* line 17, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -1749,34 +1749,52 @@ video {
   left: 50%;
   margin-top: 0;
 }
-/* line 91, ../scss/video/_titre.scss */
+@media all and (min-width: 640px) {
+  /* line 93, ../scss/video/_titre.scss */
+  #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
+    top: 90%;
+  }
+  /* line 96, ../scss/video/_titre.scss */
+  #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -ms-transition: top 0.3s;
+    -o-transition: top 0.3s;
+    transition: top 0.3s;
+  }
+  /* line 103, ../scss/video/_titre.scss */
+  #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe:hover > i {
+    top: 100%;
+  }
+}
+/* line 108, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed > i {
   content: "";
   background: rgba(150, 195, 152, 0.8);
 }
-/* line 95, ../scss/video/_titre.scss */
+/* line 112, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed > i:before {
   border-bottom: 7px solid rgba(150, 195, 152, 0.8);
 }
-/* line 98, ../scss/video/_titre.scss */
+/* line 115, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe:hover {
   opacity: 1;
 }
-/* line 101, ../scss/video/_titre.scss */
+/* line 118, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed {
   background-position: 42px 0;
 }
 @media all and (min-width: 640px) {
-  /* line 105, ../scss/video/_titre.scss */
+  /* line 122, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe {
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
   }
 }
-/* line 115, ../scss/video/_titre.scss */
+/* line 132, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos {
   display: inline-block;
   vertical-align: top;
@@ -1786,33 +1804,33 @@ video {
   line-height: 16px;
   padding-right: 10px;
 }
-/* line 124, ../scss/video/_titre.scss */
+/* line 141, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos hr {
   display: none;
 }
-/* line 128, ../scss/video/_titre.scss */
+/* line 145, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-pseudo {
   color: #40a6e0;
 }
-/* line 132, ../scss/video/_titre.scss */
+/* line 149, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos .strong {
   font-weight: bold;
   margin-right: 4px;
 }
 
 @media all and (max-width: 600px) {
-  /* line 142, ../scss/video/_titre.scss */
+  /* line 159, ../scss/video/_titre.scss */
   #video-top-infos {
     padding: 0;
   }
-  /* line 145, ../scss/video/_titre.scss */
+  /* line 162, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title {
     display: block;
     padding: 10px;
     margin-top: -5px;
     padding-right: 10px;
   }
-  /* line 151, ../scss/video/_titre.scss */
+  /* line 168, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title h1 {
     clear: both;
     font-weight: normal;
@@ -1821,7 +1839,7 @@ video {
     line-height: 30px;
     font-size: 24px;
   }
-  /* line 160, ../scss/video/_titre.scss */
+  /* line 177, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel {
     display: block;
     float: left;
@@ -1829,7 +1847,7 @@ video {
     top: 10px;
     margin-bottom: -5px;
   }
-  /* line 167, ../scss/video/_titre.scss */
+  /* line 184, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img {
     margin-right: 15px;
     height: 25px;
@@ -1837,7 +1855,7 @@ video {
     margin-top: 8px;
     margin-bottom: -3px;
   }
-  /* line 174, ../scss/video/_titre.scss */
+  /* line 191, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe {
     width: 25px;
     height: 25px;
@@ -1848,7 +1866,7 @@ video {
     margin-right: 12px;
     background-size: 50px 25px;
   }
-  /* line 184, ../scss/video/_titre.scss */
+  /* line 201, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
     width: 80px;
     font-size: 15px;
@@ -1857,7 +1875,7 @@ video {
     padding-top: 7px;
     margin-top: 8px;
   }
-  /* line 193, ../scss/video/_titre.scss */
+  /* line 210, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i:before {
     left: 12px;
     border-left: 5px solid transparent;
@@ -1865,26 +1883,26 @@ video {
     border-bottom: 5px solid rgba(0, 0, 0, 0.5);
     margin-left: -5px;
   }
-  /* line 201, ../scss/video/_titre.scss */
+  /* line 218, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed > i:before {
     border-bottom: 5px solid rgba(150, 195, 152, 0.8);
   }
-  /* line 204, ../scss/video/_titre.scss */
+  /* line 221, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed {
     background-position: 25px 0;
   }
-  /* line 218, ../scss/video/_titre.scss */
+  /* line 226, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos {
     vertical-align: baseline;
     top: -10px;
     margin-bottom: 20px;
   }
-  /* line 223, ../scss/video/_titre.scss */
+  /* line 231, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-pseudo {
     display: inline-block;
     top: -2px;
   }
-  /* line 228, ../scss/video/_titre.scss */
+  /* line 236, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos hr {
     display: inline-block;
     vertical-align: middle;
@@ -1894,21 +1912,11 @@ video {
     background-color: #ebebeb;
     margin-left: 15px;
   }
-  /* line 238, ../scss/video/_titre.scss */
+  /* line 246, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-abonnes {
     display: inline-block;
     vertical-align: middle;
     left: 20px;
-  }
-}
-@media all and (max-width: 600px) and (min-width: 640px) {
-  /* line 208, ../scss/video/_titre.scss */
-  #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe {
-    -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
   }
 }
 /* line 3, ../scss/video/_player.scss */
