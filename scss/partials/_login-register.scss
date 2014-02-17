@@ -8,8 +8,10 @@
 	h1 {
 		font-size: 25px;
 		margin: 0;
-		margin-top: 5px;
-		margin-bottom: 20px;
+		margin-top: 15px;
+		margin-bottom: 35px;
+		margin-left: 15px;
+		color: #858484;
 
 		a {
 			color: #ccc;
@@ -42,6 +44,8 @@
 		margin: auto;
 		background-color: #f1f0f0;
 		padding: 15px;
+		color: #858484;
+		margin-bottom: 30px;
 
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
@@ -83,6 +87,7 @@
 			    right: 5px;
 			    line-height: 0;
 			    text-indent: 0;
+			    margin-left: -2px;
 			}
 			&:checked:before, &:hover:before, &[disabled]:checked:before {
 		    	content: "✓";

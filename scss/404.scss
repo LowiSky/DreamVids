@@ -7,23 +7,31 @@ $rainDrop-size: 40px;
 	to {top: 100%;}
 }
 
+#illustration{
+	width: 500px;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
 #error404 {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: auto;
 
 	#cloud {
 		width: 300px; 
 		height: 100px;
-		background-color: #40a6e0;
+		background-color: #3c9eea;
 		border-radius: 20% 20% 20% / 50% 50%;
 		position: relative;
+		left: 75px;
 		margin: 100px 30px 0 0;
 		float: left;
 		text-align: center;
-		font-size: 130px;
+		font-size: 100px;
 		color: white;
 		line-height: 60px;
 		z-index: 50;
@@ -31,7 +39,7 @@ $rainDrop-size: 40px;
 		&:after, &:before {
 			content: "";
 			position: absolute;
-			background-color: #40a6e0;
+			background-color: #3c9eea;
 			z-index: -1;
 		}
 		&:after {
@@ -57,6 +65,7 @@ $rainDrop-size: 40px;
 		overflow: hidden;
 		position: relative;
 		top: -50px;
+		left: 75px;
 		float: left;
 		margin-right: 30px;
 
@@ -71,7 +80,7 @@ $rainDrop-size: 40px;
 		}
 
 		li {
-			background-color: #40a6e0;
+			background-color: #3c9eea;
 			width: 2px;
 			height: $rainDrop-size;
 			position: relative;
@@ -114,21 +123,28 @@ $rainDrop-size: 40px;
 	}
 
 	#text {
-		display: block;
+		display: inline-block;
+		width: 500px;
 		min-width: 100px;
 		min-height: 350px;
 		margin-top: 180px;
-		color: #40a6e0;
-		font-size: 18px;
+		color: #3c9eea;
+		font-size: 14px;
+
+		#inner-text{
+			width: 450px;
+			float: right;
+		}
 
 		h1 {
-			font-size: 35px;
+			font-size: 30px;
+			font-weight: normal;
 			text-transform: uppercase;
-			margin-bottom: 10px;
+			margin-bottom: 20px;
 		}
 
 		a {
-			color: #40a6e0;
+			color: #3c9eea;
 			text-decoration: underline;
 		}
 	}

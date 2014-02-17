@@ -30,7 +30,7 @@
 								<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
 							</div>
 						</div>
-						<h1>Titre de la vidéo</h1>
+						<h1 title="Le titre d'une vidéo trop long sera coupé mais affiché dans un title. Bla Bla Bla Bla Bla Bla ">Le titre d'une vidéo trop long sera coupé mais affiché dans un title. Bla ...</h1>
 					</div>
 				</div>
 				

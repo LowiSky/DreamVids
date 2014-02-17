@@ -1,4 +1,4 @@
-/* line 17, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -71,24 +71,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 1, ../scss/partials/_footer.scss */
+/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
 html {
   background-color: #f1f0f0;
 }
 
-/* line 4, ../scss/partials/_footer.scss */
+/* line 4, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
 body {
   background-color: white;
 }
 
-/* line 8, ../scss/partials/_footer.scss */
+/* line 8, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
 footer {
   width: 100%;
   border-top: 1px solid #d1d1d1;
   background-color: #f1f0f0;
   position: absolute;
 }
-/* line 14, ../scss/partials/_footer.scss */
+/* line 14, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
 footer #inner-footer {
   max-width: 1000px;
   margin: auto;
@@ -98,19 +98,19 @@ footer #inner-footer {
 }
 
 /* NAV VARIABLES */
-/* line 20, ../scss/partials/_header.scss */
+/* line 20, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 a {
   text-decoration: none;
   color: white;
 }
 
-/* line 21, ../scss/partials/_header.scss */
+/* line 21, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 body {
   font-family: 'Source Sans Pro', Arial;
 }
 
 /* NAV SCSS */
-/* line 27, ../scss/partials/_header.scss */
+/* line 27, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #top-nav {
   width: 100%;
   height: 60px;
@@ -118,37 +118,37 @@ body {
   border-bottom: 2px solid #33799f;
 }
 
-/* line 34, ../scss/partials/_header.scss */
+/* line 34, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav {
   margin: auto;
   max-width: 1000px;
   padding: 0;
   position: relative;
 }
-/* line 40, ../scss/partials/_header.scss */
+/* line 40, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-left {
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 45, ../scss/partials/_header.scss */
+/* line 45, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-left .top-nav-icon-logo {
   margin-top: 15px;
 }
-/* line 49, ../scss/partials/_header.scss */
+/* line 49, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-left .top-nav-text-logo {
   position: relative;
   left: 15px;
   top: -4px;
 }
-/* line 56, ../scss/partials/_header.scss */
+/* line 56, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right {
   display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 62, ../scss/partials/_header.scss */
+/* line 62, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form {
   display: inline-block;
   margin-right: -3px;
@@ -157,7 +157,7 @@ body {
   /* firefox 19+ */
   /* ie */
 }
-/* line 68, ../scss/partials/_header.scss */
+/* line 68, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"] {
   height: 58px;
   border: 0;
@@ -166,7 +166,7 @@ body {
   padding-left: 20px;
   color: white;
 }
-/* line 77, ../scss/partials/_header.scss */
+/* line 77, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::-webkit-input-placeholder {
   color: #fff;
   font-style: italic;
@@ -174,7 +174,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 78, ../scss/partials/_header.scss */
+/* line 78, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::-moz-input-placeholder {
   color: #fff;
   font-style: italic;
@@ -182,7 +182,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 79, ../scss/partials/_header.scss */
+/* line 79, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::-ms-input-placeholder {
   color: #fff;
   font-style: italic;
@@ -190,7 +190,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 80, ../scss/partials/_header.scss */
+/* line 80, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::input-placeholder {
   color: #fff;
   font-style: italic;
@@ -198,7 +198,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 82, ../scss/partials/_header.scss */
+/* line 82, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="submit"] {
   vertical-align: top;
   margin-top: 15px;
@@ -213,17 +213,17 @@ body {
   right: 5px;
   cursor: pointer;
 }
-/* line 97, ../scss/partials/_header.scss */
+/* line 97, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="submit"]:focus, #inner-top-nav #inner-top-nav-right form input[type="text"]:focus {
   outline: none;
 }
-/* line 102, ../scss/partials/_header.scss */
+/* line 102, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information {
   display: inline-block;
   vertical-align: top;
   text-align: right;
 }
-/* line 107, ../scss/partials/_header.scss */
+/* line 107, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button {
   display: inline-block;
   vertical-align: top;
@@ -232,20 +232,20 @@ body {
   position: relative;
   border-right: 1px solid #33799f;
 }
-/* line 115, ../scss/partials/_header.scss */
+/* line 115, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img:first-child {
   width: 60px;
   height: 60px;
   border-right: 1px solid #33799f;
 }
-/* line 121, ../scss/partials/_header.scss */
+/* line 121, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img, #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   color: white;
 }
-/* line 128, ../scss/partials/_header.scss */
+/* line 128, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   margin-left: 20px;
@@ -254,33 +254,33 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 137, ../scss/partials/_header.scss */
+/* line 137, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button:hover {
   background-color: #3d9ed5;
   cursor: pointer;
 }
-/* line 142, ../scss/partials/_header.scss */
+/* line 142, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
   display: inline-block;
   width: 179px;
   height: 100%;
-  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 25px;
   border-right: 1px solid #33799f;
   text-align: center;
+  font-size: 14px;
+  height: 60px;
 }
-/* line 150, ../scss/partials/_header.scss */
-#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection hr {
-  display: block;
-  vertical-align: middle;
-  height: 1px;
-  width: 30px;
-  border: 0;
-  background-color: white;
-  border: none;
-  margin-top: 5px;
-  margin-bottom: 5px;
+/* line 155, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+#inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection p {
+  display: inline;
+  color: #d8d8d8;
+  margin-left: 7px;
+  margin-right: 7px;
 }
-/* line 163, ../scss/partials/_header.scss */
+/* line 163, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button {
   display: inline-block;
   vertical-align: top;
@@ -289,14 +289,14 @@ body {
   position: relative;
   border-right: 1px solid #33799f;
 }
-/* line 171, ../scss/partials/_header.scss */
+/* line 171, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img, #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   color: white;
 }
-/* line 178, ../scss/partials/_header.scss */
+/* line 178, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   margin-left: 20px;
@@ -305,12 +305,12 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 189, ../scss/partials/_header.scss */
+/* line 189, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button:hover {
   background-color: #3d9ed5;
   cursor: pointer;
 }
-/* line 194, ../scss/partials/_header.scss */
+/* line 194, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu {
   display: none;
   position: absolute;
@@ -318,7 +318,7 @@ body {
   top: 27px;
   right: 0;
 }
-/* line 201, ../scss/partials/_header.scss */
+/* line 201, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li {
   margin-top: 2px;
   margin-bottom: -2px;
@@ -335,29 +335,29 @@ body {
   padding-left: 15px;
   font-size: 14px;
 }
-/* line 218, ../scss/partials/_header.scss */
+/* line 218, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li:hover {
   background-color: #9c9c9c;
 }
 
-/* line 228, ../scss/partials/_header.scss */
+/* line 228, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav {
   height: 40px;
   background-color: #f1f0f0;
 }
-/* line 232, ../scss/partials/_header.scss */
+/* line 232, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav {
   position: relative;
   max-width: 1000px;
   margin: auto;
 }
-/* line 237, ../scss/partials/_header.scss */
+/* line 237, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav {
   display: inline-block;
   position: relative;
   left: -10px;
 }
-/* line 242, ../scss/partials/_header.scss */
+/* line 242, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li {
   display: inline-block;
   line-height: 41px;
@@ -367,19 +367,19 @@ body {
   margin-left: 10px;
   text-align: center;
 }
-/* line 251, ../scss/partials/_header.scss */
+/* line 251, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a {
   color: #959595;
 }
-/* line 255, ../scss/partials/_header.scss */
+/* line 255, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a:hover {
   color: #40a6e0;
 }
-/* line 259, ../scss/partials/_header.scss */
+/* line 259, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a:hover ~ .bottom-nav-underline {
   display: block;
 }
-/* line 263, ../scss/partials/_header.scss */
+/* line 263, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li .bottom-nav-underline {
   width: 100%;
   height: 3px;
@@ -388,11 +388,11 @@ body {
   background-color: #40a6e0;
   display: none;
 }
-/* line 275, ../scss/partials/_header.scss */
+/* line 275, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #mobile-nav-icon {
   display: none;
 }
-/* line 279, ../scss/partials/_header.scss */
+/* line 279, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social {
   display: inline-block;
   vertical-align: top;
@@ -401,7 +401,7 @@ body {
   top: 0;
   right: 0;
 }
-/* line 287, ../scss/partials/_header.scss */
+/* line 287, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social li {
   display: inline-block;
   margin-right: 10px;
@@ -409,25 +409,25 @@ body {
 }
 
 @media all and (max-width: 600px) {
-  /* line 298, ../scss/partials/_header.scss */
+  /* line 298, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #top-nav #top-nav-logo-text {
     display: none;
   }
 
-  /* line 305, ../scss/partials/_header.scss */
+  /* line 305, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information {
     text-align: right;
   }
-  /* line 309, ../scss/partials/_header.scss */
+  /* line 309, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
     display: none;
   }
-  /* line 312, ../scss/partials/_header.scss */
+  /* line 312, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button #top-nav-user-arrow {
     margin-left: 15px;
   }
 
-  /* line 322, ../scss/partials/_header.scss */
+  /* line 322, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav {
     background-color: #e5e3e3;
     position: fixed;
@@ -437,24 +437,24 @@ body {
     z-index: 100;
     box-shadow: 0 0 12px #555;
   }
-  /* line 331, ../scss/partials/_header.scss */
+  /* line 331, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li {
     display: block;
     width: 170px;
     margin-left: 5px;
   }
-  /* line 336, ../scss/partials/_header.scss */
+  /* line 336, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li .bottom-nav-underline {
     height: 40px;
     width: 4px;
     top: -40px;
     margin-bottom: -40px;
   }
-  /* line 344, ../scss/partials/_header.scss */
+  /* line 344, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav.open {
     left: -5px;
   }
-  /* line 348, ../scss/partials/_header.scss */
+  /* line 348, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon {
     display: inline-block;
     float: left;
@@ -462,40 +462,40 @@ body {
     position: relative;
     left: 15px;
   }
-  /* line 355, ../scss/partials/_header.scss */
+  /* line 355, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open {
     left: 183px;
   }
 }
 @media all and (max-width: 450px) {
-  /* line 364, ../scss/partials/_header.scss */
+  /* line 364, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right {
     position: absolute;
     top: 0;
     right: 0;
   }
-  /* line 369, ../scss/partials/_header.scss */
+  /* line 369, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 100px;
     padding-left: 10px;
   }
-  /* line 376, ../scss/partials/_header.scss */
+  /* line 376, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
     width: 120px;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 387, ../scss/partials/_header.scss */
+  /* line 387, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 50px;
     padding-left: 5px;
   }
-  /* line 394, ../scss/partials/_header.scss */
+  /* line 394, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
     width: 100px;
   }
 }
-/* line 1, ../scss/partials/_login-register.scss */
+/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login, #register {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -503,31 +503,33 @@ body {
   max-width: 600px;
   margin: auto;
 }
-/* line 8, ../scss/partials/_login-register.scss */
+/* line 8, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login h1, #register h1 {
   font-size: 25px;
   margin: 0;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+  color: #858484;
 }
-/* line 14, ../scss/partials/_login-register.scss */
+/* line 16, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login h1 a, #register h1 a {
   color: #ccc;
   font-size: 20px;
 }
-/* line 18, ../scss/partials/_login-register.scss */
+/* line 20, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login h1 a:hover, #register h1 a:hover {
   color: #aaa;
 }
-/* line 20, ../scss/partials/_login-register.scss */
+/* line 22, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login h1 a:hover:before, #register h1 a:hover:before {
   color: #ccc;
 }
-/* line 24, ../scss/partials/_login-register.scss */
+/* line 26, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login h1 a:before, #register h1 a:before {
   content: " / ";
 }
-/* line 29, ../scss/partials/_login-register.scss */
+/* line 31, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login h1:after, #register h1:after {
   content: "";
   display: block;
@@ -538,11 +540,13 @@ body {
   position: relative;
   bottom: -5px;
 }
-/* line 41, ../scss/partials/_login-register.scss */
+/* line 43, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form, #register form {
   margin: auto;
   background-color: #f1f0f0;
   padding: 15px;
+  color: #858484;
+  margin-bottom: 30px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -550,7 +554,7 @@ body {
   -moz-box-shadow: 1px 2px 0px #e2e2e2;
   box-shadow: 1px 2px 0px #e2e2e2;
 }
-/* line 53, ../scss/partials/_login-register.scss */
+/* line 57, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=text], #login form input[type=password], #register form input[type=text], #register form input[type=password] {
   display: block;
   border: none;
@@ -562,17 +566,17 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 64, ../scss/partials/_login-register.scss */
+/* line 68, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=text]:focus, #login form input[type=text]:active, #login form input[type=password]:focus, #login form input[type=password]:active, #register form input[type=text]:focus, #register form input[type=text]:active, #register form input[type=password]:focus, #register form input[type=password]:active {
   outline: none;
 }
-/* line 69, ../scss/partials/_login-register.scss */
+/* line 73, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox], #register form input[type=checkbox] {
   cursor: pointer;
   width: 25px;
   margin: 10px 5px 15px 10px;
 }
-/* line 74, ../scss/partials/_login-register.scss */
+/* line 78, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox]:before, #register form input[type=checkbox]:before {
   content: "";
   background-color: #dddddd;
@@ -585,39 +589,40 @@ body {
   right: 5px;
   line-height: 0;
   text-indent: 0;
+  margin-left: -2px;
 }
-/* line 87, ../scss/partials/_login-register.scss */
+/* line 92, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox]:checked:before, #login form input[type=checkbox]:hover:before, #login form input[type=checkbox][disabled]:checked:before, #register form input[type=checkbox]:checked:before, #register form input[type=checkbox]:hover:before, #register form input[type=checkbox][disabled]:checked:before {
   content: "✓";
 }
-/* line 90, ../scss/partials/_login-register.scss */
+/* line 95, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox]:checked:before, #register form input[type=checkbox]:checked:before {
   background-color: #2ecc71;
 }
-/* line 93, ../scss/partials/_login-register.scss */
+/* line 98, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled], #register form input[type=checkbox][disabled] {
   cursor: default;
 }
-/* line 95, ../scss/partials/_login-register.scss */
+/* line 100, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled]:hover:before, #register form input[type=checkbox][disabled]:hover:before {
   content: "";
 }
-/* line 98, ../scss/partials/_login-register.scss */
+/* line 103, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled]:checked:before, #register form input[type=checkbox][disabled]:checked:before {
   background-color: #dddddd;
 }
-/* line 101, ../scss/partials/_login-register.scss */
+/* line 106, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox][disabled] + label, #register form input[type=checkbox][disabled] + label {
   color: #999999;
   cursor: default;
 }
-/* line 107, ../scss/partials/_login-register.scss */
+/* line 112, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=checkbox] + label, #register form input[type=checkbox] + label {
   position: relative;
   right: 5px;
   cursor: pointer;
 }
-/* line 114, ../scss/partials/_login-register.scss */
+/* line 119, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=submit], #register form input[type=submit] {
   display: block;
   border: none;
@@ -632,18 +637,18 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 129, ../scss/partials/_login-register.scss */
+/* line 134, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=submit]:focus, #login form input[type=submit]:active, #login form input[type=submit]:hover, #register form input[type=submit]:focus, #register form input[type=submit]:active, #register form input[type=submit]:hover {
   outline: none;
   background-color: #4dace2;
 }
-/* line 133, ../scss/partials/_login-register.scss */
+/* line 138, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
 #login form input[type=submit]:active, #register form input[type=submit]:active {
   background-color: #33a0de;
 }
 
 @media all and (max-width: 630px) {
-  /* line 142, ../scss/partials/_login-register.scss */
+  /* line 147, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_login-register.scss */
   #login h1, #register h1 {
     margin-left: 10px;
   }
