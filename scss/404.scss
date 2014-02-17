@@ -23,7 +23,7 @@ $rainDrop-size: 40px;
 		#cloud {
 			width: 300px; 
 			height: 100px;
-			background-color: #3c9eea;
+			background-color: #40a6e0;
 			border-radius: 20% 20% 20% / 50% 50%;
 			position: relative;
 			left: 75px;
@@ -38,7 +38,7 @@ $rainDrop-size: 40px;
 			&:after, &:before {
 				content: "";
 				position: absolute;
-				background-color: #3c9eea;
+				background-color: #40a6e0;
 				z-index: -1;
 			}
 			&:after {
@@ -79,7 +79,7 @@ $rainDrop-size: 40px;
 			}
 
 			li {
-				background-color: #3c9eea;
+				background-color: #40a6e0;
 				width: 2px;
 				height: $rainDrop-size;
 				position: relative;
@@ -129,7 +129,7 @@ $rainDrop-size: 40px;
 		max-width: 50%;
 		min-height: 350px;
 		margin-top: 180px;
-		color: #3c9eea;
+		color: #40a6e0;
 		font-size: 14px;
 		padding: 0;
 
@@ -147,7 +147,7 @@ $rainDrop-size: 40px;
 		}
 
 		a {
-			color: #3c9eea;
+			color: #40a6e0;
 			text-decoration: underline;
 		}
 	}

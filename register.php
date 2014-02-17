@@ -21,18 +21,18 @@
 				<h1>Inscription <a href="login">Connexion</a></h1>
 				<form method="post" action="">
 					<label for="email">Adresse email :</label>
-					<input type="text" name="email" id="email" placeholder="Pseudo" value=""/><br />
+					<input type="text" name="email" id="email" placeholder="Adresse email"/><br />
 					<label for="username">Pseudo :</label>
-					<input type="text" name="username" id="username" placeholder="Pseudo" value=""/><br />
+					<input type="text" name="username" id="username" placeholder="Pseudo"/><br />
 					
 					<label for="pass">Mot de passe :</label>
-					<input type="password" name="pass" id="pass" placeholder="Mot de passe" vaue=""/><br />
+					<input type="password" name="pass" id="pass" placeholder="Mot de passe"/><br />
 					<label for="passConfirm">Confirmez le mot de passe :</label>
-					<input type="password" name="passConfirm" id="passConfirm" placeholder="Mot de passe" vaue=""/><br />
+					<input type="password" name="passConfirm" id="passConfirm" placeholder="Confirmation du mot de passe"/><br />
 					
 					<input type="checkbox" id="CGU" name="CGU"/><label for="CGU">J'accepte les conditions d'utilisations</label><br />
 					
-					<input type="submit" name="submit" value="S'inscrire" class="btn btn-primary" />
+					<input type="submit" name="submit" value="S'inscrire"/>
 				</form>
 			</section>
 

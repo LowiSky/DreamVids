@@ -89,34 +89,6 @@
 	
 			<div id="bottom">
 				<section id="comments">
-					<section id="createComment">
-						<div id="wysiwyg">
-						    <span data-tag="bold" style="background-image: url(img/wysiwyg/1.png);"></span>
-						    <span data-tag="italic" style="background-image: url(img/wysiwyg/2.png);"></span>
-						    <span data-tag="underline" style="background-image: url(img/wysiwyg/3.png);"></span>
-						    <span data-tag="strikeThrough" style="background-image: url(img/wysiwyg/4.png);"></span>
-						    <span data-tag="createLink" style="background-image: url(img/wysiwyg/5.png);"></span>
-						    <span class="button" style="background-image: url(img/wysiwyg/6.png);" onclick="ouvrir();"></span>
-						    <span data-tag="undo" style="background-image: url(img/wysiwyg/7.png);"></span>
-						    <div id="modal">
-						        <img src="img/smiley/close.png" class="close" onclick="fermer();" width="30" height="30">
-						        <span class="smiley" data-value="smile.png" data-tag="smiley"><img src="img/smiley/smile.png"></span>
-						        <span class="smiley" data-value="blink.gif" data-tag="smiley"><img src="img/smiley/blink.gif"></span>
-						        <span class="smiley" data-value="clin.png" data-tag="smiley"><img src="img/smiley/clin.png"></span>
-						        <span class="smiley" data-value="heureux.png" data-tag="smiley"><img src="img/smiley/heureux.png"></span>
-						        <span class="smiley" data-value="hihi.png" data-tag="smiley"><img src="img/smiley/hihi.png"></span>
-						        <span class="smiley" data-value="huh.png" data-tag="smiley"><img src="img/smiley/huh.png"></span>
-						        <span class="smiley" data-value="langue.png" data-tag="smiley"><img src="img/smiley/langue.png"></span>
-						        <span class="smiley" data-value="pleure.png" data-tag="smiley"><img src="img/smiley/pleure.png"></span>
-						        <span class="smiley" data-value="rire.gif" data-tag="smiley"><img src="img/smiley/rire.gif"></span>
-						        <span class="smiley" data-value="siffle.png" data-tag="smiley"><img src="img/smiley/siffle.png"></span>
-						        <span class="smiley" data-value="triste.png" data-tag="smiley"><img src="img/smiley/triste.png"></span>
-						        <span class="smiley" data-value="unsure.gif" data-tag="smiley"><img src="img/smiley/unsure.gif"></span>
-						    </div>
-						</div>
-						<div id="editor" contenteditable="true" tabindex="3" onkeyup="document.getElementById('text').value = this.innerHTML;"></div>
-						<input type="hidden" name="text" id="text"/><br />
-					</section>
 					<div id="comments-title">
 						<h3>Commentaires Populaires</h3>
 						<hr/>
@@ -197,31 +169,31 @@
 						<hr/>
 					</div>
 					
-					<div class="recomandation">
-						<div class="recomandation-thumbnail">
+					<div class="video">
+						<div class="video-thumbnail">
 							<a href="#"><img src="img/recomandation_sample.png" alt="Video title here"></a>
-							<div class="recomandation-time"><p>12:05</p></div>
-							<a href="#"><div class="recomandation-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+							<div class="video-time"><p>12:05</p></div>
+							<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
 						</div>
-						<div class="recomandation-description">
+						<div class="video-description">
 							<a href="#"><h4>[Découverte] GTA V : Franklin le garagiste !</h4></a>
-							<div class="recomandation-bottom-description">
-								<span class="recomandation-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
-								<span class="recomandation-channel"><a href="#">Nom de la chaine</a></span>
+							<div class="video-bottom-description">
+								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
+								<span class="video-channel"><a href="#">Nom de la chaine</a></span>
 							</div>
 						</div>
 					</div>
-					<div class="recomandation">
-						<div class="recomandation-thumbnail">
+					<div class="video">
+						<div class="video-thumbnail">
 							<a href="#"><img src="img/recomandation_sample_2.png" alt="Video title here"></a>
-							<div class="recomandation-time"><p>24:34</p></div>
-							<a href="#"><div class="recomandation-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+							<div class="video-time"><p>24:34</p></div>
+							<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
 						</div>
-						<div class="recomandation-description">
+						<div class="video-description">
 							<a href="#"><h4>LOL - Trevor et ses pulsions !</h4></a>
-							<div class="recomandation-bottom-description">
-								<span class="recomandation-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
-								<span class="recomandation-channel"><a href="#">Nom de la chaine</a></span>
+							<div class="video-bottom-description">
+								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
+								<span class="video-channel"><a href="#">Nom de la chaine</a></span>
 							</div>
 						</div>
 					</div>

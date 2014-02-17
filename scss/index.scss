@@ -1,1 +1,9 @@
 @import 'partials/header.scss';
+@import "partials/slider.scss";
+@import "partials/video-thumbail.scss";
+
+#accueil {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
