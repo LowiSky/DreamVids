@@ -170,8 +170,7 @@
 					</div>
 					
 					<div class="video">
-						<div class="video-thumbnail">
-							<a href="#"><img src="img/recomandation_sample.png" alt="Video title here"></a>
+						<div class="video-thumbnail" style="background-image: url(img/recomandation_sample.png)">
 							<div class="video-time"><p>12:05</p></div>
 							<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
 						</div>
@@ -184,8 +183,7 @@
 						</div>
 					</div>
 					<div class="video">
-						<div class="video-thumbnail">
-							<a href="#"><img src="img/recomandation_sample_2.png" alt="Video title here"></a>
+						<div class="video-thumbnail" style="background-image: url(img/recomandation_sample_2.png)">
 							<div class="video-time"><p>24:34</p></div>
 							<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
 						</div>
@@ -210,7 +208,6 @@
 		<script src="js/interactions.js"></script>
 
 		<script src="js/vote.js"></script>
-		<script src="js/wysiwyg.js"></script>
 		<script src="js/player.js"></script>
 		<script>
 			setVideo([

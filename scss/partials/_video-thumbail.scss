@@ -13,6 +13,12 @@
 		height: 135px;
 		overflow: hidden;
 		position: relative;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		background-position: center;
+  		background-repeat: no-repeat;
 
 		.video-overlay{
 			display: block;
@@ -45,10 +51,10 @@
 
 		.video-time{
 			color: white;
-			background-color: #{'rgba(0, 0, 0, 0.8)'};
+			background-color: #{'rgba(0, 0, 0, 0.7)'};
 			display: inline-block;
 			position: relative;
-			top: -130px;
+			top: 15px;
 			float: right;
 			line-height: 14px;
 			font-size: 14px;
@@ -57,11 +63,6 @@
 			padding-bottom: 8px;
 			padding-right: 15px;
 			z-index: 4;
-		}
-
-		img{
-			width: 100%;
-			display: inline-block;
 		}
 	}
 
@@ -103,7 +104,8 @@
 
 @media all and (max-width: 750px) {
 	.video{
-		margin-right: 20px;
+		margin-left: 2%;
+		float: left;
 		text-align: center;
 
 		.video-thumbnail{

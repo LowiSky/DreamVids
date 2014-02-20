@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-	<!-- // // HEAD \\ \\-->
 	<head>
 		<link rel="stylesheet" href="css/embed.css">
 
@@ -9,10 +8,9 @@
 		<meta name="viewport" content="width = device-width, initial-scale = 0.9, maximum-scale = 1.0, user-scalable = no">
 		<meta charset="utf-8">
 
-		<title>Titre de la vidéo - Nom de la chaîne - DreamVids</title>
+		<title>DreamPlayer</title>
 	</head>
 
-	<!-- // // BODY \\ \\-->
 	<body>
 		<div id="player">
 			<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png"></video>
@@ -48,6 +46,7 @@
 		<script>var embeded = true;</script>
 		<script src="js/ajax.js"></script>
 		<script src="js/player.js"></script>
+		<script src="js/main.js"></script>
 		<script>
 			setVideo([
 				{

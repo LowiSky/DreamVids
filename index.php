@@ -70,6 +70,38 @@
 							<a onclick="document.getElementById('boxPages').className = 'register';">S'inscrire</a>
 						</div>
 					</div>
+
+					<div id="boxBest">
+						<h3>Meilleures vidéos :</h3>
+						
+						<div class="video one">
+							<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/rio/350/200/1)">
+								<div class="video-time"><p>24:34</p></div>
+								<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+							</div>
+							<div class="video-description">
+								<a href="#"><h4>Lorem Ipsum dolorem</h4></a>
+								<div class="video-bottom-description">
+									<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
+									<span class="video-channel"><a href="#">Nom de la chaine</a></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="video two">
+							<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/rio/627/300/4)">
+								<div class="video-time"><p>12:53</p></div>
+								<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+							</div>
+							<div class="video-description">
+								<a href="#"><h4>Rio !</h4></a>
+								<div class="video-bottom-description">
+									<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">720</span>
+									<span class="video-channel"><a href="#">Nom de la chaine</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
 				</section>
 			</div>
 	
