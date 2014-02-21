@@ -6,6 +6,7 @@
 	position: relative;
 	z-index: 2;
 	box-shadow: 1px 2px 0 #e2e2e2;
+	margin-bottom: 20px;
 }
 #videoInfos:before {
 	position: absolute;
@@ -66,10 +67,17 @@
 		margin: 0 30px!important;
 	}
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 420px) {
 	#videoInfos > #buttons > * {
-		margin: 0 15px!important;
+		margin: 0 10px!important;
 	}
+}
+@media all and (max-width: 300px) {
+	#videoInfos > #buttons > * {
+		margin: 0 2px!important;
+	}
+}
+@media all and (max-width: 320px) {
 	#votePlus:before, #voteMoins:before {
 		margin-left: 20px!important;
 	}
@@ -216,6 +224,46 @@
 #videoInfos > #buttons {
 	padding: 15px 30px;
 	text-align: left;
+
+	* {
+		margin: 0 15px;
+	}
+	.embed {
+		width: 18px;
+		height: 18px;
+		opacity: 0;
+		cursor: pointer;
+		position: relative;
+		left: -35px;
+		margin: 0!important;
+
+		@media all and (max-width: 420px) {
+			left: -30px;
+		}
+		@media all and (max-width: 300px) {
+			left: -22px;
+		}
+
+		&:checked + #embed-input {
+			display: inline-block;
+		}
+	}
+	#embed-input {
+		display: none;
+		margin: 0;
+		margin-top: -20px;
+		margin-bottom: -20px;
+		margin-left: -20px;
+		width: 60px;
+		border: 1px solid #ccc;
+		padding: 5px;
+		position: relative;
+		top: -4px;
+
+		&:focus {
+			outline: none;
+		}
+	}
 }
 
 #videoInfos > #buttons > * {

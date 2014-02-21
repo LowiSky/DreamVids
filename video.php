@@ -82,6 +82,9 @@
 						<img class="share" src="img/share.png"/>
 						<img class="star" src="img/star.png"/>
 						<img class="flag" src="img/flag.png"/>
+						<img class="embed-icon" src="img/embed.png"/>
+						<input class="embed" type="checkbox" onclick="document.getElementById('embed-input').select();"/>
+						<input id="embed-input" value='<iframe width="640" height="360" src="//www.youtube.com/embed/EBZ1owgiSSQ" frameborder="0" allowfullscreen></iframe>' onclick="this.select();" type="text" spellcheck="false"/>
 					</div>
 				</section>
 			</section>
