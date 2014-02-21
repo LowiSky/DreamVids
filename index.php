@@ -17,7 +17,7 @@
 
 			<?php include 'header.php'; ?>
 
-			<div id="slider">
+			<div id="homeLargeModal">
 				<section>
 					<div id="boxPages" class="home">
 						<div id="pageHome">
@@ -73,34 +73,63 @@
 
 					<div id="boxBest">
 						<h3>Meilleures vidéos :</h3>
-						
-						<div class="video one">
-							<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/rio/350/200/1)">
-								<div class="video-time"><p>24:34</p></div>
-								<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
-							</div>
-							<div class="video-description">
-								<a href="#"><h4>Lorem Ipsum dolorem</h4></a>
-								<div class="video-bottom-description">
-									<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
-									<span class="video-channel"><a href="#">Nom de la chaine</a></span>
-								</div>
-							</div>
-						</div>
+						<ul id="sliderList" class="slide1">
+							<li onclick="slideTo(1);"></li>
+							<li onclick="slideTo(2);"></li>
+							<li onclick="slideTo(3);"></li>
+						</ul>
 
-						<div class="video two">
-							<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/rio/627/300/4)">
-								<div class="video-time"><p>12:53</p></div>
-								<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
-							</div>
-							<div class="video-description">
-								<a href="#"><h4>Rio !</h4></a>
-								<div class="video-bottom-description">
-									<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">720</span>
-									<span class="video-channel"><a href="#">Nom de la chaine</a></span>
+						<section id="slider" class="slide1">
+
+							<div id="slide">
+								<div class="video">
+									<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/rio/350/200/1)">
+										<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+									</div>
+									<div class="video-description"><a href="video"><h4>Lorem Ipsum dolorem</h4></a></div>
+								</div>
+		
+								<div class="video">
+									<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/rio/627/300/4)">
+										<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+									</div>
+									<div class="video-description"><a href="video"><h4>Rio !</h4></a></div>
 								</div>
 							</div>
-						</div>
+
+							<div id="slide">
+								<div class="video">
+									<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/futurama/350/200/1)">
+										<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+									</div>
+									<div class="video-description"><a href="video"><h4>Lorem Ipsum dolorem</h4></a></div>
+								</div>
+		
+								<div class="video">
+									<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/futurama/627/300/4)">
+										<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+									</div>
+									<div class="video-description"><a href="video"><h4>Futurama !</h4></a></div>
+								</div>
+							</div>
+
+							<div id="slide">
+								<div class="video">
+									<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/simpsons/350/200/1)">
+										<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+									</div>
+									<div class="video-description"><a href="video"><h4>Lorem Ipsum dolorem</h4></a></div>
+								</div>
+		
+								<div class="video">
+									<div class="video-thumbnail" style="background-image: url(http://lorempicsum.com/simpsons/627/300/4)">
+										<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+									</div>
+									<div class="video-description"><a href="video"><h4>The Simpsons !</h4></a></div>
+								</div>
+							</div>
+
+						</section>
 					</div>
 				</section>
 			</div>
@@ -122,6 +151,7 @@
 			
 		</div>
 
+		<script src="js/slider.js"></script>
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
 	</body>
