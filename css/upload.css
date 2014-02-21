@@ -496,7 +496,7 @@ body {
   /* line 386, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav.open {
     left: -5px;
-    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0);
   }
   /* line 391, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon {
@@ -636,324 +636,71 @@ body {
     width: 100px;
   }
 }
-@-webkit-keyframes rainDrop {
-  /* line 6, ../scss/404.scss */
-  from {
-    top: -40px;
-  }
-
-  /* line 7, ../scss/404.scss */
-  to {
-    top: 100%;
-  }
-}
-
-/* line 10, ../scss/404.scss */
-#error404 {
+/* line 3, ../scss/upload.scss */
+#uploader {
+  display: table;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 100%;
   max-width: 1000px;
   margin: auto;
 }
-/* line 17, ../scss/404.scss */
-#error404 #illustration {
-  width: 500px;
-  height: 100%;
-  float: left;
-  display: inline-block;
-}
-/* line 23, ../scss/404.scss */
-#error404 #illustration #cloud {
+/* line 10, ../scss/upload.scss */
+#uploader .cloud {
   width: 300px;
   height: 100px;
   background-color: #40a6e0;
   border-radius: 20% 20% 20%/50% 50%;
   position: relative;
   left: 75px;
-  margin: 100px 30px 0 0;
-  float: left;
+  margin: 0;
   text-align: center;
   font-size: 100px;
   color: white;
   line-height: 60px;
   z-index: 50;
 }
-/* line 38, ../scss/404.scss */
-#error404 #illustration #cloud:after, #error404 #illustration #cloud:before {
+/* line 24, ../scss/upload.scss */
+#uploader .cloud:after, #uploader .cloud:before {
   content: "";
   position: absolute;
   background-color: #40a6e0;
   z-index: -1;
 }
-/* line 44, ../scss/404.scss */
-#error404 #illustration #cloud:after {
+/* line 30, ../scss/upload.scss */
+#uploader .cloud:after {
   width: 60%;
   height: 130%;
   top: -50%;
   left: 10%;
   border-radius: 90% 120% 0 100%;
 }
-/* line 51, ../scss/404.scss */
-#error404 #illustration #cloud:before {
+/* line 37, ../scss/upload.scss */
+#uploader .cloud:before {
   width: 60%;
   height: 150%;
   top: -60%;
   right: 8%;
   border-radius: 90% 100% 50% 0;
 }
-/* line 60, ../scss/404.scss */
-#error404 #illustration #rain {
-  clear: both;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
+/* line 46, ../scss/upload.scss */
+#uploader .arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 40px 40px;
+  border-color: transparent transparent white transparent;
   position: relative;
   top: -50px;
-  left: 75px;
-  float: left;
-  margin-right: 30px;
 }
-/* line 71, ../scss/404.scss */
-#error404 #illustration #rain:after {
+/* line 56, ../scss/upload.scss */
+#uploader .arrow:after {
   content: "";
   display: block;
-  width: 100%;
-  height: 20px;
-  position: absolute;
-  bottom: 0;
-  box-shadow: inset 0px -10px 20px 0px white;
-}
-/* line 81, ../scss/404.scss */
-#error404 #illustration #rain li {
-  background-color: #40a6e0;
-  width: 2px;
-  height: 40px;
   position: relative;
-  top: -40px;
-  display: inline-block;
-  -webkit-animation: rainDrop 1.8s linear 0 infinite normal;
-}
-/* line 90, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(1) {
-  left: 50%;
-  -webkit-animation-delay: 0;
-}
-/* line 93, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(2) {
-  left: 10%;
-  -webkit-animation-delay: 0.2s;
-}
-/* line 96, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(3) {
-  left: 70%;
-  -webkit-animation-delay: 0.4s;
-}
-/* line 99, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(4) {
-  left: 20%;
-  -webkit-animation-delay: 0.6s;
-}
-/* line 102, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(5) {
-  left: 80%;
-  -webkit-animation-delay: 0.8s;
-}
-/* line 105, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(6) {
-  left: 50%;
-  -webkit-animation-delay: 1.0s;
-}
-/* line 108, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(7) {
-  left: 10%;
-  -webkit-animation-delay: 1.2s;
-}
-/* line 111, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(8) {
-  left: 70%;
-  -webkit-animation-delay: 1.4s;
-}
-/* line 114, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(9) {
-  left: 20%;
-  -webkit-animation-delay: 1.6s;
-}
-/* line 117, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(10) {
-  left: 80%;
-  -webkit-animation-delay: 1.8s;
-}
-/* line 125, ../scss/404.scss */
-#error404 #text {
-  left: 0;
-  display: inline-block;
-  width: 100%;
-  max-width: 50%;
-  min-height: 350px;
-  margin-top: 180px;
-  color: #40a6e0;
-  font-size: 14px;
-  padding: 0;
-}
-/* line 136, ../scss/404.scss */
-#error404 #text #inner-text {
-  padding: 15px;
-  width: auto;
-  float: right;
-}
-/* line 142, ../scss/404.scss */
-#error404 #text h1 {
-  font-size: 30px;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-/* line 149, ../scss/404.scss */
-#error404 #text a {
-  color: #40a6e0;
-  text-decoration: underline;
-}
-
-@media all and (max-width: 1015px) {
-  /* line 158, ../scss/404.scss */
-  #error404 #illustration {
-    width: 370px;
-  }
-  /* line 161, ../scss/404.scss */
-  #error404 #illustration #cloud {
-    left: 25px;
-    margin: 100px 30px 0 0;
-  }
-  /* line 165, ../scss/404.scss */
-  #error404 #illustration #rain {
-    left: 25px;
-  }
-  /* line 170, ../scss/404.scss */
-  #error404 #text {
-    padding: 0;
-    width: 100%;
-  }
-  /* line 174, ../scss/404.scss */
-  #error404 #text #inner-text {
-    max-width: 450px;
-    float: left;
-  }
-}
-@media all and (max-width: 760px) {
-  /* line 184, ../scss/404.scss */
-  #error404 #text {
-    max-width: 40%;
-  }
-}
-@media all and (max-width: 640px) {
-  /* line 192, ../scss/404.scss */
-  #error404 #illustration {
-    width: 100%;
-    height: 450px;
-  }
-  /* line 196, ../scss/404.scss */
-  #error404 #illustration #cloud {
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-  /* line 203, ../scss/404.scss */
-  #error404 #illustration #rain {
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-  /* line 209, ../scss/404.scss */
-  #error404 #illustration #rain li {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -ms-animation-play-state: paused;
-    -o-animation-play-state: paused;
-    animation-play-state: paused;
-  }
-  /* line 216, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(1) {
-    top: 95%;
-  }
-  /* line 218, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(2) {
-    top: 90%;
-  }
-  /* line 220, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(3) {
-    top: 80%;
-  }
-  /* line 222, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(4) {
-    top: 70%;
-  }
-  /* line 224, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(5) {
-    top: 60%;
-  }
-  /* line 226, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(6) {
-    top: 50%;
-  }
-  /* line 228, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(7) {
-    top: 40%;
-  }
-  /* line 230, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(8) {
-    top: 30%;
-  }
-  /* line 232, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(9) {
-    top: 20%;
-  }
-  /* line 234, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(10) {
-    top: 10%;
-  }
-  /* line 241, ../scss/404.scss */
-  #error404 #text {
-    padding: 0;
-    min-height: 100%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    max-width: 100%;
-    width: 100%;
-  }
-  /* line 249, ../scss/404.scss */
-  #error404 #text #inner-text {
-    width: auto;
-    padding: 15px;
-  }
-}
-@media all and (max-width: 350px) {
-  /* line 259, ../scss/404.scss */
-  #error404 #illustration {
-    height: 350px;
-  }
-  /* line 262, ../scss/404.scss */
-  #error404 #illustration #cloud {
-    width: 230px;
-    height: 80px;
-    font-size: 100px;
-    line-height: 50px;
-    margin-top: 60px;
-  }
-  /* line 270, ../scss/404.scss */
-  #error404 #illustration #rain {
-    width: 230px;
-    height: 200px;
-  }
-  /* line 276, ../scss/404.scss */
-  #error404 #text {
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
-  /* line 281, ../scss/404.scss */
-  #error404 #text #inner-text h1 {
-    font-size: 26px;
-  }
+  top: 40px;
+  width: 30px;
+  height: 60px;
+  margin-left: -15px;
+  background-color: white;
 }

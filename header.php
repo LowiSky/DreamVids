@@ -46,15 +46,13 @@
 		<div id="inner-bottom-nav">
 			<nav>
 				<ul>
-					<li><a href="#">Abonnements</a><div class="bottom-nav-underline"></div></li>
-					<li><a href="#">Nouveautés</a><div class="bottom-nav-underline"></div></li>
-					<li><a href="#">Découvrir</a><div class="bottom-nav-underline"></div></li>
+					<li><a href="#">Abonnements</a></li>
+					<li><a href="#">Nouveautés</a></li>
+					<li><a href="#">Découvrir</a></li>
+					<li><a href="upload">Uploader</a></li>
 				</ul>
 			</nav>
 			<span id="mobile-nav-icon"><p></p></span>
-			<!-- <a href="#" id="mobile-nav-icon">
-				<img src="img/nav_mobile_icon.png" alt="Afficher le menu mobile"/>
-			</a> -->
 			<div id="bottom-nav-social">
 				<ul>
 					<li><a href="https://www.facebook.com/dreamvids" target="_blank"><img src="img/icon_facebook.png" alt="Facebook"></a></li>
