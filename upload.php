@@ -18,8 +18,10 @@
 			<?php include 'header.php'; ?>
 
 			<section id="uploader">
-				<span class="cloud">
-					<span class="arrow"></span>
+				<span class="illustration">
+					<span class="cloud">
+						<span class="arrow"></span>
+					</span>
 				</span>
 			</section>
 

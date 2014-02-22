@@ -645,62 +645,81 @@ body {
   margin: auto;
 }
 /* line 10, ../scss/upload.scss */
-#uploader .cloud {
+#uploader .illustration {
+  display: block;
+  width: 300px;
+  height: 160px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+/* line 17, ../scss/upload.scss */
+#uploader .illustration .cloud {
   width: 300px;
   height: 100px;
   background-color: #40a6e0;
   border-radius: 20% 20% 20%/50% 50%;
   position: relative;
-  left: 75px;
   margin: 0;
-  text-align: center;
-  font-size: 100px;
-  color: white;
   line-height: 60px;
   z-index: 50;
+  display: block;
+  margin-top: 60px;
 }
-/* line 24, ../scss/upload.scss */
-#uploader .cloud:after, #uploader .cloud:before {
+/* line 29, ../scss/upload.scss */
+#uploader .illustration .cloud:after, #uploader .illustration .cloud:before {
   content: "";
   position: absolute;
   background-color: #40a6e0;
   z-index: -1;
 }
-/* line 30, ../scss/upload.scss */
-#uploader .cloud:after {
+/* line 35, ../scss/upload.scss */
+#uploader .illustration .cloud:after {
   width: 60%;
   height: 130%;
   top: -50%;
   left: 10%;
   border-radius: 90% 120% 0 100%;
 }
-/* line 37, ../scss/upload.scss */
-#uploader .cloud:before {
+/* line 42, ../scss/upload.scss */
+#uploader .illustration .cloud:before {
   width: 60%;
   height: 150%;
   top: -60%;
   right: 8%;
   border-radius: 90% 100% 50% 0;
 }
-/* line 46, ../scss/upload.scss */
-#uploader .arrow {
+/* line 51, ../scss/upload.scss */
+#uploader .illustration .arrow {
   display: block;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 40px 40px 40px;
+  border-width: 0 50px 60px 50px;
   border-color: transparent transparent white transparent;
+  margin: auto;
   position: relative;
-  top: -50px;
+  -webkit-animation: arrowUp 1.5s linear infinite;
 }
-/* line 56, ../scss/upload.scss */
-#uploader .arrow:after {
+/* line 63, ../scss/upload.scss */
+#uploader .illustration .arrow:after {
   content: "";
   display: block;
   position: relative;
-  top: 40px;
-  width: 30px;
+  top: 60px;
+  width: 50px;
   height: 60px;
-  margin-left: -15px;
+  margin-left: -25px;
   background-color: white;
+}
+
+@-webkit-keyframes arrowUp {
+  /* line 78, ../scss/upload.scss */
+  from {
+    top: 150%;
+  }
+
+  /* line 79, ../scss/upload.scss */
+  to {
+    top: -180%;
+  }
 }
