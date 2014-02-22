@@ -36,6 +36,8 @@ function resized() {
 window.addEventListener("resize", resized, false);
 
 video = player.getElementsByTagName('video')[0];
+srcMp4 = document.getElementById('srcMp4');
+srcWebm = document.getElementById('srcWebm');
 
 controls = document.getElementById('controls');
 
@@ -459,10 +461,8 @@ function setQuality(format) { // On change la qualité
                 qualityButton.innerHTML = 'Full HD';
 
             lastTime = video.currentTime || lastTime;
-            if (video.canPlayType('video/mp4') === 'probably') // Changement de l'url
-                video.src = quality.mp4;
-            else
-                video.src = quality.webm;
+            srcMp4.src = quality.mp4;
+            srcWebm.src = quality.webm;
 
             currentQuality = format;
             video.load();

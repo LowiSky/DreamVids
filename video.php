@@ -35,7 +35,10 @@
 				</div>
 				
 				<div id="player">
-					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png"></video>
+					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png">
+						<source id="srcMp4" type="video/mp4"/>
+						<source id="srcWebm" type="video/webm"/>
+					</video>
 					<div id="annotationsElement"></div>
 					<span id="repeat">
 						<span class="icon"></span>
