@@ -20,10 +20,13 @@
 			<section id="uploader">
 				<span class="illustration">
 					<span class="cloud">
-						<span class="arrow"></span>
+						<span id="arrowUpload"></span>
 					</span>
 				</span>
+				
+				<button onclick="simulateUpload();">Upload !</button>
 			</section>
+
 
 			<?php include 'footer.php'; ?>
 			
@@ -31,5 +34,6 @@
 
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
+		<script src="js/upload.js"></script>
 	</body>
 </html>

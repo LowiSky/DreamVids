@@ -1,80 +1,15 @@
 @import 'partials/header.scss';
+@import 'partials/upload-animation.scss';
 
 #uploader {
     display: table;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
 
-    .illustration {
-        display: block;
-        width: 300px;
-        height: 160px;
-        margin-top: 20px;
-        overflow: hidden;
+    button {
 
-        .cloud {
-            width: 300px; 
-            height: 100px;
-            background-color: #40a6e0;
-            border-radius: 20% 20% 20% / 50% 50%;
-            position: relative;
-            margin: 0;
-            line-height: 60px;
-            z-index: 50;
-            display: block;
-            margin-top: 60px;
-    
-            &:after, &:before {
-                content: "";
-                position: absolute;
-                background-color: #40a6e0;
-                z-index: -1;
-            }
-            &:after {
-                width: 60%;
-                height: 130%;
-                top: -50%;
-                left: 10%;
-                border-radius: 90% 120% 0 100%;
-            }
-            &:before {
-                width: 60%;
-                height: 150%;
-                top: -60%;
-                right: 8%;
-                border-radius: 90% 100% 50% 0;
-            }
-        }
-    
-        .arrow {
-            display: block;
-            width: 0;
-            height: 0;
-            border-style: solid;
-            border-width: 0 50px 60px 50px;
-            border-color: transparent transparent white transparent;
-            margin: auto;
-            position: relative;
-    
-            -webkit-animation: arrowUp 1.5s linear infinite;
-        
-            &:after {
-                content: "";
-                display: block;
-                position: relative;
-                top: 60px;
-                width: 50px;
-                height: 60px;
-                margin-left: -25px;
-                background-color: white;
-            }
-        }
     }
-}
-
-@-webkit-keyframes arrowUp {
-    from {top: 150%;}
-    to {top: -180%;}
 }
