@@ -43,5 +43,6 @@
 
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
+		<script src="js/bgLoader.js"></script>
 	</body>
 </html>

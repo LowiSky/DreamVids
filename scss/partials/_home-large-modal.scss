@@ -1,12 +1,27 @@
 @import "partials/checkbox.scss";
 
 #homeLargeModal {
+	position: relative;
 	max-width: 1200px;
 	height: 500px;
 	margin: auto;
-	background-image: url(../img/slider.png);
 
-	section:first-child {
+	#backgroundLoader {
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+	
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	section:nth-child(2) {
 		max-width: 1000px;
 		height: 400px;
 		margin: auto;
@@ -28,7 +43,7 @@
 				box-sizing: border-box;
 			}
 	
-			#pageHome, #pageLogin, #pageRegister {
+			#pageHome, #pageLogin, #pageRegister, #pageChannel {
 				display: none;
 				max-width: 350px;
 				width: 100%;
@@ -121,7 +136,9 @@
 				display: block;
 			} &.register > #pageRegister {
 				display: block;
-			}
+			} &.channel > #pageChannel {
+				display: block;
+			} 
 
 			#pageHome {
 				.logo {
@@ -179,6 +196,29 @@
 				}
 				input[type=submit] {
 					margin-top: 30px;
+				}
+			}
+
+			#pageChannel {
+				.avatar {
+					margin: auto;
+					margin-top: 60px;
+					width: 100px;
+					height: 100px;
+					display: block;
+					border-radius: 50%;
+
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-ms-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+				}
+				h3 {
+					margin-top: 25px;
+				}
+				button {
+					margin-top: 40px;
 				}
 			}
 		}

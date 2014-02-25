@@ -6,5 +6,6 @@ RewriteRule	^embed$	embed.php	[L]
 RewriteRule	^login$	login.php	[L]
 RewriteRule	^register$	register.php	[L]
 RewriteRule	^upload$	upload.php	[L]
+RewriteRule	^flux$	flux.php	[L]
 
 RewriteRule	^404$	404.php	[L]

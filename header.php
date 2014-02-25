@@ -9,16 +9,16 @@
 			</div>
 			<div id="inner-top-nav-right">
 
-				<form action="post" action="#">
+				<form method="post" action="#">
 					<input type="text" id="top-nav-search-input" placeholder="Rechercher">
 					<input type="submit" value="">
 				</form>
 
 				<div id="top-nav-user-information">
 					<?php 
-						if (rand(0, 1)) { ?>
+						if ($connected = rand(0, 1)) { ?>
 							<a id="top-nav-user-information-button">
-								<img src="img/avatar_top_nav.png" alt="Votre avatar" id="top-nav-user-information-button-img">
+								<img src="http://lorempicsum.com/simpsons/255/200/5" alt="Votre avatar" id="top-nav-user-information-button-img">
 								<h4 id="top-nav-user-information-button-h4">Pseudo</h4>
 								<img src="img/arrow_top_nav.png" alt="Voir vos informations" id="top-nav-user-arrow">
 								<div id="top-nav-user-information-menu">
@@ -46,9 +46,9 @@
 		<div id="inner-bottom-nav">
 			<nav>
 				<ul>
-					<li><a href="#">Abonnements</a></li>
-					<li><a href="#">Nouveautés</a></li>
+					<li><a href="index.php">Accueil</a></li>
 					<li><a href="#">Découvrir</a></li>
+					<li><a href="flux">Flux d'activité</a></li>
 					<li><a href="upload">Uploader</a></li>
 				</ul>
 			</nav>

@@ -102,9 +102,10 @@
 
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
+		<script src="js/player.js"></script>
 
 		<script src="js/annotations.js"></script>
-		<script src="js/player.js"></script>
+		<script src="js/bgLoader.js"></script>
 		<script>
 			setVideo([
 				{
@@ -129,5 +130,4 @@
 			setVolume(0);
 		</script>
 	</body>
-
 </html>
