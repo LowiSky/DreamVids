@@ -1,4 +1,4 @@
-/* line 17, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,55 +20,55 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_bgLoader.scss */
+/* line 1, ../scss/partials/_bgLoader.scss */
 .bgLoader {
   opacity: 0;
 }
 @media all and (min-width: 640px) {
-  /* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_bgLoader.scss */
+  /* line 1, ../scss/partials/_bgLoader.scss */
   .bgLoader {
     -webkit-transition: 0.15s;
     -moz-transition: 0.15s;
@@ -77,7 +77,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transition: 0.15s;
   }
 }
-/* line 12, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_bgLoader.scss */
+/* line 12, ../scss/partials/_bgLoader.scss */
 .bgLoader.bgLoaded {
   opacity: 1;
 }
@@ -90,24 +90,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
+/* line 1, ../scss/partials/_footer.scss */
 html {
   background-color: #f1f0f0;
 }
 
-/* line 4, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
+/* line 4, ../scss/partials/_footer.scss */
 body {
   background-color: white;
 }
 
-/* line 8, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
+/* line 8, ../scss/partials/_footer.scss */
 footer {
   width: 100%;
   border-top: 1px solid #d1d1d1;
   background-color: #f1f0f0;
   position: absolute;
 }
-/* line 14, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_footer.scss */
+/* line 14, ../scss/partials/_footer.scss */
 footer #inner-footer {
   max-width: 1000px;
   margin: auto;
@@ -117,19 +117,19 @@ footer #inner-footer {
 }
 
 /* NAV VARIABLES */
-/* line 21, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 21, ../scss/partials/_header.scss */
 a {
   text-decoration: none;
   color: white;
 }
 
-/* line 22, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 22, ../scss/partials/_header.scss */
 body {
   font-family: 'Source Sans Pro', Arial;
 }
 
 /* NAV SCSS */
-/* line 28, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 28, ../scss/partials/_header.scss */
 #top-nav {
   width: 100%;
   height: 60px;
@@ -137,44 +137,44 @@ body {
   border-bottom: 2px solid #33799f;
 }
 
-/* line 35, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 35, ../scss/partials/_header.scss */
 #inner-top-nav {
   margin: auto;
   max-width: 1000px;
   padding: 0;
   position: relative;
 }
-/* line 41, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 41, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-left {
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 46, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 46, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-left a {
   cursor: pointer;
   display: block;
   height: 60px;
   width: 180px;
 }
-/* line 52, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 52, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-left a .top-nav-icon-logo {
   margin-top: 15px;
 }
-/* line 56, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 56, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-left a .top-nav-text-logo {
   position: relative;
   left: 15px;
   top: -4px;
 }
-/* line 64, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 64, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right {
   display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 70, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 70, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form {
   display: inline-block;
   margin-right: -3px;
@@ -183,7 +183,7 @@ body {
   /* firefox 19+ */
   /* ie */
 }
-/* line 76, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 76, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"] {
   height: 58px;
   border: 0;
@@ -192,7 +192,7 @@ body {
   padding-left: 20px;
   color: white;
 }
-/* line 85, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 85, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::-webkit-input-placeholder {
   color: #fff;
   font-style: italic;
@@ -200,7 +200,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 86, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 86, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::-moz-input-placeholder {
   color: #fff;
   font-style: italic;
@@ -208,7 +208,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 87, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 87, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::-ms-input-placeholder {
   color: #fff;
   font-style: italic;
@@ -216,7 +216,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 88, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 88, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="text"]::input-placeholder {
   color: #fff;
   font-style: italic;
@@ -224,7 +224,7 @@ body {
   font-family: 'Source Sans Pro', Arial;
   position: relative;
 }
-/* line 90, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 90, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="submit"] {
   vertical-align: top;
   margin-top: 15px;
@@ -239,17 +239,17 @@ body {
   right: 5px;
   cursor: pointer;
 }
-/* line 105, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 105, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right form input[type="submit"]:focus, #inner-top-nav #inner-top-nav-right form input[type="text"]:focus {
   outline: none;
 }
-/* line 110, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 110, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information {
   display: inline-block;
   vertical-align: top;
   text-align: right;
 }
-/* line 115, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 115, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button {
   display: inline-block;
   vertical-align: top;
@@ -258,20 +258,20 @@ body {
   position: relative;
   border-right: 1px solid #33799f;
 }
-/* line 123, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 123, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img:first-child {
   width: 60px;
   height: 60px;
   border-right: 1px solid #33799f;
 }
-/* line 129, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 129, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img, #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   color: white;
 }
-/* line 136, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 136, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   margin-left: 20px;
@@ -280,12 +280,12 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 145, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 145, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button:hover {
   background-color: #3d9ed5;
   cursor: pointer;
 }
-/* line 150, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 150, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
   display: inline-block;
   width: 179px;
@@ -299,14 +299,14 @@ body {
   font-size: 14px;
   height: 60px;
 }
-/* line 163, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 163, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection p {
   display: inline;
   color: #E8E8E8;
   margin-left: 7px;
   margin-right: 7px;
 }
-/* line 171, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 171, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button {
   display: inline-block;
   vertical-align: top;
@@ -315,14 +315,14 @@ body {
   position: relative;
   border-right: 1px solid #33799f;
 }
-/* line 179, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 179, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button img, #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   color: white;
 }
-/* line 186, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 186, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
   position: relative;
   margin-left: 20px;
@@ -331,12 +331,12 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 197, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 197, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button:hover {
   background-color: #3d9ed5;
   cursor: pointer;
 }
-/* line 202, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 202, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu {
   display: none;
   position: absolute;
@@ -344,7 +344,7 @@ body {
   top: 27px;
   right: 0;
 }
-/* line 209, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 209, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li {
   margin-top: 2px;
   margin-bottom: -2px;
@@ -361,29 +361,29 @@ body {
   padding-left: 15px;
   font-size: 14px;
 }
-/* line 226, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 226, ../scss/partials/_header.scss */
 #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-menu li:hover {
   background-color: #9c9c9c;
 }
 
-/* line 236, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 236, ../scss/partials/_header.scss */
 #bottom-nav {
   height: 40px;
   background-color: #f1f0f0;
 }
-/* line 240, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 240, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav {
   position: relative;
   max-width: 1000px;
   margin: auto;
 }
-/* line 245, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 245, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav {
   display: inline-block;
   position: relative;
   left: -10px;
 }
-/* line 250, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 250, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li {
   display: inline-block;
   line-height: 41px;
@@ -393,7 +393,7 @@ body {
   margin-left: 10px;
   text-align: center;
 }
-/* line 259, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 259, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li:after {
   content: "";
   display: block;
@@ -406,7 +406,7 @@ body {
   margin: 0 auto;
 }
 @media all and (min-width: 640px) {
-  /* line 259, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 259, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li:after {
     -webkit-transition: 0.15s;
     -moz-transition: 0.15s;
@@ -415,24 +415,24 @@ body {
     transition: 0.15s;
   }
 }
-/* line 279, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 279, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li:hover:after {
   opacity: 1;
   width: 100%;
 }
-/* line 285, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 285, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a {
   color: #959595;
 }
-/* line 287, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 287, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a:hover {
   color: #40a6e0;
 }
-/* line 294, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 294, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #mobile-nav-icon {
   display: none;
 }
-/* line 298, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 298, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social {
   display: inline-block;
   vertical-align: top;
@@ -441,7 +441,7 @@ body {
   top: 0;
   right: 0;
 }
-/* line 306, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+/* line 306, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social li {
   display: inline-block;
   margin-right: 10px;
@@ -449,29 +449,29 @@ body {
 }
 
 @media all and (max-width: 600px) {
-  /* line 317, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 317, ../scss/partials/_header.scss */
   #top-nav a {
     width: 70px!important;
   }
-  /* line 320, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 320, ../scss/partials/_header.scss */
   #top-nav a #top-nav-logo-text {
     display: none;
   }
 
-  /* line 328, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 328, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information {
     text-align: right;
   }
-  /* line 332, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 332, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
     display: none;
   }
-  /* line 335, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 335, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button #top-nav-user-arrow {
     margin-left: 15px;
   }
 
-  /* line 345, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 345, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav {
     background-color: #e5e3e3;
     position: fixed;
@@ -486,17 +486,17 @@ body {
     -o-transition: 0.5s;
     transition: 0.5s;
   }
-  /* line 360, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 360, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li {
     display: block;
     width: 200px;
     margin-left: 5px;
   }
-  /* line 368, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 368, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li:after {
     display: none;
   }
-  /* line 369, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 369, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li:before {
     content: "";
     display: inline-block;
@@ -507,17 +507,17 @@ body {
     left: 4px;
     opacity: 0;
   }
-  /* line 380, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 380, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li:hover:before {
     opacity: 1;
     height: 40px;
   }
-  /* line 387, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 387, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav.open {
     left: -5px;
-    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0);
   }
-  /* line 392, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 392, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon {
     display: block;
     float: left;
@@ -536,7 +536,7 @@ body {
     -o-transition: 0.3s;
     transition: 0.3s;
   }
-  /* line 411, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 411, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p {
     position: relative;
     top: 8px;
@@ -549,7 +549,7 @@ body {
     -o-transition: 0.5s;
     transition: 0.5s;
   }
-  /* line 424, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 424, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p:before, #bottom-nav #inner-bottom-nav #mobile-nav-icon p:after {
     content: "";
     display: block;
@@ -563,28 +563,28 @@ body {
     -o-transition: -o-transform 0.5s;
     transition: transform 0.5s;
   }
-  /* line 438, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 438, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p:before {
     top: -6px;
   }
-  /* line 440, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 440, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p:after {
     top: 6px;
     margin-top: -3px;
   }
-  /* line 447, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 447, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon:hover p {
     background: #999;
   }
-  /* line 450, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 450, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon:hover p:before, #bottom-nav #inner-bottom-nav #mobile-nav-icon:hover p:after {
     background: #999;
   }
-  /* line 456, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 456, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open {
     left: 210px;
   }
-  /* line 462, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 462, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p {
     background: transparent;
     -webkit-transition: 0;
@@ -593,12 +593,12 @@ body {
     -o-transition: 0;
     transition: 0;
   }
-  /* line 470, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 470, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:before, #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:after {
     top: 0;
     background: white;
   }
-  /* line 474, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 474, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -606,7 +606,7 @@ body {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  /* line 480, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 480, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:after {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -616,46 +616,46 @@ body {
   }
 }
 @media all and (max-width: 600px) and (max-width: 350px) {
-  /* line 360, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 360, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li {
     width: 170px;
   }
 }
 @media all and (max-width: 600px) and (max-width: 350px) {
-  /* line 456, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 456, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open {
     left: 185px;
   }
 }
 @media all and (max-width: 450px) {
-  /* line 495, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 495, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right {
     position: absolute;
     top: 0;
     right: 0;
   }
-  /* line 500, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 500, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 100px;
     padding-left: 10px;
   }
-  /* line 507, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 507, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
     width: 120px;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 518, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 518, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 50px;
     padding-left: 5px;
   }
-  /* line 525, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_header.scss */
+  /* line 525, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
     width: 100px;
   }
 }
-/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 1, ../scss/partials/_player.scss */
 #player {
   position: relative;
   overflow: hidden;
@@ -667,7 +667,7 @@ body {
   box-shadow: 1px 2px 0 #e2e2e2;
   z-index: 1;
 }
-/* line 12, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 12, ../scss/partials/_player.scss */
 #player.animated {
   -webkit-transition: height, width 0.4s;
   -moz-transition: height, width 0.4s;
@@ -675,12 +675,12 @@ body {
   -o-transition: height, width 0.4s;
   transition: height, width 0.4s;
 }
-/* line 19, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 19, ../scss/partials/_player.scss */
 #player.wide {
   width: 100%;
   height: auto!important;
 }
-/* line 23, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 23, ../scss/partials/_player.scss */
 #player:-webkit-full-screen {
   margin: 0!important;
   top: 0!important;
@@ -688,18 +688,18 @@ body {
   width: 100%!important;
   height: 100%!important;
 }
-/* line 30, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 30, ../scss/partials/_player.scss */
 #player:-webkit-full-screen > #controls, #player:-webkit-full-screen > #controls > #progress {
   width: 100%;
 }
 
 @media all and (max-width: 700px) {
-  /* line 35, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 35, ../scss/partials/_player.scss */
   #player {
     width: 100%;
   }
 }
-/* line 40, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 40, ../scss/partials/_player.scss */
 video {
   width: 100%;
   height: 100%;
@@ -709,66 +709,66 @@ video {
  *	Bouton repeat (à la fin)
  */
 @-webkit-keyframes rotate {
-  /* line 50, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 50, ../scss/partials/_player.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 51, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 51, ../scss/partials/_player.scss */
   to {
     -webkit-transform: rotate(-360deg);
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 54, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 54, ../scss/partials/_player.scss */
   from {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 55, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 55, ../scss/partials/_player.scss */
   to {
     -moz-transform: rotate(-360deg);
   }
 }
 
 @-ms-keyframes rotate {
-  /* line 58, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 58, ../scss/partials/_player.scss */
   from {
     -ms-transform: rotate(0deg);
   }
 
-  /* line 59, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 59, ../scss/partials/_player.scss */
   to {
     -ms-transform: rotate(-360deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 62, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 62, ../scss/partials/_player.scss */
   from {
     -o-transform: rotate(0deg);
   }
 
-  /* line 63, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 63, ../scss/partials/_player.scss */
   to {
     -o-transform: rotate(-360deg);
   }
 }
 
 @keyframes rotate {
-  /* line 66, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 66, ../scss/partials/_player.scss */
   from {
     transform: rotate(0deg);
   }
 
-  /* line 67, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 67, ../scss/partials/_player.scss */
   to {
     transform: rotate(-360deg);
   }
 }
 
-/* line 69, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 69, ../scss/partials/_player.scss */
 #repeat {
   position: absolute;
   top: 0;
@@ -785,13 +785,13 @@ video {
   transition: 0s;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 86, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 86, ../scss/partials/_player.scss */
 #repeat.show {
   opacity: 1;
   width: 100%;
   height: 100%;
 }
-/* line 91, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 91, ../scss/partials/_player.scss */
 #repeat.icon {
   position: absolute;
   top: 50%;
@@ -804,7 +804,7 @@ video {
 }
 
 @media all and (min-width: 640px) {
-  /* line 103, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 103, ../scss/partials/_player.scss */
   #repeat.show {
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
@@ -814,7 +814,7 @@ video {
   }
 }
 @media all and (min-width: 640px) {
-  /* line 113, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 113, ../scss/partials/_player.scss */
   #repeat > .icon {
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
@@ -836,7 +836,7 @@ video {
 /*
  *	Sélection de qualité
  */
-/* line 138, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 138, ../scss/partials/_player.scss */
 #qualitySelection {
   position: absolute;
   top: 0;
@@ -852,13 +852,13 @@ video {
   transition: 0s;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 154, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 154, ../scss/partials/_player.scss */
 #qualitySelection.show {
   opacity: 1;
   width: 100%;
   height: 100%;
 }
-/* line 160, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 160, ../scss/partials/_player.scss */
 #qualitySelection > * {
   position: absolute;
   top: 40%;
@@ -874,42 +874,42 @@ video {
   font-family: 'Source Sans Pro';
   background-repeat: no-repeat;
 }
-/* line 175, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 175, ../scss/partials/_player.scss */
 #qualitySelection[data-number="3"] > *:nth-child(-n+2) {
   top: 30%;
 }
-/* line 178, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 178, ../scss/partials/_player.scss */
 #qualitySelection > #q1 {
   left: 30%;
 }
-/* line 181, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 181, ../scss/partials/_player.scss */
 #qualitySelection > #q2 {
   left: 70%;
 }
-/* line 184, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 184, ../scss/partials/_player.scss */
 #qualitySelection > #q3 {
   left: 50%;
   top: 70%;
 }
-/* line 188, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 188, ../scss/partials/_player.scss */
 #qualitySelection > *[data-format="360"] {
   background-image: url(../img/player/cloudQ1.png);
 }
-/* line 191, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 191, ../scss/partials/_player.scss */
 #qualitySelection > *[data-format="720"] {
   background-image: url(../img/player/cloudQ2.png);
 }
-/* line 194, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 194, ../scss/partials/_player.scss */
 #qualitySelection[data-number="1"] > *[data-format="720"], #qualitySelection[data-number="2"] > *[data-format="720"] {
   background-image: url(../img/player/cloudQ2lisse.png);
 }
-/* line 197, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 197, ../scss/partials/_player.scss */
 #qualitySelection > *[data-format="1080"] {
   background-image: url(../img/player/cloudQ3.png);
 }
 
 @media all and (min-width: 640px) {
-  /* line 202, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 202, ../scss/partials/_player.scss */
   #qualitySelection.show {
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
@@ -919,7 +919,7 @@ video {
   }
 }
 @media all and (max-width: 550px) {
-  /* line 211, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 211, ../scss/partials/_player.scss */
   #qualitySelection > * {
     width: 154px;
     height: 75px;
@@ -928,28 +928,28 @@ video {
     background-size: 103px 50px;
   }
 
-  /* line 218, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 218, ../scss/partials/_player.scss */
   #qualitySelection > *[data-format="360"] {
     background-image: url(../img/player/cloudQ1m.png);
   }
 
-  /* line 221, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 221, ../scss/partials/_player.scss */
   #qualitySelection > *[data-format="720"] {
     margin-left: -50px;
     background-image: url(../img/player/cloudQ2m.png);
   }
 
-  /* line 225, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 225, ../scss/partials/_player.scss */
   #qualitySelection[data-number="1"] > *[data-format="720"], #qualitySelection[data-number="2"] > *[data-format="720"] {
     background-image: url(../img/player/cloudQ2lisse.png);
   }
 
-  /* line 228, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 228, ../scss/partials/_player.scss */
   #qualitySelection > *[data-format="1080"] {
     background-image: url(../img/player/cloudQ3m.png);
   }
 }
-/* line 233, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 233, ../scss/partials/_player.scss */
 #waitForPlay {
   position: absolute;
   left: 50%;
@@ -962,14 +962,14 @@ video {
   background-image: url(../img/player/bigPlay.png);
   background-size: 100% 100%;
 }
-/* line 245, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 245, ../scss/partials/_player.scss */
 #waitForPlay:hover {
   width: 150px;
   height: 150px;
   margin-top: -75px;
   margin-left: -75px;
 }
-/* line 251, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 251, ../scss/partials/_player.scss */
 #waitForPlay:active {
   width: 120px;
   height: 120px;
@@ -978,7 +978,7 @@ video {
 }
 
 @media all and (min-width: 640px) {
-  /* line 259, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 259, ../scss/partials/_player.scss */
   #waitForPlay {
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -987,7 +987,7 @@ video {
     transition: 0.3s;
   }
 
-  /* line 266, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 266, ../scss/partials/_player.scss */
   #waitForPlay:active {
     -webkit-transition: 0.1s;
     -moz-transition: 0.1s;
@@ -1000,24 +1000,24 @@ video {
  *	Gros icones animés (play et pause)
  */
 @-webkit-keyframes bigIconPlay {
-  /* line 280, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 280, ../scss/partials/_player.scss */
   from {
     top: 53%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 281, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 281, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 282, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 282, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 283, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 283, ../scss/partials/_player.scss */
   to {
     top: 47%;
     opacity: 0;
@@ -1026,24 +1026,24 @@ video {
 }
 
 @-moz-keyframes bigIconPlay {
-  /* line 286, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 286, ../scss/partials/_player.scss */
   from {
     top: 53%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 287, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 287, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 288, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 288, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 289, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 289, ../scss/partials/_player.scss */
   to {
     top: 47%;
     opacity: 0;
@@ -1052,24 +1052,24 @@ video {
 }
 
 @-ms-keyframes bigIconPlay {
-  /* line 292, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 292, ../scss/partials/_player.scss */
   from {
     top: 53%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 293, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 293, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 294, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 294, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 295, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 295, ../scss/partials/_player.scss */
   to {
     top: 47%;
     opacity: 0;
@@ -1078,24 +1078,24 @@ video {
 }
 
 @-o-keyframes bigIconPlay {
-  /* line 298, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 298, ../scss/partials/_player.scss */
   from {
     top: 53%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 299, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 299, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 300, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 300, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 301, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 301, ../scss/partials/_player.scss */
   to {
     top: 47%;
     opacity: 0;
@@ -1104,24 +1104,24 @@ video {
 }
 
 @keyframes bigIconPlay {
-  /* line 304, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 304, ../scss/partials/_player.scss */
   from {
     top: 44%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 305, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 305, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 306, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 306, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 307, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 307, ../scss/partials/_player.scss */
   to {
     top: 47%;
     opacity: 0;
@@ -1129,7 +1129,7 @@ video {
   }
 }
 
-/* line 310, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 310, ../scss/partials/_player.scss */
 #bigPlay, #bigPause {
   position: absolute;
   left: 50%;
@@ -1150,37 +1150,37 @@ video {
 }
 
 @media all and (max-width: 640px) {
-  /* line 331, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 331, ../scss/partials/_player.scss */
   #bigPlay, #bigPause {
     display: none;
     width: 0;
     height: 0;
   }
 }
-/* line 337, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 337, ../scss/partials/_player.scss */
 #bigPlay {
   background-image: url(../img/player/bigPlay.png);
 }
 
 @-webkit-keyframes bigIconPause {
-  /* line 342, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 342, ../scss/partials/_player.scss */
   from {
     top: 47%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 343, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 343, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 344, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 344, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 345, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 345, ../scss/partials/_player.scss */
   to {
     top: 53%;
     opacity: 0;
@@ -1189,24 +1189,24 @@ video {
 }
 
 @-moz-keyframes bigIconPause {
-  /* line 348, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 348, ../scss/partials/_player.scss */
   from {
     top: 47%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 349, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 349, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 350, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 350, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 351, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 351, ../scss/partials/_player.scss */
   to {
     top: 53%;
     opacity: 0;
@@ -1215,24 +1215,24 @@ video {
 }
 
 @-ms-keyframes bigIconPause {
-  /* line 354, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 354, ../scss/partials/_player.scss */
   from {
     top: 47%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 355, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 355, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 356, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 356, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 357, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 357, ../scss/partials/_player.scss */
   to {
     top: 53%;
     opacity: 0;
@@ -1241,24 +1241,24 @@ video {
 }
 
 @-o-keyframes bigIconPause {
-  /* line 360, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 360, ../scss/partials/_player.scss */
   from {
     top: 47%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 361, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 361, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 362, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 362, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 363, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 363, ../scss/partials/_player.scss */
   to {
     top: 53%;
     opacity: 0;
@@ -1267,24 +1267,24 @@ video {
 }
 
 @keyframes bigIconPause {
-  /* line 366, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 366, ../scss/partials/_player.scss */
   from {
     top: 47%;
     opacity: 0;
     width: 128px;
   }
 
-  /* line 367, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 367, ../scss/partials/_player.scss */
   10% {
     opacity: 1;
   }
 
-  /* line 368, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 368, ../scss/partials/_player.scss */
   60% {
     opacity: 1;
   }
 
-  /* line 369, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 369, ../scss/partials/_player.scss */
   to {
     top: 53%;
     opacity: 0;
@@ -1292,7 +1292,7 @@ video {
   }
 }
 
-/* line 372, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 372, ../scss/partials/_player.scss */
 #bigPause {
   background-image: url(../img/player/bigPause.png);
 }
@@ -1300,7 +1300,7 @@ video {
 /*
  *	Barre des controles
  */
-/* line 380, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 380, ../scss/partials/_player.scss */
 #controls {
   position: absolute;
   bottom: 0;
@@ -1311,17 +1311,17 @@ video {
   color: white;
   font-family: 'Source Sans Pro';
 }
-/* line 390, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 390, ../scss/partials/_player.scss */
 #controls.down {
   bottom: -40px;
 }
-/* line 393, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 393, ../scss/partials/_player.scss */
 #controls * {
   margin: 0;
 }
 
 @media all and (min-width: 640px) {
-  /* line 398, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 398, ../scss/partials/_player.scss */
   #controls {
     -webkit-transition: bottom 0.3s;
     -moz-transition: bottom 0.3s;
@@ -1333,7 +1333,7 @@ video {
 /*
  *	Barre de progression
  */
-/* line 411, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 411, ../scss/partials/_player.scss */
 #progress {
   display: inline-block;
   position: relative;
@@ -1342,7 +1342,7 @@ video {
   height: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 419, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 419, ../scss/partials/_player.scss */
 #progress.clicking > * {
   -webkit-transition: 0;
   -moz-transition: 0;
@@ -1350,14 +1350,14 @@ video {
   -o-transition: 0;
   transition: 0;
 }
-/* line 426, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 426, ../scss/partials/_player.scss */
 #progress #buffered {
   display: block;
   width: 0;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 432, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 432, ../scss/partials/_player.scss */
 #progress #viewed {
   display: block;
   width: 0;
@@ -1366,7 +1366,7 @@ video {
   bottom: 100%;
   background-color: rgba(20, 20, 20, 0.6);
 }
-/* line 441, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 441, ../scss/partials/_player.scss */
 #progress #current {
   display: inline-block;
   position: relative;
@@ -1380,13 +1380,13 @@ video {
   background: white;
 }
 
-/* line 454, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 454, ../scss/partials/_player.scss */
 #controls.down > #progress, #controls.down > #progress > #buffered {
   background-color: rgba(255, 255, 255, 0);
 }
 
 @media all and (min-width: 640px) {
-  /* line 458, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 458, ../scss/partials/_player.scss */
   #progress > * {
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -1395,12 +1395,12 @@ video {
     transition: 0.2s;
   }
 }
-/* line 466, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 466, ../scss/partials/_player.scss */
 #controls.down > #progress > #viewed {
   background-color: #40a6e0;
 }
 
-/* line 469, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 469, ../scss/partials/_player.scss */
 #controls.down > #progress > #current {
   opacity: 0;
 }
@@ -1408,7 +1408,7 @@ video {
 /*
  *	Petit bouton play/pause
  */
-/* line 477, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 477, ../scss/partials/_player.scss */
 #play-pause {
   position: absolute;
   bottom: 0;
@@ -1417,7 +1417,7 @@ video {
   height: 32px;
   cursor: pointer;
 }
-/* line 485, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 485, ../scss/partials/_player.scss */
 #play-pause:before, #play-pause:after {
   content: "";
   display: none;
@@ -1427,19 +1427,19 @@ video {
   background-position: 5px 5px;
   background-repeat: no-repeat;
 }
-/* line 494, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 494, ../scss/partials/_player.scss */
 #play-pause:before {
   background-image: url(../img/player/play.png);
 }
-/* line 497, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 497, ../scss/partials/_player.scss */
 #play-pause:after {
   background-image: url(../img/player/pause.png);
 }
-/* line 500, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 500, ../scss/partials/_player.scss */
 #play-pause.play:before {
   display: block;
 }
-/* line 503, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 503, ../scss/partials/_player.scss */
 #play-pause.pause:after {
   display: block;
 }
@@ -1447,7 +1447,7 @@ video {
 /*
  *	Indication du temps
  */
-/* line 512, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 512, ../scss/partials/_player.scss */
 #time {
   position: absolute;
   bottom: 7px;
@@ -1459,7 +1459,7 @@ video {
 /*
  *	Bouton pour "toogle" les annotations
  */
-/* line 524, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 524, ../scss/partials/_player.scss */
 #annotationsButton {
   display: inline-block;
   width: 28px;
@@ -1472,7 +1472,7 @@ video {
   background-position: 0 5px;
   background-repeat: no-repeat;
 }
-/* line 537, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 537, ../scss/partials/_player.scss */
 #annotationsButton:hover {
   opacity: 0.7;
   -webkit-transition: 0.2s;
@@ -1481,13 +1481,13 @@ video {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-/* line 545, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 545, ../scss/partials/_player.scss */
 #annotationsButton.not {
   opacity: 0.3;
 }
 
 @media all and (max-width: 300px) {
-  /* line 551, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 551, ../scss/partials/_player.scss */
   #annotationsButton {
     display: none!important;
   }
@@ -1495,7 +1495,7 @@ video {
 /*
  *	Bouton pour régler la qualité
  */
-/* line 560, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 560, ../scss/partials/_player.scss */
 #qualityButton {
   position: absolute;
   bottom: 7px;
@@ -1504,7 +1504,7 @@ video {
   cursor: pointer;
   text-align: center;
 }
-/* line 568, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 568, ../scss/partials/_player.scss */
 #qualityButton.bold {
   text-shadow: 0 0 3px white;
 }
@@ -1512,7 +1512,7 @@ video {
 /*
  *	Volume
  */
-/* line 578, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 578, ../scss/partials/_player.scss */
 #volume {
   position: absolute;
   bottom: 14px;
@@ -1523,7 +1523,7 @@ video {
   background-color: #cccccc;
   border-radius: 2px;
 }
-/* line 588, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 588, ../scss/partials/_player.scss */
 #volume #barre {
   display: block;
   width: 100%;
@@ -1531,7 +1531,7 @@ video {
   background-color: white;
   border-radius: 2px;
 }
-/* line 595, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 595, ../scss/partials/_player.scss */
 #volume #icon {
   display: inline-block;
   position: relative;
@@ -1545,19 +1545,19 @@ video {
   background-position: -63px 0;
   cursor: pointer;
 }
-/* line 608, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 608, ../scss/partials/_player.scss */
 #volume #icon[data-volume="0"] {
   background-position: 0 0;
 }
-/* line 611, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 611, ../scss/partials/_player.scss */
 #volume #icon[data-volume="1"] {
   background-position: -21px 0;
 }
-/* line 614, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 614, ../scss/partials/_player.scss */
 #volume #icon[data-volume="2"] {
   background-position: -42px 0;
 }
-/* line 617, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 617, ../scss/partials/_player.scss */
 #volume #icon[data-volume="3"] {
   background-position: -63px 0;
 }
@@ -1565,7 +1565,7 @@ video {
 /*
  *	Séparation
  */
-/* line 626, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 626, ../scss/partials/_player.scss */
 #separation {
   display: block;
   position: absolute;
@@ -1580,7 +1580,7 @@ video {
 /*
  *	Widescreen
  */
-/* line 641, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 641, ../scss/partials/_player.scss */
 #widescreen {
   position: absolute;
   bottom: 0;
@@ -1589,7 +1589,7 @@ video {
   height: 32px;
   cursor: pointer;
 }
-/* line 649, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 649, ../scss/partials/_player.scss */
 #widescreen:before, #widescreen:after {
   content: "";
   display: none;
@@ -1599,45 +1599,45 @@ video {
   background-position: 0 8px;
   background-repeat: no-repeat;
 }
-/* line 658, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 658, ../scss/partials/_player.scss */
 #widescreen:before {
   background-image: url(../img/player/widescreen.png);
 }
-/* line 661, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 661, ../scss/partials/_player.scss */
 #widescreen:after {
   background-image: url(../img/player/smallscreen.png);
 }
-/* line 664, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 664, ../scss/partials/_player.scss */
 #widescreen.widescreen:before {
   display: block;
 }
-/* line 667, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 667, ../scss/partials/_player.scss */
 #widescreen.smallscreen:after {
   display: block;
 }
 
 @media all and (max-width: 700px) {
-  /* line 673, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 673, ../scss/partials/_player.scss */
   #widescreen {
     display: none;
   }
 
-  /* line 676, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 676, ../scss/partials/_player.scss */
   #volume {
     right: 50px;
   }
 
-  /* line 679, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 679, ../scss/partials/_player.scss */
   #separation {
     right: 30px;
   }
 
-  /* line 682, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 682, ../scss/partials/_player.scss */
   #qualityButton {
     right: 116px;
   }
 
-  /* line 685, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+  /* line 685, ../scss/partials/_player.scss */
   #annotationsButton {
     right: 136px;
   }
@@ -1645,7 +1645,7 @@ video {
 /*
  *	Fullscreen
  */
-/* line 694, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 694, ../scss/partials/_player.scss */
 #fullscreen {
   position: absolute;
   bottom: 0;
@@ -1654,7 +1654,7 @@ video {
   height: 32px;
   cursor: pointer;
 }
-/* line 702, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 702, ../scss/partials/_player.scss */
 #fullscreen:before, #fullscreen:after {
   content: "";
   display: none;
@@ -1664,19 +1664,19 @@ video {
   background-position: 4px 8px;
   background-repeat: no-repeat;
 }
-/* line 711, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 711, ../scss/partials/_player.scss */
 #fullscreen:before {
   background-image: url(../img/player/fullscreen.png);
 }
-/* line 714, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 714, ../scss/partials/_player.scss */
 #fullscreen:after {
   background-image: url(../img/player/lowscreen.png);
 }
-/* line 717, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 717, ../scss/partials/_player.scss */
 #fullscreen.fullscreen:before {
   display: block;
 }
-/* line 720, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 720, ../scss/partials/_player.scss */
 #fullscreen.lowscreen:after {
   display: block;
 }
@@ -1684,7 +1684,7 @@ video {
 /*
  *	Annotations
  */
-/* line 729, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 729, ../scss/partials/_player.scss */
 #annotationsElement {
   width: 100%;
   height: 100%;
@@ -1694,15 +1694,15 @@ video {
   overflow: hidden;
   padding: 0;
 }
-/* line 738, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 738, ../scss/partials/_player.scss */
 #annotationsElement.hide {
   opacity: 0;
 }
-/* line 740, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 740, ../scss/partials/_player.scss */
 #annotationsElement.hide .annotation {
   display: none;
 }
-/* line 745, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 745, ../scss/partials/_player.scss */
 #annotationsElement .annotation {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1720,17 +1720,17 @@ video {
   text-align: center;
   background-color: rgba(64, 166, 224, 0.5);
 }
-/* line 763, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 763, ../scss/partials/_player.scss */
 #annotationsElement .annotation p:not(.resize), #annotationsElement .annotation a {
   margin: 15px 0 15px 0;
 }
-/* line 766, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 766, ../scss/partials/_player.scss */
 #annotationsElement .annotation a {
   color: white;
   text-decoration: none;
   display: block;
 }
-/* line 771, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 771, ../scss/partials/_player.scss */
 #annotationsElement .annotation .close {
   display: block;
   width: 30px;
@@ -1749,7 +1749,7 @@ video {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-/* line 791, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 791, ../scss/partials/_player.scss */
 #annotationsElement .annotation:hover > .close {
   opacity: 0.5;
   -webkit-transition: 0.2s;
@@ -1758,68 +1758,68 @@ video {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-/* line 799, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 799, ../scss/partials/_player.scss */
 #annotationsElement .annotation .close:hover {
   opacity: 1;
 }
-/* line 802, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 802, ../scss/partials/_player.scss */
 #annotationsElement .annotation.hidden {
   display: none;
 }
-/* line 806, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 806, ../scss/partials/_player.scss */
 #annotationsElement .annotation.orange {
   background-color: rgba(223, 109, 20, 0.5);
 }
-/* line 808, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 808, ../scss/partials/_player.scss */
 #annotationsElement .annotation.yellow {
   background-color: rgba(255, 255, 0, 0.5);
 }
-/* line 810, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 810, ../scss/partials/_player.scss */
 #annotationsElement .annotation.pink {
   background-color: rgba(253, 63, 146, 0.5);
 }
-/* line 812, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 812, ../scss/partials/_player.scss */
 #annotationsElement .annotation.red {
   background-color: rgba(235, 0, 0, 0.5);
 }
-/* line 814, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 814, ../scss/partials/_player.scss */
 #annotationsElement .annotation.green {
   background-color: rgba(158, 253, 56, 0.5);
 }
-/* line 816, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 816, ../scss/partials/_player.scss */
 #annotationsElement .annotation.purple {
   background-color: rgba(102, 0, 153, 0.5);
 }
-/* line 820, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 820, ../scss/partials/_player.scss */
 #annotationsElement .annotation.white {
   background-color: rgba(255, 255, 255, 0.5);
   color: #1e1e1e;
 }
-/* line 823, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 823, ../scss/partials/_player.scss */
 #annotationsElement .annotation.black {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 827, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 827, ../scss/partials/_player.scss */
 #annotationsElement .annotation.transparent {
   background-color: transparent;
 }
-/* line 829, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 829, ../scss/partials/_player.scss */
 #annotationsElement .annotation.transparent.b {
   border: 1px solid rgba(0, 0, 0, 0.5);
   color: #1e1e1e;
 }
-/* line 832, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_player.scss */
+/* line 832, ../scss/partials/_player.scss */
 #annotationsElement .annotation.transparent.w {
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: white;
 }
 
-/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 1, ../scss/partials/_wysiwyg.scss */
 #createComment {
   display: none;
 }
 
-/* line 4, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 4, ../scss/partials/_wysiwyg.scss */
 label {
   text-align: right;
   display: inline-block;
@@ -1827,7 +1827,7 @@ label {
   padding-right: 5px;
 }
 
-/* line 11, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 11, ../scss/partials/_wysiwyg.scss */
 #createComment #editor {
   display: inline-block;
   margin: 5px 0;
@@ -1838,13 +1838,13 @@ label {
   font-size: 0.9em;
 }
 
-/* line 20, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 20, ../scss/partials/_wysiwyg.scss */
 #createComment #editor:focus {
   outline: none;
   border: 1px solid #888;
 }
 
-/* line 25, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 25, ../scss/partials/_wysiwyg.scss */
 #createComment #editor {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1857,12 +1857,12 @@ label {
   padding-top: -15px;
 }
 
-/* line 38, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 38, ../scss/partials/_wysiwyg.scss */
 #createComment #editor > img {
   max-width: 100%;
 }
 
-/* line 42, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 42, ../scss/partials/_wysiwyg.scss */
 #createComment span[data-tag], .button {
   display: inline-block;
   width: 41px;
@@ -1870,24 +1870,24 @@ label {
   cursor: pointer;
 }
 
-/* line 48, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 48, ../scss/partials/_wysiwyg.scss */
 #createComment span[data-tag].big, .button.big {
   width: 100px;
 }
 
-/* line 51, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 51, ../scss/partials/_wysiwyg.scss */
 #createComment span[data-tag]:active, .button:active {
   background-position: 0 -100%;
 }
 
-/* line 55, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 55, ../scss/partials/_wysiwyg.scss */
 #createComment span.smiley {
   cursor: pointer;
   margin-top: 15px;
   margin-bottom: -5px;
 }
 
-/* line 61, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 61, ../scss/partials/_wysiwyg.scss */
 #createComment #modal {
   display: none;
   width: 200px;
@@ -1914,7 +1914,7 @@ label {
   box-sizing: border-box;
 }
 
-/* line 87, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 87, ../scss/partials/_wysiwyg.scss */
 #createComment #modal.view {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1922,7 +1922,7 @@ label {
   transform: scale(1);
 }
 
-/* line 94, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 94, ../scss/partials/_wysiwyg.scss */
 #overlay {
   display: none;
   position: fixed;
@@ -1937,12 +1937,12 @@ label {
   transition: 0.2s;
 }
 
-/* line 107, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 107, ../scss/partials/_wysiwyg.scss */
 #overlay.view {
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* line 111, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 111, ../scss/partials/_wysiwyg.scss */
 .close {
   cursor: pointer;
   position: absolute;
@@ -1950,7 +1950,7 @@ label {
   right: 10px;
 }
 
-/* line 118, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 118, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"] {
   display: block;
   width: 250px;
@@ -1964,22 +1964,22 @@ label {
   cursor: pointer;
 }
 
-/* line 130, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 130, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"]:hover {
   background-color: #0c6c95;
 }
 
-/* line 133, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 133, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"]:active {
   background-color: #06384d;
 }
 
-/* line 136, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 136, ../scss/partials/_wysiwyg.scss */
 #createComment input[type="submit"]:focus {
   outline: none;
 }
 
-/* line 140, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 140, ../scss/partials/_wysiwyg.scss */
 #wysiwygImage {
   cursor: pointer;
   margin-top: -5px;
@@ -1992,17 +1992,17 @@ label {
   padding-top: 10px;
 }
 
-/* line 151, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 151, ../scss/partials/_wysiwyg.scss */
 #wysiwygImage:hover {
   background-color: #e8e8e8;
 }
 
-/* line 154, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_wysiwyg.scss */
+/* line 154, ../scss/partials/_wysiwyg.scss */
 #wysiwygImage:active {
   background-color: #e1e1e1;
 }
 
-/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 1, ../scss/video/_titre.scss */
 #video-top-infos {
   display: block;
   width: 100%;
@@ -2010,13 +2010,13 @@ label {
   padding-bottom: 7px;
   position: relative;
 }
-/* line 8, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 8, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title {
   display: block;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 13, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 13, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title h1 {
   font-weight: normal;
   font-size: 24px;
@@ -2025,7 +2025,7 @@ label {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 21, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 21, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title h1:after {
   content: "";
   display: block;
@@ -2036,7 +2036,7 @@ label {
   position: relative;
   bottom: -5px;
 }
-/* line 33, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 33, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel {
   display: block;
   vertical-align: top;
@@ -2048,7 +2048,7 @@ label {
   position: relative;
   top: -5px;
 }
-/* line 44, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 44, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img {
   width: 42px;
   height: 42px;
@@ -2057,7 +2057,7 @@ label {
   position: relative;
   top: -4px;
 }
-/* line 52, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 52, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe {
   width: 42px;
   height: 42px;
@@ -2072,7 +2072,7 @@ label {
   opacity: 0;
   z-index: 500;
 }
-/* line 66, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 66, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
   text-align: center;
   color: white;
@@ -2085,7 +2085,7 @@ label {
   top: 100%;
   margin-top: 10px;
 }
-/* line 79, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 79, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i:before {
   content: "";
   border-left: 7px solid transparent;
@@ -2098,11 +2098,11 @@ label {
   margin-top: 0;
 }
 @media all and (min-width: 640px) {
-  /* line 93, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 93, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
     top: 90%;
   }
-  /* line 96, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 96, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
     -webkit-transition: top 0.3s;
     -moz-transition: top 0.3s;
@@ -2110,30 +2110,30 @@ label {
     -o-transition: top 0.3s;
     transition: top 0.3s;
   }
-  /* line 103, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 103, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe:hover > i {
     top: 100%;
   }
 }
-/* line 108, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 108, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed > i {
   content: "";
   background: rgba(150, 195, 152, 0.8);
 }
-/* line 112, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 112, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed > i:before {
   border-bottom: 7px solid rgba(150, 195, 152, 0.8);
 }
-/* line 115, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 115, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe:hover {
   opacity: 1;
 }
-/* line 118, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 118, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed {
   background-position: 42px 0;
 }
 @media all and (min-width: 640px) {
-  /* line 122, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 122, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe {
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -2142,7 +2142,7 @@ label {
     transition: 0.3s;
   }
 }
-/* line 132, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 132, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos {
   display: inline-block;
   vertical-align: top;
@@ -2152,33 +2152,33 @@ label {
   line-height: 16px;
   padding-right: 10px;
 }
-/* line 141, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 141, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos hr {
   display: none;
 }
-/* line 145, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 145, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-pseudo {
   color: #40a6e0;
 }
-/* line 149, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+/* line 149, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos .strong {
   font-weight: bold;
   margin-right: 4px;
 }
 
 @media all and (max-width: 600px) {
-  /* line 159, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 159, ../scss/video/_titre.scss */
   #video-top-infos {
     padding: 0;
   }
-  /* line 162, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 162, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title {
     display: block;
     padding: 10px;
     margin-top: -5px;
     padding-right: 10px;
   }
-  /* line 168, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 168, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title h1 {
     clear: both;
     font-weight: normal;
@@ -2187,7 +2187,7 @@ label {
     line-height: 30px;
     font-size: 24px;
   }
-  /* line 177, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 177, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel {
     display: block;
     float: left;
@@ -2195,7 +2195,7 @@ label {
     top: 10px;
     margin-bottom: -5px;
   }
-  /* line 184, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 184, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img {
     margin-right: 15px;
     height: 25px;
@@ -2203,7 +2203,7 @@ label {
     margin-top: 8px;
     margin-bottom: -3px;
   }
-  /* line 191, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 191, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe {
     width: 25px;
     height: 25px;
@@ -2214,7 +2214,7 @@ label {
     margin-right: 12px;
     background-size: 50px 25px;
   }
-  /* line 201, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 201, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
     width: 80px;
     font-size: 15px;
@@ -2223,7 +2223,7 @@ label {
     padding-top: 7px;
     margin-top: 8px;
   }
-  /* line 210, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 210, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i:before {
     left: 12px;
     border-left: 5px solid transparent;
@@ -2231,26 +2231,26 @@ label {
     border-bottom: 5px solid rgba(0, 0, 0, 0.5);
     margin-left: -5px;
   }
-  /* line 218, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 218, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed > i:before {
     border-bottom: 5px solid rgba(150, 195, 152, 0.8);
   }
-  /* line 221, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 221, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed {
     background-position: 25px 0;
   }
-  /* line 226, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 226, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos {
     vertical-align: baseline;
     top: -10px;
     margin-bottom: 20px;
   }
-  /* line 231, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 231, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-pseudo {
     display: inline-block;
     top: -2px;
   }
-  /* line 236, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 236, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos hr {
     display: inline-block;
     vertical-align: middle;
@@ -2260,14 +2260,14 @@ label {
     background-color: #ebebeb;
     margin-left: 15px;
   }
-  /* line 246, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_titre.scss */
+  /* line 246, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-abonnes {
     display: inline-block;
     vertical-align: middle;
     left: 20px;
   }
 }
-/* line 3, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_player.scss */
+/* line 3, ../scss/video/_player.scss */
 #player-description-container {
   margin-top: 10px;
   width: 1000px;
@@ -2278,7 +2278,7 @@ label {
   box-shadow: 1px 2px 0px #e2e2e2;
 }
 
-/* line 4, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 4, ../scss/video/_comments.scss */
 #comments {
   width: 100%;
   max-width: 650px;
@@ -2292,20 +2292,20 @@ label {
   padding-left: 10px;
   margin-bottom: 20px;
 }
-/* line 17, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 17, ../scss/video/_comments.scss */
 #comments #comments-title {
   margin-left: 25px;
   height: 100px;
   overflow: hidden;
 }
-/* line 22, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 22, ../scss/video/_comments.scss */
 #comments #comments-title h3 {
   font-weight: normal;
   font-size: 18px;
   color: #858484;
   line-height: 90px;
 }
-/* line 29, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 29, ../scss/video/_comments.scss */
 #comments #comments-title hr {
   height: 4px;
   width: 25px;
@@ -2315,7 +2315,7 @@ label {
   position: relative;
   top: -40px;
 }
-/* line 40, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 40, ../scss/video/_comments.scss */
 #comments .comment {
   width: 100%;
   float: left;
@@ -2323,85 +2323,85 @@ label {
   color: #959595;
   padding-left: 10px;
 }
-/* line 47, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 47, ../scss/video/_comments.scss */
 #comments .comment .comment-head {
   width: 100%;
   margin-bottom: 5px;
   padding-bottom: 15px;
 }
-/* line 52, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 52, ../scss/video/_comments.scss */
 #comments .comment .comment-head .user {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 56, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 56, ../scss/video/_comments.scss */
 #comments .comment .comment-head .user img, #comments .comment .comment-head .user p {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 60, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 60, ../scss/video/_comments.scss */
 #comments .comment .comment-head .user p {
   margin-left: 15px;
   color: #40a6e0;
   font-weight: bold;
 }
-/* line 66, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 66, ../scss/video/_comments.scss */
 #comments .comment .comment-head .date {
   display: inline-block;
   vertical-align: baseline;
   float: right;
 }
-/* line 70, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 70, ../scss/video/_comments.scss */
 #comments .comment .comment-head .date p {
   font-size: 14px;
   line-height: 27px;
 }
-/* line 77, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 77, ../scss/video/_comments.scss */
 #comments .comment .comment-text {
   margin-bottom: 5px;
   padding-left: 25px;
 }
-/* line 82, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 82, ../scss/video/_comments.scss */
 #comments .comment .comment-notation {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 87, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 87, ../scss/video/_comments.scss */
 #comments .comment .comment-notation ul {
   list-style: none;
 }
-/* line 91, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 91, ../scss/video/_comments.scss */
 #comments .comment .comment-notation li {
   display: inline-block;
   margin-right: 30px;
 }
-/* line 95, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 95, ../scss/video/_comments.scss */
 #comments .comment .comment-notation li a {
   margin-right: 10px;
 }
-/* line 100, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 100, ../scss/video/_comments.scss */
 #comments .comment .comment-notation .plus, #comments .comment .comment-notation .plus a {
   color: #48a84f;
 }
-/* line 104, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+/* line 104, ../scss/video/_comments.scss */
 #comments .comment .comment-notation .moins, #comments .comment .comment-notation .moins a {
   color: #dd4e47;
 }
 
 @media all and (max-width: 1015px) {
-  /* line 112, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+  /* line 112, ../scss/video/_comments.scss */
   #comments {
     max-width: 60%;
   }
 }
 @media all and (max-width: 750px) {
-  /* line 117, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_comments.scss */
+  /* line 117, ../scss/video/_comments.scss */
   #comments {
     max-width: 100%;
   }
 }
-/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 1, ../scss/partials/_video-thumbail.scss */
 .video {
   background-color: #f1f0f0;
   width: 95%;
@@ -2413,7 +2413,7 @@ label {
   -moz-box-shadow: 1px 2px 0px #e2e2e2;
   box-shadow: 1px 2px 0px #e2e2e2;
 }
-/* line 12, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 12, ../scss/partials/_video-thumbail.scss */
 .video .video-thumbnail {
   height: 135px;
   overflow: hidden;
@@ -2425,7 +2425,7 @@ label {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 23, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 23, ../scss/partials/_video-thumbail.scss */
 .video .video-thumbnail .video-overlay {
   display: block;
   background-color: rgba(0, 0, 0, 0.6);
@@ -2436,7 +2436,7 @@ label {
   z-index: 5;
   opacity: 0;
 }
-/* line 33, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 33, ../scss/partials/_video-thumbail.scss */
 .video .video-thumbnail .video-overlay img {
   display: block;
   width: auto;
@@ -2446,15 +2446,15 @@ label {
   margin-top: -15px;
   margin-left: -20px;
 }
-/* line 43, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 43, ../scss/partials/_video-thumbail.scss */
 .video .video-thumbnail .video-overlay:hover {
   opacity: 1;
 }
-/* line 46, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 46, ../scss/partials/_video-thumbail.scss */
 .video .video-thumbnail .video-overlay:hover img {
   margin-left: -11px;
 }
-/* line 52, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 52, ../scss/partials/_video-thumbail.scss */
 .video .video-thumbnail .video-time {
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
@@ -2470,7 +2470,7 @@ label {
   padding-right: 15px;
   z-index: 4;
 }
-/* line 72, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 72, ../scss/partials/_video-thumbail.scss */
 .video .video-description h4 {
   font-size: 14px;
   font-weight: bold;
@@ -2478,57 +2478,57 @@ label {
   margin-top: 15px;
   color: #525252;
 }
-/* line 80, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 80, ../scss/partials/_video-thumbail.scss */
 .video .video-description .video-bottom-description {
   font-size: 14px;
   margin-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 86, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 86, ../scss/partials/_video-thumbail.scss */
 .video .video-description .video-bottom-description .video-view {
   color: #525252;
 }
-/* line 89, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 89, ../scss/partials/_video-thumbail.scss */
 .video .video-description .video-bottom-description .video-view img {
   margin-right: 10px;
 }
-/* line 94, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 94, ../scss/partials/_video-thumbail.scss */
 .video .video-description .video-bottom-description .video-channel {
   float: right;
 }
-/* line 97, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+/* line 97, ../scss/partials/_video-thumbail.scss */
 .video .video-description .video-bottom-description .video-channel a {
   color: #40a6e0;
 }
 
 @media all and (max-width: 750px) {
-  /* line 106, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+  /* line 106, ../scss/partials/_video-thumbail.scss */
   .video {
     margin-left: 2%;
     float: left;
     text-align: center;
   }
-  /* line 111, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+  /* line 111, ../scss/partials/_video-thumbail.scss */
   .video .video-thumbnail {
     background-color: #e9e9e9;
   }
-  /* line 114, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+  /* line 114, ../scss/partials/_video-thumbail.scss */
   .video .video-thumbnail .video-time {
     display: none;
   }
-  /* line 118, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+  /* line 118, ../scss/partials/_video-thumbail.scss */
   .video .video-thumbnail img {
     width: 100%;
     position: relative;
   }
-  /* line 124, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+  /* line 124, ../scss/partials/_video-thumbail.scss */
   .video .video-description {
     text-align: left;
   }
 }
 @media all and (min-width: 640px) {
-  /* line 133, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+  /* line 133, ../scss/partials/_video-thumbail.scss */
   .video .video-thumbnail .video-overlay {
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -2536,7 +2536,7 @@ label {
     -o-transition: 0.2s;
     transition: 0.2s;
   }
-  /* line 140, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/partials/_video-thumbail.scss */
+  /* line 140, ../scss/partials/_video-thumbail.scss */
   .video .video-thumbnail .video-overlay img {
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -2545,7 +2545,7 @@ label {
     transition: 0.2s;
   }
 }
-/* line 3, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_recomandations.scss */
+/* line 3, ../scss/video/_recomandations.scss */
 #recomandations {
   margin: auto;
   width: 100%;
@@ -2555,18 +2555,18 @@ label {
   vertical-align: top;
   float: right;
 }
-/* line 12, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_recomandations.scss */
+/* line 12, ../scss/video/_recomandations.scss */
 #recomandations #recomandations-title {
   margin-left: 25px;
 }
-/* line 15, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_recomandations.scss */
+/* line 15, ../scss/video/_recomandations.scss */
 #recomandations #recomandations-title h3 {
   font-weight: normal;
   font-size: 18px;
   color: #858484;
   line-height: 90px;
 }
-/* line 22, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_recomandations.scss */
+/* line 22, ../scss/video/_recomandations.scss */
 #recomandations #recomandations-title hr {
   height: 4px;
   width: 25px;
@@ -2578,19 +2578,19 @@ label {
 }
 
 @media all and (max-width: 1015px) {
-  /* line 35, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_recomandations.scss */
+  /* line 35, ../scss/video/_recomandations.scss */
   #recomandations {
     max-width: 40%;
   }
 }
 @media all and (max-width: 750px) {
-  /* line 41, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_recomandations.scss */
+  /* line 41, ../scss/video/_recomandations.scss */
   #recomandations {
     float: none;
     max-width: 100%;
   }
 }
-/* line 1, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 1, ../scss/video/_video-infos.scss */
 #videoInfos {
   display: block;
   width: 360px;
@@ -2602,7 +2602,7 @@ label {
   margin-bottom: 20px;
 }
 
-/* line 11, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 11, ../scss/video/_video-infos.scss */
 #videoInfos:before {
   position: absolute;
   content: "";
@@ -2614,26 +2614,26 @@ label {
 }
 
 @media all and (max-width: 1015px) {
-  /* line 22, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 22, ../scss/video/_video-infos.scss */
   #player {
     margin: 0 auto 0 auto;
     float: none!important;
   }
 
-  /* line 26, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 26, ../scss/video/_video-infos.scss */
   #videoInfos {
     margin: 0 auto 0 auto;
     width: 640px;
   }
 
-  /* line 30, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 30, ../scss/video/_video-infos.scss */
   #player.wide ~ #videoInfos {
     margin: 0 auto 0 auto;
     width: 100%;
   }
 }
 @media all and (min-width: 640px) and (max-width: 1015px) {
-  /* line 36, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 36, ../scss/video/_video-infos.scss */
   #videoInfos {
     -webkit-transition: width 0;
     -moz-transition: width 0;
@@ -2642,14 +2642,14 @@ label {
     transition: width 0;
   }
 }
-/* line 44, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 44, ../scss/video/_video-infos.scss */
 #player.wide ~ #videoInfos {
   margin: 0 auto 0 auto;
   width: 100%;
 }
 
 @media all and (min-width: 640px) {
-  /* line 49, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 49, ../scss/video/_video-infos.scss */
   #player.wide ~ #videoInfos {
     -webkit-transition: width 0.4s;
     -moz-transition: width 0.4s;
@@ -2659,42 +2659,42 @@ label {
   }
 }
 @media all and (max-width: 654px) {
-  /* line 58, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 58, ../scss/video/_video-infos.scss */
   #videoInfos {
     margin: 0;
     width: 100%!important;
     height: auto!important;
   }
 
-  /* line 63, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 63, ../scss/video/_video-infos.scss */
   #videoInfos > #buttons {
     text-align: center!important;
   }
 
-  /* line 66, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 66, ../scss/video/_video-infos.scss */
   #videoInfos > #buttons > * {
     margin: 0 30px!important;
   }
 }
 @media all and (max-width: 420px) {
-  /* line 71, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 71, ../scss/video/_video-infos.scss */
   #videoInfos > #buttons > * {
     margin: 0 10px!important;
   }
 }
 @media all and (max-width: 300px) {
-  /* line 76, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 76, ../scss/video/_video-infos.scss */
   #videoInfos > #buttons > * {
     margin: 0 2px!important;
   }
 }
 @media all and (max-width: 320px) {
-  /* line 81, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 81, ../scss/video/_video-infos.scss */
   #votePlus:before, #voteMoins:before {
     margin-left: 20px!important;
   }
 }
-/* line 86, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 86, ../scss/video/_video-infos.scss */
 #videoInfos > hr {
   margin: 0 20px 0 20px;
   height: 0;
@@ -2702,7 +2702,7 @@ label {
   border-bottom: 1px solid #d9d9d9;
 }
 
-/* line 93, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 93, ../scss/video/_video-infos.scss */
 #videoInfos > #videoVues {
   text-align: right;
   background-image: url(../img/view.png);
@@ -2714,14 +2714,14 @@ label {
   margin-bottom: -5px;
 }
 
-/* line 104, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 104, ../scss/video/_video-infos.scss */
 #videoInfos > #votes {
   padding: 20px 30px;
   position: relative;
   text-align: center;
 }
 
-/* line 110, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 110, ../scss/video/_video-infos.scss */
 #votePlus, #voteMoins {
   display: inline-block;
   text-align: center;
@@ -2731,7 +2731,7 @@ label {
   cursor: pointer;
 }
 
-/* line 119, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 119, ../scss/video/_video-infos.scss */
 #votePlus:before, #voteMoins:before {
   margin-top: -3px;
   display: inline-block;
@@ -2747,7 +2747,7 @@ label {
 }
 
 @media all and (min-width: 640px) {
-  /* line 133, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 133, ../scss/video/_video-infos.scss */
   #votePlus:before, #voteMoins:before {
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -2756,50 +2756,50 @@ label {
     transition: 0.2s;
   }
 }
-/* line 142, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 142, ../scss/video/_video-infos.scss */
 #votePlus:before {
   content: "+";
   left: 0;
   border: 1px solid #48a84f;
 }
 
-/* line 147, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 147, ../scss/video/_video-infos.scss */
 #votePlus:hover:before, #votePlus.active:before {
   background-color: #48a84f;
   color: white;
 }
 
-/* line 151, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 151, ../scss/video/_video-infos.scss */
 #voteMoins:before {
   content: "-";
   left: 40%;
   border: 1px solid #dd4e47;
 }
 
-/* line 156, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 156, ../scss/video/_video-infos.scss */
 #voteMoins:hover:before, #voteMoins.active:before {
   background-color: #dd4e47;
   color: white;
 }
 
-/* line 161, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 161, ../scss/video/_video-infos.scss */
 #votePlus:active:before {
   border: 3px solid #48a84f;
 }
 
-/* line 164, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 164, ../scss/video/_video-infos.scss */
 #voteMoins:active:before {
   border: 3px solid #dd4e47;
 }
 
-/* line 167, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 167, ../scss/video/_video-infos.scss */
 #votePlus:active:before, #voteMoins:active:before {
   margin-top: -5px;
   margin-left: 38px;
 }
 
 @media all and (min-width: 640px) {
-  /* line 172, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 172, ../scss/video/_video-infos.scss */
   #votePlus:active:before, #voteMoins:active:before {
     -webkit-transition: 0.1s;
     -moz-transition: 0.1s;
@@ -2808,17 +2808,17 @@ label {
     transition: 0.1s;
   }
 }
-/* line 181, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 181, ../scss/video/_video-infos.scss */
 #votePlus {
   color: #48a84f;
 }
 
-/* line 184, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 184, ../scss/video/_video-infos.scss */
 #voteMoins {
   color: #dd4e47;
 }
 
-/* line 188, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 188, ../scss/video/_video-infos.scss */
 #description {
   padding: 20px 20px;
   height: 150px;
@@ -2826,7 +2826,7 @@ label {
   margin: auto;
 }
 
-/* line 194, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 194, ../scss/video/_video-infos.scss */
 #innerDescription {
   text-align: left;
   font-size: 15px;
@@ -2837,48 +2837,48 @@ label {
   padding-right: 10px;
 }
 
-/* line 203, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 203, ../scss/video/_video-infos.scss */
 #innerDescription::-webkit-scrollbar {
   width: 4px;
 }
 
-/* line 206, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 206, ../scss/video/_video-infos.scss */
 #innerDescription::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* line 209, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 209, ../scss/video/_video-infos.scss */
 #innerDescription::-webkit-scrollbar-thumb {
   background: #b5b4b4;
   border-radius: 2px;
 }
 
-/* line 213, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 213, ../scss/video/_video-infos.scss */
 #innerDescription::-moz-scrollbar {
   width: 4px;
 }
 
-/* line 216, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 216, ../scss/video/_video-infos.scss */
 #innerDescription::-moz-scrollbar-track {
   background: transparent;
 }
 
-/* line 219, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 219, ../scss/video/_video-infos.scss */
 #innerDescription::-moz-scrollbar-thumb {
   background: #b5b4b4;
   border-radius: 2px;
 }
 
-/* line 224, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 224, ../scss/video/_video-infos.scss */
 #videoInfos > #buttons {
   padding: 15px 30px;
   text-align: left;
 }
-/* line 228, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 228, ../scss/video/_video-infos.scss */
 #videoInfos > #buttons * {
   margin: 0 15px;
 }
-/* line 231, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 231, ../scss/video/_video-infos.scss */
 #videoInfos > #buttons .embed {
   width: 18px;
   height: 18px;
@@ -2889,22 +2889,22 @@ label {
   margin: 0!important;
 }
 @media all and (max-width: 420px) {
-  /* line 231, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 231, ../scss/video/_video-infos.scss */
   #videoInfos > #buttons .embed {
     left: -30px;
   }
 }
 @media all and (max-width: 300px) {
-  /* line 231, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+  /* line 231, ../scss/video/_video-infos.scss */
   #videoInfos > #buttons .embed {
     left: -22px;
   }
 }
-/* line 247, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 247, ../scss/video/_video-infos.scss */
 #videoInfos > #buttons .embed:checked + #embed-input {
   display: inline-block;
 }
-/* line 251, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 251, ../scss/video/_video-infos.scss */
 #videoInfos > #buttons #embed-input {
   display: none;
   margin: 0;
@@ -2917,12 +2917,12 @@ label {
   position: relative;
   top: -4px;
 }
-/* line 263, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 263, ../scss/video/_video-infos.scss */
 #videoInfos > #buttons #embed-input:focus {
   outline: none;
 }
 
-/* line 269, C:/Program Files (x86)/EasyPHP-12.1/www/DreamVids/scss/video/_video-infos.scss */
+/* line 269, ../scss/video/_video-infos.scss */
 #videoInfos > #buttons > * {
   margin: 0 15px;
 }
