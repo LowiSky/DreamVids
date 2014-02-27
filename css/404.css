@@ -70,11 +70,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 @media all and (min-width: 640px) {
   /* line 1, ../scss/partials/_bgLoader.scss */
   .bgLoader {
-    -webkit-transition: 0.15s;
-    -moz-transition: 0.15s;
-    -ms-transition: 0.15s;
-    -o-transition: 0.15s;
-    transition: 0.15s;
+    -webkit-transition: opacity 0.15s;
+    -moz-transition: opacity 0.15s;
+    -ms-transition: opacity 0.15s;
+    -o-transition: opacity 0.15s;
+    transition: opacity 0.15s;
   }
 }
 /* line 12, ../scss/partials/_bgLoader.scss */

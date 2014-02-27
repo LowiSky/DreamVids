@@ -1,11 +1,12 @@
 @import "partials/header.scss";
 @import "cards/card.scss";
 @import "partials/home-large-modal.scss";
-@import "partials/best-channels.scss";
+@import "partials/aside-channels.scss";
 @import "partials/home-discover.scss";
 
 #bottom {
 	display: table;
+	width: 100%;
 	max-width: 1000px;
 	margin: auto;
 }

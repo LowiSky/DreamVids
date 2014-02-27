@@ -1,9 +1,11 @@
 @import "partials/header.scss";
 @import "cards/card.scss";
-@import "partials/best-channels.scss";
+@import "partials/aside-channels.scss";
+@import "partials/aside-flux.scss";
 
 #bottom {
 	display: table;
+	width: 100%;
 	max-width: 1000px;
 	margin: auto;
 }

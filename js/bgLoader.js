@@ -13,7 +13,6 @@ var bgLoader = function(element) {
 
 
 var elements = document.getElementsByClassName('bgLoader');
-console.log(document.getElementsByClassName('bgLoader'));
 if (elements && elements.length) {
     for (var i = 0, length = elements.length; i < length; i++) {
         bgLoader(elements[i]);

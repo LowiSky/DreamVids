@@ -1,3 +1,47 @@
 .card.comment {
-	
+	a {
+		display: block;
+		padding: 20px;
+		text-align: justify;
+
+		p {
+			margin-top: 15px;
+			font-size: 18px;
+
+			@media all and (max-width: 800px) {
+				margin-top: 5px;
+			}
+			@media all and (max-width: 720px) {
+				margin-top: 0;
+			}
+			
+			b {
+				font-weight: bold;
+			}
+		}
+
+		blockquote {
+			margin-top: 22px;
+			font-size: 20px;
+
+			&:before {
+				content: "“";
+				display: block;
+				float: left;
+				font-size: 60px;
+				line-height: 0;
+				margin-top: 20px;
+				margin-left: -5px;
+			}
+		}
+	}
+
+	i {
+		font-size: 17px;
+		font-style: italic;
+		color: #a4a4a4;
+		position: absolute;
+		bottom: 8px;
+		right: 8px;
+	}
 }

@@ -18,135 +18,134 @@
 			<?php include 'header.php'; ?>
 
 			<div id="bottom">
-				<section id="best-channels">
-					<div id="best-channels-title">
-						<h3>Meilleures chaînes</h3>
+				<aside id="aside-channels">
+					<h3>Mes abonnements</h3>
+					<ul class="limited" id="list-flux-channels">
+						<a href="#" class="channels" data-new="12">
+							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">Dreameur</span>
+							<p class="subscribers"><b>12 835</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels" data-new="7">
+							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">YoloVids</span>
+							<p class="subscribers"><b>11 208</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels" data-new="3">
+							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">Kikoo 2000</span>
+							<p class="subscribers"><b>9 725</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels" data-new="1">
+							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
+							<span class="name" href="#">Futurameur</span>
+							<p class="subscribers"><b>5 214</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">UpUpUp</span>
+							<p class="subscribers"><b>2 804</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
+							<span class="name" href="#">Homer Simpson</span>
+							<p class="subscribers"><b>1 127</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
+							<span class="name" href="#">Dori</span>
+							<p class="subscribers"><b>546</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">YoloVids</span>
+							<p class="subscribers"><b>11 208</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">Kikoo 2000</span>
+							<p class="subscribers"><b>9 725</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
+							<span class="name" href="#">Futurameur</span>
+							<p class="subscribers"><b>5 214</b> Abonnés</p>
+						</a>
+
+						<input type="checkbox" onclick="toogleFluxChannelVisibility(this.checked)"/>
+						<span class="ch-more">Voir tout</span>
+						<span class="ch-less">Voir moins</span>
+					</ul>
+				</aside>
+	
+				<aside id="aside-flux">
+					<h3>Flux d'activité</h3>
+					
+					<div class="card video">
+						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
+							<div class="time">12:05</div>
+							<a href="video" class="overlay"></a>
+						</div>
+						<div class="description">
+							<a href="video"><h4>Up !</h4></a>
+							<div>
+								<span class="view">12 530</span>
+								<a class="channel" href="#">Papy</a>
+							</div>
+						</div>
 					</div>
 
-					<ul>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Dreameur</p>
-							<p class="channels-subscribers"><b>12 835</b> Abonnés</p>
+					<div class="card subscribe">
+						<a href="#">
+							<div class="avatar bgLoader" data-background="http://lorempicsum.com/simpsons/255/200/5"></div>
+							<p><b>Chnok</b> s'est abonné à votre chaîne</p>
 						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">YoloVids</p>
-							<p class="channels-subscribers"><b>11 208</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Kikoo 2000</p>
-							<p class="channels-subscribers"><b>9 725</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Futurameur</p>
-							<p class="channels-subscribers"><b>5 214</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">UpUpUp</p>
-							<p class="channels-subscribers"><b>2 804</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Homer Simpson</p>
-							<p class="channels-subscribers"><b>1 127</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Dori</p>
-							<p class="channels-subscribers"><b>546</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://static-2.nexusmods.com/15/mods/110/images/50622-1-1391287636.jpeg)" class="channels-avatar"></span>
-							<p href="#" class="channels-name" style="font-family: 'Comic Sans MS'; font-size: 12px">Wow ! Much doge</p>
-							<p class="channels-subscribers" style="font-family: 'Comic Sans MS'; font-size: 12px"><b>248</b> Abonnés</p>
-						</a>
-					</ul>
-				</section>
-	
-				<aside id="home-discover">
-					<div id="home-discover-title">
-						<h3>Vidéos à découvrir</h3>
+						<span class="subscriber"><b>64 520</b> Abonnés</span>
+						<i>Il y a 1 heure</i>
 					</div>
-					
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
-							<div class="video-time"><p>12:05</p></div>
-							<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
-						</div>
-						<div class="video-description">
-							<a href="video"><h4>Up !</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
-								<span class="video-channel"><a href="#">Papy</a></span>
-							</div>
-						</div>
+
+					<div class="card plus">
+						<a href="#">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/simpsons/627/300/4"></div>
+							<p><b>Machin</b> à aimé votre vidéo "<b>Nyan Cat</b>"</p>
+						</a>
+						<i>Il y a 1 heure</i>
 					</div>
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/350/200/1">
-							<div class="video-time"><p>16:17</p></div>
-							<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+
+					<div class="card video">
+						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/350/200/1">
+							<div class="time">16:17</div>
+							<a href="video" class="overlay"></a>
 						</div>
-						<div class="video-description">
+						<div class="description">
 							<a href="video"><h4>Nemo</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">10 576</span>
-								<span class="video-channel"><a href="#">Dori</a></span>
+							<div>
+								<span class="view">10 576</span>
+								<a class="channel" href="#">Dori</a>
 							</div>
 						</div>
 					</div>
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/simpsons/627/200/3">
-							<div class="video-time"><p>1:27:24</p></div>
-							<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
-						</div>
-						<div class="video-description">
-							<a href="video"><h4>Les Simpson, le film</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">401</span>
-								<span class="video-channel"><a href="#">Home Simpson</a></span>
-							</div>
-						</div>
+
+					<div class="card comment">
+						<a href="video">
+							<p><b>Bidule</b> à commenté votre vidéo "<b>Nom Nom Nom</b>" :</p>
+							<blockquote>
+								J'aime trop cette vidéo parce que Nom Nom Nom Nom Nom Nom Nom Nom !
+							</blockquote>
+						</a>
+						<i>Il y a 2 minutes</i>
 					</div>
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/627/300/4">
-							<div class="video-time"><p>3:27</p></div>
-							<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+
+					<div class="card video">
+						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/627/300/4">
+							<div class="time">3:27</div>
+							<a href="video" class="overlay"></a>
 						</div>
-						<div class="video-description">
+						<div class="description">
 							<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">32 546</span>
-								<span class="video-channel"><a href="#">Nemo</a></span>
-							</div>
-						</div>
-					</div>
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/rio/350/200/1">
-							<div class="video-time"><p>2:34:53</p></div>
-							<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
-						</div>
-						<div class="video-description">
-							<a href="video"><h4>Rio</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">1 752</span>
-								<span class="video-channel"><a href="#">Hungry Bird</a></span>
-							</div>
-						</div>
-					</div>
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/up/627/300/4">
-							<div class="video-time"><p>2:43</p></div>
-							<a href="video"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
-						</div>
-						<div class="video-description">
-							<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">513</span>
-								<span class="video-channel"><a href="#">Pixar</a></span>
+							<div>
+								<span class="view">32 546</span>
+								<a class="channel" href="#">Nemo</a>
 							</div>
 						</div>
 					</div>
@@ -171,7 +170,6 @@
 			
 		</div>
 
-		<script src="js/slider.js"></script>
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
 		<script src="js/bgLoader.js"></script>

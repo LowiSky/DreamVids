@@ -1,0 +1,223 @@
+#aside-channels {
+	width: 30%;
+	min-height: 100px;
+	display: inline-block;
+	float: left;
+
+	@media all and (max-width: 700px) {
+		float: none;
+		width: 100%;
+	}
+
+	h3 {
+		margin-left: 5%;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 90px;
+		color: #858484;
+
+		&:after {
+			content: "";
+			display: block;
+			height: 4px;
+			width: 25px;
+			background-color: #f1f0f0;
+			border: none;
+			position: relative;
+			bottom: 30px;
+		}
+	}
+
+	ul {
+		&.limited > .channels {
+			display: none;
+		}
+		&.limited > .channels:nth-child(-n+6) {
+			display: block;
+		}
+		&.seeAll > .channels {
+			display: block;
+		}
+
+		.channels {
+			display: block;
+			position: relative;
+			margin-left: 5%;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 10px;
+
+			@media all and (max-width: 700px) {
+				width: 40%;
+				float: left;
+
+				@media all and (max-width: 420px) {
+					width: auto;
+					float: none;
+					display: none;
+
+					&:nth-child(-n+6) {
+						display: block;
+					}
+				}
+			}
+
+			&[data-new]:after {
+				content: attr(data-new);
+				display: block;
+				width: 24px;
+				height: 24px;
+				background: #F9A41E;
+				color: white;
+				font-size: 18px;
+				line-height: 24px;
+				text-align: center;
+				border-radius: 50%;
+				position: absolute;
+				top: 5px;
+				right: 12px;
+			}
+			&:not([data-new="1"]):not([data-new="2"]):not([data-new="3"]):not([data-new="4"]):not([data-new="5"]):not([data-new="6"]):not([data-new="7"]):not([data-new="8"]):not([data-new="9"]):after {
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				top: 2px;
+				right: 8px;
+			}
+
+			.avatar {
+				float: left;
+				width: 40px;
+				height: 40px;
+				margin-right: 8px;
+
+				-webkit-background-size: cover;
+  				-moz-background-size: cover;
+  				-o-background-size: cover;
+  				background-size: cover;
+  				background-position: center;
+  				background-repeat: no-repeat;
+			}
+
+			.name, .subscribers {
+				margin-top: 4px;
+				display: block;
+				font-size: 15px;
+			}
+
+			.name {
+				color: #40a6e0;
+			}
+
+			.subscribers {
+				color: #858484;
+
+				b {
+					font-weight: bold;
+				}
+			}
+		}
+
+		&.medal {
+			.channels {
+				&:nth-child(1), &:nth-child(2), &:nth-child(3) {
+					&:before {
+						content: "";
+						width: 2px;
+						height: 100%;
+						display: block;
+						position: absolute;
+						top: 0;
+						left: -5px;
+					}
+				}
+				&:nth-child(1) {
+					&:before {
+						background-color: #ffe00c;
+					}
+				} &:nth-child(2) {
+					&:before {
+						background-color: #d4d4d4;
+					}
+				} &:nth-child(3) {
+					&:before {
+						background-color: #e3b33f;
+					}
+				}
+			}
+		}
+	}
+
+	input[type=checkbox] {
+		float: left;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 40px;
+		margin-top: 10px;
+		background: red;
+		opacity: 0;
+		cursor: pointer;
+		z-index: 4;
+		display: block;
+		position: relative;
+
+		& ~ .ch-more, & ~ .ch-less {
+			float: left;
+			cursor: pointer;
+			display: none;
+			font-size: 18px;
+			color: #858484;
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+			padding-top: 12px;
+			height: 28px;
+			margin-top: -40px;
+			margin-bottom: 15px;
+			text-align: center;
+			background: #f1f0f0;
+			position: relative;
+			z-index: 3;
+
+			-webkit-box-shadow: 1px 2px 0px #e0e0e0;
+			-moz-box-shadow: 1px 2px 0px #e0e0e0;
+			-ms-box-shadow: 1px 2px 0px #e0e0e0;
+			-o-box-shadow: 1px 2px 0px #e0e0e0;
+			box-shadow: 1px 2px 0px #e0e0e0;
+		}
+
+		&:hover ~ .ch-more, &:hover ~ .ch-less {
+			margin-top: -41px;
+			margin-bottom: 16px;
+			left: -1px;
+
+			-webkit-box-shadow: 2px 3px 0px #e0e0e0;
+			-moz-box-shadow: 2px 3px 0px #e0e0e0;
+			-ms-box-shadow: 2px 3px 0px #e0e0e0;
+			-o-box-shadow: 2px 3px 0px #e0e0e0;
+			box-shadow: 2px 3px 0px #e0e0e0;
+		}
+		&:active ~ .ch-more, &:active ~ .ch-less {
+			margin-top: -39px;
+			margin-bottom: 14px;
+			left: 1px;
+
+			-webkit-box-shadow: 1px 1px 0px #e0e0e0;
+			-moz-box-shadow: 1px 1px 0px #e0e0e0;
+			-ms-box-shadow: 1px 1px 0px #e0e0e0;
+			-o-box-shadow: 1px 1px 0px #e0e0e0;
+			box-shadow: 1px 1px 0px #e0e0e0;
+		}
+
+		&:not(:checked) ~ .ch-more {
+			display: block;
+		} &:checked ~ .ch-less {
+			display: block;
+		}
+	}
+
+	ul.limited + input[type=checkbox] {
+		background: red;
+	}
+}

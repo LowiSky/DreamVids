@@ -50,4 +50,13 @@ hover_subscribe.addEventListener('click', function() {
     }
 });
 
-// Overlay des recommandations
+// "Voir plus" des chaines sur la page de flux
+
+function toogleFluxChannelVisibility(checked) {
+    var listElement = document.getElementById('list-flux-channels');
+
+    if (checked)
+        listElement.className += ' seeAll';
+    else
+        listElement.className = listElement.className.replace(' seeAll', '');
+}

@@ -148,54 +148,51 @@
 			</div>
 
 			<div id="bottom">
-				<section id="best-channels">
-					<div id="best-channels-title">
-						<h3>Meilleures chaînes</h3>
-					</div>
-
-					<ul>
+				<aside id="aside-channels">
+					<h3>Meilleures chaînes</h3>
+					<ul class="medal">
 						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Dreameur</p>
-							<p class="channels-subscribers"><b>12 835</b> Abonnés</p>
+							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">Dreameur</span>
+							<p class="subscribers"><b>12 835</b> Abonnés</p>
 						</a>
 						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">YoloVids</p>
-							<p class="channels-subscribers"><b>11 208</b> Abonnés</p>
+							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">YoloVids</span>
+							<p class="subscribers"><b>11 208</b> Abonnés</p>
 						</a>
 						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Kikoo 2000</p>
-							<p class="channels-subscribers"><b>9 725</b> Abonnés</p>
+							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">Kikoo 2000</span>
+							<p class="subscribers"><b>9 725</b> Abonnés</p>
 						</a>
 						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Futurameur</p>
-							<p class="channels-subscribers"><b>5 214</b> Abonnés</p>
+							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
+							<span class="name" href="#">Futurameur</span>
+							<p class="subscribers"><b>5 214</b> Abonnés</p>
 						</a>
 						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">UpUpUp</p>
-							<p class="channels-subscribers"><b>2 804</b> Abonnés</p>
+							<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">UpUpUp</span>
+							<p class="subscribers"><b>2 804</b> Abonnés</p>
 						</a>
 						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Homer Simpson</p>
-							<p class="channels-subscribers"><b>1 127</b> Abonnés</p>
+							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
+							<span class="name" href="#">Homer Simpson</span>
+							<p class="subscribers"><b>1 127</b> Abonnés</p>
 						</a>
 						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="channels-avatar"></span>
-							<p href="#" class="channels-name">Dori</p>
-							<p class="channels-subscribers"><b>546</b> Abonnés</p>
+							<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
+							<span class="name" href="#">Dori</span>
+							<p class="subscribers"><b>546</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://static-2.nexusmods.com/15/mods/110/images/50622-1-1391287636.jpeg)" class="channels-avatar"></span>
-							<p href="#" class="channels-name" style="font-family: 'Comic Sans MS'; font-size: 12px">Wow ! Much doge</p>
-							<p class="channels-subscribers" style="font-family: 'Comic Sans MS'; font-size: 12px"><b>248</b> Abonnés</p>
+						<a href="#" class="channels" style="font-family: 'Comic Sans MS'; font-size: 12px">
+							<span style="background-image: url(http://static-2.nexusmods.com/15/mods/110/images/50622-1-1391287636.jpeg)" class="avatar"></span>
+							<p class="name" href="#">Wow ! Much doge</p>
+							<p class="subscribers"><b>248</b> Abonnés</p>
 						</a>
 					</ul>
-				</section>
+				</aside>
 	
 				<aside id="home-discover">
 					<div id="home-discover-title">
