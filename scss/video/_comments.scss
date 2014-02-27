@@ -2,8 +2,8 @@ $video-h3-color: #858484;
 $comment-color: #959595;
 
 #comments{
-	width: 100%;
-	max-width: 650px;
+	width: 65%;
+	float: left;
 	display: inline-block;
 	vertical-align: top;
 	margin-left: -3px;
@@ -13,6 +13,13 @@ $comment-color: #959595;
 	padding-right: 20px;
 	padding-left: 10px;
 	margin-bottom: 20px;
+
+	@media all and (max-width: 1015px) {
+		width: 55%;
+	}
+	@media all and (max-width: 750px) {
+		width: 100%;
+	}
 
 	#comments-title{
 		margin-left: 25px;
@@ -105,16 +112,5 @@ $comment-color: #959595;
 				color: #dd4e47;
 			}
 		}
-	}
-}
-
-@media all and (max-width: 1015px) {
-	#comments{
-		max-width: 60%;
-	}
-}
-@media all and (max-width: 750px) {
-	#comments{
-		max-width: 100%;
 	}
 }

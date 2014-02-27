@@ -284,7 +284,7 @@
 								<a class="channel" href="#">Pixar</a>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</aside>
 			</div>
 	

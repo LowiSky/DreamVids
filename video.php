@@ -170,38 +170,63 @@
 	
 	
 				<aside id="recomandations">
-					<div id="recomandations-title">
-						<h3>Recommandations</h3>
-						<hr/>
-					</div>
+					<h3>Recommandations</h3>
 					
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
-							<div class="video-time"><p>12:05</p></div>
-							<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+					<div class="card video">
+						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/simpsons/627/200/3">
+							<div class="time">1:27:24</div>
+							<a href="video" class="overlay"></a>
 						</div>
-						<div class="video-description">
-							<a href="#"><h4>[Découverte] GTA V : Franklin le garagiste !</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
-								<span class="video-channel"><a href="#">Nom de la chaine</a></span>
+						<div class="description">
+							<a href="video"><h4>Les Simpson, le film</h4></a>
+							<div>
+								<span class="view">401</span>
+								<a class="channel" href="#">Home Simpson</a>
 							</div>
 						</div>
 					</div>
-					<div class="video">
-						<div class="video-thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/6">
-							<div class="video-time"><p>24:34</p></div>
-							<a href="#"><div class="video-overlay"><img src="img/play_icon_recomandations.png" alt="Regardez la vidéo 'Titre de la vidéo'"></div></a>
+
+					<div class="card video">
+						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/627/300/4">
+							<div class="time">3:27</div>
+							<a href="video" class="overlay"></a>
 						</div>
-						<div class="video-description">
-							<a href="#"><h4>LOL - Trevor et ses pulsions !</h4></a>
-							<div class="video-bottom-description">
-								<span class="video-view"><img src="img/view_icon_recomandation.png" alt="View of the video">12 530</span>
-								<span class="video-channel"><a href="#">Nom de la chaine</a></span>
+						<div class="description">
+							<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
+							<div>
+								<span class="view">32 546</span>
+								<a class="channel" href="#">Nemo</a>
 							</div>
 						</div>
 					</div>
-	
+
+					<div class="card video">
+						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/rio/350/200/1">
+							<div class="time">2:34:53</div>
+							<a href="video" class="overlay"></a>
+						</div>
+						<div class="description">
+							<a href="video"><h4>Rio</h4></a>
+							<div>
+								<span class="view">1 752</span>
+								<a class="channel" href="#">Hungry Bird</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card video">
+						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/627/300/4">
+							<div class="time">2:43</div>
+							<a href="video" class="overlay"></a>
+						</div>
+						<div class="description">
+							<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
+							<div>
+								<span class="view">513</span>
+								<a class="channel" href="#">Pixar</a>
+							</div>
+						</div>
+					</div>
 				</aside>
 			</div>
 	
