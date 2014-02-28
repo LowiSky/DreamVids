@@ -1,0 +1,57 @@
+/* line 1, ../../scss/partials/column-card-list.scss */
+.column-card-list {
+  margin: auto;
+  width: 30%;
+  min-height: 100px;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+@media all and (max-width: 1015px) {
+  /* line 1, ../../scss/partials/column-card-list.scss */
+  .column-card-list {
+    width: 40%;
+  }
+}
+@media all and (max-width: 750px) {
+  /* line 1, ../../scss/partials/column-card-list.scss */
+  .column-card-list {
+    float: none;
+    width: 100%;
+  }
+}
+/* line 17, ../../scss/partials/column-card-list.scss */
+.column-card-list h3 {
+  margin-left: 5%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 90px;
+  color: #858484;
+}
+/* line 24, ../../scss/partials/column-card-list.scss */
+.column-card-list h3:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 25px;
+  background-color: #f1f0f0;
+  border: none;
+  position: relative;
+  bottom: 30px;
+}
+@media all and (max-width: 750px) {
+  /* line 36, ../../scss/partials/column-card-list.scss */
+  .column-card-list .card {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}
+@media all and (max-width: 430px) {
+  /* line 36, ../../scss/partials/column-card-list.scss */
+  .column-card-list .card {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}

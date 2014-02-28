@@ -18,7 +18,7 @@
 			<?php include 'header.php'; ?>
 
 			<div id="bottom">
-				<aside id="aside-channels">
+				<aside class="aside-channels">
 					<h3>Mes abonnements</h3>
 					<ul class="limited" id="list-flux-channels">
 						<a href="#" class="channels" data-new="12">
@@ -78,7 +78,7 @@
 					</ul>
 				</aside>
 	
-				<aside id="aside-flux">
+				<aside class="aside-cards-list">
 					<h3>Flux d'activité</h3>
 					
 					<div class="card video">

@@ -148,7 +148,7 @@
 			</div>
 
 			<div id="bottom">
-				<aside id="aside-channels">
+				<aside class="aside-channels">
 					<h3>Meilleures chaînes</h3>
 					<ul class="medal">
 						<a href="#" class="channels">
@@ -194,10 +194,8 @@
 					</ul>
 				</aside>
 	
-				<aside id="home-discover">
-					<div id="home-discover-title">
-						<h3>Vidéos à découvrir</h3>
-					</div>
+				<aside class="aside-cards-list">
+					<h3>Vidéos à découvrir</h3>
 					
 					<div class="card video">
 						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">

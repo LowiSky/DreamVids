@@ -1,11 +1,16 @@
-#aside-flux {
+.aside-cards-list {
 	width: 70%;
 	min-height: 100px;
 	display: block;
 	float: left;
 
+	@media all and (max-width: 700px) {
+		float: none;
+		width: 100%;
+	}
+
 	h3 {
-		margin-left: 2%;
+		margin-left: 5%;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 90px;
@@ -33,12 +38,5 @@
 			width: 95%;
 			height: 200px;
 		}
-	}
-}
-
-@media all and (max-width: 700px) {
-	#aside-flux {
-		float: none;
-		width: 100%;
 	}
 }

@@ -169,7 +169,7 @@
 				</section>
 	
 	
-				<aside id="recomandations">
+				<aside class="column-cards-list">
 					<h3>Recommandations</h3>
 					
 					<div class="card video">

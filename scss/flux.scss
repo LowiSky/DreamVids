@@ -1,7 +1,8 @@
 @import "partials/header.scss";
 @import "cards/card.scss";
 @import "partials/aside-channels.scss";
-@import "partials/aside-flux.scss";
+
+@import "cards-list/aside-cards-list.scss";
 
 #bottom {
 	display: table;

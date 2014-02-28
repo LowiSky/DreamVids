@@ -1,4 +1,4 @@
-#recomandations{
+.column-cards-list {
 	margin: auto;
 	width: 30%;
 	min-height: 100px;
@@ -9,40 +9,37 @@
 	@media all and (max-width: 1015px) {
 		width: 40%;
 	}
-
 	@media all and (max-width: 750px) {
 		float: none;
 		width: 100%;
 	}
 
-	h3{
-		margin-left: 25px;
+	h3 {
+		margin-left: 5%;
 		font-weight: normal;
 		font-size: 18px;
-		color: $video_h3_color;
 		line-height: 90px;
+		color: #858484;
 
 		&:after {
 			content: "";
 			display: block;
 			height: 4px;
 			width: 25px;
-			background-color: $hr_bg_color;
+			background-color: #f1f0f0;
 			border: none;
 			position: relative;
 			bottom: 30px;
 		}
 	}
 
-	@media all and (max-width: 750px) {
-		.card.video {
+	.card {
+		@media all and (max-width: 750px) {
 			width: 45%;
 			margin-left: 2.5%;
 			margin-right: 2.5%;
 		}
-	}
-	@media all and (max-width: 430px) {
-		.card.video {
+		@media all and (max-width: 430px) {
 			width: 95%;
 			margin-left: 2.5%;
 			margin-right: 2.5%;

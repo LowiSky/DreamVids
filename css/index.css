@@ -1486,7 +1486,7 @@ input[type=checkbox] + label {
 }
 
 /* line 1, ../scss/partials/_aside-channels.scss */
-#aside-channels {
+.aside-channels {
   width: 30%;
   min-height: 100px;
   display: inline-block;
@@ -1494,13 +1494,13 @@ input[type=checkbox] + label {
 }
 @media all and (max-width: 700px) {
   /* line 1, ../scss/partials/_aside-channels.scss */
-  #aside-channels {
+  .aside-channels {
     float: none;
     width: 100%;
   }
 }
 /* line 12, ../scss/partials/_aside-channels.scss */
-#aside-channels h3 {
+.aside-channels h3 {
   margin-left: 5%;
   font-weight: normal;
   font-size: 18px;
@@ -1508,7 +1508,7 @@ input[type=checkbox] + label {
   color: #858484;
 }
 /* line 19, ../scss/partials/_aside-channels.scss */
-#aside-channels h3:after {
+.aside-channels h3:after {
   content: "";
   display: block;
   height: 4px;
@@ -1519,19 +1519,19 @@ input[type=checkbox] + label {
   bottom: 30px;
 }
 /* line 32, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.limited > .channels {
+.aside-channels ul.limited > .channels {
   display: none;
 }
 /* line 35, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.limited > .channels:nth-child(-n+6) {
+.aside-channels ul.limited > .channels:nth-child(-n+6) {
   display: block;
 }
 /* line 38, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.seeAll > .channels {
+.aside-channels ul.seeAll > .channels {
   display: block;
 }
 /* line 42, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels {
+.aside-channels ul .channels {
   display: block;
   position: relative;
   margin-left: 5%;
@@ -1541,25 +1541,25 @@ input[type=checkbox] + label {
 }
 @media all and (max-width: 700px) {
   /* line 42, ../scss/partials/_aside-channels.scss */
-  #aside-channels ul .channels {
+  .aside-channels ul .channels {
     width: 40%;
     float: left;
   }
 }
 @media all and (max-width: 700px) and (max-width: 420px) {
   /* line 42, ../scss/partials/_aside-channels.scss */
-  #aside-channels ul .channels {
+  .aside-channels ul .channels {
     width: auto;
     float: none;
     display: none;
   }
   /* line 59, ../scss/partials/_aside-channels.scss */
-  #aside-channels ul .channels:nth-child(-n+6) {
+  .aside-channels ul .channels:nth-child(-n+6) {
     display: block;
   }
 }
 /* line 65, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels[data-new]:after {
+.aside-channels ul .channels[data-new]:after {
   content: attr(data-new);
   display: block;
   width: 24px;
@@ -1575,7 +1575,7 @@ input[type=checkbox] + label {
   right: 12px;
 }
 /* line 80, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels:not([data-new="1"]):not([data-new="2"]):not([data-new="3"]):not([data-new="4"]):not([data-new="5"]):not([data-new="6"]):not([data-new="7"]):not([data-new="8"]):not([data-new="9"]):after {
+.aside-channels ul .channels:not([data-new="1"]):not([data-new="2"]):not([data-new="3"]):not([data-new="4"]):not([data-new="5"]):not([data-new="6"]):not([data-new="7"]):not([data-new="8"]):not([data-new="9"]):after {
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -1583,7 +1583,7 @@ input[type=checkbox] + label {
   right: 8px;
 }
 /* line 88, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels .avatar {
+.aside-channels ul .channels .avatar {
   float: left;
   width: 40px;
   height: 40px;
@@ -1596,25 +1596,25 @@ input[type=checkbox] + label {
   background-repeat: no-repeat;
 }
 /* line 102, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels .name, #aside-channels ul .channels .subscribers {
+.aside-channels ul .channels .name, .aside-channels ul .channels .subscribers {
   margin-top: 4px;
   display: block;
   font-size: 15px;
 }
 /* line 108, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels .name {
+.aside-channels ul .channels .name {
   color: #40a6e0;
 }
 /* line 112, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels .subscribers {
+.aside-channels ul .channels .subscribers {
   color: #858484;
 }
 /* line 115, ../scss/partials/_aside-channels.scss */
-#aside-channels ul .channels .subscribers b {
+.aside-channels ul .channels .subscribers b {
   font-weight: bold;
 }
 /* line 124, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.medal .channels:nth-child(1):before, #aside-channels ul.medal .channels:nth-child(2):before, #aside-channels ul.medal .channels:nth-child(3):before {
+.aside-channels ul.medal .channels:nth-child(1):before, .aside-channels ul.medal .channels:nth-child(2):before, .aside-channels ul.medal .channels:nth-child(3):before {
   content: "";
   width: 2px;
   height: 100%;
@@ -1624,19 +1624,19 @@ input[type=checkbox] + label {
   left: -5px;
 }
 /* line 135, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.medal .channels:nth-child(1):before {
+.aside-channels ul.medal .channels:nth-child(1):before {
   background-color: #ffe00c;
 }
 /* line 139, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.medal .channels:nth-child(2):before {
+.aside-channels ul.medal .channels:nth-child(2):before {
   background-color: #d4d4d4;
 }
 /* line 143, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.medal .channels:nth-child(3):before {
+.aside-channels ul.medal .channels:nth-child(3):before {
   background-color: #e3b33f;
 }
 /* line 151, ../scss/partials/_aside-channels.scss */
-#aside-channels input[type=checkbox] {
+.aside-channels input[type=checkbox] {
   float: left;
   width: 90%;
   margin-left: 5%;
@@ -1651,7 +1651,7 @@ input[type=checkbox] + label {
   position: relative;
 }
 /* line 165, ../scss/partials/_aside-channels.scss */
-#aside-channels input[type=checkbox] ~ .ch-more, #aside-channels input[type=checkbox] ~ .ch-less {
+.aside-channels input[type=checkbox] ~ .ch-more, .aside-channels input[type=checkbox] ~ .ch-less {
   float: left;
   cursor: pointer;
   display: none;
@@ -1675,7 +1675,7 @@ input[type=checkbox] + label {
   box-shadow: 1px 2px 0px #e0e0e0;
 }
 /* line 190, ../scss/partials/_aside-channels.scss */
-#aside-channels input[type=checkbox]:hover ~ .ch-more, #aside-channels input[type=checkbox]:hover ~ .ch-less {
+.aside-channels input[type=checkbox]:hover ~ .ch-more, .aside-channels input[type=checkbox]:hover ~ .ch-less {
   margin-top: -41px;
   margin-bottom: 16px;
   left: -1px;
@@ -1686,7 +1686,7 @@ input[type=checkbox] + label {
   box-shadow: 2px 3px 0px #e0e0e0;
 }
 /* line 201, ../scss/partials/_aside-channels.scss */
-#aside-channels input[type=checkbox]:active ~ .ch-more, #aside-channels input[type=checkbox]:active ~ .ch-less {
+.aside-channels input[type=checkbox]:active ~ .ch-more, .aside-channels input[type=checkbox]:active ~ .ch-less {
   margin-top: -39px;
   margin-bottom: 14px;
   left: 1px;
@@ -1697,38 +1697,42 @@ input[type=checkbox] + label {
   box-shadow: 1px 1px 0px #e0e0e0;
 }
 /* line 213, ../scss/partials/_aside-channels.scss */
-#aside-channels input[type=checkbox]:not(:checked) ~ .ch-more {
+.aside-channels input[type=checkbox]:not(:checked) ~ .ch-more {
   display: block;
 }
 /* line 215, ../scss/partials/_aside-channels.scss */
-#aside-channels input[type=checkbox]:checked ~ .ch-less {
+.aside-channels input[type=checkbox]:checked ~ .ch-less {
   display: block;
 }
 /* line 220, ../scss/partials/_aside-channels.scss */
-#aside-channels ul.limited + input[type=checkbox] {
+.aside-channels ul.limited + input[type=checkbox] {
   background: red;
 }
 
-/* line 1, ../scss/partials/_home-discover.scss */
-#home-discover {
+/* line 1, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list {
   width: 70%;
   min-height: 100px;
   display: block;
   float: left;
 }
-/* line 7, ../scss/partials/_home-discover.scss */
-#home-discover #home-discover-title {
-  margin-left: 2%;
+@media all and (max-width: 700px) {
+  /* line 1, ../scss/cards-list/_aside-cards-list.scss */
+  .aside-cards-list {
+    float: none;
+    width: 100%;
+  }
 }
-/* line 10, ../scss/partials/_home-discover.scss */
-#home-discover #home-discover-title h3 {
+/* line 12, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list h3 {
+  margin-left: 5%;
   font-weight: normal;
   font-size: 18px;
   line-height: 90px;
   color: #858484;
 }
-/* line 16, ../scss/partials/_home-discover.scss */
-#home-discover #home-discover-title h3:after {
+/* line 19, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list h3:after {
   content: "";
   display: block;
   height: 4px;
@@ -1738,40 +1742,22 @@ input[type=checkbox] + label {
   position: relative;
   bottom: 30px;
 }
-/* line 29, ../scss/partials/_home-discover.scss */
-#home-discover .card.video {
+/* line 31, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .card {
   width: 45%;
   margin-left: 2%;
   margin-right: 2%;
   float: left;
 }
 @media all and (max-width: 420px) {
-  /* line 29, ../scss/partials/_home-discover.scss */
-  #home-discover .card.video {
+  /* line 31, ../scss/cards-list/_aside-cards-list.scss */
+  .aside-cards-list .card {
     width: 95%;
     height: 200px;
   }
 }
 
-@media all and (max-width: 700px) {
-  /* line 43, ../scss/partials/_home-discover.scss */
-  #home-discover {
-    float: none;
-    width: 100%;
-  }
-}
-@media all and (max-width: 700px) and (max-width: 420px) {
-  /* line 47, ../scss/partials/_home-discover.scss */
-  #home-discover .card.video {
-    display: none;
-  }
-  /* line 51, ../scss/partials/_home-discover.scss */
-  #home-discover .card.video:nth-child(-n+5) {
-    display: block;
-  }
-}
-
-/* line 7, ../scss/index.scss */
+/* line 8, ../scss/index.scss */
 #bottom {
   display: table;
   width: 100%;
