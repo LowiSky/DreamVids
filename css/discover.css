@@ -661,324 +661,601 @@ body {
     width: 100px;
   }
 }
-@-webkit-keyframes rainDrop {
-  /* line 6, ../scss/404.scss */
-  from {
-    top: -40px;
-  }
-
-  /* line 7, ../scss/404.scss */
-  to {
-    top: 100%;
-  }
-}
-
-/* line 10, ../scss/404.scss */
-#error404 {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-}
-/* line 17, ../scss/404.scss */
-#error404 #illustration {
-  width: 500px;
-  height: 100%;
-  float: left;
-  display: inline-block;
-}
-/* line 23, ../scss/404.scss */
-#error404 #illustration #cloud {
-  width: 300px;
-  height: 100px;
-  background-color: #40a6e0;
-  border-radius: 20% 20% 20%/50% 50%;
-  position: relative;
-  left: 75px;
-  margin: 100px 30px 0 0;
-  float: left;
-  text-align: center;
-  font-size: 100px;
-  color: white;
-  line-height: 60px;
-  z-index: 50;
-}
-/* line 38, ../scss/404.scss */
-#error404 #illustration #cloud:after, #error404 #illustration #cloud:before {
-  content: "";
-  position: absolute;
-  background-color: #40a6e0;
-  z-index: -1;
-}
-/* line 44, ../scss/404.scss */
-#error404 #illustration #cloud:after {
-  width: 60%;
-  height: 130%;
-  top: -50%;
-  left: 10%;
-  border-radius: 90% 120% 0 100%;
-}
-/* line 51, ../scss/404.scss */
-#error404 #illustration #cloud:before {
-  width: 60%;
-  height: 150%;
-  top: -60%;
-  right: 8%;
-  border-radius: 90% 100% 50% 0;
-}
-/* line 60, ../scss/404.scss */
-#error404 #illustration #rain {
-  clear: both;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-  top: -50px;
-  left: 75px;
-  float: left;
-  margin-right: 30px;
-}
-/* line 71, ../scss/404.scss */
-#error404 #illustration #rain:after {
-  content: "";
+/* line 2, ../scss/cards/_card-video.scss */
+.card.video .thumbnail {
   display: block;
   width: 100%;
-  height: 20px;
-  position: absolute;
-  bottom: 0;
-  box-shadow: inset 0px -10px 20px 0px white;
-}
-/* line 81, ../scss/404.scss */
-#error404 #illustration #rain li {
-  background-color: #40a6e0;
-  width: 2px;
-  height: 40px;
+  height: 70%;
+  overflow: hidden;
   position: relative;
-  top: -40px;
-  display: inline-block;
-  -webkit-animation: rainDrop 1.8s linear 0 infinite normal;
+  background-color: #e9e9e9;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-/* line 90, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(1) {
-  left: 50%;
-  -webkit-animation-delay: 0;
-}
-/* line 93, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(2) {
-  left: 10%;
-  -webkit-animation-delay: 0.2s;
-}
-/* line 96, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(3) {
-  left: 70%;
-  -webkit-animation-delay: 0.4s;
-}
-/* line 99, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(4) {
-  left: 20%;
-  -webkit-animation-delay: 0.6s;
-}
-/* line 102, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(5) {
-  left: 80%;
-  -webkit-animation-delay: 0.8s;
-}
-/* line 105, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(6) {
-  left: 50%;
-  -webkit-animation-delay: 1.0s;
-}
-/* line 108, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(7) {
-  left: 10%;
-  -webkit-animation-delay: 1.2s;
-}
-/* line 111, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(8) {
-  left: 70%;
-  -webkit-animation-delay: 1.4s;
-}
-/* line 114, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(9) {
-  left: 20%;
-  -webkit-animation-delay: 1.6s;
-}
-/* line 117, ../scss/404.scss */
-#error404 #illustration #rain li:nth-child(10) {
-  left: 80%;
-  -webkit-animation-delay: 1.8s;
-}
-/* line 125, ../scss/404.scss */
-#error404 #text {
-  left: 0;
-  display: inline-block;
-  width: 100%;
-  max-width: 50%;
-  min-height: 350px;
-  margin-top: 180px;
-  color: #40a6e0;
-  font-size: 14px;
-  padding: 0;
-}
-/* line 136, ../scss/404.scss */
-#error404 #text #inner-text {
-  padding: 15px;
-  width: auto;
+/* line 17, ../scss/cards/_card-video.scss */
+.card.video .thumbnail .time {
+  display: block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 10%;
   float: right;
+  line-height: 14px;
+  font-size: 14px;
+  padding: 8px 15px 8px 15px;
+  z-index: 4;
 }
-/* line 142, ../scss/404.scss */
-#error404 #text h1 {
-  font-size: 30px;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+@media all and (max-width: 750px) {
+  /* line 17, ../scss/cards/_card-video.scss */
+  .card.video .thumbnail .time {
+    display: none;
+  }
 }
-/* line 149, ../scss/404.scss */
-#error404 #text a {
+/* line 34, ../scss/cards/_card-video.scss */
+.card.video .thumbnail .overlay {
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  opacity: 0;
+}
+@media all and (min-width: 640px) {
+  /* line 34, ../scss/cards/_card-video.scss */
+  .card.video .thumbnail .overlay {
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+}
+/* line 53, ../scss/cards/_card-video.scss */
+.card.video .thumbnail .overlay:after {
+  content: "";
+  display: block;
+  background-image: url(../img/play_icon_recomandations.png);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 30px;
+  margin: auto;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -11px;
+  margin-top: -15px;
+}
+@media all and (min-width: 640px) {
+  /* line 53, ../scss/cards/_card-video.scss */
+  .card.video .thumbnail .overlay:after {
+    margin-left: -22px;
+    -webkit-transition: 0.15s;
+    -moz-transition: 0.15s;
+    -ms-transition: 0.15s;
+    -o-transition: 0.15s;
+    transition: 0.15s;
+  }
+}
+/* line 77, ../scss/cards/_card-video.scss */
+.card.video .thumbnail .overlay:hover {
+  opacity: 1;
+}
+/* line 80, ../scss/cards/_card-video.scss */
+.card.video .thumbnail .overlay:hover:after {
+  margin-left: -11px;
+}
+/* line 89, ../scss/cards/_card-video.scss */
+.card.video .description a h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+/* line 97, ../scss/cards/_card-video.scss */
+.card.video .description div {
+  font-size: 14px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 103, ../scss/cards/_card-video.scss */
+.card.video .description div .view {
+  display: block;
+}
+/* line 106, ../scss/cards/_card-video.scss */
+.card.video .description div .view:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-image: url(../img/view_icon_recomandation.png);
+  margin-right: 10px;
+}
+/* line 116, ../scss/cards/_card-video.scss */
+.card.video .description div .channel {
+  margin-top: -15px;
+  float: right;
   color: #40a6e0;
-  text-decoration: underline;
 }
 
-@media all and (max-width: 1015px) {
-  /* line 158, ../scss/404.scss */
-  #error404 #illustration {
-    width: 370px;
+/* line 2, ../scss/cards/_card-comment.scss */
+.card.comment a {
+  display: block;
+  padding: 20px;
+  text-align: justify;
+}
+/* line 7, ../scss/cards/_card-comment.scss */
+.card.comment a p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+@media all and (max-width: 800px) {
+  /* line 7, ../scss/cards/_card-comment.scss */
+  .card.comment a p {
+    margin-top: 5px;
   }
-  /* line 161, ../scss/404.scss */
-  #error404 #illustration #cloud {
-    left: 25px;
-    margin: 100px 30px 0 0;
+}
+@media all and (max-width: 720px) {
+  /* line 7, ../scss/cards/_card-comment.scss */
+  .card.comment a p {
+    margin-top: 0;
   }
-  /* line 165, ../scss/404.scss */
-  #error404 #illustration #rain {
-    left: 25px;
+}
+/* line 18, ../scss/cards/_card-comment.scss */
+.card.comment a p b {
+  font-weight: bold;
+}
+/* line 23, ../scss/cards/_card-comment.scss */
+.card.comment a blockquote {
+  margin-top: 22px;
+  font-size: 20px;
+}
+/* line 27, ../scss/cards/_card-comment.scss */
+.card.comment a blockquote:before {
+  content: "“";
+  display: block;
+  float: left;
+  font-size: 60px;
+  line-height: 0;
+  margin-top: 20px;
+  margin-left: -5px;
+}
+/* line 39, ../scss/cards/_card-comment.scss */
+.card.comment i {
+  font-size: 17px;
+  font-style: italic;
+  color: #a4a4a4;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+@media all and (max-width: 640px) {
+  /* line 49, ../scss/cards/_card-comment.scss */
+  .card.comment.multiple {
+    -webkit-transition: height 0.2s ease-in-out 0;
+    -moz-transition: height 0.2s ease-in-out 0;
+    -ms-transition: height 0.2s ease-in-out 0;
+    -o-transition: height 0.2s ease-in-out 0;
+    transition: height 0.2s ease-in-out 0;
   }
-  /* line 170, ../scss/404.scss */
-  #error404 #text {
-    padding: 0;
+  /* line 56, ../scss/cards/_card-comment.scss */
+  .card.comment.multiple:hover {
+    -webkit-transition: height 0.5s ease-in-out 0.3s;
+    -moz-transition: height 0.5s ease-in-out 0.3s;
+    -ms-transition: height 0.5s ease-in-out 0.3s;
+    -o-transition: height 0.5s ease-in-out 0.3s;
+    transition: height 0.5s ease-in-out 0.3s;
+    height: 400px;
+  }
+}
+
+/* line 2, ../scss/cards/_card-plus.scss */
+.card.plus a {
+  display: block;
+}
+/* line 5, ../scss/cards/_card-plus.scss */
+.card.plus a .thumbnail {
+  display: block;
+  width: 100%;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e9e9e9;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 22, ../scss/cards/_card-plus.scss */
+.card.plus a p {
+  padding: 20px;
+  padding-top: 15px;
+  text-align: justify;
+  margin-top: 110px;
+  font-size: 20px;
+  line-height: 28px;
+}
+/* line 30, ../scss/cards/_card-plus.scss */
+.card.plus a p b {
+  font-weight: bold;
+}
+/* line 36, ../scss/cards/_card-plus.scss */
+.card.plus i {
+  font-size: 17px;
+  font-style: italic;
+  color: #a4a4a4;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+/* line 2, ../scss/cards/_card-subscribe.scss */
+.card.subscribe a {
+  display: block;
+}
+/* line 5, ../scss/cards/_card-subscribe.scss */
+.card.subscribe a .avatar {
+  display: block;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e9e9e9;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 22, ../scss/cards/_card-subscribe.scss */
+.card.subscribe a p {
+  padding: 20px;
+  padding-top: 20px;
+  text-align: justify;
+  margin-top: 80px;
+  font-size: 20px;
+  line-height: 28px;
+}
+/* line 30, ../scss/cards/_card-subscribe.scss */
+.card.subscribe a p b {
+  font-weight: bold;
+}
+/* line 36, ../scss/cards/_card-subscribe.scss */
+.card.subscribe .subscriber {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 18px;
+}
+/* line 42, ../scss/cards/_card-subscribe.scss */
+.card.subscribe .subscriber b {
+  font-weight: bold;
+}
+/* line 47, ../scss/cards/_card-subscribe.scss */
+.card.subscribe i {
+  font-size: 17px;
+  font-style: italic;
+  color: #a4a4a4;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+/* line 6, ../scss/cards/_card.scss */
+.card {
+  background: #f1f0f0;
+  width: 95%;
+  height: 200px;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0 auto 15px auto;
+  color: #525252;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 1px 2px 0px #e2e2e2;
+  -moz-box-shadow: 1px 2px 0px #e2e2e2;
+  -ms-box-shadow: 1px 2px 0px #e2e2e2;
+  -o-box-shadow: 1px 2px 0px #e2e2e2;
+  box-shadow: 1px 2px 0px #e2e2e2;
+}
+/* line 18, ../scss/cards/_card.scss */
+.card a {
+  color: #525252;
+}
+
+/* line 1, ../scss/partials/_aside-channels.scss */
+.aside-channels {
+  width: 30%;
+  min-height: 100px;
+  display: inline-block;
+  float: left;
+}
+@media all and (max-width: 700px) {
+  /* line 1, ../scss/partials/_aside-channels.scss */
+  .aside-channels {
+    float: none;
     width: 100%;
   }
-  /* line 174, ../scss/404.scss */
-  #error404 #text #inner-text {
-    max-width: 450px;
+}
+/* line 12, ../scss/partials/_aside-channels.scss */
+.aside-channels h3 {
+  margin-left: 5%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 90px;
+  color: #858484;
+}
+/* line 19, ../scss/partials/_aside-channels.scss */
+.aside-channels h3:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 25px;
+  background-color: #f1f0f0;
+  border: none;
+  position: relative;
+  bottom: 30px;
+}
+/* line 32, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.limited > .channels {
+  display: none;
+}
+/* line 35, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.limited > .channels:nth-child(-n+6) {
+  display: block;
+}
+/* line 38, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.all > .channels {
+  display: block;
+}
+/* line 42, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels {
+  display: block;
+  position: relative;
+  margin-left: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+@media all and (max-width: 700px) {
+  /* line 42, ../scss/partials/_aside-channels.scss */
+  .aside-channels ul .channels {
+    width: 40%;
     float: left;
   }
 }
-@media all and (max-width: 760px) {
-  /* line 184, ../scss/404.scss */
-  #error404 #text {
-    max-width: 40%;
-  }
-}
-@media all and (max-width: 640px) {
-  /* line 192, ../scss/404.scss */
-  #error404 #illustration {
-    width: 100%;
-    height: 450px;
-  }
-  /* line 196, ../scss/404.scss */
-  #error404 #illustration #cloud {
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-  /* line 203, ../scss/404.scss */
-  #error404 #illustration #rain {
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-  /* line 209, ../scss/404.scss */
-  #error404 #illustration #rain li {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -ms-animation-play-state: paused;
-    -o-animation-play-state: paused;
-    animation-play-state: paused;
-  }
-  /* line 216, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(1) {
-    top: 95%;
-  }
-  /* line 218, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(2) {
-    top: 90%;
-  }
-  /* line 220, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(3) {
-    top: 80%;
-  }
-  /* line 222, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(4) {
-    top: 70%;
-  }
-  /* line 224, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(5) {
-    top: 60%;
-  }
-  /* line 226, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(6) {
-    top: 50%;
-  }
-  /* line 228, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(7) {
-    top: 40%;
-  }
-  /* line 230, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(8) {
-    top: 30%;
-  }
-  /* line 232, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(9) {
-    top: 20%;
-  }
-  /* line 234, ../scss/404.scss */
-  #error404 #illustration #rain li:nth-child(10) {
-    top: 10%;
-  }
-  /* line 241, ../scss/404.scss */
-  #error404 #text {
-    padding: 0;
-    min-height: 100%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    max-width: 100%;
-    width: 100%;
-  }
-  /* line 249, ../scss/404.scss */
-  #error404 #text #inner-text {
+@media all and (max-width: 700px) and (max-width: 420px) {
+  /* line 42, ../scss/partials/_aside-channels.scss */
+  .aside-channels ul .channels {
     width: auto;
-    padding: 15px;
+    float: none;
+    display: none;
+  }
+  /* line 59, ../scss/partials/_aside-channels.scss */
+  .aside-channels ul .channels:nth-child(-n+6) {
+    display: block;
   }
 }
-@media all and (max-width: 350px) {
-  /* line 259, ../scss/404.scss */
-  #error404 #illustration {
-    height: 350px;
+/* line 65, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels[data-new]:after {
+  content: attr(data-new);
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: #F9A41E;
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 12px;
+}
+/* line 80, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels:not([data-new="1"]):not([data-new="2"]):not([data-new="3"]):not([data-new="4"]):not([data-new="5"]):not([data-new="6"]):not([data-new="7"]):not([data-new="8"]):not([data-new="9"]):after {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  top: 2px;
+  right: 8px;
+}
+/* line 88, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels .avatar {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 102, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels .name, .aside-channels ul .channels .subscribers {
+  margin-top: 4px;
+  display: block;
+  font-size: 15px;
+}
+/* line 108, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels .name {
+  color: #40a6e0;
+}
+/* line 112, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels .subscribers {
+  color: #858484;
+}
+/* line 115, ../scss/partials/_aside-channels.scss */
+.aside-channels ul .channels .subscribers b {
+  font-weight: bold;
+}
+/* line 124, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.medal .channels:nth-child(1):before, .aside-channels ul.medal .channels:nth-child(2):before, .aside-channels ul.medal .channels:nth-child(3):before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -5px;
+}
+/* line 135, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.medal .channels:nth-child(1):before {
+  background-color: #ffe00c;
+}
+/* line 139, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.medal .channels:nth-child(2):before {
+  background-color: #d4d4d4;
+}
+/* line 143, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.medal .channels:nth-child(3):before {
+  background-color: #e3b33f;
+}
+/* line 151, ../scss/partials/_aside-channels.scss */
+.aside-channels input[type=checkbox] {
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 40px;
+  margin-top: 10px;
+  background: red;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 4;
+  display: block;
+  position: relative;
+}
+/* line 165, ../scss/partials/_aside-channels.scss */
+.aside-channels input[type=checkbox] ~ .ch-more, .aside-channels input[type=checkbox] ~ .ch-less {
+  float: left;
+  cursor: pointer;
+  display: none;
+  font-size: 18px;
+  color: #858484;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 12px;
+  height: 28px;
+  margin-top: -40px;
+  margin-bottom: 15px;
+  text-align: center;
+  background: #f1f0f0;
+  position: relative;
+  z-index: 3;
+  -webkit-box-shadow: 1px 2px 0px #e0e0e0;
+  -moz-box-shadow: 1px 2px 0px #e0e0e0;
+  -ms-box-shadow: 1px 2px 0px #e0e0e0;
+  -o-box-shadow: 1px 2px 0px #e0e0e0;
+  box-shadow: 1px 2px 0px #e0e0e0;
+}
+/* line 190, ../scss/partials/_aside-channels.scss */
+.aside-channels input[type=checkbox]:hover ~ .ch-more, .aside-channels input[type=checkbox]:hover ~ .ch-less {
+  margin-top: -41px;
+  margin-bottom: 16px;
+  left: -1px;
+  -webkit-box-shadow: 2px 3px 0px #e0e0e0;
+  -moz-box-shadow: 2px 3px 0px #e0e0e0;
+  -ms-box-shadow: 2px 3px 0px #e0e0e0;
+  -o-box-shadow: 2px 3px 0px #e0e0e0;
+  box-shadow: 2px 3px 0px #e0e0e0;
+}
+/* line 201, ../scss/partials/_aside-channels.scss */
+.aside-channels input[type=checkbox]:active ~ .ch-more, .aside-channels input[type=checkbox]:active ~ .ch-less {
+  margin-top: -39px;
+  margin-bottom: 14px;
+  left: 1px;
+  -webkit-box-shadow: 1px 1px 0px #e0e0e0;
+  -moz-box-shadow: 1px 1px 0px #e0e0e0;
+  -ms-box-shadow: 1px 1px 0px #e0e0e0;
+  -o-box-shadow: 1px 1px 0px #e0e0e0;
+  box-shadow: 1px 1px 0px #e0e0e0;
+}
+/* line 213, ../scss/partials/_aside-channels.scss */
+.aside-channels input[type=checkbox]:not(:checked) ~ .ch-more {
+  display: block;
+}
+/* line 215, ../scss/partials/_aside-channels.scss */
+.aside-channels input[type=checkbox]:checked ~ .ch-less {
+  display: block;
+}
+/* line 220, ../scss/partials/_aside-channels.scss */
+.aside-channels ul.limited + input[type=checkbox] {
+  background: red;
+}
+
+/* line 1, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list {
+  width: 70%;
+  min-height: 100px;
+  display: block;
+  float: left;
+}
+@media all and (max-width: 700px) {
+  /* line 1, ../scss/cards-list/_aside-cards-list.scss */
+  .aside-cards-list {
+    float: none;
+    width: 100%;
   }
-  /* line 262, ../scss/404.scss */
-  #error404 #illustration #cloud {
-    width: 230px;
-    height: 80px;
-    font-size: 100px;
-    line-height: 50px;
-    margin-top: 60px;
-  }
-  /* line 270, ../scss/404.scss */
-  #error404 #illustration #rain {
-    width: 230px;
+}
+/* line 12, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list h3 {
+  margin-left: 5%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 90px;
+  color: #858484;
+}
+/* line 19, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list h3:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 25px;
+  background-color: #f1f0f0;
+  border: none;
+  position: relative;
+  bottom: 30px;
+}
+/* line 31, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .card {
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+}
+@media all and (max-width: 420px) {
+  /* line 31, ../scss/cards-list/_aside-cards-list.scss */
+  .aside-cards-list .card {
+    width: 95%;
     height: 200px;
   }
-  /* line 276, ../scss/404.scss */
-  #error404 #text {
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
-  /* line 281, ../scss/404.scss */
-  #error404 #text #inner-text h1 {
-    font-size: 26px;
-  }
+}
+/* line 42, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .card:nth-child(even) {
+  clear: both;
+}
+
+/* line 6, ../scss/discover.scss */
+#bottom {
+  display: table;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }

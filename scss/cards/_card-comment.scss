@@ -44,4 +44,24 @@
 		bottom: 8px;
 		right: 8px;
 	}
+
+	@media all and (max-width: 640px) {
+		&.multiple {
+			-webkit-transition: height 0.2s ease-in-out 0;
+			-moz-transition: height 0.2s ease-in-out 0;
+			-ms-transition: height 0.2s ease-in-out 0;
+			-o-transition: height 0.2s ease-in-out 0;
+			transition: height 0.2s ease-in-out 0;
+
+			&:hover {
+				-webkit-transition: height 0.5s ease-in-out 0.3s;
+				-moz-transition: height 0.5s ease-in-out 0.3s;
+				-ms-transition: height 0.5s ease-in-out 0.3s;
+				-o-transition: height 0.5s ease-in-out 0.3s;
+				transition: height 0.5s ease-in-out 0.3s;
+
+				height: 400px;
+			}
+		}
+	}
 }

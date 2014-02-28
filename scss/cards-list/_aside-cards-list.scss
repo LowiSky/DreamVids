@@ -38,5 +38,9 @@
 			width: 95%;
 			height: 200px;
 		}
+
+		&:nth-child(even) {
+			clear: both;
+		}
 	}
 }

@@ -92,7 +92,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 				margin-top: 15px;
 				height: 30px;
 				width: 30px;
-				background-color: rgba(0, 0, 0, 0);
+				background-color: #{"rgba(0, 0, 0, 0)"};
 				border: none;
 				background-image: url('../img/search_icon.png');
 				background-repeat: no-repeat;
@@ -126,7 +126,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 					border-right: 1px solid $nav_borders;
 				}
 
-				img, h4{
+				img, h4 {
 					position: relative;
 					display: inline-block;
 					vertical-align: middle;
@@ -151,18 +151,21 @@ body{ font-family: 'Source Sans Pro', Arial;}
 				display: inline-block;
 				width: 179px;
 				height: 100%;
-				-webkit-box-sizing: border-box;
-    			-moz-box-sizing: border-box;
-    			box-sizing: border-box;
 				padding-top: 25px;
 				border-right: 1px solid $nav_borders;
 				text-align: center;
 				font-size: 14px;
 				height: 60px;
 
-				p{
+				-webkit-box-sizing: border-box;
+    			-moz-box-sizing: border-box;
+    			-ms-box-sizing: border-box;
+    			-o-box-sizing: border-box;
+    			box-sizing: border-box;
+
+				p {
 					display: inline;
-					color: #E8E8E8;
+					color: #e8e8e8;
 					margin-left: 7px;
 					margin-right: 7px;
 				}
@@ -213,14 +216,17 @@ body{ font-family: 'Source Sans Pro', Arial;}
 					position: relative;
 					display: block;
 					background-color: #a7a7a7;
-					-webkit-box-sizing: border-box; 
-    				-moz-box-sizing: border-box; 
-    				box-sizing: border-box; 
     				padding-top: 10px;
     				padding-bottom: 10px;
     				padding-right: 15px;
     				padding-left: 15px;
     				font-size: 14px;
+
+    				-webkit-box-sizing: border-box;
+    				-moz-box-sizing: border-box;
+    				-ms-box-sizing: border-box;
+    				-o-box-sizing: border-box;
+    				box-sizing: border-box;
 				}
 
 				li:hover{
@@ -275,7 +281,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 						transition: 0.15s;
 					}
 				}
-				&:hover{
+				&:hover, &.current {
 					&:after {
 						opacity: 1;
 						width: 100%;
@@ -284,6 +290,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 
 				a {
 					color: $nav_bottom_li;
+
 					&:hover{
 						color: $nav_bottom_li_hover;
 					}
@@ -349,7 +356,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 				left: -210px;
 				height: 100%;
 				z-index: 100;
-				box-shadow: 0 0 0 700px rgba(0, 0, 0, 0);
+				box-shadow: 0 0 0 700px #{"rgba(0, 0, 0, 0)"};
 
 				-webkit-transition: 0.5s;
 				-moz-transition: 0.5s;
@@ -386,7 +393,7 @@ body{ font-family: 'Source Sans Pro', Arial;}
 			}
 			nav.open{
 				left: -5px;
-				box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.5);
+				box-shadow: 0 0 0 700px #{"rgba(0, 0, 0, 0.5)"};
 			}
 
 			#mobile-nav-icon{

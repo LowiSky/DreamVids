@@ -97,7 +97,7 @@
 
 					<div class="card subscribe">
 						<a href="#">
-							<div class="avatar bgLoader" data-background="http://lorempicsum.com/simpsons/255/200/5"></div>
+							<div class="avatar bgLoader" data-background="http://lorempicsum.com/futurama/255/200/2"></div>
 							<p><b>Chnok</b> s'est abonné à votre chaîne</p>
 						</a>
 						<span class="subscriber"><b>64 520</b> Abonnés</span>
@@ -126,11 +126,26 @@
 						</div>
 					</div>
 
-					<div class="card comment">
+					<div class="card comment multiple">
 						<a href="video">
-							<p><b>Bidule</b> à commenté votre vidéo "<b>Nom Nom Nom</b>" :</p>
+							<p><b>3 personnes</b> ont commentés votre vidéo "<b>Nyan Cat</b>" :</p>
 							<blockquote>
-								J'aime trop cette vidéo parce que Nom Nom Nom Nom Nom Nom Nom Nom !
+								A quand une version 1 heure ?
+							</blockquote>
+							<blockquote>
+								Nyan Nyan Nyan Nyan Nyan Nyan Nyan !
+							</blockquote>
+							<blockquote>
+								C'est quoi ce chat ?
+							</blockquote>
+							<blockquote>
+								A quand une version 1 heure ?
+							</blockquote>
+							<blockquote>
+								Nyan Nyan Nyan Nyan Nyan Nyan Nyan !
+							</blockquote>
+							<blockquote>
+								C'est quoi ce chat ?
 							</blockquote>
 						</a>
 						<i>Il y a 2 minutes</i>
@@ -148,6 +163,25 @@
 								<a class="channel" href="#">Nemo</a>
 							</div>
 						</div>
+					</div>
+
+					<div class="card subscribe">
+						<a href="#">
+							<div class="avatar bgLoader" data-background="http://lorempicsum.com/simpsons/255/200/5"></div>
+							<p><b>6 personnes</b> se sont abonnés à votre chaîne</p>
+						</a>
+						<span class="subscriber"><b>64 520</b> Abonnés</span>
+						<i>Il y a 1 heure</i>
+					</div>
+
+					<div class="card comment">
+						<a href="video">
+							<p><b>Bidule</b> à commenté votre vidéo "<b>Nom Nom Nom</b>" :</p>
+							<blockquote>
+								J'aime trop cette vidéo parce que Nom Nom Nom Nom Nom Nom Nom Nom !
+							</blockquote>
+						</a>
+						<i>Il y a 1 jour</i>
 					</div>
 	
 				</aside>

@@ -5,17 +5,19 @@ body {
 	background-color: white;
 }
 
-footer{
+footer {
 	width: 100%;
 	border-top: 1px solid #d1d1d1;
 	background-color: #f1f0f0;
-	position: absolute;
+	position: relative;
+	top: 10px;
 
 	#inner-footer{
 		max-width: 1000px;
 		margin: auto;
 		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-bottom: 40px;
 		text-align: left;
+		color: #928b8b;
 	}
 }
