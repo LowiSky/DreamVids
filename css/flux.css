@@ -836,7 +836,7 @@ body {
   bottom: 8px;
   right: 8px;
 }
-@media all and (max-width: 640px) {
+@media all and (min-width: 640px) {
   /* line 49, ../scss/cards/_card-comment.scss */
   .card.comment.multiple {
     -webkit-transition: height 0.2s ease-in-out 0;
@@ -1014,7 +1014,7 @@ body {
   display: none;
 }
 /* line 35, ../scss/partials/_aside-channels.scss */
-.aside-channels ul.limited > .channels:nth-child(-n+6) {
+.aside-channels ul.limited > .channels:nth-child(-n+8) {
   display: block;
 }
 /* line 38, ../scss/partials/_aside-channels.scss */
@@ -1045,7 +1045,7 @@ body {
     display: none;
   }
   /* line 59, ../scss/partials/_aside-channels.scss */
-  .aside-channels ul .channels:nth-child(-n+6) {
+  .aside-channels ul .channels:nth-child(-n+8) {
     display: block;
   }
 }
@@ -1167,14 +1167,14 @@ body {
 }
 /* line 190, ../scss/partials/_aside-channels.scss */
 .aside-channels input[type=checkbox]:hover ~ .ch-more, .aside-channels input[type=checkbox]:hover ~ .ch-less {
-  margin-top: -41px;
-  margin-bottom: 16px;
+  margin-top: -42px;
+  margin-bottom: 17px;
   left: -1px;
-  -webkit-box-shadow: 2px 3px 0px #e0e0e0;
-  -moz-box-shadow: 2px 3px 0px #e0e0e0;
-  -ms-box-shadow: 2px 3px 0px #e0e0e0;
-  -o-box-shadow: 2px 3px 0px #e0e0e0;
-  box-shadow: 2px 3px 0px #e0e0e0;
+  -webkit-box-shadow: 2px 4px 0px #e0e0e0;
+  -moz-box-shadow: 2px 4px 0px #e0e0e0;
+  -ms-box-shadow: 2px 4px 0px #e0e0e0;
+  -o-box-shadow: 2px 4px 0px #e0e0e0;
+  box-shadow: 2px 4px 0px #e0e0e0;
 }
 /* line 201, ../scss/partials/_aside-channels.scss */
 .aside-channels input[type=checkbox]:active ~ .ch-more, .aside-channels input[type=checkbox]:active ~ .ch-less {
@@ -1250,6 +1250,55 @@ body {
 /* line 42, ../scss/cards-list/_aside-cards-list.scss */
 .aside-cards-list .card:nth-child(even) {
   clear: both;
+}
+/* line 47, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .big-button {
+  display: inline-block;
+  width: 50%;
+  height: 28px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  left: 50%;
+  margin-left: -25%;
+  font-size: 18px;
+  color: #858484;
+  padding-top: 12px;
+  text-align: center;
+  background: #f1f0f0;
+  -webkit-box-shadow: 1px 2px 0px #e0e0e0;
+  -moz-box-shadow: 1px 2px 0px #e0e0e0;
+  -ms-box-shadow: 1px 2px 0px #e0e0e0;
+  -o-box-shadow: 1px 2px 0px #e0e0e0;
+  box-shadow: 1px 2px 0px #e0e0e0;
+}
+@media all and (max-width: 700px) {
+  /* line 47, ../scss/cards-list/_aside-cards-list.scss */
+  .aside-cards-list .big-button {
+    width: 95%;
+    margin-left: 2%;
+    left: 0;
+  }
+}
+/* line 76, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .big-button:hover {
+  margin-top: 8px;
+  margin-bottom: 17px;
+  -webkit-box-shadow: 2px 4px 0px #e0e0e0;
+  -moz-box-shadow: 2px 4px 0px #e0e0e0;
+  -ms-box-shadow: 2px 4px 0px #e0e0e0;
+  -o-box-shadow: 2px 4px 0px #e0e0e0;
+  box-shadow: 2px 4px 0px #e0e0e0;
+}
+/* line 86, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .big-button:active {
+  margin-top: 11px;
+  margin-bottom: 14px;
+  -webkit-box-shadow: 1px 1px 0px #e0e0e0;
+  -moz-box-shadow: 1px 1px 0px #e0e0e0;
+  -ms-box-shadow: 1px 1px 0px #e0e0e0;
+  -o-box-shadow: 1px 1px 0px #e0e0e0;
+  box-shadow: 1px 1px 0px #e0e0e0;
 }
 
 /* line 6, ../scss/flux.scss */

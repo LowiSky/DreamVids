@@ -1,4 +1,4 @@
-/* line 17, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -82,8 +82,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: auto;
   box-shadow: 1px 2px 0 #e2e2e2;
   z-index: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
-/* line 12, ../scss/partials/_player.scss */
+/* line 18, ../scss/partials/_player.scss */
 #player.animated {
   -webkit-transition: height, width 0.4s;
   -moz-transition: height, width 0.4s;
@@ -91,12 +96,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-transition: height, width 0.4s;
   transition: height, width 0.4s;
 }
-/* line 19, ../scss/partials/_player.scss */
+/* line 25, ../scss/partials/_player.scss */
 #player.wide {
   width: 100%;
   height: auto!important;
 }
-/* line 23, ../scss/partials/_player.scss */
+/* line 29, ../scss/partials/_player.scss */
 #player:-webkit-full-screen {
   margin: 0!important;
   top: 0!important;
@@ -104,18 +109,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 100%!important;
   height: 100%!important;
 }
-/* line 30, ../scss/partials/_player.scss */
+/* line 36, ../scss/partials/_player.scss */
 #player:-webkit-full-screen > #controls, #player:-webkit-full-screen > #controls > #progress {
   width: 100%;
 }
 
 @media all and (max-width: 700px) {
-  /* line 35, ../scss/partials/_player.scss */
+  /* line 41, ../scss/partials/_player.scss */
   #player {
     width: 100%;
   }
 }
-/* line 40, ../scss/partials/_player.scss */
+/* line 46, ../scss/partials/_player.scss */
 video {
   width: 100%;
   height: 100%;
@@ -125,66 +130,66 @@ video {
  *	Bouton repeat (à la fin)
  */
 @-webkit-keyframes rotate {
-  /* line 50, ../scss/partials/_player.scss */
+  /* line 56, ../scss/partials/_player.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 51, ../scss/partials/_player.scss */
+  /* line 57, ../scss/partials/_player.scss */
   to {
     -webkit-transform: rotate(-360deg);
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 54, ../scss/partials/_player.scss */
+  /* line 60, ../scss/partials/_player.scss */
   from {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 55, ../scss/partials/_player.scss */
+  /* line 61, ../scss/partials/_player.scss */
   to {
     -moz-transform: rotate(-360deg);
   }
 }
 
 @-ms-keyframes rotate {
-  /* line 58, ../scss/partials/_player.scss */
+  /* line 64, ../scss/partials/_player.scss */
   from {
     -ms-transform: rotate(0deg);
   }
 
-  /* line 59, ../scss/partials/_player.scss */
+  /* line 65, ../scss/partials/_player.scss */
   to {
     -ms-transform: rotate(-360deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 62, ../scss/partials/_player.scss */
+  /* line 68, ../scss/partials/_player.scss */
   from {
     -o-transform: rotate(0deg);
   }
 
-  /* line 63, ../scss/partials/_player.scss */
+  /* line 69, ../scss/partials/_player.scss */
   to {
     -o-transform: rotate(-360deg);
   }
 }
 
 @keyframes rotate {
-  /* line 66, ../scss/partials/_player.scss */
+  /* line 72, ../scss/partials/_player.scss */
   from {
     transform: rotate(0deg);
   }
 
-  /* line 67, ../scss/partials/_player.scss */
+  /* line 73, ../scss/partials/_player.scss */
   to {
     transform: rotate(-360deg);
   }
 }
 
-/* line 69, ../scss/partials/_player.scss */
+/* line 75, ../scss/partials/_player.scss */
 #repeat {
   position: absolute;
   top: 0;
@@ -201,13 +206,13 @@ video {
   transition: 0s;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 86, ../scss/partials/_player.scss */
+/* line 92, ../scss/partials/_player.scss */
 #repeat.show {
   opacity: 1;
   width: 100%;
   height: 100%;
 }
-/* line 91, ../scss/partials/_player.scss */
+/* line 97, ../scss/partials/_player.scss */
 #repeat.icon {
   position: absolute;
   top: 50%;
@@ -220,7 +225,7 @@ video {
 }
 
 @media all and (min-width: 640px) {
-  /* line 103, ../scss/partials/_player.scss */
+  /* line 109, ../scss/partials/_player.scss */
   #repeat.show {
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
@@ -230,7 +235,7 @@ video {
   }
 }
 @media all and (min-width: 640px) {
-  /* line 113, ../scss/partials/_player.scss */
+  /* line 119, ../scss/partials/_player.scss */
   #repeat > .icon {
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
@@ -252,7 +257,7 @@ video {
 /*
  *	Sélection de qualité
  */
-/* line 138, ../scss/partials/_player.scss */
+/* line 144, ../scss/partials/_player.scss */
 #qualitySelection {
   position: absolute;
   top: 0;
@@ -268,13 +273,13 @@ video {
   transition: 0s;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 154, ../scss/partials/_player.scss */
+/* line 160, ../scss/partials/_player.scss */
 #qualitySelection.show {
   opacity: 1;
   width: 100%;
   height: 100%;
 }
-/* line 160, ../scss/partials/_player.scss */
+/* line 166, ../scss/partials/_player.scss */
 #qualitySelection > * {
   position: absolute;
   top: 40%;
@@ -290,42 +295,42 @@ video {
   font-family: 'Source Sans Pro';
   background-repeat: no-repeat;
 }
-/* line 175, ../scss/partials/_player.scss */
+/* line 181, ../scss/partials/_player.scss */
 #qualitySelection[data-number="3"] > *:nth-child(-n+2) {
   top: 30%;
 }
-/* line 178, ../scss/partials/_player.scss */
+/* line 184, ../scss/partials/_player.scss */
 #qualitySelection > #q1 {
   left: 30%;
 }
-/* line 181, ../scss/partials/_player.scss */
+/* line 187, ../scss/partials/_player.scss */
 #qualitySelection > #q2 {
   left: 70%;
 }
-/* line 184, ../scss/partials/_player.scss */
+/* line 190, ../scss/partials/_player.scss */
 #qualitySelection > #q3 {
   left: 50%;
   top: 70%;
 }
-/* line 188, ../scss/partials/_player.scss */
+/* line 194, ../scss/partials/_player.scss */
 #qualitySelection > *[data-format="360"] {
   background-image: url(../img/player/cloudQ1.png);
 }
-/* line 191, ../scss/partials/_player.scss */
+/* line 197, ../scss/partials/_player.scss */
 #qualitySelection > *[data-format="720"] {
   background-image: url(../img/player/cloudQ2.png);
 }
-/* line 194, ../scss/partials/_player.scss */
+/* line 200, ../scss/partials/_player.scss */
 #qualitySelection[data-number="1"] > *[data-format="720"], #qualitySelection[data-number="2"] > *[data-format="720"] {
   background-image: url(../img/player/cloudQ2lisse.png);
 }
-/* line 197, ../scss/partials/_player.scss */
+/* line 203, ../scss/partials/_player.scss */
 #qualitySelection > *[data-format="1080"] {
   background-image: url(../img/player/cloudQ3.png);
 }
 
 @media all and (min-width: 640px) {
-  /* line 202, ../scss/partials/_player.scss */
+  /* line 208, ../scss/partials/_player.scss */
   #qualitySelection.show {
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
@@ -335,7 +340,7 @@ video {
   }
 }
 @media all and (max-width: 550px) {
-  /* line 211, ../scss/partials/_player.scss */
+  /* line 217, ../scss/partials/_player.scss */
   #qualitySelection > * {
     width: 154px;
     height: 75px;
@@ -344,28 +349,28 @@ video {
     background-size: 103px 50px;
   }
 
-  /* line 218, ../scss/partials/_player.scss */
+  /* line 224, ../scss/partials/_player.scss */
   #qualitySelection > *[data-format="360"] {
     background-image: url(../img/player/cloudQ1m.png);
   }
 
-  /* line 221, ../scss/partials/_player.scss */
+  /* line 227, ../scss/partials/_player.scss */
   #qualitySelection > *[data-format="720"] {
     margin-left: -50px;
     background-image: url(../img/player/cloudQ2m.png);
   }
 
-  /* line 225, ../scss/partials/_player.scss */
+  /* line 231, ../scss/partials/_player.scss */
   #qualitySelection[data-number="1"] > *[data-format="720"], #qualitySelection[data-number="2"] > *[data-format="720"] {
     background-image: url(../img/player/cloudQ2lisse.png);
   }
 
-  /* line 228, ../scss/partials/_player.scss */
+  /* line 234, ../scss/partials/_player.scss */
   #qualitySelection > *[data-format="1080"] {
     background-image: url(../img/player/cloudQ3m.png);
   }
 }
-/* line 233, ../scss/partials/_player.scss */
+/* line 239, ../scss/partials/_player.scss */
 #waitForPlay {
   position: absolute;
   left: 50%;
@@ -378,14 +383,14 @@ video {
   background-image: url(../img/player/bigPlay.png);
   background-size: 100% 100%;
 }
-/* line 245, ../scss/partials/_player.scss */
+/* line 251, ../scss/partials/_player.scss */
 #waitForPlay:hover {
   width: 150px;
   height: 150px;
   margin-top: -75px;
   margin-left: -75px;
 }
-/* line 251, ../scss/partials/_player.scss */
+/* line 257, ../scss/partials/_player.scss */
 #waitForPlay:active {
   width: 120px;
   height: 120px;
@@ -394,7 +399,7 @@ video {
 }
 
 @media all and (min-width: 640px) {
-  /* line 259, ../scss/partials/_player.scss */
+  /* line 265, ../scss/partials/_player.scss */
   #waitForPlay {
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -403,7 +408,7 @@ video {
     transition: 0.3s;
   }
 
-  /* line 266, ../scss/partials/_player.scss */
+  /* line 272, ../scss/partials/_player.scss */
   #waitForPlay:active {
     -webkit-transition: 0.1s;
     -moz-transition: 0.1s;
@@ -416,32 +421,6 @@ video {
  *	Gros icones animés (play et pause)
  */
 @-webkit-keyframes bigIconPlay {
-  /* line 280, ../scss/partials/_player.scss */
-  from {
-    top: 53%;
-    opacity: 0;
-    width: 128px;
-  }
-
-  /* line 281, ../scss/partials/_player.scss */
-  10% {
-    opacity: 1;
-  }
-
-  /* line 282, ../scss/partials/_player.scss */
-  60% {
-    opacity: 1;
-  }
-
-  /* line 283, ../scss/partials/_player.scss */
-  to {
-    top: 47%;
-    opacity: 0;
-    width: 128px;
-  }
-}
-
-@-moz-keyframes bigIconPlay {
   /* line 286, ../scss/partials/_player.scss */
   from {
     top: 53%;
@@ -467,7 +446,7 @@ video {
   }
 }
 
-@-ms-keyframes bigIconPlay {
+@-moz-keyframes bigIconPlay {
   /* line 292, ../scss/partials/_player.scss */
   from {
     top: 53%;
@@ -493,7 +472,7 @@ video {
   }
 }
 
-@-o-keyframes bigIconPlay {
+@-ms-keyframes bigIconPlay {
   /* line 298, ../scss/partials/_player.scss */
   from {
     top: 53%;
@@ -519,10 +498,10 @@ video {
   }
 }
 
-@keyframes bigIconPlay {
+@-o-keyframes bigIconPlay {
   /* line 304, ../scss/partials/_player.scss */
   from {
-    top: 44%;
+    top: 53%;
     opacity: 0;
     width: 128px;
   }
@@ -545,7 +524,33 @@ video {
   }
 }
 
-/* line 310, ../scss/partials/_player.scss */
+@keyframes bigIconPlay {
+  /* line 310, ../scss/partials/_player.scss */
+  from {
+    top: 44%;
+    opacity: 0;
+    width: 128px;
+  }
+
+  /* line 311, ../scss/partials/_player.scss */
+  10% {
+    opacity: 1;
+  }
+
+  /* line 312, ../scss/partials/_player.scss */
+  60% {
+    opacity: 1;
+  }
+
+  /* line 313, ../scss/partials/_player.scss */
+  to {
+    top: 47%;
+    opacity: 0;
+    width: 128px;
+  }
+}
+
+/* line 316, ../scss/partials/_player.scss */
 #bigPlay, #bigPause {
   position: absolute;
   left: 50%;
@@ -566,45 +571,19 @@ video {
 }
 
 @media all and (max-width: 640px) {
-  /* line 331, ../scss/partials/_player.scss */
+  /* line 337, ../scss/partials/_player.scss */
   #bigPlay, #bigPause {
     display: none;
     width: 0;
     height: 0;
   }
 }
-/* line 337, ../scss/partials/_player.scss */
+/* line 343, ../scss/partials/_player.scss */
 #bigPlay {
   background-image: url(../img/player/bigPlay.png);
 }
 
 @-webkit-keyframes bigIconPause {
-  /* line 342, ../scss/partials/_player.scss */
-  from {
-    top: 47%;
-    opacity: 0;
-    width: 128px;
-  }
-
-  /* line 343, ../scss/partials/_player.scss */
-  10% {
-    opacity: 1;
-  }
-
-  /* line 344, ../scss/partials/_player.scss */
-  60% {
-    opacity: 1;
-  }
-
-  /* line 345, ../scss/partials/_player.scss */
-  to {
-    top: 53%;
-    opacity: 0;
-    width: 128px;
-  }
-}
-
-@-moz-keyframes bigIconPause {
   /* line 348, ../scss/partials/_player.scss */
   from {
     top: 47%;
@@ -630,7 +609,7 @@ video {
   }
 }
 
-@-ms-keyframes bigIconPause {
+@-moz-keyframes bigIconPause {
   /* line 354, ../scss/partials/_player.scss */
   from {
     top: 47%;
@@ -656,7 +635,7 @@ video {
   }
 }
 
-@-o-keyframes bigIconPause {
+@-ms-keyframes bigIconPause {
   /* line 360, ../scss/partials/_player.scss */
   from {
     top: 47%;
@@ -682,7 +661,7 @@ video {
   }
 }
 
-@keyframes bigIconPause {
+@-o-keyframes bigIconPause {
   /* line 366, ../scss/partials/_player.scss */
   from {
     top: 47%;
@@ -708,7 +687,33 @@ video {
   }
 }
 
-/* line 372, ../scss/partials/_player.scss */
+@keyframes bigIconPause {
+  /* line 372, ../scss/partials/_player.scss */
+  from {
+    top: 47%;
+    opacity: 0;
+    width: 128px;
+  }
+
+  /* line 373, ../scss/partials/_player.scss */
+  10% {
+    opacity: 1;
+  }
+
+  /* line 374, ../scss/partials/_player.scss */
+  60% {
+    opacity: 1;
+  }
+
+  /* line 375, ../scss/partials/_player.scss */
+  to {
+    top: 53%;
+    opacity: 0;
+    width: 128px;
+  }
+}
+
+/* line 378, ../scss/partials/_player.scss */
 #bigPause {
   background-image: url(../img/player/bigPause.png);
 }
@@ -716,7 +721,7 @@ video {
 /*
  *	Barre des controles
  */
-/* line 380, ../scss/partials/_player.scss */
+/* line 386, ../scss/partials/_player.scss */
 #controls {
   position: absolute;
   bottom: 0;
@@ -727,17 +732,17 @@ video {
   color: white;
   font-family: 'Source Sans Pro';
 }
-/* line 390, ../scss/partials/_player.scss */
+/* line 396, ../scss/partials/_player.scss */
 #controls.down {
   bottom: -40px;
 }
-/* line 393, ../scss/partials/_player.scss */
+/* line 399, ../scss/partials/_player.scss */
 #controls * {
   margin: 0;
 }
 
 @media all and (min-width: 640px) {
-  /* line 398, ../scss/partials/_player.scss */
+  /* line 404, ../scss/partials/_player.scss */
   #controls {
     -webkit-transition: bottom 0.3s;
     -moz-transition: bottom 0.3s;
@@ -749,7 +754,7 @@ video {
 /*
  *	Barre de progression
  */
-/* line 411, ../scss/partials/_player.scss */
+/* line 417, ../scss/partials/_player.scss */
 #progress {
   display: inline-block;
   position: relative;
@@ -758,7 +763,7 @@ video {
   height: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 419, ../scss/partials/_player.scss */
+/* line 425, ../scss/partials/_player.scss */
 #progress.clicking > * {
   -webkit-transition: 0;
   -moz-transition: 0;
@@ -766,14 +771,14 @@ video {
   -o-transition: 0;
   transition: 0;
 }
-/* line 426, ../scss/partials/_player.scss */
+/* line 432, ../scss/partials/_player.scss */
 #progress #buffered {
   display: block;
   width: 0;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 432, ../scss/partials/_player.scss */
+/* line 438, ../scss/partials/_player.scss */
 #progress #viewed {
   display: block;
   width: 0;
@@ -782,7 +787,7 @@ video {
   bottom: 100%;
   background-color: rgba(20, 20, 20, 0.6);
 }
-/* line 441, ../scss/partials/_player.scss */
+/* line 447, ../scss/partials/_player.scss */
 #progress #current {
   display: inline-block;
   position: relative;
@@ -796,13 +801,13 @@ video {
   background: white;
 }
 
-/* line 454, ../scss/partials/_player.scss */
+/* line 460, ../scss/partials/_player.scss */
 #controls.down > #progress, #controls.down > #progress > #buffered {
   background-color: rgba(255, 255, 255, 0);
 }
 
 @media all and (min-width: 640px) {
-  /* line 458, ../scss/partials/_player.scss */
+  /* line 464, ../scss/partials/_player.scss */
   #progress > * {
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -811,12 +816,12 @@ video {
     transition: 0.2s;
   }
 }
-/* line 466, ../scss/partials/_player.scss */
+/* line 472, ../scss/partials/_player.scss */
 #controls.down > #progress > #viewed {
   background-color: #40a6e0;
 }
 
-/* line 469, ../scss/partials/_player.scss */
+/* line 475, ../scss/partials/_player.scss */
 #controls.down > #progress > #current {
   opacity: 0;
 }
@@ -824,7 +829,7 @@ video {
 /*
  *	Petit bouton play/pause
  */
-/* line 477, ../scss/partials/_player.scss */
+/* line 483, ../scss/partials/_player.scss */
 #play-pause {
   position: absolute;
   bottom: 0;
@@ -833,7 +838,7 @@ video {
   height: 32px;
   cursor: pointer;
 }
-/* line 485, ../scss/partials/_player.scss */
+/* line 491, ../scss/partials/_player.scss */
 #play-pause:before, #play-pause:after {
   content: "";
   display: none;
@@ -843,19 +848,19 @@ video {
   background-position: 5px 5px;
   background-repeat: no-repeat;
 }
-/* line 494, ../scss/partials/_player.scss */
+/* line 500, ../scss/partials/_player.scss */
 #play-pause:before {
   background-image: url(../img/player/play.png);
 }
-/* line 497, ../scss/partials/_player.scss */
+/* line 503, ../scss/partials/_player.scss */
 #play-pause:after {
   background-image: url(../img/player/pause.png);
 }
-/* line 500, ../scss/partials/_player.scss */
+/* line 506, ../scss/partials/_player.scss */
 #play-pause.play:before {
   display: block;
 }
-/* line 503, ../scss/partials/_player.scss */
+/* line 509, ../scss/partials/_player.scss */
 #play-pause.pause:after {
   display: block;
 }
@@ -863,7 +868,7 @@ video {
 /*
  *	Indication du temps
  */
-/* line 512, ../scss/partials/_player.scss */
+/* line 518, ../scss/partials/_player.scss */
 #time {
   position: absolute;
   bottom: 7px;
@@ -875,7 +880,7 @@ video {
 /*
  *	Bouton pour "toogle" les annotations
  */
-/* line 524, ../scss/partials/_player.scss */
+/* line 530, ../scss/partials/_player.scss */
 #annotationsButton {
   display: inline-block;
   width: 28px;
@@ -888,7 +893,7 @@ video {
   background-position: 0 5px;
   background-repeat: no-repeat;
 }
-/* line 537, ../scss/partials/_player.scss */
+/* line 543, ../scss/partials/_player.scss */
 #annotationsButton:hover {
   opacity: 0.7;
   -webkit-transition: 0.2s;
@@ -897,13 +902,13 @@ video {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-/* line 545, ../scss/partials/_player.scss */
+/* line 551, ../scss/partials/_player.scss */
 #annotationsButton.not {
   opacity: 0.3;
 }
 
 @media all and (max-width: 300px) {
-  /* line 551, ../scss/partials/_player.scss */
+  /* line 557, ../scss/partials/_player.scss */
   #annotationsButton {
     display: none!important;
   }
@@ -911,7 +916,7 @@ video {
 /*
  *	Bouton pour régler la qualité
  */
-/* line 560, ../scss/partials/_player.scss */
+/* line 566, ../scss/partials/_player.scss */
 #qualityButton {
   position: absolute;
   bottom: 7px;
@@ -920,7 +925,7 @@ video {
   cursor: pointer;
   text-align: center;
 }
-/* line 568, ../scss/partials/_player.scss */
+/* line 574, ../scss/partials/_player.scss */
 #qualityButton.bold {
   text-shadow: 0 0 3px white;
 }
@@ -928,7 +933,7 @@ video {
 /*
  *	Volume
  */
-/* line 578, ../scss/partials/_player.scss */
+/* line 584, ../scss/partials/_player.scss */
 #volume {
   position: absolute;
   bottom: 14px;
@@ -939,7 +944,7 @@ video {
   background-color: #cccccc;
   border-radius: 2px;
 }
-/* line 588, ../scss/partials/_player.scss */
+/* line 594, ../scss/partials/_player.scss */
 #volume #barre {
   display: block;
   width: 100%;
@@ -947,7 +952,7 @@ video {
   background-color: white;
   border-radius: 2px;
 }
-/* line 595, ../scss/partials/_player.scss */
+/* line 601, ../scss/partials/_player.scss */
 #volume #icon {
   display: inline-block;
   position: relative;
@@ -961,19 +966,19 @@ video {
   background-position: -63px 0;
   cursor: pointer;
 }
-/* line 608, ../scss/partials/_player.scss */
+/* line 614, ../scss/partials/_player.scss */
 #volume #icon[data-volume="0"] {
   background-position: 0 0;
 }
-/* line 611, ../scss/partials/_player.scss */
+/* line 617, ../scss/partials/_player.scss */
 #volume #icon[data-volume="1"] {
   background-position: -21px 0;
 }
-/* line 614, ../scss/partials/_player.scss */
+/* line 620, ../scss/partials/_player.scss */
 #volume #icon[data-volume="2"] {
   background-position: -42px 0;
 }
-/* line 617, ../scss/partials/_player.scss */
+/* line 623, ../scss/partials/_player.scss */
 #volume #icon[data-volume="3"] {
   background-position: -63px 0;
 }
@@ -981,7 +986,7 @@ video {
 /*
  *	Séparation
  */
-/* line 626, ../scss/partials/_player.scss */
+/* line 632, ../scss/partials/_player.scss */
 #separation {
   display: block;
   position: absolute;
@@ -996,7 +1001,7 @@ video {
 /*
  *	Widescreen
  */
-/* line 641, ../scss/partials/_player.scss */
+/* line 647, ../scss/partials/_player.scss */
 #widescreen {
   position: absolute;
   bottom: 0;
@@ -1005,7 +1010,7 @@ video {
   height: 32px;
   cursor: pointer;
 }
-/* line 649, ../scss/partials/_player.scss */
+/* line 655, ../scss/partials/_player.scss */
 #widescreen:before, #widescreen:after {
   content: "";
   display: none;
@@ -1015,45 +1020,45 @@ video {
   background-position: 0 8px;
   background-repeat: no-repeat;
 }
-/* line 658, ../scss/partials/_player.scss */
+/* line 664, ../scss/partials/_player.scss */
 #widescreen:before {
   background-image: url(../img/player/widescreen.png);
 }
-/* line 661, ../scss/partials/_player.scss */
+/* line 667, ../scss/partials/_player.scss */
 #widescreen:after {
   background-image: url(../img/player/smallscreen.png);
 }
-/* line 664, ../scss/partials/_player.scss */
+/* line 670, ../scss/partials/_player.scss */
 #widescreen.widescreen:before {
   display: block;
 }
-/* line 667, ../scss/partials/_player.scss */
+/* line 673, ../scss/partials/_player.scss */
 #widescreen.smallscreen:after {
   display: block;
 }
 
 @media all and (max-width: 700px) {
-  /* line 673, ../scss/partials/_player.scss */
+  /* line 679, ../scss/partials/_player.scss */
   #widescreen {
     display: none;
   }
 
-  /* line 676, ../scss/partials/_player.scss */
+  /* line 682, ../scss/partials/_player.scss */
   #volume {
     right: 50px;
   }
 
-  /* line 679, ../scss/partials/_player.scss */
+  /* line 685, ../scss/partials/_player.scss */
   #separation {
     right: 30px;
   }
 
-  /* line 682, ../scss/partials/_player.scss */
+  /* line 688, ../scss/partials/_player.scss */
   #qualityButton {
     right: 116px;
   }
 
-  /* line 685, ../scss/partials/_player.scss */
+  /* line 691, ../scss/partials/_player.scss */
   #annotationsButton {
     right: 136px;
   }
@@ -1061,7 +1066,7 @@ video {
 /*
  *	Fullscreen
  */
-/* line 694, ../scss/partials/_player.scss */
+/* line 700, ../scss/partials/_player.scss */
 #fullscreen {
   position: absolute;
   bottom: 0;
@@ -1070,7 +1075,7 @@ video {
   height: 32px;
   cursor: pointer;
 }
-/* line 702, ../scss/partials/_player.scss */
+/* line 708, ../scss/partials/_player.scss */
 #fullscreen:before, #fullscreen:after {
   content: "";
   display: none;
@@ -1080,19 +1085,19 @@ video {
   background-position: 4px 8px;
   background-repeat: no-repeat;
 }
-/* line 711, ../scss/partials/_player.scss */
+/* line 717, ../scss/partials/_player.scss */
 #fullscreen:before {
   background-image: url(../img/player/fullscreen.png);
 }
-/* line 714, ../scss/partials/_player.scss */
+/* line 720, ../scss/partials/_player.scss */
 #fullscreen:after {
   background-image: url(../img/player/lowscreen.png);
 }
-/* line 717, ../scss/partials/_player.scss */
+/* line 723, ../scss/partials/_player.scss */
 #fullscreen.fullscreen:before {
   display: block;
 }
-/* line 720, ../scss/partials/_player.scss */
+/* line 726, ../scss/partials/_player.scss */
 #fullscreen.lowscreen:after {
   display: block;
 }
@@ -1100,7 +1105,7 @@ video {
 /*
  *	Annotations
  */
-/* line 729, ../scss/partials/_player.scss */
+/* line 735, ../scss/partials/_player.scss */
 #annotationsElement {
   width: 100%;
   height: 100%;
@@ -1110,15 +1115,15 @@ video {
   overflow: hidden;
   padding: 0;
 }
-/* line 738, ../scss/partials/_player.scss */
+/* line 744, ../scss/partials/_player.scss */
 #annotationsElement.hide {
   opacity: 0;
 }
-/* line 740, ../scss/partials/_player.scss */
+/* line 746, ../scss/partials/_player.scss */
 #annotationsElement.hide .annotation {
   display: none;
 }
-/* line 745, ../scss/partials/_player.scss */
+/* line 751, ../scss/partials/_player.scss */
 #annotationsElement .annotation {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1136,17 +1141,17 @@ video {
   text-align: center;
   background-color: rgba(64, 166, 224, 0.5);
 }
-/* line 763, ../scss/partials/_player.scss */
+/* line 769, ../scss/partials/_player.scss */
 #annotationsElement .annotation p:not(.resize), #annotationsElement .annotation a {
   margin: 15px 0 15px 0;
 }
-/* line 766, ../scss/partials/_player.scss */
+/* line 772, ../scss/partials/_player.scss */
 #annotationsElement .annotation a {
   color: white;
   text-decoration: none;
   display: block;
 }
-/* line 771, ../scss/partials/_player.scss */
+/* line 777, ../scss/partials/_player.scss */
 #annotationsElement .annotation .close {
   display: block;
   width: 30px;
@@ -1165,7 +1170,7 @@ video {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-/* line 791, ../scss/partials/_player.scss */
+/* line 797, ../scss/partials/_player.scss */
 #annotationsElement .annotation:hover > .close {
   opacity: 0.5;
   -webkit-transition: 0.2s;
@@ -1174,57 +1179,57 @@ video {
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-/* line 799, ../scss/partials/_player.scss */
+/* line 805, ../scss/partials/_player.scss */
 #annotationsElement .annotation .close:hover {
   opacity: 1;
 }
-/* line 802, ../scss/partials/_player.scss */
+/* line 808, ../scss/partials/_player.scss */
 #annotationsElement .annotation.hidden {
   display: none;
 }
-/* line 806, ../scss/partials/_player.scss */
+/* line 812, ../scss/partials/_player.scss */
 #annotationsElement .annotation.orange {
   background-color: rgba(223, 109, 20, 0.5);
 }
-/* line 808, ../scss/partials/_player.scss */
+/* line 814, ../scss/partials/_player.scss */
 #annotationsElement .annotation.yellow {
   background-color: rgba(255, 255, 0, 0.5);
 }
-/* line 810, ../scss/partials/_player.scss */
+/* line 816, ../scss/partials/_player.scss */
 #annotationsElement .annotation.pink {
   background-color: rgba(253, 63, 146, 0.5);
 }
-/* line 812, ../scss/partials/_player.scss */
+/* line 818, ../scss/partials/_player.scss */
 #annotationsElement .annotation.red {
   background-color: rgba(235, 0, 0, 0.5);
 }
-/* line 814, ../scss/partials/_player.scss */
+/* line 820, ../scss/partials/_player.scss */
 #annotationsElement .annotation.green {
   background-color: rgba(158, 253, 56, 0.5);
 }
-/* line 816, ../scss/partials/_player.scss */
+/* line 822, ../scss/partials/_player.scss */
 #annotationsElement .annotation.purple {
   background-color: rgba(102, 0, 153, 0.5);
 }
-/* line 820, ../scss/partials/_player.scss */
+/* line 826, ../scss/partials/_player.scss */
 #annotationsElement .annotation.white {
   background-color: rgba(255, 255, 255, 0.5);
   color: #1e1e1e;
 }
-/* line 823, ../scss/partials/_player.scss */
+/* line 829, ../scss/partials/_player.scss */
 #annotationsElement .annotation.black {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 827, ../scss/partials/_player.scss */
+/* line 833, ../scss/partials/_player.scss */
 #annotationsElement .annotation.transparent {
   background-color: transparent;
 }
-/* line 829, ../scss/partials/_player.scss */
+/* line 835, ../scss/partials/_player.scss */
 #annotationsElement .annotation.transparent.b {
   border: 1px solid rgba(0, 0, 0, 0.5);
   color: #1e1e1e;
 }
-/* line 832, ../scss/partials/_player.scss */
+/* line 838, ../scss/partials/_player.scss */
 #annotationsElement .annotation.transparent.w {
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: white;

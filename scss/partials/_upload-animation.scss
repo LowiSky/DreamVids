@@ -1,10 +1,14 @@
 #uploader {
-    .illustration {
+    overflow: hidden;
+    cursor: pointer;
+
+    #upload-illustration {
         display: block;
         width: 300px;
         height: 160px;
         margin: auto;
-        margin-top: 20px;
+        position: relative;
+        top: 120px;
         overflow: hidden;
 
         .cloud {
@@ -14,26 +18,25 @@
             border-radius: 20% 20% 20% / 50% 50%;
             position: relative;
             margin: 0;
+            margin-top: 60px;
             line-height: 60px;
             z-index: 50;
             display: block;
-            margin-top: 60px;
-    
+
             &:after, &:before {
+                width: 60%;
                 content: "";
                 position: absolute;
                 background-color: #40a6e0;
                 z-index: -1;
             }
             &:after {
-                width: 60%;
                 height: 130%;
                 top: -50%;
                 left: 10%;
                 border-radius: 90% 120% 0 100%;
             }
             &:before {
-                width: 60%;
                 height: 150%;
                 top: -60%;
                 right: 8%;
@@ -50,53 +53,71 @@
             border-color: transparent transparent white transparent;
             margin: auto;
             position: relative;
-            top: -15%;
+            top: -5%;
+
+            -webkit-transition: top 0.5s;
+            -moz-transition: top 0.5s;
+            -ms-transition: top 0.5s;
+            -o-transition: top 0.5s;
+            transition: top 0.5s;
 
             &:after {
                 content: "";
                 display: block;
                 position: relative;
-                top: 55px;
+                top: 60px;
                 width: 45px;
-                height: 65px;
+                height: 100px;
                 margin-left: -22px;
                 background-color: white;
             }
+        }
+    }
 
-            &.animated {
-                -webkit-animation: arrowUp 1.5s linear infinite;
-                -moz-animation: arrowUp 1.5s linear infinite;
-                -ms-animation: arrowUp 1.5s linear infinite;
-                -o-animation: arrowUp 1.5s linear infinite;
-                animation: arrowUp 1.5s linear infinite;
+    &:hover, .hover {
+        #upload-illustration {
+            #arrowUpload {
+                top: -20%;
+            }
+        }
+    }
+
+    &.uploading {
+        #upload-illustration {
+            #arrowUpload {
+                position: relative;
+                left: 2px;
+                border: none;
+                background: white;
+                border-radius: 50%;
+                height: 0;
+                width: 35%;
+                padding-bottom: 35%;
+                top: -25px;
+    
+                -webkit-animation: uploading 0.5s ease-in-out infinite alternate;
+                -moz-animation: uploading 0.5s ease-in-out infinite alternate;
+                -ms-animation: uploading 0.5s ease-in-out infinite alternate;
+                -o-animation: uploading 0.5s ease-in-out infinite alternate;
+                animation: uploading 0.5s ease-in-out infinite alternate;
+    
+                &:after {
+                    display: none;
+                }
             }
         }
     }
 }
 
-@-webkit-keyframes arrowUp {
-    0% {top: -15%;}
-    58% {top: -200%;}
-    58.01% {top: 110%}
-    100% {top: -15%;}
-} @-moz-keyframes arrowUp {
-    0% {top: -15%;}
-    58% {top: -200%;}
-    58.01% {top: 110%}
-    100% {top: -15%;}
-} @-ms-keyframes arrowUp {
-    0% {top: -15%;}
-    58% {top: -200%;}
-    58.01% {top: 110%}
-    100% {top: -15%;}
-} @-o-keyframes arrowUp {
-    0% {top: -15%;}
-    58% {top: -200%;}
-    58.01% {top: 110%}
-    100% {top: -15%;}
-} @keyframes arrowUp {
-    0% {top: -15%;}
-    58% {top: -200%;}
-    58.01% {top: 110%}
-    100% {top: -15%;}
+@-webkit-keyframes uploading {
+    form {
+        width: 35%;
+        padding-bottom: 35%;
+        top: -25px;
+    }
+    to {
+        width: 25%;
+        padding-bottom: 25%;
+        top: -5px;
+    }
 }

@@ -45,7 +45,7 @@
 		right: 8px;
 	}
 
-	@media all and (max-width: 640px) {
+	@media all and (min-width: 640px) {
 		&.multiple {
 			-webkit-transition: height 0.2s ease-in-out 0;
 			-moz-transition: height 0.2s ease-in-out 0;

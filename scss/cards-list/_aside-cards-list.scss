@@ -43,4 +43,54 @@
 			clear: both;
 		}
 	}
+
+	.big-button {
+		display: inline-block;
+		width: 50%;
+		height: 28px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+		position: relative;
+		left: 50%;
+		margin-left: -25%;
+
+		@media all and (max-width: 700px) {
+			width: 95%;
+			margin-left: 2%;
+			left: 0;
+		}
+
+		font-size: 18px;
+		color: #858484;
+		padding-top: 12px;
+		text-align: center;
+		background: #f1f0f0;
+
+		-webkit-box-shadow: 1px 2px 0px #e0e0e0;
+		-moz-box-shadow: 1px 2px 0px #e0e0e0;
+		-ms-box-shadow: 1px 2px 0px #e0e0e0;
+		-o-box-shadow: 1px 2px 0px #e0e0e0;
+		box-shadow: 1px 2px 0px #e0e0e0;
+	}
+
+	.big-button:hover {
+		margin-top: 8px;
+		margin-bottom: 17px;
+
+		-webkit-box-shadow: 2px 4px 0px #e0e0e0;
+		-moz-box-shadow: 2px 4px 0px #e0e0e0;
+		-ms-box-shadow: 2px 4px 0px #e0e0e0;
+		-o-box-shadow: 2px 4px 0px #e0e0e0;
+		box-shadow: 2px 4px 0px #e0e0e0;
+	}
+	.big-button:active {
+		margin-top: 11px;
+		margin-bottom: 14px;
+
+		-webkit-box-shadow: 1px 1px 0px #e0e0e0;
+		-moz-box-shadow: 1px 1px 0px #e0e0e0;
+		-ms-box-shadow: 1px 1px 0px #e0e0e0;
+		-o-box-shadow: 1px 1px 0px #e0e0e0;
+		box-shadow: 1px 1px 0px #e0e0e0;
+	}
 }

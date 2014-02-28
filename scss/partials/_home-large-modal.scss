@@ -1,6 +1,6 @@
 @import "partials/checkbox.scss";
 
-#homeLargeModal {
+#home-large-modal {
 	position: relative;
 	max-width: 1200px;
 	height: 500px;
@@ -19,6 +19,8 @@
 		-ms-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+
+		background-position: center;
 	}
 
 	section:nth-child(2) {

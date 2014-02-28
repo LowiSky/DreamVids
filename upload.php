@@ -17,16 +17,17 @@
 
 			<?php include 'header.php'; ?>
 
-			<section id="uploader">
-				<span class="illustration">
-					<span class="cloud">
-						<span id="arrowUpload"></span>
-					</span>
-				</span>
-				
-				<button onclick="simulateUpload();">Upload !</button>
-			</section>
+			<div id="upload-large-modal">
+				<div id="backgroundLoader" class="bgLoader" data-background="img/backgrounds/006.jpg"></div>
 
+				<section id="uploader">
+					<span id="upload-illustration">
+						<span class="cloud">
+							<span id="arrowUpload"></span>
+						</span>
+					</span>
+				</section>
+			</div>
 
 			<?php include 'footer.php'; ?>
 			

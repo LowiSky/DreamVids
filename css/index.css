@@ -836,7 +836,7 @@ body {
   bottom: 8px;
   right: 8px;
 }
-@media all and (max-width: 640px) {
+@media all and (min-width: 640px) {
   /* line 49, ../scss/cards/_card-comment.scss */
   .card.comment.multiple {
     -webkit-transition: height 0.2s ease-in-out 0;
@@ -1032,14 +1032,14 @@ input[type=checkbox] + label {
 }
 
 /* line 3, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal {
+#home-large-modal {
   position: relative;
   max-width: 1200px;
   height: 500px;
   margin: auto;
 }
 /* line 9, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal #backgroundLoader {
+#home-large-modal #backgroundLoader {
   width: 100%;
   height: 100%;
   display: inline-block;
@@ -1051,9 +1051,10 @@ input[type=checkbox] + label {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
-/* line 24, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) {
+/* line 26, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) {
   max-width: 1000px;
   height: 400px;
   margin: auto;
@@ -1061,8 +1062,8 @@ input[type=checkbox] + label {
   top: 50px;
   background-color: rgba(64, 166, 224, 0.8);
 }
-/* line 32, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages {
+/* line 34, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages {
   float: left;
   position: relative;
   max-width: 400px;
@@ -1070,16 +1071,16 @@ input[type=checkbox] + label {
   height: 400px;
 }
 @media all and (max-width: 870px) {
-  /* line 32, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxPages {
+  /* line 34, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxPages {
     max-width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
-/* line 46, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome, #homeLargeModal section:nth-child(2) #boxPages #pageLogin, #homeLargeModal section:nth-child(2) #boxPages #pageRegister, #homeLargeModal section:nth-child(2) #boxPages #pageChannel {
+/* line 48, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome, #home-large-modal section:nth-child(2) #boxPages #pageLogin, #home-large-modal section:nth-child(2) #boxPages #pageRegister, #home-large-modal section:nth-child(2) #boxPages #pageChannel {
   display: none;
   max-width: 350px;
   width: 100%;
@@ -1090,8 +1091,8 @@ input[type=checkbox] + label {
   text-align: center;
 }
 @media all and (max-width: 870px) {
-  /* line 46, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxPages #pageHome, #homeLargeModal section:nth-child(2) #boxPages #pageLogin, #homeLargeModal section:nth-child(2) #boxPages #pageRegister, #homeLargeModal section:nth-child(2) #boxPages #pageChannel {
+  /* line 48, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxPages #pageHome, #home-large-modal section:nth-child(2) #boxPages #pageLogin, #home-large-modal section:nth-child(2) #boxPages #pageRegister, #home-large-modal section:nth-child(2) #boxPages #pageChannel {
     max-width: 100%;
     margin: 0;
     padding: 20px;
@@ -1100,39 +1101,39 @@ input[type=checkbox] + label {
     box-sizing: border-box;
   }
 }
-/* line 65, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome button, #homeLargeModal section:nth-child(2) #boxPages #pageHome input[type=submit], #homeLargeModal section:nth-child(2) #boxPages #pageLogin button, #homeLargeModal section:nth-child(2) #boxPages #pageLogin input[type=submit], #homeLargeModal section:nth-child(2) #boxPages #pageRegister button, #homeLargeModal section:nth-child(2) #boxPages #pageRegister input[type=submit], #homeLargeModal section:nth-child(2) #boxPages #pageChannel button, #homeLargeModal section:nth-child(2) #boxPages #pageChannel input[type=submit] {
+/* line 67, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome button, #home-large-modal section:nth-child(2) #boxPages #pageHome input[type=submit], #home-large-modal section:nth-child(2) #boxPages #pageLogin button, #home-large-modal section:nth-child(2) #boxPages #pageLogin input[type=submit], #home-large-modal section:nth-child(2) #boxPages #pageRegister button, #home-large-modal section:nth-child(2) #boxPages #pageRegister input[type=submit], #home-large-modal section:nth-child(2) #boxPages #pageChannel button, #home-large-modal section:nth-child(2) #boxPages #pageChannel input[type=submit] {
   cursor: pointer;
   background-color: white;
   padding: 10px 40px;
   border: 0;
   color: #33799f;
 }
-/* line 72, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome button:focus, #homeLargeModal section:nth-child(2) #boxPages #pageHome button:active, #homeLargeModal section:nth-child(2) #boxPages #pageHome input[type=submit]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageHome input[type=submit]:active, #homeLargeModal section:nth-child(2) #boxPages #pageLogin button:focus, #homeLargeModal section:nth-child(2) #boxPages #pageLogin button:active, #homeLargeModal section:nth-child(2) #boxPages #pageLogin input[type=submit]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageLogin input[type=submit]:active, #homeLargeModal section:nth-child(2) #boxPages #pageRegister button:focus, #homeLargeModal section:nth-child(2) #boxPages #pageRegister button:active, #homeLargeModal section:nth-child(2) #boxPages #pageRegister input[type=submit]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageRegister input[type=submit]:active, #homeLargeModal section:nth-child(2) #boxPages #pageChannel button:focus, #homeLargeModal section:nth-child(2) #boxPages #pageChannel button:active, #homeLargeModal section:nth-child(2) #boxPages #pageChannel input[type=submit]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageChannel input[type=submit]:active {
+/* line 74, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome button:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome button:active, #home-large-modal section:nth-child(2) #boxPages #pageHome input[type=submit]:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome input[type=submit]:active, #home-large-modal section:nth-child(2) #boxPages #pageLogin button:focus, #home-large-modal section:nth-child(2) #boxPages #pageLogin button:active, #home-large-modal section:nth-child(2) #boxPages #pageLogin input[type=submit]:focus, #home-large-modal section:nth-child(2) #boxPages #pageLogin input[type=submit]:active, #home-large-modal section:nth-child(2) #boxPages #pageRegister button:focus, #home-large-modal section:nth-child(2) #boxPages #pageRegister button:active, #home-large-modal section:nth-child(2) #boxPages #pageRegister input[type=submit]:focus, #home-large-modal section:nth-child(2) #boxPages #pageRegister input[type=submit]:active, #home-large-modal section:nth-child(2) #boxPages #pageChannel button:focus, #home-large-modal section:nth-child(2) #boxPages #pageChannel button:active, #home-large-modal section:nth-child(2) #boxPages #pageChannel input[type=submit]:focus, #home-large-modal section:nth-child(2) #boxPages #pageChannel input[type=submit]:active {
   outline: none;
 }
-/* line 77, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome h3, #homeLargeModal section:nth-child(2) #boxPages #pageLogin h3, #homeLargeModal section:nth-child(2) #boxPages #pageRegister h3, #homeLargeModal section:nth-child(2) #boxPages #pageChannel h3 {
+/* line 79, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome h3, #home-large-modal section:nth-child(2) #boxPages #pageLogin h3, #home-large-modal section:nth-child(2) #boxPages #pageRegister h3, #home-large-modal section:nth-child(2) #boxPages #pageChannel h3 {
   font-size: 22px;
   margin-bottom: 10px;
   cursor: default;
 }
-/* line 82, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome .inner-text, #homeLargeModal section:nth-child(2) #boxPages #pageLogin .inner-text, #homeLargeModal section:nth-child(2) #boxPages #pageRegister .inner-text, #homeLargeModal section:nth-child(2) #boxPages #pageChannel .inner-text {
+/* line 84, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome .inner-text, #home-large-modal section:nth-child(2) #boxPages #pageLogin .inner-text, #home-large-modal section:nth-child(2) #boxPages #pageRegister .inner-text, #home-large-modal section:nth-child(2) #boxPages #pageChannel .inner-text {
   line-height: 18px;
   padding: 5px;
   padding-top: 0;
   font-size: 16px;
 }
-/* line 89, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome a, #homeLargeModal section:nth-child(2) #boxPages #pageLogin a, #homeLargeModal section:nth-child(2) #boxPages #pageRegister a, #homeLargeModal section:nth-child(2) #boxPages #pageChannel a {
+/* line 91, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome a, #home-large-modal section:nth-child(2) #boxPages #pageLogin a, #home-large-modal section:nth-child(2) #boxPages #pageRegister a, #home-large-modal section:nth-child(2) #boxPages #pageChannel a {
   margin-top: 15px;
   display: block;
   cursor: pointer;
 }
-/* line 96, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome form label, #homeLargeModal section:nth-child(2) #boxPages #pageLogin form label, #homeLargeModal section:nth-child(2) #boxPages #pageRegister form label, #homeLargeModal section:nth-child(2) #boxPages #pageChannel form label {
+/* line 98, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome form label, #home-large-modal section:nth-child(2) #boxPages #pageLogin form label, #home-large-modal section:nth-child(2) #boxPages #pageRegister form label, #home-large-modal section:nth-child(2) #boxPages #pageChannel form label {
   display: inline-block;
   width: 40%;
   margin: 0;
@@ -1140,8 +1141,8 @@ input[type=checkbox] + label {
   margin-left: -15px;
   margin-right: 10px;
 }
-/* line 104, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=text], #homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=email], #homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=password], #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=text], #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=email], #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=password], #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=text], #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=email], #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=password], #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=text], #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=email], #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=password] {
+/* line 106, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=text], #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=email], #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=password], #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=text], #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=email], #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=password], #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=text], #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=email], #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=password], #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=text], #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=email], #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=password] {
   display: inline-block;
   border: none;
   margin: 5px 0;
@@ -1152,12 +1153,12 @@ input[type=checkbox] + label {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 115, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=text]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=text]:active, #homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=email]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=email]:active, #homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=password]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageHome form input[type=password]:active, #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=text]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=text]:active, #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=email]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=email]:active, #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=password]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=password]:active, #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=text]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=text]:active, #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=email]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=email]:active, #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=password]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageRegister form input[type=password]:active, #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=text]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=text]:active, #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=email]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=email]:active, #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=password]:focus, #homeLargeModal section:nth-child(2) #boxPages #pageChannel form input[type=password]:active {
+/* line 117, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=text]:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=text]:active, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=email]:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=email]:active, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=password]:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type=password]:active, #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=text]:focus, #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=text]:active, #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=email]:focus, #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=email]:active, #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=password]:focus, #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=password]:active, #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=text]:focus, #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=text]:active, #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=email]:focus, #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=email]:active, #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=password]:focus, #home-large-modal section:nth-child(2) #boxPages #pageRegister form input[type=password]:active, #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=text]:focus, #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=text]:active, #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=email]:focus, #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=email]:active, #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=password]:focus, #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type=password]:active {
   outline: none;
 }
-/* line 121, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome:after, #homeLargeModal section:nth-child(2) #boxPages #pageLogin:after, #homeLargeModal section:nth-child(2) #boxPages #pageRegister:after, #homeLargeModal section:nth-child(2) #boxPages #pageChannel:after {
+/* line 123, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome:after, #home-large-modal section:nth-child(2) #boxPages #pageLogin:after, #home-large-modal section:nth-child(2) #boxPages #pageRegister:after, #home-large-modal section:nth-child(2) #boxPages #pageChannel:after {
   content: "";
   display: block;
   width: 1px;
@@ -1168,94 +1169,94 @@ input[type=checkbox] + label {
   right: 0;
   background-color: rgba(255, 255, 255, 0.3);
 }
-/* line 133, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages.home > #pageHome {
-  display: block;
-}
 /* line 135, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages.login > #pageLogin {
+#home-large-modal section:nth-child(2) #boxPages.home > #pageHome {
   display: block;
 }
 /* line 137, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages.register > #pageRegister {
+#home-large-modal section:nth-child(2) #boxPages.login > #pageLogin {
   display: block;
 }
 /* line 139, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages.channel > #pageChannel {
+#home-large-modal section:nth-child(2) #boxPages.register > #pageRegister {
   display: block;
 }
-/* line 144, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome .logo {
+/* line 141, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages.channel > #pageChannel {
+  display: block;
+}
+/* line 146, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome .logo {
   margin-top: 50px;
 }
 @media all and (max-width: 300px) {
-  /* line 144, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxPages #pageHome .logo {
+  /* line 146, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxPages #pageHome .logo {
     margin-top: 30px;
   }
 }
-/* line 150, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome h3 {
+/* line 152, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome h3 {
   margin-top: 25px;
 }
-/* line 153, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageHome button {
+/* line 155, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageHome button {
   margin-top: 40px;
 }
 @media all and (max-width: 400px) {
-  /* line 160, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxPages #pageRegister a {
+  /* line 162, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxPages #pageRegister a {
     margin-top: 5px;
   }
 }
 @media all and (max-width: 310px) {
-  /* line 165, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxPages #pageRegister h3 {
+  /* line 167, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxPages #pageRegister h3 {
     margin-top: -10px;
   }
 }
-/* line 169, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageRegister form {
+/* line 171, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageRegister form {
   margin-top: 15px;
 }
 @media all and (max-width: 310px) {
-  /* line 169, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxPages #pageRegister form {
+  /* line 171, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxPages #pageRegister form {
     margin-top: 0;
   }
 }
-/* line 175, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageRegister input[type=submit] {
+/* line 177, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageRegister input[type=submit] {
   margin-top: 10px;
 }
 @media all and (max-width: 400px) {
-  /* line 175, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxPages #pageRegister input[type=submit] {
+  /* line 177, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxPages #pageRegister input[type=submit] {
     margin-top: 5px;
   }
 }
-/* line 184, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageLogin h3 {
+/* line 186, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageLogin h3 {
   margin-top: 70px;
 }
-/* line 187, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageLogin form {
+/* line 189, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageLogin form {
   margin-top: 30px;
 }
-/* line 190, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageLogin form label {
+/* line 192, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageLogin form label {
   width: 30%;
 }
-/* line 193, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=text], #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=email], #homeLargeModal section:nth-child(2) #boxPages #pageLogin form input[type=password] {
+/* line 195, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=text], #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=email], #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=password] {
   width: 70%;
 }
-/* line 197, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageLogin input[type=submit] {
+/* line 199, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageLogin input[type=submit] {
   margin-top: 30px;
 }
-/* line 203, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageChannel .avatar {
+/* line 205, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageChannel .avatar {
   margin: auto;
   margin-top: 60px;
   width: 100px;
@@ -1268,16 +1269,16 @@ input[type=checkbox] + label {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 217, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageChannel h3 {
+/* line 219, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageChannel h3 {
   margin-top: 25px;
 }
-/* line 220, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxPages #pageChannel button {
+/* line 222, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxPages #pageChannel button {
   margin-top: 40px;
 }
-/* line 226, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest {
+/* line 228, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest {
   float: left;
   position: relative;
   max-width: 600px;
@@ -1285,26 +1286,26 @@ input[type=checkbox] + label {
   height: 400px;
 }
 @media all and (max-width: 1015px) {
-  /* line 226, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest {
+  /* line 228, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest {
     max-width: 58%;
   }
 }
 @media all and (max-width: 970px) {
-  /* line 226, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest {
+  /* line 228, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest {
     max-width: 55%;
   }
 }
 @media all and (max-width: 940px) {
-  /* line 226, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest {
+  /* line 228, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest {
     max-width: 52%;
   }
 }
 @media all and (max-width: 870px) {
-  /* line 226, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest {
+  /* line 228, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest {
     max-width: 100%;
     display: block;
     height: 350px;
@@ -1312,8 +1313,8 @@ input[type=checkbox] + label {
     margin-bottom: 30px;
   }
 }
-/* line 247, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest h3 {
+/* line 249, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest h3 {
   font-size: 22px;
   margin-bottom: 10px;
   margin-top: 70px;
@@ -1321,25 +1322,25 @@ input[type=checkbox] + label {
   color: white;
 }
 @media all and (max-width: 870px) {
-  /* line 247, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest h3 {
+  /* line 249, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest h3 {
     color: #858484;
     font-size: 18px;
   }
-  /* line 258, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest h3:after {
+  /* line 260, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest h3:after {
     background-color: #f1f0f0!important;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 247, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest h3 {
+  /* line 249, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest h3 {
     width: 60%;
     margin-left: 10px;
   }
 }
-/* line 266, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest h3:after {
+/* line 268, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest h3:after {
   content: "";
   display: block;
   height: 4px;
@@ -1349,14 +1350,14 @@ input[type=checkbox] + label {
   position: relative;
   bottom: -5px;
 }
-/* line 278, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #sliderList {
+/* line 280, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #sliderList {
   float: right;
   margin-top: -35px;
   margin-right: 30px;
 }
-/* line 283, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #sliderList li {
+/* line 285, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #sliderList li {
   width: 6px;
   height: 6px;
   display: inline-block;
@@ -1365,95 +1366,95 @@ input[type=checkbox] + label {
   background-color: white;
 }
 @media all and (max-width: 870px) {
-  /* line 283, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest #sliderList li {
+  /* line 285, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest #sliderList li {
     background-color: #40a6e0;
   }
 }
-/* line 295, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #sliderList li:hover {
+/* line 297, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #sliderList li:hover {
   width: 10px;
   height: 10px;
   margin-left: 8px;
   margin-right: -2px;
   margin-bottom: -2px;
 }
-/* line 305, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #sliderList.slide1 > li:nth-child(1), #homeLargeModal section:nth-child(2) #boxBest #sliderList.slide2 > li:nth-child(2), #homeLargeModal section:nth-child(2) #boxBest #sliderList.slide3 > li:nth-child(3) {
+/* line 307, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #sliderList.slide1 > li:nth-child(1), #home-large-modal section:nth-child(2) #boxBest #sliderList.slide2 > li:nth-child(2), #home-large-modal section:nth-child(2) #boxBest #sliderList.slide3 > li:nth-child(3) {
   width: 10px;
   height: 10px;
   margin-left: 8px;
   margin-right: -2px;
   margin-bottom: -2px;
 }
-/* line 314, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider {
+/* line 316, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider {
   display: inline-block;
   width: 100%;
   height: 250px;
   overflow: hidden;
 }
 @media all and (max-width: 870px) {
-  /* line 314, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest #slider {
+  /* line 316, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest #slider {
     height: 200px;
   }
 }
-/* line 325, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(1) {
+/* line 327, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(1) {
   left: 0%;
 }
-/* line 326, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(2) {
+/* line 328, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(2) {
   left: 100%;
-}
-/* line 327, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(3) {
-  left: 200%;
 }
 /* line 329, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(1) {
-  left: -100%;
-}
-/* line 330, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(2) {
-  left: 0;
+#home-large-modal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(3) {
+  left: 200%;
 }
 /* line 331, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(3) {
-  left: 100%;
-}
-/* line 333, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(1) {
-  left: -200%;
-}
-/* line 334, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(2) {
+#home-large-modal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(1) {
   left: -100%;
 }
-/* line 335, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(3) {
+/* line 332, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(2) {
   left: 0;
 }
-/* line 338, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide {
+/* line 333, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(3) {
+  left: 100%;
+}
+/* line 335, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(1) {
+  left: -200%;
+}
+/* line 336, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(2) {
+  left: -100%;
+}
+/* line 337, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(3) {
+  left: 0;
+}
+/* line 340, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
   float: left;
 }
-/* line 345, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide:nth-child(2) {
+/* line 347, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide:nth-child(2) {
   top: -100%;
 }
-/* line 346, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide:nth-child(3) {
+/* line 348, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide:nth-child(3) {
   top: -200%;
 }
 @media all and (min-width: 640px) {
-  /* line 338, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest #slider #slide {
+  /* line 340, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest #slider #slide {
     -webkit-transition: left 0.5s;
     -moz-transition: left 0.5s;
     -ms-transition: left 0.5s;
@@ -1461,8 +1462,8 @@ input[type=checkbox] + label {
     transition: left 0.5s;
   }
 }
-/* line 356, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide .video {
+/* line 358, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
   width: 250px;
   height: 180px;
   margin: 0 15px;
@@ -1470,43 +1471,43 @@ input[type=checkbox] + label {
   bottom: 40px;
 }
 @media all and (max-width: 970px) {
-  /* line 356, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest #slider #slide .video {
+  /* line 358, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     width: 45%;
   }
 }
 @media all and (max-width: 870px) {
-  /* line 356, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest #slider #slide .video {
+  /* line 358, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     bottom: 0px;
   }
 }
 @media all and (max-width: 400px) {
-  /* line 356, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest #slider #slide .video {
+  /* line 358, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     margin: 0 10px;
   }
 }
 @media all and (max-width: 300px) {
-  /* line 356, ../scss/partials/_home-large-modal.scss */
-  #homeLargeModal section:nth-child(2) #boxBest #slider #slide .video {
+  /* line 358, ../scss/partials/_home-large-modal.scss */
+  #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     margin: 0 5px;
   }
 }
-/* line 373, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide .video:first-child {
+/* line 375, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide .video:first-child {
   left: 0;
 }
-/* line 376, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide .video:nth-child(2) {
+/* line 378, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide .video:nth-child(2) {
   right: 0;
 }
-/* line 380, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide .video .video-time {
+/* line 382, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide .video .video-time {
   display: none;
 }
-/* line 385, ../scss/partials/_home-large-modal.scss */
-#homeLargeModal section:nth-child(2) #boxBest #slider #slide .video .video-description .video-bottom-description {
+/* line 387, ../scss/partials/_home-large-modal.scss */
+#home-large-modal section:nth-child(2) #boxBest #slider #slide .video .video-description .video-bottom-description {
   display: none;
 }
 
@@ -1548,7 +1549,7 @@ input[type=checkbox] + label {
   display: none;
 }
 /* line 35, ../scss/partials/_aside-channels.scss */
-.aside-channels ul.limited > .channels:nth-child(-n+6) {
+.aside-channels ul.limited > .channels:nth-child(-n+8) {
   display: block;
 }
 /* line 38, ../scss/partials/_aside-channels.scss */
@@ -1579,7 +1580,7 @@ input[type=checkbox] + label {
     display: none;
   }
   /* line 59, ../scss/partials/_aside-channels.scss */
-  .aside-channels ul .channels:nth-child(-n+6) {
+  .aside-channels ul .channels:nth-child(-n+8) {
     display: block;
   }
 }
@@ -1701,14 +1702,14 @@ input[type=checkbox] + label {
 }
 /* line 190, ../scss/partials/_aside-channels.scss */
 .aside-channels input[type=checkbox]:hover ~ .ch-more, .aside-channels input[type=checkbox]:hover ~ .ch-less {
-  margin-top: -41px;
-  margin-bottom: 16px;
+  margin-top: -42px;
+  margin-bottom: 17px;
   left: -1px;
-  -webkit-box-shadow: 2px 3px 0px #e0e0e0;
-  -moz-box-shadow: 2px 3px 0px #e0e0e0;
-  -ms-box-shadow: 2px 3px 0px #e0e0e0;
-  -o-box-shadow: 2px 3px 0px #e0e0e0;
-  box-shadow: 2px 3px 0px #e0e0e0;
+  -webkit-box-shadow: 2px 4px 0px #e0e0e0;
+  -moz-box-shadow: 2px 4px 0px #e0e0e0;
+  -ms-box-shadow: 2px 4px 0px #e0e0e0;
+  -o-box-shadow: 2px 4px 0px #e0e0e0;
+  box-shadow: 2px 4px 0px #e0e0e0;
 }
 /* line 201, ../scss/partials/_aside-channels.scss */
 .aside-channels input[type=checkbox]:active ~ .ch-more, .aside-channels input[type=checkbox]:active ~ .ch-less {
@@ -1784,6 +1785,55 @@ input[type=checkbox] + label {
 /* line 42, ../scss/cards-list/_aside-cards-list.scss */
 .aside-cards-list .card:nth-child(even) {
   clear: both;
+}
+/* line 47, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .big-button {
+  display: inline-block;
+  width: 50%;
+  height: 28px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  left: 50%;
+  margin-left: -25%;
+  font-size: 18px;
+  color: #858484;
+  padding-top: 12px;
+  text-align: center;
+  background: #f1f0f0;
+  -webkit-box-shadow: 1px 2px 0px #e0e0e0;
+  -moz-box-shadow: 1px 2px 0px #e0e0e0;
+  -ms-box-shadow: 1px 2px 0px #e0e0e0;
+  -o-box-shadow: 1px 2px 0px #e0e0e0;
+  box-shadow: 1px 2px 0px #e0e0e0;
+}
+@media all and (max-width: 700px) {
+  /* line 47, ../scss/cards-list/_aside-cards-list.scss */
+  .aside-cards-list .big-button {
+    width: 95%;
+    margin-left: 2%;
+    left: 0;
+  }
+}
+/* line 76, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .big-button:hover {
+  margin-top: 8px;
+  margin-bottom: 17px;
+  -webkit-box-shadow: 2px 4px 0px #e0e0e0;
+  -moz-box-shadow: 2px 4px 0px #e0e0e0;
+  -ms-box-shadow: 2px 4px 0px #e0e0e0;
+  -o-box-shadow: 2px 4px 0px #e0e0e0;
+  box-shadow: 2px 4px 0px #e0e0e0;
+}
+/* line 86, ../scss/cards-list/_aside-cards-list.scss */
+.aside-cards-list .big-button:active {
+  margin-top: 11px;
+  margin-bottom: 14px;
+  -webkit-box-shadow: 1px 1px 0px #e0e0e0;
+  -moz-box-shadow: 1px 1px 0px #e0e0e0;
+  -ms-box-shadow: 1px 1px 0px #e0e0e0;
+  -o-box-shadow: 1px 1px 0px #e0e0e0;
+  box-shadow: 1px 1px 0px #e0e0e0;
 }
 
 /* line 8, ../scss/index.scss */

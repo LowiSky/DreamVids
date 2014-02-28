@@ -17,8 +17,8 @@
 
 			<?php include 'header.php'; ?>
 
-			<div id="homeLargeModal">
-				<div id="backgroundLoader" class="bgLoader" data-background="img/fond.jpg"></div>
+			<div id="home-large-modal">
+				<div id="backgroundLoader" class="bgLoader" data-background="img/backgrounds/002.jpg"></div>
 				<section>
 					<?php if (!$connected) { ?>
 						<div id="boxPages" class="home">
@@ -86,201 +86,419 @@
 					<?php } ?>
 
 					<div id="boxBest">
-						<h3>Meilleures vidéos :</h3>
-						<ul id="sliderList" class="slide1">
-							<li onclick="slideTo(1);"></li>
-							<li onclick="slideTo(2);"></li>
-							<li onclick="slideTo(3);"></li>
-						</ul>
-
-						<section id="slider" class="slide1">
-
-							<div id="slide">
-								<div class="card video">
-									<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/rio/350/200/1"><a href="video" class="overlay"></a></div>
-									<div class="description">
-										<a href="video"><h4>Lorem Ipsum dolorem</h4></a>
+						<?php if (!$connected) { ?>
+							<h3>Meilleures vidéos :</h3>
+							<ul id="sliderList" class="slide1">
+								<li onclick="slideTo(1);"></li>
+								<li onclick="slideTo(2);"></li>
+								<li onclick="slideTo(3);"></li>
+							</ul>
+							
+							<section id="slider" class="slide1">
+							
+								<div id="slide">
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/rio/350/200/1"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Lorem Ipsum dolorem</h4></a>
+										</div>
+									</div>
+							
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/rio/627/300/4"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Rio !</h4></a>
+										</div>
 									</div>
 								</div>
-
-								<div class="card video">
-									<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/rio/627/300/4"><a href="video" class="overlay"></a></div>
-									<div class="description">
-										<a href="video"><h4>Rio !</h4></a>
+							
+								<div id="slide">
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/futurama/350/200/1"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Lorem Ipsum dolorem</h4></a>
+										</div>
+									</div>
+							
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/futurama/627/300/4"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Futurama !</h4></a>
+										</div>
 									</div>
 								</div>
-							</div>
-
-							<div id="slide">
-								<div class="card video">
-									<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/futurama/350/200/1"><a href="video" class="overlay"></a></div>
-									<div class="description">
-										<a href="video"><h4>Lorem Ipsum dolorem</h4></a>
+							
+								<div id="slide">
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/simpsons/350/200/1"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Lorem Ipsum dolorem</h4></a>
+										</div>
+									</div>
+							
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/simpsons/627/300/4"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>The Simpsons !</h4></a>
+										</div>
 									</div>
 								</div>
-					
-								<div class="card video">
-									<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/futurama/627/300/4"><a href="video" class="overlay"></a></div>
-									<div class="description">
-										<a href="video"><h4>Futurama !</h4></a>
+							</section>
+						<?php } else { ?>
+							<h3>Vidéos à découvrir :</h3>
+							<ul id="sliderList" class="slide1">
+								<li onclick="slideTo(1);"></li>
+								<li onclick="slideTo(2);"></li>
+								<li onclick="slideTo(3);"></li>
+							</ul>
+							
+							<section id="slider" class="slide1">
+							
+								<div id="slide">
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/up/350/200/1"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Up !</h4></a>
+										</div>
+									</div>
+							
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/nemo/350/200/1"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Nemo</h4></a>
+										</div>
 									</div>
 								</div>
-							</div>
-
-							<div id="slide">
-								<div class="card video">
-									<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/simpsons/350/200/1"><a href="video" class="overlay"></a></div>
-									<div class="description">
-										<a href="video"><h4>Lorem Ipsum dolorem</h4></a>
+							
+								<div id="slide">
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/simpsons/627/200/3"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Les Simpson, le film</h4></a>
+										</div>
+									</div>
+							
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/nemo/627/300/4"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
+										</div>
 									</div>
 								</div>
-
-								<div class="card video">
-									<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/simpsons/627/300/4"><a href="video" class="overlay"></a></div>
-									<div class="description">
-										<a href="video"><h4>The Simpsons !</h4></a>
+							
+								<div id="slide">
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/rio/350/200/1"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>Rio</h4></a>
+										</div>
+									</div>
+							
+									<div class="card video">
+										<div class="thumbnail bgLoader" style="height: 75%;" data-background="http://lorempicsum.com/up/627/300/4"><a href="video" class="overlay"></a></div>
+										<div class="description">
+											<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
+										</div>
 									</div>
 								</div>
-							</div>
-						</section>
+							</section>
+						<?php } ?>
 					</div>
 				</section>
 			</div>
 
 			<div id="bottom">
-				<aside class="aside-channels">
-					<h3>Meilleures chaînes</h3>
-					<ul class="medal">
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">Dreameur</span>
-							<p class="subscribers"><b>12 835</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">YoloVids</span>
-							<p class="subscribers"><b>11 208</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">Kikoo 2000</span>
-							<p class="subscribers"><b>9 725</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
-							<span class="name" href="#">Futurameur</span>
-							<p class="subscribers"><b>5 214</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">UpUpUp</span>
-							<p class="subscribers"><b>2 804</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
-							<span class="name" href="#">Homer Simpson</span>
-							<p class="subscribers"><b>1 127</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels">
-							<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
-							<span class="name" href="#">Dori</span>
-							<p class="subscribers"><b>546</b> Abonnés</p>
-						</a>
-						<a href="#" class="channels" style="font-family: 'Comic Sans MS'; font-size: 12px">
-							<span style="background-image: url(http://static-2.nexusmods.com/15/mods/110/images/50622-1-1391287636.jpeg)" class="avatar"></span>
-							<p class="name" href="#">Wow ! Much doge</p>
-							<p class="subscribers"><b>248</b> Abonnés</p>
-						</a>
-					</ul>
-				</aside>
+				<?php if (!$connected) { ?>
+					<aside class="aside-channels">
+						<h3>Meilleures chaînes</h3>
+						<ul class="medal">
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">UpUpUp</span>
+								<p class="subscribers"><b>12 835</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">Dreameur</span>
+								<p class="subscribers"><b>11 208</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
+								<span class="name" href="#">Dori</span>
+								<p class="subscribers"><b>5 214</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">YoloVids</span>
+								<p class="subscribers"><b>9 725</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">Kikoo 2000</span>
+								<p class="subscribers"><b>2 804</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
+								<span class="name" href="#">Futurameur</span>
+								<p class="subscribers"><b>1 127</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
+								<span class="name" href="#">Homer Simpson</span>
+								<p class="subscribers"><b>546</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://static-2.nexusmods.com/15/mods/110/images/50622-1-1391287636.jpeg)" class="avatar"></span>
+								<p class="name" href="#">Wow ! Much doge</p>
+								<p class="subscribers"><b>248</b> Abonnés</p>
+							</a>
+						</ul>
+					</aside>
+				<?php } else { ?>
+					<aside class="aside-channels">
+						<h3>Mes abonnements</h3>
+						<ul class="limited">
+							<a href="#" class="channels" data-new="12">
+								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">Dreameur</span>
+								<p class="subscribers"><b>12 835</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels" data-new="7">
+								<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">YoloVids</span>
+								<p class="subscribers"><b>11 208</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels" data-new="3">
+								<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">Kikoo 2000</span>
+								<p class="subscribers"><b>9 725</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels" data-new="1">
+								<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
+								<span class="name" href="#">Futurameur</span>
+								<p class="subscribers"><b>5 214</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">UpUpUp</span>
+								<p class="subscribers"><b>2 804</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
+								<span class="name" href="#">Homer Simpson</span>
+								<p class="subscribers"><b>1 127</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
+								<span class="name" href="#">Dori</span>
+								<p class="subscribers"><b>546</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">YoloVids</span>
+								<p class="subscribers"><b>11 208</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
+								<span class="name" href="#">Kikoo 2000</span>
+								<p class="subscribers"><b>9 725</b> Abonnés</p>
+							</a>
+							<a href="#" class="channels">
+								<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
+								<span class="name" href="#">Futurameur</span>
+								<p class="subscribers"><b>5 214</b> Abonnés</p>
+							</a>
+
+							<input type="checkbox" onclick="p=this.parentNode;p.className=this.checked?p.className+' all':p.className.replace(' all','');"/>
+							<span class="ch-more">Voir tout</span>
+							<span class="ch-less">Voir moins</span>
+						</ul>
+					</aside>
+				<?php } ?>
 	
-				<aside class="aside-cards-list">
-					<h3>Vidéos à découvrir</h3>
-					
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
-							<div class="time">12:05</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>Up !</h4></a>
-							<div>
-								<span class="view">12 530</span>
-								<a class="channel" href="#">Papy</a>
+				<?php if (!$connected) { ?>
+					<aside class="aside-cards-list">
+						<h3>Vidéos à découvrir</h3>
+						
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
+								<div class="time">12:05</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Up !</h4></a>
+								<div>
+									<span class="view">12 530</span>
+									<a class="channel" href="#">Papy</a>
+								</div>
 							</div>
 						</div>
-					</div>
+	
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/350/200/1">
+								<div class="time">16:17</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Nemo</h4></a>
+								<div>
+									<span class="view">10 576</span>
+									<a class="channel" href="#">Dori</a>
+								</div>
+							</div>
+						</div>
+	
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/simpsons/627/200/3">
+								<div class="time">1:27:24</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Les Simpson, le film</h4></a>
+								<div>
+									<span class="view">401</span>
+									<a class="channel" href="#">Home Simpson</a>
+								</div>
+							</div>
+						</div>
+	
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/627/300/4">
+								<div class="time">3:27</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
+								<div>
+									<span class="view">32 546</span>
+									<a class="channel" href="#">Nemo</a>
+								</div>
+							</div>
+						</div>
+	
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/rio/350/200/1">
+								<div class="time">2:34:53</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Rio</h4></a>
+								<div>
+									<span class="view">1 752</span>
+									<a class="channel" href="#">Hungry Bird</a>
+								</div>
+							</div>
+						</div>
+	
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/627/300/4">
+								<div class="time">2:43</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
+								<div>
+									<span class="view">513</span>
+									<a class="channel" href="#">Pixar</a>
+								</div>
+							</div>
+						</div>
+					</aside>
+				<?php } else { ?>
+					<aside class="aside-cards-list">
+						<h3>Vidéos de mes abonnements</h3>
+						
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
+								<div class="time">12:05</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Up !</h4></a>
+								<div>
+									<span class="view">12 530</span>
+									<a class="channel" href="#">Papy</a>
+								</div>
+							</div>
+						</div>
 
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/350/200/1">
-							<div class="time">16:17</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>Nemo</h4></a>
-							<div>
-								<span class="view">10 576</span>
-								<a class="channel" href="#">Dori</a>
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/350/200/1">
+								<div class="time">16:17</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Nemo</h4></a>
+								<div>
+									<span class="view">10 576</span>
+									<a class="channel" href="#">Dori</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/simpsons/627/200/3">
-							<div class="time">1:27:24</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>Les Simpson, le film</h4></a>
-							<div>
-								<span class="view">401</span>
-								<a class="channel" href="#">Home Simpson</a>
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/627/300/4">
+								<div class="time">3:27</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
+								<div>
+									<span class="view">32 546</span>
+									<a class="channel" href="#">Nemo</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/627/300/4">
-							<div class="time">3:27</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
-							<div>
-								<span class="view">32 546</span>
-								<a class="channel" href="#">Nemo</a>
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/rio/350/200/1">
+								<div class="time">2:34:53</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Rio</h4></a>
+								<div>
+									<span class="view">1 752</span>
+									<a class="channel" href="#">Hungry Bird</a>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/rio/350/200/1">
-							<div class="time">2:34:53</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>Rio</h4></a>
-							<div>
-								<span class="view">1 752</span>
-								<a class="channel" href="#">Hungry Bird</a>
-							</div>
-						</div>
-					</div>
+						<a href="flux" class="big-button">Voir mon flux d'acivité</a>
+					</aside>
 
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/627/300/4">
-							<div class="time">2:43</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
-							<div>
-								<span class="view">513</span>
-								<a class="channel" href="#">Pixar</a>
+					<aside class="aside-cards-list">
+						<h3>Meilleures vidéos</h3>
+						
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/350/200/1">
+								<div class="time">12:05</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>Nemo</h4></a>
+								<div>
+									<span class="view">12 530</span>
+									<a class="channel" href="#">Papy</a>
+								</div>
 							</div>
 						</div>
-					</div>
-				</aside>
+
+						<div class="card video">
+							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/627/300/4">
+								<div class="time">16:17</div>
+								<a href="video" class="overlay"></a>
+							</div>
+							<div class="description">
+								<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
+								<div>
+									<span class="view">10 576</span>
+									<a class="channel" href="#">Dori</a>
+								</div>
+							</div>
+						</div>
+					</aside>
+				<?php } ?>
 			</div>
 	
 			<div id="accueil" style="display: none;">

@@ -48,8 +48,10 @@
 					<?php $page = preg_replace('/.+\/(.+)\.php/i', '${1}', $_SERVER["PHP_SELF"]);?>
 					<li <?php if ($page == 'index') echo 'class="current"';?>><a href="index.php">Accueil</a></li>
 					<li <?php if ($page == 'discover') echo 'class="current"';?>><a href="discover">Découvrir</a></li>
-					<li <?php if ($page == 'flux') echo 'class="current"';?>><a href="flux">Flux d'activité</a></li>
-					<li <?php if ($page == 'upload') echo 'class="current"';?>><a href="upload">Uploader</a></li>
+					<?php if ($connected) { ?>
+						<li <?php if ($page == 'flux') echo 'class="current"';?>><a href="flux">Flux d'activité</a></li>
+						<li <?php if ($page == 'upload') echo 'class="current"';?>><a href="upload">Uploader</a></li>
+					<?php } ?>
 				</ul>
 			</nav>
 			<span id="mobile-nav-icon"><p></p></span>

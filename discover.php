@@ -51,6 +51,16 @@
 							<span class="name" href="#">Dreameur</span>
 							<p class="subscribers"><b>12 835</b> Abonnés</p>
 						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">YoloVids</span>
+							<p class="subscribers"><b>11 208</b> Abonnés</p>
+						</a>
+						<a href="#" class="channels">
+							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
+							<span class="name" href="#">Kikoo 2000</span>
+							<p class="subscribers"><b>9 725</b> Abonnés</p>
+						</a>
 					</ul>
 				</aside>
 	
