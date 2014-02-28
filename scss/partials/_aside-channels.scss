@@ -35,7 +35,7 @@
 		&.limited > .channels:nth-child(-n+6) {
 			display: block;
 		}
-		&.seeAll > .channels {
+		&.all > .channels { 
 			display: block;
 		}
 

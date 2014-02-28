@@ -20,7 +20,7 @@
 			<div id="bottom">
 				<aside class="aside-channels">
 					<h3>Mes abonnements</h3>
-					<ul class="limited" id="list-flux-channels">
+					<ul class="limited">
 						<a href="#" class="channels" data-new="12">
 							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
 							<span class="name" href="#">Dreameur</span>
@@ -72,7 +72,7 @@
 							<p class="subscribers"><b>5 214</b> Abonnés</p>
 						</a>
 
-						<input type="checkbox" onclick="toogleFluxChannelVisibility(this.checked)"/>
+						<input type="checkbox" onclick="p=this.parentNode;p.className=this.checked?p.className+' all':p.className.replace(' all','');"/>
 						<span class="ch-more">Voir tout</span>
 						<span class="ch-less">Voir moins</span>
 					</ul>
