@@ -2,7 +2,7 @@
 <html>
 	<!-- // // HEAD \\ \\-->
 	<head>
-		<link rel="stylesheet" href="css/video.css">
+		<link rel="stylesheet" href="css/all.css">
 
 		<link rel="icon" href="img/favicon.png" />
 
@@ -93,7 +93,7 @@
 			</section>
 	
 	
-			<div id="bottom">
+			<div class="content">
 				<section id="comments">
 					<div id="comments-title">
 						<h3>Commentaires Populaires</h3>

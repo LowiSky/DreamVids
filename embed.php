@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/embed.css">
+		<link rel="stylesheet" href="css/all.css">
 
 		<link rel="icon" href="img/favicon.png" />
 

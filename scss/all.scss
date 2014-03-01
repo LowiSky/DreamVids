@@ -1,0 +1,29 @@
+@import "partials/aside-channels.scss";
+@import "partials/bgLoader.scss";
+@import "partials/checkbox.scss";
+@import "partials/fonts.scss";
+@import "partials/footer.scss";
+@import "partials/header.scss";
+@import "partials/home-large-modal.scss";
+@import "partials/login-register.scss";
+@import "partials/player.scss";
+@import "partials/upload-animation.scss";
+@import "partials/upload-large-modal.scss";
+@import "partials/wysiwyg.scss";
+
+@import "cards/card.scss";
+
+@import "cards-list/aside-cards-list.scss";
+@import "cards-list/column-cards-list.scss";
+
+@import "video/comments.scss";
+@import "video/player.scss";
+@import "video/titre.scss";
+@import "video/video-infos.scss";
+
+.content {
+	display: table;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}

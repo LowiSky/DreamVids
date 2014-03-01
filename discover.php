@@ -2,7 +2,8 @@
 <html>
 	<!-- // // HEAD \\ \\-->
 	<head>
-		<link rel="stylesheet" href="css/discover.css">
+		<link rel="stylesheet" href="css/all.css">
+		
 		<link rel="icon" href="img/favicon.png" />
 
 		<meta name="viewport" content="width = device-width, initial-scale = 0.9, maximum-scale = 1.0, user-scalable = no">
@@ -17,7 +18,7 @@
 
 			<?php include 'header.php'; ?>
 
-			<div id="bottom">
+			<div class="content">
 				<aside class="aside-channels">
 					<h3>Suggestions</h3>
 					<ul>
