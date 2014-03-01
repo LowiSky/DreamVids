@@ -1,76 +1,82 @@
 .aside-cards-list {
+	display: block;
 	width: 70%;
 	min-height: 100px;
-	display: block;
+
 	float: left;
 
-	@media all and (max-width: 700px) {
+	@media (max-width: 700px) {
 		float: none;
 		width: 100%;
 	}
 
 	h3 {
 		margin-left: 5%;
+
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 90px;
 		color: #858484;
 
 		&:after {
-			content: "";
+			position: relative;
+			bottom: 30px;
+
 			display: block;
 			height: 4px;
 			width: 25px;
-			background-color: #f1f0f0;
 			border: none;
-			position: relative;
-			bottom: 30px;
+			
+			content: "";
+			background-color: #f1f0f0;
 		}
 	}
 
 	.card {
+		float: left;
+
 		width: 45%;
 		margin-left: 2%;
 		margin-right: 2%;
-		float: left;
 
-		@media all and (max-width: 420px) {
+		@media (max-width: 420px) {
 			width: 95%;
 			height: 200px;
 		}
-
-		&:nth-child(even) {
-			clear: both;
-		}
+		
+		// Pour éviter la casse lors de l'ouverture d'une carte à commentaires
+		&:nth-child(even) { clear: both; }
 	}
 
 	.big-button {
+		position: relative;
+		left: 50%;
+		
 		display: inline-block;
 		width: 50%;
 		height: 28px;
 		margin-top: 10px;
 		margin-bottom: 15px;
-		position: relative;
-		left: 50%;
 		margin-left: -25%;
 
-		@media all and (max-width: 700px) {
+		@media (max-width: 700px) {
+			left: 0;
 			width: 95%;
 			margin-left: 2%;
-			left: 0;
 		}
 
+		padding-top: 12px;
+
+		text-align: center;
 		font-size: 18px;
 		color: #858484;
-		padding-top: 12px;
-		text-align: center;
 		background: #f1f0f0;
 
 		-webkit-box-shadow: 1px 2px 0px #e0e0e0;
-		-moz-box-shadow: 1px 2px 0px #e0e0e0;
-		-ms-box-shadow: 1px 2px 0px #e0e0e0;
-		-o-box-shadow: 1px 2px 0px #e0e0e0;
-		box-shadow: 1px 2px 0px #e0e0e0;
+		   -moz-box-shadow: 1px 2px 0px #e0e0e0;
+			-ms-box-shadow: 1px 2px 0px #e0e0e0;
+			 -o-box-shadow: 1px 2px 0px #e0e0e0;
+				box-shadow: 1px 2px 0px #e0e0e0;
 	}
 
 	.big-button:hover {
@@ -78,19 +84,19 @@
 		margin-bottom: 17px;
 
 		-webkit-box-shadow: 2px 4px 0px #e0e0e0;
-		-moz-box-shadow: 2px 4px 0px #e0e0e0;
-		-ms-box-shadow: 2px 4px 0px #e0e0e0;
-		-o-box-shadow: 2px 4px 0px #e0e0e0;
-		box-shadow: 2px 4px 0px #e0e0e0;
+		   -moz-box-shadow: 2px 4px 0px #e0e0e0;
+			-ms-box-shadow: 2px 4px 0px #e0e0e0;
+			 -o-box-shadow: 2px 4px 0px #e0e0e0;
+				box-shadow: 2px 4px 0px #e0e0e0;
 	}
 	.big-button:active {
 		margin-top: 11px;
 		margin-bottom: 14px;
 
 		-webkit-box-shadow: 1px 1px 0px #e0e0e0;
-		-moz-box-shadow: 1px 1px 0px #e0e0e0;
-		-ms-box-shadow: 1px 1px 0px #e0e0e0;
-		-o-box-shadow: 1px 1px 0px #e0e0e0;
-		box-shadow: 1px 1px 0px #e0e0e0;
+		   -moz-box-shadow: 1px 1px 0px #e0e0e0;
+			-ms-box-shadow: 1px 1px 0px #e0e0e0;
+			 -o-box-shadow: 1px 1px 0px #e0e0e0;
+				box-shadow: 1px 1px 0px #e0e0e0;
 	}
 }

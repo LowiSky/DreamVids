@@ -1,82 +1,55 @@
-@import 'partials/header.scss';
-@import 'partials/player.scss';
-@import 'video/titre.scss';
-@import 'video/player.scss';
-@import 'video/video-infos.scss';
-
-
-#video{
-	width: 100%;
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
-}
-
 #annoTools {
 	padding: 15px;
 
 	button:not(.colorSelect) {
-		padding: 10px;
 		width: 100%;
+		padding: 10px;
 		border: none;
+
 		color: white;
 		background-color: #40a6e0;
 		cursor: pointer;
 
-		&:hover {
-			background-color: #6cbae7;
-		}
-		&:active {
-			background-color: #2a9cdc;
-		}
-		&:focus {
-			outline: none;
-		}
+		&:hover { background-color: #6cbae7; }
+		&:active { background-color: #2a9cdc; }
+		&:focus { outline: none; }
 	}
-	button:not(.colorSelect).red {
-		background-color: #ff8830;
-	}
-	button:not(.colorSelect).red:hover {
-		background-color: #ffa563;
-	}
-	button:not(.colorSelect).red:active {
-		background-color: #ff7917;
-	}
+
+	button:not(.colorSelect).red { background-color: #ff8830; }
+	button:not(.colorSelect).red:hover { background-color: #ffa563; }
+	button:not(.colorSelect).red:active { background-color: #ff7917; }
 
 	#selectedTools {
 		#STtitle {
 			display: block;
+			width: 100%;
 			margin-top: 5px;
 			margin-bottom: 5px;
-			width: 100%;
+			padding-top: 5px;
+			padding-bottom: 5px;
+
 			text-align: center;
 			border: none;
 			background: transparent;
-			padding-top: 5px;
-			padding-bottom: 5px;
 			font-size: 16px;
 
-			&:focus, &:active {
-				outline: none;
-			}
+			&:focus, &:active { outline: none; }
 		}
 
 		#STleft, #STtop, #STwidth, #STheight {
 			width: 32px;
-			text-align: center;
-			border: none;
-			background: transparent;
 			padding-top: 5px;
 			padding-bottom: 5px;
+			border: none;
+			
+			background: transparent;
+			text-align: center;
 			font-size: 16px;
 
-			& ~ .purcent {
-				display: inline-block;
-			}
+			& ~ .purcent { display: inline-block; }
 		}
-		input:focus, input:active {
-			outline: none;
-		}
+		
+		input:focus, input:active { outline: none; }
 
 		#STlink {
 			display: inline-block;
@@ -221,36 +194,38 @@
 	}
 }
 
-.annotation {
-	cursor: move;
-
-	.resize {
-		width: 0px;
-		height: 0px;
-		border-style: solid;
-		border-width: 0 0 12px 12px;
-		border-color: transparent transparent #ffffff transparent;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		cursor: nwse-resize;
-		margin: 0!important;
+#player.annoted {
+	.annotation {
+		cursor: move;
+	
+		.resize {
+			width: 0px;
+			height: 0px;
+			border-style: solid;
+			border-width: 0 0 12px 12px;
+			border-color: transparent transparent #ffffff transparent;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			cursor: nwse-resize;
+			margin: 0!important;
+		}
+		.close {
+			opacity: 1!important;
+		}
 	}
-	.close {
-		opacity: 1!important;
+	.annotation > p:focus, .annotation > a:focus {
+		outline: none;
+		cursor: text;
 	}
-}
-.annotation > p:focus, .annotation > a:focus {
-	outline: none;
-	cursor: text;
-}
-
-#fullscreen, #widescreen, #separation, #annotationsButton {
-	display: none!important;
-}
-#volume {
-	right: 20px;
-}
-#qualityButton {
-	right: 90px;
+	
+	#fullscreen, #widescreen, #separation, #annotationsButton {
+		display: none!important;
+	}
+	#volume {
+		right: 20px;
+	}
+	#qualityButton {
+		right: 90px;
+	}
 }

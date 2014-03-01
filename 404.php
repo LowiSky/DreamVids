@@ -2,7 +2,7 @@
 <html>
 	<!-- // // HEAD \\ \\-->
 	<head>
-		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/style.css">
 		
 		<link rel="icon" href="img/favicon.png" />
 

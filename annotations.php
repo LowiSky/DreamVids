@@ -2,7 +2,7 @@
 <html>
 	<!-- // // HEAD \\ \\-->
 	<head>
-		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<link rel="icon" href="img/favicon.png" />
 
@@ -18,14 +18,14 @@
 
 			<?php include 'header.php'; ?>
 	
-			<section id="video">
+			<div class="content">
 				<div id="video-top-infos">
 					<div id="video-top-title">
 						<h1>Titre de la vidéo</h1>
 					</div>
 				</div>
 
-				<div id="player">
+				<div class="annoted" id="player">
 					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png">
 						<source id="srcMp4" type="video/mp4"/>
 						<source id="srcWebm" type="video/webm"/>
@@ -89,7 +89,7 @@
 						</div>
 					</div>
 				</section>
-			</section>
+			</div>
 	
 			<section id="annoTimeLine">
 				<ul id="annoList"></ul>

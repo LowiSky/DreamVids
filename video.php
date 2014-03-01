@@ -2,7 +2,7 @@
 <html>
 	<!-- // // HEAD \\ \\-->
 	<head>
-		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<link rel="icon" href="img/favicon.png" />
 
@@ -18,7 +18,7 @@
 
 			<?php include 'header.php'; ?>
 	
-			<section id="video">
+			<section class="content">
 				<div id="video-top-infos">
 					<div id="video-top-title">
 						<div id="video-top-channel">

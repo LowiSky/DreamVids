@@ -1,0 +1,61 @@
+/* =======================================
+         Feuille de style principale
+   ======================================= */
+
+
+
+/* Partials
+   ======================================= */
+
+@import "partials/404-content.scss";
+@import "partials/aside-channels.scss";
+@import "partials/annotations-tools.scss";
+@import "partials/bgLoader.scss";
+@import "partials/checkbox.scss";
+@import "partials/embed.scss";
+@import "partials/fonts.scss";
+@import "partials/footer.scss";
+@import "partials/header.scss";
+@import "partials/home-large-modal.scss";
+@import "partials/login-register.scss";
+@import "partials/player.scss";
+@import "partials/upload-animation.scss";
+@import "partials/upload-large-modal.scss";
+
+/* Cards
+   ======================================= */
+
+@import "cards/card.scss";
+
+/* Cards lists
+   ======================================= */
+
+@import "cards-lists/aside-cards-list.scss";
+@import "cards-lists/column-cards-list.scss";
+
+/* Vidéo
+   ======================================= */
+
+@import "video/comments.scss";
+@import "video/player.scss";
+@import "video/titre.scss";
+@import "video/video-infos.scss";
+
+/* Contenu principale des pages
+   ======================================= */
+
+.content {
+	display: table;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* Declaration order
+   ======================================= */
+
+/* Positioning */
+
+/* Display & Box Model */
+
+/* Styling */

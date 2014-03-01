@@ -3,42 +3,44 @@
 		display: block;
 
 		.thumbnail {
-			display: block;
-			width: 100%;
-			height: 110px;
 			position: absolute;
 			top: 0;
 			left: 0;
+
+			display: block;
+			width: 100%;
+			height: 110px;
+
 			background-color: #e9e9e9;
 			background-position: center;
 			
 			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-ms-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
+			   -moz-background-size: cover;
+				-ms-background-size: cover;
+			     -o-background-size: cover;
+					background-size: cover;
 		}
 
 		p {
-			padding: 20px;
 			padding-top: 15px;
-			text-align: justify;
+			padding: 20px;
 			margin-top: 110px;
+
+			text-align: justify;
 			font-size: 20px;
 			line-height: 28px;
 	
-			b {
-				font-weight: bold;
-			}
+			b { font-weight: bold; }
 		}
 	}
 
 	i {
-		font-size: 17px;
-		font-style: italic;
-		color: #a4a4a4;
 		position: absolute;
 		bottom: 8px;
 		right: 8px;
+
+		font-size: 17px;
+		font-style: italic;
+		color: #a4a4a4;
 	}
 }

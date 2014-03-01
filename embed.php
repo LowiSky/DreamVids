@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+	<!-- // // HEAD \\ \\-->
 	<head>
-		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<link rel="icon" href="img/favicon.png" />
 
@@ -11,7 +12,8 @@
 		<title>DreamPlayer</title>
 	</head>
 
-	<body>
+	<!-- // // BODY \\ \\-->
+	<body class="embeded">
 		<div id="player">
 			<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png"></video>
 			<div id="annotationsElement"></div>
