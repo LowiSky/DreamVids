@@ -1,19 +1,17 @@
-@import "partials/checkbox.scss";
-
-#login, #register {
-	padding-top: 15px;
-	padding-bottom: 15px;
+#login,
+#register {
 	width: 100%;
 	max-width: 600px;
 	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 	h1 {
+		margin: 15px 0 35px 15px;
 		font-size: 25px;
-		margin: 0;
-		margin-top: 15px;
-		margin-bottom: 35px;
-		margin-left: 15px;
 		color: #858484;
+
+		@media (max-width: 630px) { margin-left: 10px; }
 
 		a {
 			color: #ccc;
@@ -21,87 +19,76 @@
 
 			&:hover {
 				color: #aaa;
-				&:before {
-					color: #ccc;
-				}
+
+				&:before { color: #ccc; }
 			}
-			&:before {
-				content: " / ";
-			}
+
+			&:before { content: " / "; }
 		}
 
 		&:after {
-			content: "";
+			position: relative;
+			bottom: -5px;
+
 			display: block;
 			height: 4px;
 			width: 25px;
-			background-color: #dddedd;
 			border: none;
-			position: relative;
-			bottom: -5px;
+			
+			content: "";
+			background-color: #dddedd;
 		}
 	}
 
 	form {
 		margin: auto;
-		background-color: #f1f0f0;
-		padding: 15px;
-		color: #858484;
 		margin-bottom: 30px;
+		padding: 15px;
+		
+		color: #858484;
+		background-color: #f1f0f0;
 
 		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-		-webkit-box-shadow: 1px 2px 0px #e2e2e2;
-		-moz-box-shadow: 1px 2px 0px #e2e2e2;
-		box-shadow: 1px 2px 0px #e2e2e2;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
 
-		input[type=text], input[type=password] {
+		-webkit-box-shadow: 1px 2px 0px #e2e2e2;
+		   -moz-box-shadow: 1px 2px 0px #e2e2e2;
+			-ms-box-shadow: 1px 2px 0px #e2e2e2;
+			 -o-box-shadow: 1px 2px 0px #e2e2e2;
+				box-shadow: 1px 2px 0px #e2e2e2;
+
+		input:not([type="checkbox"]) {
 			display: block;
-			border: none;
-			margin: 5px 0;
 		    width: 100%;
 		    height: 40px;
+			margin: 5px 0;
 		    padding: 8px;
-		    -webkit-box-sizing: border-box;
-		    -moz-box-sizing: border-box;
-		    box-sizing: border-box;
 
-		    &:focus, &:active {
-		    	outline: none;
-		    }
+			border: none;
+
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+
+			&:focus,
+			&:active { outline: none; }
 		}
 		
-		input[type=submit] {
-			display: block;
-			border: none;
-			margin-top: 5px;
-		    width: 100%;
-		    height: 40px;
-		    padding: 8px;
-		    cursor: pointer;
+		input[type="submit"] {
 		    color: white;
 		    background-color: #40a6e0;
+		    cursor: pointer;
 
-		    -webkit-box-sizing: border-box;
-		    -moz-box-sizing: border-box;
-		    box-sizing: border-box;
+		    &:focus,
+		    &:active,
+		    &:hover  { background-color: lighten(#40a6e0, 3); }
 
-		    &:focus, &:active, &:hover {
-		    	outline: none;
-		    	background-color: lighten(#40a6e0, 3);
-		    }
-		    &:active {
-		    	background-color: darken(#40a6e0, 3);
-		    }
-		}
-	}
-}
-
-@media all and (max-width: 630px) {
-	#login, #register {
-		h1 {
-			margin-left: 10px;
+		    &:active { background-color:  darken(#40a6e0, 3); }
 		}
 	}
 }

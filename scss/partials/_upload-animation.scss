@@ -3,82 +3,95 @@
     cursor: pointer;
 
     #upload-illustration {
+        position: relative;
+        top: 120px;
+
         display: block;
         width: 300px;
         height: 160px;
         margin: auto;
-        position: relative;
-        top: 120px;
         overflow: hidden;
 
         .cloud {
+            position: relative;
+            z-index: 50;
+            
+            display: block;
             width: 300px; 
             height: 100px;
-            background-color: #40a6e0;
-            border-radius: 20% 20% 20% / 50% 50%;
-            position: relative;
             margin: 0;
             margin-top: 60px;
+            
+            background-color: #40a6e0;
+            border-radius: 20% 20% 20% / 50% 50%;
             line-height: 60px;
-            z-index: 50;
-            display: block;
 
-            &:after, &:before {
-                width: 60%;
-                content: "";
-                position: absolute;
-                background-color: #40a6e0;
+            &:after,
+            &:before {
                 z-index: -1;
+
+                position: absolute;
+                width: 60%;
+
+                content: "";
+                background-color: #40a6e0;
             }
             &:after {
-                height: 130%;
                 top: -50%;
                 left: 10%;
+
+                height: 130%;
+
                 border-radius: 90% 120% 0 100%;
             }
             &:before {
-                height: 150%;
                 top: -60%;
                 right: 8%;
+
+                height: 150%;
+
                 border-radius: 90% 100% 50% 0;
             }
         }
     
         #arrowUpload {
+            position: relative;
+            top: -5%;
+            
             display: block;
             width: 0;
             height: 0;
+            margin: auto;
+
             border-style: solid;
             border-width: 0 50px 60px 50px;
             border-color: transparent transparent white transparent;
-            margin: auto;
-            position: relative;
-            top: -5%;
 
             -webkit-transition: top 0.5s;
-            -moz-transition: top 0.5s;
-            -ms-transition: top 0.5s;
-            -o-transition: top 0.5s;
-            transition: top 0.5s;
+               -moz-transition: top 0.5s;
+                -ms-transition: top 0.5s;
+                 -o-transition: top 0.5s;
+                    transition: top 0.5s;
 
             &:after {
-                content: "";
-                display: block;
                 position: relative;
                 top: 60px;
+
+                display: block;
                 width: 45px;
                 height: 100px;
                 margin-left: -22px;
+
+                content: "";
                 background-color: white;
             }
         }
     }
 
-    &:hover, .hover {
+    &:hover,
+    .hover {
         #upload-illustration {
-            #arrowUpload {
-                top: -20%;
-            }
+            #arrowUpload { top: -20%; }
         }
     }
 
@@ -87,29 +100,77 @@
             #arrowUpload {
                 position: relative;
                 left: 2px;
+                top: -25px;
+
+                width: 35%;
+                height: 0;
+                padding-bottom: 35%;
+                
                 border: none;
                 background: white;
                 border-radius: 50%;
-                height: 0;
-                width: 35%;
-                padding-bottom: 35%;
-                top: -25px;
-    
+
                 -webkit-animation: uploading 0.5s ease-in-out infinite alternate;
-                -moz-animation: uploading 0.5s ease-in-out infinite alternate;
-                -ms-animation: uploading 0.5s ease-in-out infinite alternate;
-                -o-animation: uploading 0.5s ease-in-out infinite alternate;
-                animation: uploading 0.5s ease-in-out infinite alternate;
+                   -moz-animation: uploading 0.5s ease-in-out infinite alternate;
+                    -ms-animation: uploading 0.5s ease-in-out infinite alternate;
+                     -o-animation: uploading 0.5s ease-in-out infinite alternate;
+                        animation: uploading 0.5s ease-in-out infinite alternate;
     
-                &:after {
-                    display: none;
-                }
+                &:after { display: none; }
             }
         }
     }
 }
 
 @-webkit-keyframes uploading {
+    form {
+        width: 35%;
+        padding-bottom: 35%;
+        top: -25px;
+    }
+    to {
+        width: 25%;
+        padding-bottom: 25%;
+        top: -5px;
+    }
+}
+@-moz-keyframes uploading {
+    form {
+        width: 35%;
+        padding-bottom: 35%;
+        top: -25px;
+    }
+    to {
+        width: 25%;
+        padding-bottom: 25%;
+        top: -5px;
+    }
+}
+@-ms-keyframes uploading {
+    form {
+        width: 35%;
+        padding-bottom: 35%;
+        top: -25px;
+    }
+    to {
+        width: 25%;
+        padding-bottom: 25%;
+        top: -5px;
+    }
+}
+@-p-keyframes uploading {
+    form {
+        width: 35%;
+        padding-bottom: 35%;
+        top: -25px;
+    }
+    to {
+        width: 25%;
+        padding-bottom: 25%;
+        top: -5px;
+    }
+}
+@keyframes uploading {
     form {
         width: 35%;
         padding-bottom: 35%;

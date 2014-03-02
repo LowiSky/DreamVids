@@ -95,10 +95,7 @@
 	
 			<div class="content">
 				<section id="comments">
-					<div id="comments-title">
 						<h3>Commentaires Populaires</h3>
-						<hr/>
-					</div>
 	
 					<div id="comments-best">
 						<div class="comment">

@@ -1,96 +1,112 @@
-@import "partials/checkbox.scss";
-
 #home-large-modal {
 	position: relative;
+
+	width: 100%;
 	max-width: 1200px;
 	height: 500px;
 	margin: auto;
 
 	#backgroundLoader {
-		width: 100%;
-		height: 100%;
-		display: inline-block;
 		position: absolute;
 		top: 0;
 		left: 0;
-	
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-ms-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
 
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	
 		background-position: center;
+
+		-webkit-background-size: cover;
+		   -moz-background-size: cover;
+			-ms-background-size: cover;
+			 -o-background-size: cover;
+				background-size: cover;
 	}
 
 	section:nth-child(2) {
+		position: relative;
+		top: 50px;
+
 		max-width: 1000px;
 		height: 400px;
 		margin: auto;
-		position: relative;
-		top: 50px;
+
 		background-color: #{'rgba(64, 166, 224, 0.8)'};
 
 		#boxPages {
-			float: left;
 			position: relative;
-			max-width: 400px;
+			float: left;
+
 			width: 100%;
 			height: 400px;
+			max-width: 400px;
 
-			@media all and (max-width: 870px) {
+			@media (max-width: 870px) {
 				max-width: 100%;
+
 				-webkit-box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+					-ms-box-sizing: border-box;
+					 -o-box-sizing: border-box;
+						box-sizing: border-box;
 			}
 	
-			#pageHome, #pageLogin, #pageRegister, #pageChannel {
+			#pageHome,
+			#pageLogin,
+			#pageRegister,
+			#pageChannel {
 				display: none;
-				max-width: 350px;
 				width: 100%;
 				height: 350px;
+				max-width: 350px;
 				margin-top: 25px;
 				margin-left: 25px;
+
 				color: white;
 				text-align: center;
 
-				@media all and (max-width: 870px) {
+				@media (max-width: 870px) {
 					max-width: 100%;
 					margin: 0;
 					padding: 20px;
+					
 					-webkit-box-sizing: border-box;
-					-moz-box-sizing: border-box;
-					box-sizing: border-box;
+					   -moz-box-sizing: border-box;
+						-ms-box-sizing: border-box;
+						 -o-box-sizing: border-box;
+							box-sizing: border-box;
 				}
 
-				button, input[type=submit] {
-					cursor: pointer;
-					background-color: white;
+				button,
+				input[type=submit] {
 					padding: 10px 40px;
-					border: 0;
+					
+					background-color: white;
 					color: #33799f;
+					cursor: pointer;
+					border: 0;
 
-					&:focus, &:active {
-						outline: none;
-					}
+					&:focus, &:active { outline: none; }
 				}
 
 				h3 {
-					font-size: 22px;
 					margin-bottom: 10px;
+					font-size: 22px;
 					cursor: default;
 				}
+
 				.inner-text {
-					line-height: 18px;
 					padding: 5px;
 					padding-top: 0;
+
+					line-height: 18px;
 					font-size: 16px;
 				}
 
 				a {
-					margin-top: 15px;
 					display: block;
+					margin-top: 15px;
 					cursor: pointer;
 				}
 
@@ -99,181 +115,175 @@
 						display: inline-block;
 						width: 40%;
 						margin: 0;
-						text-align: right;
 						margin-left: -15px;
 						margin-right: 10px;
+
+						text-align: right;
 					}
-					input[type=text], input[type=email], input[type=password] {
+
+					input[type="text"], input[type="email"], input[type="password"] {
 						display: inline-block;
-						border: none;
-						margin: 5px 0;
 					    width: 60%;
 					    height: 40px;
+						border: none;
+						margin: 5px 0;
 					    padding: 8px;
+					    
 					    -webkit-box-sizing: border-box;
-					    -moz-box-sizing: border-box;
-					    box-sizing: border-box;
+						   -moz-box-sizing: border-box;
+							-ms-box-sizing: border-box;
+							 -o-box-sizing: border-box;
+								box-sizing: border-box;
 
-					    &:focus, &:active {
-					    	outline: none;
-					    }
+					    &:focus, &:active { outline: none; }
 					}
 				}
 	
 				&:after {
-					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					
 					display: block;
 					width: 1px;
 					height: 300px;
 					margin-top: 50px;
-					position: absolute;
-					top: 0;
-					right: 0;
+
+					content: "";
 					background-color: #{'rgba(255, 255, 255, 0.3)'};
 				}
 			}
-			&.home > #pageHome {
-				display: block;
-			} &.login > #pageLogin {
-				display: block;
-			} &.register > #pageRegister {
-				display: block;
-			} &.channel > #pageChannel {
-				display: block;
-			} 
+			&.home > #pageHome { display: block; }
+
+			&.login > #pageLogin { display: block; }
+
+			&.register > #pageRegister { display: block; }
+
+			&.channel > #pageChannel { display: block; }
 
 			#pageHome {
 				.logo {
 					margin-top: 50px;
-					@media all and (max-width: 300px) {
-						margin-top: 30px;
-					}
+
+					@media (max-width: 300px) { margin-top: 30px; }
 				}
-				h3 {
-					margin-top: 25px;
-				}
-				button {
-					margin-top: 40px;
-				}
+				h3 { margin-top: 25px; }
+
+				button { margin-top: 40px; }
 			}
 
 			#pageRegister {
-				@media all and (max-width: 400px) {
-					a {
-						margin-top: 5px;
-					}
+				@media (max-width: 400px) {
+					a { margin-top: 5px; }
 				}
-				@media all and (max-width: 310px) {
-					h3 {
-						margin-top: -10px;
-					}
+				@media (max-width: 310px) {
+					h3 { margin-top: -10px; }
 				}
+
 				form {
 					margin-top: 15px;
-					@media all and (max-width: 310px) {
-						margin-top: 0;
-					}
+
+					@media (max-width: 310px) { margin-top: 0; }
 				}
-				input[type=submit] {
+
+				input[type="submit"] {
 					margin-top: 10px;
-					@media all and (max-width: 400px) {
-						margin-top: 5px;
-					}
+
+					@media (max-width: 400px) { margin-top: 5px; }
 				}
 			}
 
 			#pageLogin {
-				h3 {
-					margin-top: 70px;
-				}
+				h3 { margin-top: 70px; }
+
 				form {
 					margin-top: 30px;
 
-					label {
-						width: 30%;
-					}
-					input[type=text], input[type=email], input[type=password] {
-					    width: 70%;
-					}
+					label { width: 30%; }
+
+					input[type=text],
+					input[type=email],
+					input[type=password] { width: 70%; }
 				}
-				input[type=submit] {
-					margin-top: 30px;
-				}
+				input
+				[type="submit"] { margin-top: 30px; }
 			}
 
 			#pageChannel {
 				.avatar {
-					margin: auto;
-					margin-top: 60px;
+					display: block;
 					width: 100px;
 					height: 100px;
-					display: block;
+					margin: auto;
+					margin-top: 60px;
+
 					border-radius: 50%;
 
 					-webkit-background-size: cover;
-					-moz-background-size: cover;
-					-ms-background-size: cover;
-					-o-background-size: cover;
-					background-size: cover;
+					   -moz-background-size: cover;
+						-ms-background-size: cover;
+						 -o-background-size: cover;
+							background-size: cover;
 				}
-				h3 {
-					margin-top: 25px;
-				}
-				button {
-					margin-top: 40px;
-				}
+
+				h3     { margin-top: 25px; }
+
+				button { margin-top: 40px; }
 			}
 		}
 
 		#boxBest {
-			float: left;
 			position: relative;
-			max-width: 600px;
+			float: left;
+
 			width: 100%;
 			height: 400px;
+			max-width: 600px;
 
-			@media all and (max-width: 1015px) {
-				max-width: 58%;
-			} @media all and (max-width: 970px) {
-				max-width: 55%;
-			} @media all and (max-width: 940px) {
-				max-width: 52%;
-			} @media all and (max-width: 870px) {
-				max-width: 100%;
+			@media (max-width: 1015px) { max-width: 58%; }
+
+			@media (max-width: 970px)  { max-width: 55%; }
+
+			@media (max-width: 940px)  { max-width: 52%; }
+
+			@media (max-width: 870px) {
 				display: block;
 				height: 350px;
+				max-width: 100%;
 				margin-top: 10px;
 				margin-bottom: 30px;
 			}
 
 			h3 {
-				font-size: 22px;
 				margin-bottom: 10px;
 				margin-top: 70px;
 				margin-left: 30px;
+
+				font-size: 22px;
 				color: white;
 
-				@media all and (max-width: 870px) {
+				@media (max-width: 870px) {
 					color: #858484;
 					font-size: 18px;
 
-					&:after {
-						background-color: #f1f0f0!important;
-					}
-				} @media all and (max-width: 350px) {
+					&:after { background-color: #f1f0f0!important; }
+				}
+				@media (max-width: 350px) {
 					width: 60%;
 					margin-left: 10px;
 				}
 
 				&:after {
-					content: "";
+					position: relative;
+					bottom: -5px;
+					
 					display: block;
 					height: 4px;
 					width: 25px;
-					background-color: white;
 					border: none;
-					position: relative;
-					bottom: -5px;
+
+					background-color: white;
+					content: "";
 				}
 			}
 
@@ -283,16 +293,15 @@
 				margin-right: 30px;
 
 				li {
+					display: inline-block;
 					width: 6px;
 					height: 6px;
-					display: inline-block;
-					cursor: pointer;
 					margin-left: 10px;
+
+					cursor: pointer;
 					background-color: white;
 					
-					@media all and (max-width: 870px) {
-						background-color: #40a6e0;
-					}
+					@media (max-width: 870px) { background-color: #40a6e0; }
 
 					&:hover {
 						width: 10px;
@@ -304,7 +313,9 @@
 				}
 
 
-				&.slide1 > li:nth-child(1), &.slide2 > li:nth-child(2), &.slide3 > li:nth-child(3) {
+				&.slide1 > li:nth-child(1),
+				&.slide2 > li:nth-child(2),
+				&.slide3 > li:nth-child(3) {
 					width: 10px;
 					height: 10px;
 					margin-left: 8px;
@@ -319,19 +330,19 @@
 				height: 250px;
 				overflow: hidden;
 
-				@media all and (max-width: 870px) {
-					height: 200px;
-				}
+				@media (max-width: 870px) { height: 200px; }
 
 				&.slide1 {
 					#slide:nth-child(1) { left: 0%; }
 					#slide:nth-child(2) { left: 100%; }
 					#slide:nth-child(3) { left: 200%; }
-				} &.slide2 {
+				}
+				&.slide2 {
 					#slide:nth-child(1) { left: -100%; }
 					#slide:nth-child(2) { left: 0; }
 					#slide:nth-child(3) { left: 100%; }
-				} &.slide3 {
+				}
+				&.slide3 {
 					#slide:nth-child(1) { left: -200%; }
 					#slide:nth-child(2) { left: -100%; }
 					#slide:nth-child(3) { left: 0; }
@@ -339,54 +350,47 @@
 
 				#slide {
 					position: relative;
+					float: left;
+
 					display: block;
 					width: 100%;
 					height: 100%;
-					float: left;
 
 					&:nth-child(2) { top: -100%; }
 					&:nth-child(3) { top: -200%; }
 
-					@media all and (min-width: 640px) {
+					@media (min-width: 640px) {
 						-webkit-transition: left 0.5s;
-						-moz-transition: left 0.5s;
-						-ms-transition: left 0.5s;
-						-o-transition: left 0.5s;
-						transition: left 0.5s;
+						   -moz-transition: left 0.5s;
+							-ms-transition: left 0.5s;
+							 -o-transition: left 0.5s;
+								transition: left 0.5s;
 					}
 
 					.video {
-						width: 250px;
-						height: 180px;
-						margin: 0 15px;
 						position: absolute;
 						bottom: 40px;
 
-						@media all and (max-width: 970px) {
-							width: 45%;
-						} @media all and (max-width: 870px) {
-							bottom: 0px;
-						} @media all and (max-width: 400px) {
-							margin: 0 10px;
-						} @media all and (max-width: 300px) {
-							margin: 0 5px;
-						}
+						width: 250px;
+						height: 180px;
+						margin: 0 15px;
+
+						@media (max-width: 970px) { width: 45%;	}
+
+						@media (max-width: 870px) { bottom: 0px; }
+
+						@media (max-width: 400px) { margin: 0 10px;	}
+
+						@media (max-width: 300px) { margin: 0 5px; }
+
+						&:first-child { left: 0; }
+
+						&:nth-child(2) { right: 0; }
 					
-						&:first-child {
-							left: 0;
-						}
-						&:nth-child(2) {
-							right: 0;
-						}
+						.video-time { display: none; }
 					
-						.video-time{
-							display: none;
-						}
-					
-						.video-description{
-							.video-bottom-description{
-								display: none;
-							}
+						.video-description {
+							.video-bottom-description { display: none; }
 						}
 					}
 				}

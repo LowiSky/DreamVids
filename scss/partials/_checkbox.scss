@@ -1,37 +1,37 @@
-input[type=checkbox] {
-	cursor: pointer;
+input[type="checkbox"] {
 	width: 25px;
 	margin: 10px 5px 15px 10px;
+	cursor: pointer;
 
 	&:before {
-	    content: "";
-	    background-color: #dddddd;
-	    color: #ffffff;
-	    padding: 12px 0px 13px 5px;
-	    display: block;
-	    font-size: 20px;
 	    position: relative;
 	    bottom: 5px;
 	    right: 5px;
-	    line-height: 0;
-	    text-indent: 0;
+
+	    display: block;
 	    margin-left: -2px;
+	    padding: 12px 0px 13px 5px;
+
+	    content: "";
+	    background: #dddddd;
+	    color: #ffffff;
+	    font-size: 20px;
+	    text-indent: 0;
+	    line-height: 0;
 	}
-	&:checked:before, &:hover:before, &[disabled]:checked:before {
-		content: "✓";
-	}
-	&:checked:before {
-		background-color: #2ecc71;
-	}
+
+	&:checked:before,
+	&:hover:before,
+	&[disabled]:checked:before { content: "✓"; }
+
+	&:checked:before { background: #2ecc71; }
+
 	&[disabled] {
 		cursor: default;
 		
-		&:hover:before {
-			content: "";
-		}
-		&:checked:before {
-			background-color: #dddddd;
-		}
+		&:hover:before { content: ""; }
+
+		&:checked:before { background: #dddddd; }
 
 		+ label {
 		    color: #999999;
@@ -42,8 +42,10 @@ input[type=checkbox] {
 	+ label {
 	    position: relative;
 	    right: 5px;
-	    cursor: pointer;
+	    
 	    width: auto!important;
 	    margin-left: 5px!important;
+	    
+	    cursor: pointer;
 	}
 }

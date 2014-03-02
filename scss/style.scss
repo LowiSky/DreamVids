@@ -1,11 +1,16 @@
-/* =======================================
-         Feuille de style principale
+/* ===============================================
+             Feuille de style principale
+   =============================================== */
+
+
+
+@import "compass/reset";
+
+/* Différentes sections de pages
    ======================================= */
 
-
-
-/* Partials
-   ======================================= */
+@import "partials/header.scss";
+@import "partials/footer.scss";
 
 @import "partials/404-content.scss";
 @import "partials/aside-channels.scss";
@@ -14,30 +19,31 @@
 @import "partials/checkbox.scss";
 @import "partials/embed.scss";
 @import "partials/fonts.scss";
-@import "partials/footer.scss";
-@import "partials/header.scss";
 @import "partials/home-large-modal.scss";
 @import "partials/login-register.scss";
 @import "partials/player.scss";
 @import "partials/upload-animation.scss";
 @import "partials/upload-large-modal.scss";
 
-/* Cards
+/* Style des cartes
    ======================================= */
 
 @import "cards/card.scss";
+@import "cards/card-video.scss";
+@import "cards/card-comment.scss";
+@import "cards/card-plus.scss";
+@import "cards/card-subscribe.scss";
 
-/* Cards lists
+/* Listes de cartes
    ======================================= */
 
 @import "cards-lists/aside-cards-list.scss";
 @import "cards-lists/column-cards-list.scss";
 
-/* Vidéo
+/* Styles pour la page de vidéo
    ======================================= */
 
 @import "video/comments.scss";
-@import "video/player.scss";
 @import "video/titre.scss";
 @import "video/video-infos.scss";
 
@@ -51,11 +57,37 @@
 	margin: auto;
 }
 
-/* Declaration order
+/* ===============================================
+               Règles de présentation
+   =============================================== */
+
+
+
+/* Ordre des déclarations
    ======================================= */
+ 
+/* 
+  -  Positionnement
 
-/* Positioning */
+  -  Modèle de zone
 
-/* Display & Box Model */
+  -  Visuel */
 
-/* Styling */
+
+/* Exemple */
+
+#declaration-order .exemple {
+	position: absolute;
+	float: left;
+	top: 0;
+	z-index: 100;
+
+	display: block;
+	width: 100px;
+	height: 100px;
+
+	line-height: 1.5;
+	color: #333;
+	background-color: #f5f5f5;
+	border: 1px solid #e5e5e5;
+}

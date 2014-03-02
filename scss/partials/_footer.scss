@@ -1,22 +1,21 @@
-html {
-	background-color: #f1f0f0;
-}
-body {
-	background-color: white;
-}
+html { background-color: #f1f0f0; }
+
+body { background-color: white; }
 
 footer {
-	width: 100%;
-	border-top: 1px solid #d1d1d1;
-	background-color: #f1f0f0;
 	position: relative;
 	top: 10px;
+
+	width: 100%;
+	border-top: 1px solid #d1d1d1;
+
+	background-color: #f1f0f0;
 
 	#inner-footer{
 		max-width: 1000px;
 		margin: auto;
-		padding-top: 20px;
-		padding-bottom: 40px;
+		padding: 20px 15px 40px 15px;
+		
 		text-align: left;
 		color: #928b8b;
 	}

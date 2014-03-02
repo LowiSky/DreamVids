@@ -3,16 +3,20 @@ $rainDrop-size: 40px;
 @-webkit-keyframes rainDrop {
 	from { top: -$rainDrop-size; }
 	to { top: 100%; }
-} @-moz-keyframes rainDrop {
+}
+@-moz-keyframes rainDrop {
 	from { top: -$rainDrop-size; }
 	to { top: 100%; }
-} @-ms-keyframes rainDrop {
+}
+@-ms-keyframes rainDrop {
 	from { top: -$rainDrop-size; }
 	to { top: 100%; }
-} @-o-keyframes rainDrop {
+}
+@-o-keyframes rainDrop {
 	from { top: -$rainDrop-size; }
 	to { top: 100%; }
-} @keyframes rainDrop {
+}
+@keyframes rainDrop {
 	from { top: -$rainDrop-size; }
 	to { top: 100%; }
 }
@@ -30,7 +34,6 @@ $rainDrop-size: 40px;
 		display: inline-block;
 		width: 500px;
 		height: 100%;
-
 
 		@media (max-width: 1015px) { width: 370px; }
 
@@ -268,7 +271,7 @@ $rainDrop-size: 40px;
 			}
 
 			@media (max-width: 760px) {
-				max-width: 40%;
+				max-width: 100%;
 			}
 		}
 
@@ -290,7 +293,7 @@ $rainDrop-size: 40px;
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 750px) {
 	#error404 {
 		#illustration{
 			width: 100%;
