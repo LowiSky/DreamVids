@@ -22,9 +22,11 @@ function tempsRestant(timestamp) {
     var heures = Math.round(minutes / 60);
 
     if (seconds < 1)
-        return "maintenant";
+        return "une seconde";
     else if (seconds < 60)
         return seconds + " secondes";
+    else if (minutes === 1)
+        return minutes + " une minute";
     else if (minutes < 14)
         return minutes + " minutes";
     else if (minutes < 16)
