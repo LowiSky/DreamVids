@@ -120,14 +120,40 @@
             }
         }
     }
+
+    &.uploaded {
+        #upload-illustration {
+            #arrowUpload {
+                position: relative;
+                top: -20%!important;
+                left: 0;
+                    
+                display: block;
+                width: 100%;
+    
+                border: none;
+
+                &:after {
+                    position: relative;
+                    top: 20px;
+                    left: 0;
+                    margin: auto;
+
+                    display: block;
+                    width: 100%;
+
+                    content: attr(data-uploaded-message);
+                    background: transparent;
+                    color: white;
+                    font-size: 50px;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
 
 @-webkit-keyframes uploading {
-    form {
-        width: 35%;
-        padding-bottom: 35%;
-        top: -25px;
-    }
     to {
         width: 25%;
         padding-bottom: 25%;
@@ -135,11 +161,6 @@
     }
 }
 @-moz-keyframes uploading {
-    form {
-        width: 35%;
-        padding-bottom: 35%;
-        top: -25px;
-    }
     to {
         width: 25%;
         padding-bottom: 25%;
@@ -147,23 +168,13 @@
     }
 }
 @-ms-keyframes uploading {
-    form {
-        width: 35%;
-        padding-bottom: 35%;
-        top: -25px;
-    }
     to {
         width: 25%;
         padding-bottom: 25%;
         top: -5px;
     }
 }
-@-p-keyframes uploading {
-    form {
-        width: 35%;
-        padding-bottom: 35%;
-        top: -25px;
-    }
+@-o-keyframes uploading {
     to {
         width: 25%;
         padding-bottom: 25%;
@@ -171,11 +182,6 @@
     }
 }
 @keyframes uploading {
-    form {
-        width: 35%;
-        padding-bottom: 35%;
-        top: -25px;
-    }
     to {
         width: 25%;
         padding-bottom: 25%;

@@ -3679,16 +3679,32 @@ video {
 #uploader.uploading #upload-illustration #arrowUpload:after {
   display: none;
 }
+/* line 126, ../scss/partials/_upload-animation.scss */
+#uploader.uploaded #upload-illustration #arrowUpload {
+  position: relative;
+  top: -20% !important;
+  left: 0;
+  display: block;
+  width: 100%;
+  border: none;
+}
+/* line 136, ../scss/partials/_upload-animation.scss */
+#uploader.uploaded #upload-illustration #arrowUpload:after {
+  position: relative;
+  top: 20px;
+  left: 0;
+  margin: auto;
+  display: block;
+  width: 100%;
+  content: attr(data-uploaded-message);
+  background: transparent;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
 
 @-webkit-keyframes uploading {
-  /* line 126, ../scss/partials/_upload-animation.scss */
-  form {
-    width: 35%;
-    padding-bottom: 35%;
-    top: -25px;
-  }
-
-  /* line 131, ../scss/partials/_upload-animation.scss */
+  /* line 157, ../scss/partials/_upload-animation.scss */
   to {
     width: 25%;
     padding-bottom: 25%;
@@ -3697,14 +3713,7 @@ video {
 }
 
 @-moz-keyframes uploading {
-  /* line 138, ../scss/partials/_upload-animation.scss */
-  form {
-    width: 35%;
-    padding-bottom: 35%;
-    top: -25px;
-  }
-
-  /* line 143, ../scss/partials/_upload-animation.scss */
+  /* line 164, ../scss/partials/_upload-animation.scss */
   to {
     width: 25%;
     padding-bottom: 25%;
@@ -3713,14 +3722,7 @@ video {
 }
 
 @-ms-keyframes uploading {
-  /* line 150, ../scss/partials/_upload-animation.scss */
-  form {
-    width: 35%;
-    padding-bottom: 35%;
-    top: -25px;
-  }
-
-  /* line 155, ../scss/partials/_upload-animation.scss */
+  /* line 171, ../scss/partials/_upload-animation.scss */
   to {
     width: 25%;
     padding-bottom: 25%;
@@ -3728,15 +3730,8 @@ video {
   }
 }
 
-@-p-keyframes uploading {
-  /* line 162, ../scss/partials/_upload-animation.scss */
-  form {
-    width: 35%;
-    padding-bottom: 35%;
-    top: -25px;
-  }
-
-  /* line 167, ../scss/partials/_upload-animation.scss */
+@-o-keyframes uploading {
+  /* line 178, ../scss/partials/_upload-animation.scss */
   to {
     width: 25%;
     padding-bottom: 25%;
@@ -3745,19 +3740,20 @@ video {
 }
 
 @keyframes uploading {
-  /* line 174, ../scss/partials/_upload-animation.scss */
-  form {
-    width: 35%;
-    padding-bottom: 35%;
-    top: -25px;
-  }
-
-  /* line 179, ../scss/partials/_upload-animation.scss */
+  /* line 185, ../scss/partials/_upload-animation.scss */
   to {
     width: 25%;
     padding-bottom: 25%;
     top: -5px;
   }
+}
+
+/* line 1, ../scss/partials/_upload-content.scss */
+#upload-content {
+  display: table;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* line 1, ../scss/partials/_upload-large-modal.scss */
@@ -3766,8 +3762,9 @@ video {
   height: 500px;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 40px;
 }
-/* line 8, ../scss/partials/_upload-large-modal.scss */
+/* line 9, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #backgroundLoader {
   position: absolute;
   top: 0;
@@ -3782,8 +3779,8 @@ video {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 26, ../scss/partials/_upload-large-modal.scss */
-#upload-large-modal section {
+/* line 27, ../scss/partials/_upload-large-modal.scss */
+#upload-large-modal #uploader {
   position: relative;
   top: 50px;
   width: 100%;
@@ -3791,6 +3788,81 @@ video {
   max-width: 1000px;
   margin: auto;
   background: rgba(255, 255, 255, 0.5);
+}
+/* line 38, ../scss/partials/_upload-large-modal.scss */
+#upload-large-modal #uploader input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 350px;
+  opacity: 0;
+  cursor: pointer;
+}
+/* line 53, ../scss/partials/_upload-large-modal.scss */
+#upload-large-modal #uploader #file-name {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  display: block;
+  width: 100%;
+  font-size: 40px;
+  color: #555;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 68, ../scss/partials/_upload-large-modal.scss */
+#upload-large-modal #progress-upload {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+}
+/* line 77, ../scss/partials/_upload-large-modal.scss */
+#upload-large-modal #progress-upload #progress-bar {
+  position: relative;
+  width: 0;
+  height: 100%;
+  background: #40a6e0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+/* line 91, ../scss/partials/_upload-large-modal.scss */
+#upload-large-modal #progress-upload #progress-bar[data-restant]:before {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  float: left;
+  display: block;
+  width: 100%;
+  height: 30px;
+  content: attr(data-restant);
+  color: white;
+  text-align: right;
+  font-size: 22px;
+  line-height: 30px;
+}
+/* line 108, ../scss/partials/_upload-large-modal.scss */
+#upload-large-modal #progress-upload #progress-bar[data-percent]:after {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  content: attr(data-percent);
+  color: #40a6e0;
+  font-size: 25px;
+  line-height: 32px;
 }
 
 /* Style des cartes
@@ -5005,7 +5077,7 @@ video {
 
 /* Contenu principale des pages
    ======================================= */
-/* line 53, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 .content {
   display: table;
   width: 100%;
@@ -5025,7 +5097,7 @@ video {
 
   -  Visuel */
 /* Exemple */
-/* line 79, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 #declaration-order .exemple {
   position: absolute;
   float: left;

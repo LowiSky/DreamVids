@@ -18,17 +18,34 @@
 
 			<?php include 'header.php'; ?>
 
-			<div id="upload-large-modal">
-				<div id="backgroundLoader" class="bgLoader" data-background="img/backgrounds/006.jpg"></div>
-
-				<section id="uploader">
-					<span id="upload-illustration">
-						<span class="cloud">
-							<span id="arrowUpload"></span>
+			<form method="post" action="">
+				<div id="upload-large-modal">
+					<div class="bgLoader" id="backgroundLoader" data-background="img/backgrounds/006.jpg"></div>
+	
+					<section id="uploader">
+						<span id="upload-illustration">
+							<span class="cloud">
+								<span id="arrowUpload" data-uploaded-message="Uploaded"></span>
+							</span>
 						</span>
-					</span>
-				</section>
-			</div>
+
+						<input id="upload-input" type="file" name="video" accept="video/*">
+
+						<div id="file-name"></div>
+					</section>
+
+					<div id="progress-upload">
+						<div id="progress-bar"></div>
+					</div>
+				</div>
+
+				<div id="upload-content">
+					<label for="username">Pseudo :</label>
+					<input id="username" type="text" name="username" placeholder="Pseudo"/><br />
+	
+					<input type="submit" name="submit" value="Se connecter"/>
+				</div>
+			</form>
 
 			<?php include 'footer.php'; ?>
 			
