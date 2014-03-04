@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width = device-width, initial-scale = 0.9, maximum-scale = 1.0, user-scalable = no">
 		<meta charset="utf-8">
 
-		<title>DreamVids</title>
+		<title>DreamVids - Accueil</title>
 	</head>
 	
 	<!-- // // BODY \\ \\-->
@@ -19,7 +19,7 @@
 			<?php include 'header.php'; ?>
 
 			<div id="home-large-modal">
-				<div id="backgroundLoader" class="bgLoader" data-background="img/backgrounds/002.jpg"></div>
+				<div id="backgroundLoader" class="bgLoader" data-background="img/backgrounds/001.jpg"></div>
 				<section>
 					<?php if (!$connected) { ?>
 						<div id="boxPages" class="home">

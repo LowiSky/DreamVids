@@ -20,7 +20,7 @@
 
 			<form method="post" action="">
 				<div id="upload-large-modal">
-					<div class="bgLoader" id="backgroundLoader" data-background="img/backgrounds/006.jpg"></div>
+					<div class="bgLoader" id="backgroundLoader" data-background="img/backgrounds/002.jpg"></div>
 	
 					<section id="uploader">
 						<span id="upload-illustration">

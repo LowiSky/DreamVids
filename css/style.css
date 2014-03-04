@@ -1734,11 +1734,10 @@ body.embeded #DreamVidsIconEmbed {
 #home-large-modal {
   position: relative;
   width: 100%;
-  max-width: 1200px;
   height: 500px;
   margin: auto;
 }
-/* line 9, ../scss/partials/_home-large-modal.scss */
+/* line 8, ../scss/partials/_home-large-modal.scss */
 #home-large-modal #backgroundLoader {
   position: absolute;
   top: 0;
@@ -1753,7 +1752,7 @@ body.embeded #DreamVidsIconEmbed {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 27, ../scss/partials/_home-large-modal.scss */
+/* line 26, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) {
   position: relative;
   top: 50px;
@@ -1762,7 +1761,7 @@ body.embeded #DreamVidsIconEmbed {
   margin: auto;
   background-color: rgba(64, 166, 224, 0.8);
 }
-/* line 37, ../scss/partials/_home-large-modal.scss */
+/* line 36, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages {
   position: relative;
   float: left;
@@ -1771,7 +1770,7 @@ body.embeded #DreamVidsIconEmbed {
   max-width: 400px;
 }
 @media (max-width: 870px) {
-  /* line 37, ../scss/partials/_home-large-modal.scss */
+  /* line 36, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxPages {
     max-width: 100%;
     -webkit-box-sizing: border-box;
@@ -1781,7 +1780,7 @@ body.embeded #DreamVidsIconEmbed {
     box-sizing: border-box;
   }
 }
-/* line 58, ../scss/partials/_home-large-modal.scss */
+/* line 57, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin,
 #home-large-modal section:nth-child(2) #boxPages #pageRegister,
@@ -1796,7 +1795,7 @@ body.embeded #DreamVidsIconEmbed {
   text-align: center;
 }
 @media (max-width: 870px) {
-  /* line 58, ../scss/partials/_home-large-modal.scss */
+  /* line 57, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxPages #pageHome,
   #home-large-modal section:nth-child(2) #boxPages #pageLogin,
   #home-large-modal section:nth-child(2) #boxPages #pageRegister,
@@ -1811,7 +1810,7 @@ body.embeded #DreamVidsIconEmbed {
     box-sizing: border-box;
   }
 }
-/* line 82, ../scss/partials/_home-large-modal.scss */
+/* line 81, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome button,
 #home-large-modal section:nth-child(2) #boxPages #pageHome input[type=submit],
 #home-large-modal section:nth-child(2) #boxPages #pageLogin button,
@@ -1826,7 +1825,7 @@ body.embeded #DreamVidsIconEmbed {
   cursor: pointer;
   border: 0;
 }
-/* line 90, ../scss/partials/_home-large-modal.scss */
+/* line 89, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome button:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome button:active,
 #home-large-modal section:nth-child(2) #boxPages #pageHome input[type=submit]:focus,
 #home-large-modal section:nth-child(2) #boxPages #pageHome input[type=submit]:active,
@@ -1844,7 +1843,7 @@ body.embeded #DreamVidsIconEmbed {
 #home-large-modal section:nth-child(2) #boxPages #pageChannel input[type=submit]:active {
   outline: none;
 }
-/* line 93, ../scss/partials/_home-large-modal.scss */
+/* line 92, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome h3,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin h3,
 #home-large-modal section:nth-child(2) #boxPages #pageRegister h3,
@@ -1853,7 +1852,7 @@ body.embeded #DreamVidsIconEmbed {
   font-size: 22px;
   cursor: default;
 }
-/* line 99, ../scss/partials/_home-large-modal.scss */
+/* line 98, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome .inner-text,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin .inner-text,
 #home-large-modal section:nth-child(2) #boxPages #pageRegister .inner-text,
@@ -1863,7 +1862,7 @@ body.embeded #DreamVidsIconEmbed {
   line-height: 18px;
   font-size: 16px;
 }
-/* line 107, ../scss/partials/_home-large-modal.scss */
+/* line 106, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome a,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin a,
 #home-large-modal section:nth-child(2) #boxPages #pageRegister a,
@@ -1872,7 +1871,7 @@ body.embeded #DreamVidsIconEmbed {
   margin-top: 15px;
   cursor: pointer;
 }
-/* line 114, ../scss/partials/_home-large-modal.scss */
+/* line 113, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome form label,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form label,
 #home-large-modal section:nth-child(2) #boxPages #pageRegister form label,
@@ -1884,7 +1883,7 @@ body.embeded #DreamVidsIconEmbed {
   margin-right: 10px;
   text-align: right;
 }
-/* line 124, ../scss/partials/_home-large-modal.scss */
+/* line 123, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="text"], #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="email"], #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="password"],
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type="text"],
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type="email"],
@@ -1907,7 +1906,7 @@ body.embeded #DreamVidsIconEmbed {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 138, ../scss/partials/_home-large-modal.scss */
+/* line 137, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="text"]:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="text"]:active, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="email"]:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="email"]:active, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="password"]:focus, #home-large-modal section:nth-child(2) #boxPages #pageHome form input[type="password"]:active,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type="text"]:focus,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type="text"]:active,
@@ -1929,7 +1928,7 @@ body.embeded #DreamVidsIconEmbed {
 #home-large-modal section:nth-child(2) #boxPages #pageChannel form input[type="password"]:active {
   outline: none;
 }
-/* line 142, ../scss/partials/_home-large-modal.scss */
+/* line 141, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome:after,
 #home-large-modal section:nth-child(2) #boxPages #pageLogin:after,
 #home-large-modal section:nth-child(2) #boxPages #pageRegister:after,
@@ -1944,96 +1943,96 @@ body.embeded #DreamVidsIconEmbed {
   content: "";
   background-color: rgba(255, 255, 255, 0.3);
 }
-/* line 156, ../scss/partials/_home-large-modal.scss */
+/* line 155, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages.home > #pageHome {
   display: block;
 }
-/* line 158, ../scss/partials/_home-large-modal.scss */
+/* line 157, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages.login > #pageLogin {
   display: block;
 }
-/* line 160, ../scss/partials/_home-large-modal.scss */
+/* line 159, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages.register > #pageRegister {
   display: block;
 }
-/* line 162, ../scss/partials/_home-large-modal.scss */
+/* line 161, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages.channel > #pageChannel {
   display: block;
 }
-/* line 165, ../scss/partials/_home-large-modal.scss */
+/* line 164, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome .logo {
   margin-top: 50px;
 }
 @media (max-width: 300px) {
-  /* line 165, ../scss/partials/_home-large-modal.scss */
+  /* line 164, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxPages #pageHome .logo {
     margin-top: 30px;
   }
 }
-/* line 170, ../scss/partials/_home-large-modal.scss */
+/* line 169, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome h3 {
   margin-top: 25px;
 }
-/* line 172, ../scss/partials/_home-large-modal.scss */
+/* line 171, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageHome button {
   margin-top: 40px;
 }
 @media (max-width: 400px) {
-  /* line 177, ../scss/partials/_home-large-modal.scss */
+  /* line 176, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxPages #pageRegister a {
     margin-top: 5px;
   }
 }
 @media (max-width: 310px) {
-  /* line 180, ../scss/partials/_home-large-modal.scss */
+  /* line 179, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxPages #pageRegister h3 {
     margin-top: -10px;
   }
 }
-/* line 183, ../scss/partials/_home-large-modal.scss */
+/* line 182, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageRegister form {
   margin-top: 15px;
 }
 @media (max-width: 310px) {
-  /* line 183, ../scss/partials/_home-large-modal.scss */
+  /* line 182, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxPages #pageRegister form {
     margin-top: 0;
   }
 }
-/* line 189, ../scss/partials/_home-large-modal.scss */
+/* line 188, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageRegister input[type="submit"] {
   margin-top: 10px;
 }
 @media (max-width: 400px) {
-  /* line 189, ../scss/partials/_home-large-modal.scss */
+  /* line 188, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxPages #pageRegister input[type="submit"] {
     margin-top: 5px;
   }
 }
-/* line 197, ../scss/partials/_home-large-modal.scss */
+/* line 196, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageLogin h3 {
   margin-top: 70px;
 }
-/* line 199, ../scss/partials/_home-large-modal.scss */
+/* line 198, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form {
   margin-top: 30px;
 }
-/* line 202, ../scss/partials/_home-large-modal.scss */
+/* line 201, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form label {
   width: 30%;
 }
-/* line 206, ../scss/partials/_home-large-modal.scss */
+/* line 205, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=text],
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=email],
 #home-large-modal section:nth-child(2) #boxPages #pageLogin form input[type=password] {
   width: 70%;
 }
-/* line 209, ../scss/partials/_home-large-modal.scss */
+/* line 208, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageLogin input
 [type="submit"] {
   margin-top: 30px;
 }
-/* line 213, ../scss/partials/_home-large-modal.scss */
+/* line 212, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageChannel .avatar {
   display: block;
   width: 100px;
@@ -2047,15 +2046,15 @@ body.embeded #DreamVidsIconEmbed {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 229, ../scss/partials/_home-large-modal.scss */
+/* line 228, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageChannel h3 {
   margin-top: 25px;
 }
-/* line 231, ../scss/partials/_home-large-modal.scss */
+/* line 230, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxPages #pageChannel button {
   margin-top: 40px;
 }
-/* line 235, ../scss/partials/_home-large-modal.scss */
+/* line 234, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest {
   position: relative;
   float: left;
@@ -2064,25 +2063,25 @@ body.embeded #DreamVidsIconEmbed {
   max-width: 600px;
 }
 @media (max-width: 1015px) {
-  /* line 235, ../scss/partials/_home-large-modal.scss */
+  /* line 234, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest {
     max-width: 58%;
   }
 }
 @media (max-width: 970px) {
-  /* line 235, ../scss/partials/_home-large-modal.scss */
+  /* line 234, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest {
     max-width: 55%;
   }
 }
 @media (max-width: 940px) {
-  /* line 235, ../scss/partials/_home-large-modal.scss */
+  /* line 234, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest {
     max-width: 52%;
   }
 }
 @media (max-width: 870px) {
-  /* line 235, ../scss/partials/_home-large-modal.scss */
+  /* line 234, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest {
     display: block;
     height: 350px;
@@ -2091,7 +2090,7 @@ body.embeded #DreamVidsIconEmbed {
     margin-bottom: 30px;
   }
 }
-/* line 257, ../scss/partials/_home-large-modal.scss */
+/* line 256, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest h3 {
   margin-bottom: 10px;
   margin-top: 70px;
@@ -2100,24 +2099,24 @@ body.embeded #DreamVidsIconEmbed {
   color: white;
 }
 @media (max-width: 870px) {
-  /* line 257, ../scss/partials/_home-large-modal.scss */
+  /* line 256, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest h3 {
     color: #858484;
     font-size: 18px;
   }
-  /* line 269, ../scss/partials/_home-large-modal.scss */
+  /* line 268, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest h3:after {
     background-color: #f1f0f0!important;
   }
 }
 @media (max-width: 350px) {
-  /* line 257, ../scss/partials/_home-large-modal.scss */
+  /* line 256, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest h3 {
     width: 60%;
     margin-left: 10px;
   }
 }
-/* line 276, ../scss/partials/_home-large-modal.scss */
+/* line 275, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest h3:after {
   position: relative;
   bottom: -5px;
@@ -2128,13 +2127,13 @@ body.embeded #DreamVidsIconEmbed {
   background-color: white;
   content: "";
 }
-/* line 290, ../scss/partials/_home-large-modal.scss */
+/* line 289, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #sliderList {
   float: right;
   margin-top: -35px;
   margin-right: 30px;
 }
-/* line 295, ../scss/partials/_home-large-modal.scss */
+/* line 294, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #sliderList li {
   display: inline-block;
   width: 6px;
@@ -2144,12 +2143,12 @@ body.embeded #DreamVidsIconEmbed {
   background-color: white;
 }
 @media (max-width: 870px) {
-  /* line 295, ../scss/partials/_home-large-modal.scss */
+  /* line 294, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest #sliderList li {
     background-color: #40a6e0;
   }
 }
-/* line 306, ../scss/partials/_home-large-modal.scss */
+/* line 305, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #sliderList li:hover {
   width: 10px;
   height: 10px;
@@ -2157,7 +2156,7 @@ body.embeded #DreamVidsIconEmbed {
   margin-right: -2px;
   margin-bottom: -2px;
 }
-/* line 318, ../scss/partials/_home-large-modal.scss */
+/* line 317, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #sliderList.slide1 > li:nth-child(1), #home-large-modal section:nth-child(2) #boxBest #sliderList.slide2 > li:nth-child(2), #home-large-modal section:nth-child(2) #boxBest #sliderList.slide3 > li:nth-child(3) {
   width: 10px;
   height: 10px;
@@ -2165,7 +2164,7 @@ body.embeded #DreamVidsIconEmbed {
   margin-right: -2px;
   margin-bottom: -2px;
 }
-/* line 327, ../scss/partials/_home-large-modal.scss */
+/* line 326, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider {
   display: inline-block;
   width: 100%;
@@ -2173,48 +2172,48 @@ body.embeded #DreamVidsIconEmbed {
   overflow: hidden;
 }
 @media (max-width: 870px) {
-  /* line 327, ../scss/partials/_home-large-modal.scss */
+  /* line 326, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest #slider {
     height: 200px;
   }
 }
-/* line 336, ../scss/partials/_home-large-modal.scss */
+/* line 335, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(1) {
   left: 0%;
 }
-/* line 337, ../scss/partials/_home-large-modal.scss */
+/* line 336, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(2) {
   left: 100%;
 }
-/* line 338, ../scss/partials/_home-large-modal.scss */
+/* line 337, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide1 #slide:nth-child(3) {
   left: 200%;
 }
-/* line 341, ../scss/partials/_home-large-modal.scss */
+/* line 340, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(1) {
   left: -100%;
 }
-/* line 342, ../scss/partials/_home-large-modal.scss */
+/* line 341, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(2) {
   left: 0;
 }
-/* line 343, ../scss/partials/_home-large-modal.scss */
+/* line 342, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide2 #slide:nth-child(3) {
   left: 100%;
 }
-/* line 346, ../scss/partials/_home-large-modal.scss */
+/* line 345, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(1) {
   left: -200%;
 }
-/* line 347, ../scss/partials/_home-large-modal.scss */
+/* line 346, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(2) {
   left: -100%;
 }
-/* line 348, ../scss/partials/_home-large-modal.scss */
+/* line 347, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider.slide3 #slide:nth-child(3) {
   left: 0;
 }
-/* line 351, ../scss/partials/_home-large-modal.scss */
+/* line 350, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide {
   position: relative;
   float: left;
@@ -2222,16 +2221,16 @@ body.embeded #DreamVidsIconEmbed {
   width: 100%;
   height: 100%;
 }
-/* line 359, ../scss/partials/_home-large-modal.scss */
+/* line 358, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide:nth-child(2) {
   top: -100%;
 }
-/* line 360, ../scss/partials/_home-large-modal.scss */
+/* line 359, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide:nth-child(3) {
   top: -200%;
 }
 @media (min-width: 640px) {
-  /* line 351, ../scss/partials/_home-large-modal.scss */
+  /* line 350, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest #slider #slide {
     -webkit-transition: left 0.5s;
     -moz-transition: left 0.5s;
@@ -2240,7 +2239,7 @@ body.embeded #DreamVidsIconEmbed {
     transition: left 0.5s;
   }
 }
-/* line 370, ../scss/partials/_home-large-modal.scss */
+/* line 369, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
   position: absolute;
   bottom: 40px;
@@ -2249,42 +2248,42 @@ body.embeded #DreamVidsIconEmbed {
   margin: 0 15px;
 }
 @media (max-width: 970px) {
-  /* line 370, ../scss/partials/_home-large-modal.scss */
+  /* line 369, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     width: 45%;
   }
 }
 @media (max-width: 870px) {
-  /* line 370, ../scss/partials/_home-large-modal.scss */
+  /* line 369, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     bottom: 0px;
   }
 }
 @media (max-width: 400px) {
-  /* line 370, ../scss/partials/_home-large-modal.scss */
+  /* line 369, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     margin: 0 10px;
   }
 }
 @media (max-width: 300px) {
-  /* line 370, ../scss/partials/_home-large-modal.scss */
+  /* line 369, ../scss/partials/_home-large-modal.scss */
   #home-large-modal section:nth-child(2) #boxBest #slider #slide .video {
     margin: 0 5px;
   }
 }
-/* line 386, ../scss/partials/_home-large-modal.scss */
+/* line 385, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide .video:first-child {
   left: 0;
 }
-/* line 388, ../scss/partials/_home-large-modal.scss */
+/* line 387, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide .video:nth-child(2) {
   right: 0;
 }
-/* line 390, ../scss/partials/_home-large-modal.scss */
+/* line 389, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide .video .video-time {
   display: none;
 }
-/* line 393, ../scss/partials/_home-large-modal.scss */
+/* line 392, ../scss/partials/_home-large-modal.scss */
 #home-large-modal section:nth-child(2) #boxBest #slider #slide .video .video-description .video-bottom-description {
   display: none;
 }
@@ -3760,11 +3759,10 @@ video {
 #upload-large-modal {
   position: relative;
   height: 500px;
-  max-width: 1200px;
   margin: auto;
   margin-bottom: 40px;
 }
-/* line 9, ../scss/partials/_upload-large-modal.scss */
+/* line 8, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #backgroundLoader {
   position: absolute;
   top: 0;
@@ -3779,7 +3777,7 @@ video {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 27, ../scss/partials/_upload-large-modal.scss */
+/* line 26, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #uploader {
   position: relative;
   top: 50px;
@@ -3789,7 +3787,7 @@ video {
   margin: auto;
   background: rgba(255, 255, 255, 0.5);
 }
-/* line 38, ../scss/partials/_upload-large-modal.scss */
+/* line 37, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #uploader input[type="file"] {
   position: absolute;
   top: 0;
@@ -3802,7 +3800,7 @@ video {
   opacity: 0;
   cursor: pointer;
 }
-/* line 53, ../scss/partials/_upload-large-modal.scss */
+/* line 52, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #uploader #file-name {
   position: absolute;
   bottom: 20px;
@@ -3814,7 +3812,7 @@ video {
   font-weight: bold;
   text-align: center;
 }
-/* line 68, ../scss/partials/_upload-large-modal.scss */
+/* line 67, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload {
   position: absolute;
   bottom: -30px;
@@ -3823,7 +3821,7 @@ video {
   height: 30px;
   overflow: hidden;
 }
-/* line 77, ../scss/partials/_upload-large-modal.scss */
+/* line 76, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload #progress-bar {
   position: relative;
   width: 0;
@@ -3835,7 +3833,7 @@ video {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-/* line 91, ../scss/partials/_upload-large-modal.scss */
+/* line 90, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload #progress-bar[data-restant]:before {
   position: absolute;
   right: 10px;
@@ -3850,7 +3848,7 @@ video {
   font-size: 22px;
   line-height: 30px;
 }
-/* line 108, ../scss/partials/_upload-large-modal.scss */
+/* line 107, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload #progress-bar[data-percent]:after {
   position: absolute;
   left: 100%;
@@ -5088,6 +5086,17 @@ video {
 /* ===============================================
                Règles de présentation
    =============================================== */
+/* Règles globales
+   ======================================= */
+/*
+
+	  Tout fichier devra désormais être correctement présenté et commenté
+  - Les indentations sont constituées de 4 espaces
+  - Les commentaires sont écrit en français courant et compréhensible
+  - L'odre des déclarations doit être respecté pour mieux se retrouver dans les nombreux fichiers (voir ci-dessous)
+  - À compléter et à adapter aux besoins ;-)
+
+*/
 /* Ordre des déclarations
    ======================================= */
 /* 
@@ -5097,7 +5106,7 @@ video {
 
   -  Visuel */
 /* Exemple */
-/* line 80, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 #declaration-order .exemple {
   position: absolute;
   float: left;
