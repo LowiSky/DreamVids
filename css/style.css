@@ -3754,12 +3754,16 @@ video {
   max-width: 1000px;
   margin: auto;
 }
-/* line 8, ../scss/partials/_upload-content.scss */
+/* line 7, ../scss/partials/_upload-content.scss */
+#upload-content form {
+  text-align: center;
+}
+/* line 10, ../scss/partials/_upload-content.scss */
 #upload-content form label {
   display: block;
   width: 100%;
 }
-/* line 12, ../scss/partials/_upload-content.scss */
+/* line 14, ../scss/partials/_upload-content.scss */
 #upload-content form label i {
   float: left;
   width: 30%;
@@ -3770,25 +3774,25 @@ video {
   font-size: 20px;
 }
 @media (max-width: 600px) {
-  /* line 12, ../scss/partials/_upload-content.scss */
+  /* line 14, ../scss/partials/_upload-content.scss */
   #upload-content form label i {
     width: 35%;
   }
 }
 @media (max-width: 500px) {
-  /* line 12, ../scss/partials/_upload-content.scss */
+  /* line 14, ../scss/partials/_upload-content.scss */
   #upload-content form label i {
     width: 45%;
   }
 }
-/* line 27, ../scss/partials/_upload-content.scss */
+/* line 29, ../scss/partials/_upload-content.scss */
 #upload-content form label input, #upload-content form label textarea, #upload-content form label select {
   width: 70%;
   padding: 8px;
   margin-left: 5px;
   border: 1px solid #bcbcbc;
-  font-size: 20px;
   font-family: 'Source Sans Pro', Arial;
+  font-size: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -3801,25 +3805,65 @@ video {
   transition: border 0.1s;
 }
 @media (max-width: 600px) {
-  /* line 27, ../scss/partials/_upload-content.scss */
+  /* line 29, ../scss/partials/_upload-content.scss */
   #upload-content form label input, #upload-content form label textarea, #upload-content form label select {
     width: 65%;
   }
 }
 @media (max-width: 500px) {
-  /* line 27, ../scss/partials/_upload-content.scss */
+  /* line 29, ../scss/partials/_upload-content.scss */
   #upload-content form label input, #upload-content form label textarea, #upload-content form label select {
     width: 55%;
   }
 }
-/* line 51, ../scss/partials/_upload-content.scss */
+/* line 53, ../scss/partials/_upload-content.scss */
 #upload-content form label input:focus, #upload-content form label input:active, #upload-content form label textarea:focus, #upload-content form label textarea:active, #upload-content form label select:focus, #upload-content form label select:active {
   outline: none;
   border: 1px solid #40a6e0;
 }
-/* line 57, ../scss/partials/_upload-content.scss */
+/* line 58, ../scss/partials/_upload-content.scss */
+#upload-content form label input[type="file"], #upload-content form label textarea[type="file"], #upload-content form label select[type="file"] {
+  padding: 0;
+  margin: 8px 0 10px 5px;
+  border: none;
+  font-family: 'Source Sans Pro', Arial;
+  font-size: 18px;
+}
+/* line 68, ../scss/partials/_upload-content.scss */
 #upload-content form label textarea {
   resize: vertical;
+}
+/* line 71, ../scss/partials/_upload-content.scss */
+#upload-content form input[type="submit"] {
+  width: 70%;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  background-color: #40a6e0;
+  color: white;
+  font-family: 'Source Sans Pro', Arial;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+/* line 90, ../scss/partials/_upload-content.scss */
+#upload-content form input[type="submit"]:hover {
+  background-color: #56b0e4;
+}
+/* line 92, ../scss/partials/_upload-content.scss */
+#upload-content form input[type="submit"]:focus, #upload-content form input[type="submit"]:active {
+  outline: none;
+  background-color: #2a9cdc;
+}
+/* line 97, ../scss/partials/_upload-content.scss */
+#upload-content form input[type="submit"]:disabled {
+  background-color: #82c5eb;
+  cursor: default;
 }
 
 /* line 1, ../scss/partials/_upload-large-modal.scss */

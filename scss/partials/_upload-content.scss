@@ -5,6 +5,8 @@
 	margin: auto;
 
 	form {
+		text-align: center;
+
 		label {
 			display: block;
 			width: 100%;
@@ -30,8 +32,8 @@
 				margin-left: 5px;
 				
 				border: 1px solid #bcbcbc;
-				font-size: 20px;
 				font-family: 'Source Sans Pro', Arial;
+				font-size: 20px;
 
 				@media (max-width: 600px) { width: 65%; }
 				@media (max-width: 500px) { width: 55%; }
@@ -52,10 +54,49 @@
 					outline: none;
 					border: 1px solid #40a6e0;
 				}
+
+				&[type="file"] {
+					padding: 0;
+					margin: 8px 0 10px 5px;
+					
+					border: none;
+					font-family: 'Source Sans Pro', Arial;
+					font-size: 18px;
+				}
 			}
 
-			textarea {
-				resize: vertical;
+			textarea { resize: vertical; }
+		}
+
+		input[type="submit"] {
+			width: 70%;
+			height: 40px;
+			margin: auto;
+			margin-top: 20px;
+			
+			border: none;
+			background-color: #40a6e0;
+			color: white;
+			font-family: 'Source Sans Pro', Arial;
+			font-size: 20px;
+			cursor: pointer;
+
+			-webkit-transition: background-color 0.2s;
+			   -moz-transition: background-color 0.2s;
+				-ms-transition: background-color 0.2s;
+			  	 -o-transition: background-color 0.2s;
+					transition: background-color 0.2s;
+
+			&:hover { background-color: lighten(#40a6e0, 5%); }
+
+			&:focus, &:active {
+				outline: none;
+				background-color: darken(#40a6e0, 5%);
+			}
+
+			&:disabled {
+				background-color: lighten(#40a6e0, 15%);
+				cursor: default;
 			}
 		}
 	}
