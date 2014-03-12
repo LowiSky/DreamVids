@@ -3754,6 +3754,73 @@ video {
   max-width: 1000px;
   margin: auto;
 }
+/* line 8, ../scss/partials/_upload-content.scss */
+#upload-content form label {
+  display: block;
+  width: 100%;
+}
+/* line 12, ../scss/partials/_upload-content.scss */
+#upload-content form label i {
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: -10px;
+  text-align: right;
+  font-style: normal;
+  font-size: 20px;
+}
+@media (max-width: 600px) {
+  /* line 12, ../scss/partials/_upload-content.scss */
+  #upload-content form label i {
+    width: 35%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 12, ../scss/partials/_upload-content.scss */
+  #upload-content form label i {
+    width: 45%;
+  }
+}
+/* line 27, ../scss/partials/_upload-content.scss */
+#upload-content form label input, #upload-content form label textarea, #upload-content form label select {
+  width: 70%;
+  padding: 8px;
+  margin-left: 5px;
+  border: 1px solid #bcbcbc;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', Arial;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border 0.1s;
+  -moz-transition: border 0.1s;
+  -ms-transition: border 0.1s;
+  -o-transition: border 0.1s;
+  transition: border 0.1s;
+}
+@media (max-width: 600px) {
+  /* line 27, ../scss/partials/_upload-content.scss */
+  #upload-content form label input, #upload-content form label textarea, #upload-content form label select {
+    width: 65%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 27, ../scss/partials/_upload-content.scss */
+  #upload-content form label input, #upload-content form label textarea, #upload-content form label select {
+    width: 55%;
+  }
+}
+/* line 51, ../scss/partials/_upload-content.scss */
+#upload-content form label input:focus, #upload-content form label input:active, #upload-content form label textarea:focus, #upload-content form label textarea:active, #upload-content form label select:focus, #upload-content form label select:active {
+  outline: none;
+  border: 1px solid #40a6e0;
+}
+/* line 57, ../scss/partials/_upload-content.scss */
+#upload-content form label textarea {
+  resize: vertical;
+}
 
 /* line 1, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal {

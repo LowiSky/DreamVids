@@ -57,6 +57,9 @@ uploadInput.addEventListener('change', function(event) {
 
         var name = uploadInput.files[0].name.replace(/\.[0-9a-z]+$/i, '');
         fileName.innerHTML = name;
+        if (document.getElementById('video-title').value == '') {
+            document.getElementById('video-title').value = name;
+        }
 
         uploadInput.setAttribute('disabled', '');
 

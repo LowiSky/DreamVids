@@ -6,10 +6,10 @@
 		
 		<link rel="icon" href="img/favicon.png" />
 
-		<meta name="viewport" content="width = device-width, initial-scale = 0.9, maximum-scale = 1.0, user-scalable = no">
-		<meta cHarset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		<meta charset="utf-8">
 
-		<title>Upload</title>
+		<title>Upload - DreamVids</title>
 	</head>
 
 	<!-- // // BODY \\ \\-->
@@ -18,34 +18,42 @@
 
 			<?php include 'header.php'; ?>
 
-			<form method="post" action="">
-				<div id="upload-large-modal">
-					<div class="bgLoader" id="backgroundLoader" data-background="img/backgrounds/002.jpg"></div>
+			<div id="upload-large-modal">
+				<div class="bgLoader" id="backgroundLoader" data-background="img/backgrounds/002.jpg"></div>
 	
-					<section id="uploader">
-						<span id="upload-illustration">
-							<span class="cloud">
-								<span id="arrowUpload" data-uploaded-message="Uploaded"></span>
-							</span>
+				<section id="uploader">
+					<span id="upload-illustration">
+						<span class="cloud">
+							<span id="arrowUpload" data-uploaded-message="Uploaded"></span>
 						</span>
+					</span>
 
-						<input id="upload-input" type="file" name="video" accept="video/*">
+					<input id="upload-input" type="file" name="video" accept="video/*">
 
-						<div id="file-name"></div>
-					</section>
+					<div id="file-name"></div>
+				</section>
 
-					<div id="progress-upload">
-						<div id="progress-bar"></div>
-					</div>
+				<div id="progress-upload">
+					<div id="progress-bar"></div>
 				</div>
+			</div>
 
-				<div id="upload-content">
-					<label for="username">Pseudo :</label>
-					<input id="username" type="text" name="username" placeholder="Pseudo"/><br />
-	
-					<input type="submit" name="submit" value="Se connecter"/>
-				</div>
-			</form>
+			<div id="upload-content">
+				<form method="post" action="">
+					<label for="video-title"><i>Titre de la vidéo :</i><input id="video-title" type="text" name="video-title" placeholder="Titre"/></label>
+					<label for="video-description"><i>Description :</i><textarea name="video-description" id="video-description" rows="4" placeholder="Description"></textarea></label>
+					<label for="video-tags"><i>Tags :</i><input id="video-tags" type="text" name="video-tags" placeholder="Tags"/></label>
+					<label for="video-visibility">
+						<i>Visibilité :</i>
+						<select name="video-visibility" id="video-visibility">
+							<option value="2">Publique</option>
+							<option value="1">Non listée</option>
+							<option value="0">Privée</option>
+						</select>
+					</label>
+					<input type="submit" id="up-submit" disabled="disabled" name="submit" value="Valider">
+				</form>
+			</div>
 
 			<?php include 'footer.php'; ?>
 			

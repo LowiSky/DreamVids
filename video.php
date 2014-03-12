@@ -6,10 +6,10 @@
 
 		<link rel="icon" href="img/favicon.png" />
 
-		<meta name="viewport" content="width = device-width, initial-scale = 0.9, maximum-scale = 1.0, user-scalable = no">
-		<meta cHarset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		<meta charset="utf-8">
 
-		<title>Titre de la vidéo - Nom de la chaîne - DreamVids</title>
+		<title>Nom Nom Nom - Nom de la chaîne - DreamVids</title>
 	</head>
 
 	<!-- // // BODY \\ \\-->
@@ -30,12 +30,12 @@
 								<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
 							</div>
 						</div>
-						<h1 title="Le titre d'une vidéo trop long sera coupé mais affiché dans un title. Bla Bla Bla Bla Bla Bla ">Le titre d'une vidéo trop long sera coupé mais affiché dans un title. Bla ...</h1>
+						<h1 title="Nom Nom Nom Nom Nom Nom">Nom Nom Nom Nom Nom Nom</h1>
 					</div>
 				</div>
 				
 				<div id="player">
-					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png">
+					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://dreamvids.fr/uploads/Dimou/AxRw02.jpg">
 						<source id="srcMp4" type="video/mp4"/>
 						<source id="srcWebm" type="video/webm"/>
 					</video>
@@ -87,7 +87,7 @@
 						<img class="flag" src="img/flag.png"/>
 						<img class="embed-icon" src="img/embed.png"/>
 						<input class="embed" type="checkbox" onclick="document.getElementById('embed-input').select();"/>
-						<input id="embed-input" value='<iframe width="640" height="360" src="//www.youtube.com/embed/EBZ1owgiSSQ" frameborder="0" allowfullscreen></iframe>' onclick="this.select();" type="text" spellcheck="false"/>
+						<input id="embed-input" value="Mega code d'embed de la mort qui tue !" onclick="this.select();" type="text" spellcheck="false"/>
 					</div>
 				</section>
 			</section>
@@ -242,14 +242,13 @@
 			setVideo([
 				{
 					format: 360,
-					mp4: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_360p.mp4',
-					webm: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_360p.webm'
+					mp4: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_640x360p.mp4',
+					webm: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_640x360p.webm'
 				},
 				{
 					format: 720,
-					mp4: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_720p.mp4',
-					webm: 'http://media.jilion.com/videos/demo/midnight_sun_sv1_720p.webm'
-				}
+					mp4:'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.mp4',
+					webm:'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.webm'}
 			]);
 			setAnnotations([
 				{

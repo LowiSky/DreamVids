@@ -31,7 +31,7 @@ function resized() {
                 videoInfos.style.height = '';
         }
     }
-    player.style.height = typeof embeded != 'undefined' ? document.documentElement.clientHeight + 'px' : player.style.height;
+    player.style.height = typeof embeded != 'undefined' ? document.documentElement.clientHeight + 'px' : player.offsetWidth / (16 / 9) + 'px';
 }
 window.addEventListener("resize", resized, false);
 
@@ -248,8 +248,10 @@ widescreen.addEventListener("click", function() {
         player.className = 'animated';
         widescreen.className = 'widescreen';
     }
+
     var unAnimate = setTimeout(function() {
         player.className = player.className.search('wide') > 0 ? 'wide' : '';
+        player.style.height = typeof embeded != 'undefined' ? document.documentElement.clientHeight + 'px' : player.offsetWidth / (16 / 9) + 'px';
     }, 400);
 });
 
