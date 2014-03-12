@@ -22,54 +22,54 @@
 				<aside class="aside-channels">
 					<h3>Mes abonnements</h3>
 					<ul class="limited">
-						<a href="#" class="channels" data-new="12">
+						<a href="channel" class="channels" data-new="12">
 							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">Dreameur</span>
+							<span class="name">Dreameur</span>
 							<p class="subscribers"><b>12 835</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels" data-new="7">
+						<a href="channel" class="channels" data-new="7">
 							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">YoloVids</span>
+							<span class="name">YoloVids</span>
 							<p class="subscribers"><b>11 208</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels" data-new="3">
+						<a href="channel" class="channels" data-new="3">
 							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">Kikoo 2000</span>
+							<span class="name">Kikoo 2000</span>
 							<p class="subscribers"><b>9 725</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels" data-new="1">
+						<a href="channel" class="channels" data-new="1">
 							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
-							<span class="name" href="#">Futurameur</span>
+							<span class="name">Futurameur</span>
 							<p class="subscribers"><b>5 214</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels">
+						<a href="channel" class="channels">
 							<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">UpUpUp</span>
+							<span class="name">UpUpUp</span>
 							<p class="subscribers"><b>2 804</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels">
+						<a href="channel" class="channels">
 							<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
-							<span class="name" href="#">Homer Simpson</span>
+							<span class="name">Homer Simpson</span>
 							<p class="subscribers"><b>1 127</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels">
+						<a href="channel" class="channels">
 							<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
-							<span class="name" href="#">Dori</span>
+							<span class="name">Dori</span>
 							<p class="subscribers"><b>546</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels">
+						<a href="channel" class="channels">
 							<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">YoloVids</span>
+							<span class="name">YoloVids</span>
 							<p class="subscribers"><b>11 208</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels">
+						<a href="channel" class="channels">
 							<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
-							<span class="name" href="#">Kikoo 2000</span>
+							<span class="name">Kikoo 2000</span>
 							<p class="subscribers"><b>9 725</b> Abonnés</p>
 						</a>
-						<a href="#" class="channels">
+						<a href="channel" class="channels">
 							<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
-							<span class="name" href="#">Futurameur</span>
+							<span class="name">Futurameur</span>
 							<p class="subscribers"><b>5 214</b> Abonnés</p>
 						</a>
 
@@ -91,13 +91,13 @@
 							<a href="video"><h4>Up !</h4></a>
 							<div>
 								<span class="view">12 530</span>
-								<a class="channel" href="#">Papy</a>
+								<a class="channel" href="channel">Papy</a>
 							</div>
 						</div>
 					</div>
 
 					<div class="card subscribe">
-						<a href="#">
+						<a href="channel">
 							<div class="avatar bgLoader" data-background="http://lorempicsum.com/futurama/255/200/2"></div>
 							<p><b>Chnok</b> s'est abonné à votre chaîne</p>
 						</a>
@@ -106,7 +106,7 @@
 					</div>
 
 					<div class="card plus">
-						<a href="#">
+						<a href="channel">
 							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/simpsons/627/300/4"></div>
 							<p><b>Machin</b> à aimé votre vidéo "<b>Nyan Cat</b>"</p>
 						</a>
@@ -122,7 +122,7 @@
 							<a href="video"><h4>Nemo</h4></a>
 							<div>
 								<span class="view">10 576</span>
-								<a class="channel" href="#">Dori</a>
+								<a class="channel" href="channel">Dori</a>
 							</div>
 						</div>
 					</div>
@@ -161,7 +161,7 @@
 							<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
 							<div>
 								<span class="view">32 546</span>
-								<a class="channel" href="#">Nemo</a>
+								<a class="channel" href="channel">Nemo</a>
 							</div>
 						</div>
 					</div>
@@ -186,19 +186,6 @@
 					</div>
 	
 				</aside>
-			</div>
-	
-			<div id="accueil" style="display: none;">
-
-				<h3>Quelques liens :</h3>
-
-				<a href="video" style="color: blue">Page d'une vidéo</a><br />
-				<a href="annotations" style="color: blue">Éditeur d'annotations</a><br />
-				<a href="embed" style="color: blue">Embed d'une vidéo</a><br />
-				<a href="login" style="color: blue">Connexion</a><br />
-				<a href="register" style="color: blue">Inscription</a><br />
-				<a href="404" style="color: blue">404</a><br />
-
 			</div>
 
 			<?php include 'footer.php'; ?>

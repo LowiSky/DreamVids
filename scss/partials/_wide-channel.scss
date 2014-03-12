@@ -1,0 +1,157 @@
+.content.wide.channel > .inner {
+	.top {
+		position: absolute;
+		top: 30px;
+		left: 30px;
+		right: 30px;
+
+		height: 40px;
+
+		overflow: hidden;
+		line-height: 50px;
+
+		@media (max-width: 900px) {
+			top: -48px;
+			left: 5px;
+			right: 5px;
+
+			height: 40px;
+		}
+
+		li {
+			float: left;
+
+			display: inline-block;
+			margin: 0 30px 0 30px;
+
+			font-size: 20px;
+			color: #333;
+			cursor: default;
+
+			b {
+				font-size: 22px;
+				color: #40a6e0;
+			}
+
+			@media (max-width: 900px) {
+				margin: 0 15px 0 15px;
+				font-size: 18px;
+
+				b { font-size: 20px; }
+			}
+		}
+	}
+
+	.left {
+		position: absolute;
+		bottom: 40px;
+		left: 40px;
+
+		width: 40%;
+		height: 170px;
+
+		.bgLoader {
+			float: left;
+
+			width: 170px;
+			height: 170px;
+			margin-right: 20px;
+
+			border-radius: 15px;
+			background-position: center;
+	
+			-webkit-background-size: cover;
+			   -moz-background-size: cover;
+				-ms-background-size: cover;
+				 -o-background-size: cover;
+					background-size: cover;
+		}
+
+		p {
+			margin-top: 25px;
+
+			font-size: 35px;
+			color: #333;
+			cursor: default;
+		}
+
+		button {
+			$color-subscribe: #40a6e0;
+			$color-unsubscribe: #666;
+
+			display: inline-block;
+			width: 155px;
+			height: 40px;
+			margin: 30px 0 0 5px;
+
+			border: none;
+			cursor: pointer;
+			color: white;
+			font-size: 18px;
+			font-family: 'Source Sans Pro', Arial;
+			background-color: $color-subscribe;
+			&:hover { background-color: lighten($color-subscribe, 10%); }
+			&:active { background-color: darken($color-subscribe, 5%); }
+
+			-webkit-transition: background-color 0.2s;
+			   -moz-transition: background-color 0.2s;
+				-ms-transition: background-color 0.2s;
+				 -o-transition: background-color 0.2s;
+					transition: background-color 0.2s;
+
+			&.subscribed {
+				background-color: $color-unsubscribe;
+				&:hover { background-color: lighten($color-unsubscribe, 10%); }
+				&:active { background-color: darken($color-unsubscribe, 5%); }
+			}
+
+			&:active, &:focus { outline: none; }
+		}
+
+		@media (max-width: 900px) {
+			height: 80%;
+			text-align: center;
+
+			@media (max-width: 600px) { left: 20px; }
+
+			.bgLoader {
+				float: none;
+				display: block;
+				margin: auto;
+			}
+
+			p { clear: both; }
+		}
+	}
+
+	.right {
+		position: absolute;
+		bottom: 40px;
+		right: 40px;
+
+		width: 45%;
+		height: 170px;
+		padding: 15px;
+
+		font-size: 19px;
+		color: white;
+		background: #{'rgba(64, 166, 224, 0.8)'};
+		overflow: hidden;
+
+		@media (max-width: 600px) { font-size: 17px; }
+		@media (max-width: 900px) {
+			max-height: 80%;
+			height: auto;
+		}
+
+		@media (max-width: 600px) { width: 40%; }
+
+		@media (max-width: 450px) { right: 20px; }
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+}

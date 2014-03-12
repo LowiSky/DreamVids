@@ -11,12 +11,87 @@ footer {
 
 	background-color: #f1f0f0;
 
-	#inner-footer{
+	#inner-footer {
 		max-width: 1000px;
 		margin: auto;
-		padding: 20px 15px 40px 15px;
+		padding: 20px 15px 20px 15px;
 		
 		text-align: left;
-		color: #928b8b;
+		color: #797171;
+
+		.rights {
+			display: block;
+			margin-top: 20px;
+
+			color: #848b90;
+
+			.license > img {
+				float: left;
+
+				width: 80px;
+				height: 15px;
+				margin-right: 5px;
+
+				background: black;
+				opacity: 0.5;
+
+				&:hover { opacity: 1; }
+			}
+
+			a {
+				color: #848b90;
+				text-decoration: underline;
+
+				&:hover { text-decoration: none; }
+			}
+
+			.github { margin-left: 15px; }
+
+			.love {
+				float: right;
+
+				@media (max-width: 900px) {
+					float: none;
+					display: block;
+					margin-bottom: 15px;
+				}
+
+				i {
+					color: #f2749b;
+
+					-webkit-animation: heart 2s ease-in 0s infinite normal;
+					   -moz-animation: heart 2s ease-in 0s infinite normal;
+						-ms-animation: heart 2s ease-in 0s infinite normal;
+						 -o-animation: heart 2s ease-in 0s infinite normal;
+							animation: heart 2s ease-in 0s infinite normal;
+				}
+			}
+		}
 	}
+}
+
+@-webkit-keyframes heart {
+    0% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+    50% { text-shadow: 0 0 20px rgba(213, 9, 60, 1); }
+    100% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+}
+@-moz-keyframes heart {
+    0% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+    50% { text-shadow: 0 0 20px rgba(213, 9, 60, 1); }
+    100% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+}
+@-ms-keyframes heart {
+    0% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+    50% { text-shadow: 0 0 20px rgba(213, 9, 60, 1); }
+    100% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+}
+@-o-keyframes heart {
+    0% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+    50% { text-shadow: 0 0 20px rgba(213, 9, 60, 1); }
+    100% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+}
+@keyframes heart {
+    0% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
+    50% { text-shadow: 0 0 20px rgba(213, 9, 60, 1); }
+    100% { text-shadow: 0 0 20px rgba(213, 9, 60, 0.2); }
 }

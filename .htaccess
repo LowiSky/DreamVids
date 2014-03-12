@@ -8,5 +8,7 @@ RewriteRule	^register$	register.php	[L]
 RewriteRule	^upload$	upload.php	[L]
 RewriteRule	^flux$	flux.php	[L]
 RewriteRule	^discover$	discover.php	[L]
+RewriteRule	^channel$	channel.php	[L]
+RewriteRule	^search$	search.php	[L]
 
 RewriteRule	^404$	404.php	[L]

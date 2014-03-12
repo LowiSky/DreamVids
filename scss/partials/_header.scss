@@ -369,12 +369,17 @@ header {
 			nav {
 				position: fixed;
 				top: 0;
-				left: -210px;
+				margin-left: -210px;
 				z-index: 100;
 
 				height: 100%;
 
 				background-color: darken($nav_bottom_background, 5%);
+
+				&.open {
+					margin-left:  -5px;
+					box-shadow: 0 0 0 700px #{"rgba(0, 0, 0, 0.5)"};
+				}
 
 				-webkit-box-shadow: 0 0 0 700px transparent;
 				   -moz-box-shadow: 0 0 0 700px transparent;
@@ -382,11 +387,11 @@ header {
 					 -o-box-shadow: 0 0 0 700px transparent;
 						box-shadow: 0 0 0 700px transparent;
 
-				-webkit-transition: 0.5s;
-				   -moz-transition: 0.5s;
-					-ms-transition: 0.5s;
-					 -o-transition: 0.5s;
-						transition: 0.5s;
+				-webkit-transition: 0.2s;
+				   -moz-transition: 0.2s;
+					-ms-transition: 0.2s;
+					 -o-transition: 0.2s;
+						transition: 0.2s;
 
 				li {
 					display: block;
@@ -416,10 +421,6 @@ header {
 					}
 				}
 			}
-			nav.open {
-				left: -5px;
-				box-shadow: 0 0 0 700px #{"rgba(0, 0, 0, 0.5)"};
-			}
 
 			#mobile-nav-icon{
 				position: relative;
@@ -435,11 +436,11 @@ header {
 				cursor: pointer;
 				line-height: 41px;
 
-				-webkit-transition: 0.3s;
-				   -moz-transition: 0.3s;
-					-ms-transition: 0.3s;
-					 -o-transition: 0.3s;
-						transition: 0.3s;
+				-webkit-transition: 0.2s;
+				   -moz-transition: 0.2s;
+					-ms-transition: 0.2s;
+					 -o-transition: 0.2s;
+						transition: 0.2s;
 
 				p {
 					position: relative;
@@ -450,11 +451,11 @@ header {
 
 					background: #bbb;
 
-					-webkit-transition: 0.5s;
-					   -moz-transition: 0.5s;
-						-ms-transition: 0.5s;
-						 -o-transition: 0.5s;
-							transition: 0.5s;
+					-webkit-transition: 0.2s;
+					   -moz-transition: 0.2s;
+						-ms-transition: 0.2s;
+						 -o-transition: 0.2s;
+							transition: 0.2s;
 
 					&:before, &:after {
 						position: relative;

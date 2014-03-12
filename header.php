@@ -9,21 +9,21 @@
 			</div>
 			<div id="inner-top-nav-right">
 
-				<form method="post" action="#">
-					<input type="text" id="top-nav-search-input" placeholder="Rechercher">
+				<form method="get" action="search">
+					<input type="text" id="top-nav-search-input" name="q" placeholder="Rechercher">
 					<input type="submit" value="">
 				</form>
 
 				<div id="top-nav-user-information">
 					<?php 
-						if ($connected = rand(0, 1)) { ?>
+						if ($connected = rand(0, 4)) { ?>
 							<a id="top-nav-user-information-button">
 								<img src="http://lorempicsum.com/simpsons/255/200/5" alt="Votre avatar" id="top-nav-user-information-button-img">
 								<h4 id="top-nav-user-information-button-h4">Pseudo</h4>
 								<img src="img/arrow_top_nav.png" alt="Voir vos informations" id="top-nav-user-arrow">
 								<div id="top-nav-user-information-menu">
 									<ul>
-										<li><a href="#">Ma chaîne</a></li>
+										<li><a href="channel">Ma chaîne</a></li>
 										<li><a href="#">Mon compte</a></li>
 										<li><a href="#">Déconnection</a></li>
 									</ul>

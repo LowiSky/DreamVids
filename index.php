@@ -76,8 +76,10 @@
 					<?php } else { ?>
 						<div id="boxPages" class="channel">
 							<div id="pageChannel">
-								<span class="avatar bgLoader" data-background="http://lorempicsum.com/simpsons/255/200/5"></span>
-								<h3>Ma chaine</h3>
+								<a href="channel">
+									<span class="avatar bgLoader" data-background="http://lorempicsum.com/simpsons/255/200/5"></span>
+									<h3>Ma chaine</h3>
+								</a>
 								<p class="inner-text">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, cumque minus maiores debitis placeat !
 								</p>
@@ -213,42 +215,42 @@
 					<aside class="aside-channels">
 						<h3>Meilleures chaînes</h3>
 						<ul class="medal">
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">UpUpUp</span>
 								<p class="subscribers"><b>12 835</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">Dreameur</span>
 								<p class="subscribers"><b>11 208</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
 								<span class="name" href="#">Dori</span>
 								<p class="subscribers"><b>5 214</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">YoloVids</span>
 								<p class="subscribers"><b>9 725</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">Kikoo 2000</span>
 								<p class="subscribers"><b>2 804</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
 								<span class="name" href="#">Futurameur</span>
 								<p class="subscribers"><b>1 127</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
 								<span class="name" href="#">Homer Simpson</span>
 								<p class="subscribers"><b>546</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://static-2.nexusmods.com/15/mods/110/images/50622-1-1391287636.jpeg)" class="avatar"></span>
 								<p class="name" href="#">Wow ! Much doge</p>
 								<p class="subscribers"><b>248</b> Abonnés</p>
@@ -259,52 +261,52 @@
 					<aside class="aside-channels">
 						<h3>Mes abonnements</h3>
 						<ul class="limited">
-							<a href="#" class="channels" data-new="12">
+							<a href="channel" class="channels" data-new="12">
 								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">Dreameur</span>
 								<p class="subscribers"><b>12 835</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels" data-new="7">
+							<a href="channel" class="channels" data-new="7">
 								<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">YoloVids</span>
 								<p class="subscribers"><b>11 208</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels" data-new="3">
+							<a href="channel" class="channels" data-new="3">
 								<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">Kikoo 2000</span>
 								<p class="subscribers"><b>9 725</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels" data-new="1">
+							<a href="channel" class="channels" data-new="1">
 								<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
 								<span class="name" href="#">Futurameur</span>
 								<p class="subscribers"><b>5 214</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">UpUpUp</span>
 								<p class="subscribers"><b>2 804</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/5)" class="avatar"></span>
 								<span class="name" href="#">Homer Simpson</span>
 								<p class="subscribers"><b>1 127</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
 								<span class="name" href="#">Dori</span>
 								<p class="subscribers"><b>546</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/rio/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">YoloVids</span>
 								<p class="subscribers"><b>11 208</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/nemo/255/200/2)" class="avatar"></span>
 								<span class="name" href="#">Kikoo 2000</span>
 								<p class="subscribers"><b>9 725</b> Abonnés</p>
 							</a>
-							<a href="#" class="channels">
+							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/futurama/350/200/6)" class="avatar"></span>
 								<span class="name" href="#">Futurameur</span>
 								<p class="subscribers"><b>5 214</b> Abonnés</p>
@@ -330,7 +332,7 @@
 								<a href="video"><h4>Up !</h4></a>
 								<div>
 									<span class="view">12 530</span>
-									<a class="channel" href="#">Papy</a>
+									<a class="channel" href="channel">Papy</a>
 								</div>
 							</div>
 						</div>
@@ -344,7 +346,7 @@
 								<a href="video"><h4>Nemo</h4></a>
 								<div>
 									<span class="view">10 576</span>
-									<a class="channel" href="#">Dori</a>
+									<a class="channel" href="channel">Dori</a>
 								</div>
 							</div>
 						</div>
@@ -358,7 +360,7 @@
 								<a href="video"><h4>Les Simpson, le film</h4></a>
 								<div>
 									<span class="view">401</span>
-									<a class="channel" href="#">Home Simpson</a>
+									<a class="channel" href="channel">Home Simpson</a>
 								</div>
 							</div>
 						</div>
@@ -372,7 +374,7 @@
 								<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
 								<div>
 									<span class="view">32 546</span>
-									<a class="channel" href="#">Nemo</a>
+									<a class="channel" href="channel">Nemo</a>
 								</div>
 							</div>
 						</div>
@@ -386,7 +388,7 @@
 								<a href="video"><h4>Rio</h4></a>
 								<div>
 									<span class="view">1 752</span>
-									<a class="channel" href="#">Hungry Bird</a>
+									<a class="channel" href="channel">Hungry Bird</a>
 								</div>
 							</div>
 						</div>
@@ -400,7 +402,7 @@
 								<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
 								<div>
 									<span class="view">513</span>
-									<a class="channel" href="#">Pixar</a>
+									<a class="channel" href="channel">Pixar</a>
 								</div>
 							</div>
 						</div>
@@ -418,7 +420,7 @@
 								<a href="video"><h4>Up !</h4></a>
 								<div>
 									<span class="view">12 530</span>
-									<a class="channel" href="#">Papy</a>
+									<a class="channel" href="channel">Papy</a>
 								</div>
 							</div>
 						</div>
@@ -432,7 +434,7 @@
 								<a href="video"><h4>Nemo</h4></a>
 								<div>
 									<span class="view">10 576</span>
-									<a class="channel" href="#">Dori</a>
+									<a class="channel" href="channel">Dori</a>
 								</div>
 							</div>
 						</div>
@@ -446,7 +448,7 @@
 								<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
 								<div>
 									<span class="view">32 546</span>
-									<a class="channel" href="#">Nemo</a>
+									<a class="channel" href="channel">Nemo</a>
 								</div>
 							</div>
 						</div>
@@ -460,7 +462,7 @@
 								<a href="video"><h4>Rio</h4></a>
 								<div>
 									<span class="view">1 752</span>
-									<a class="channel" href="#">Hungry Bird</a>
+									<a class="channel" href="channel">Hungry Bird</a>
 								</div>
 							</div>
 						</div>
@@ -480,7 +482,7 @@
 								<a href="video"><h4>Nemo</h4></a>
 								<div>
 									<span class="view">12 530</span>
-									<a class="channel" href="#">Papy</a>
+									<a class="channel" href="channel">Papy</a>
 								</div>
 							</div>
 						</div>
@@ -494,25 +496,12 @@
 								<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
 								<div>
 									<span class="view">10 576</span>
-									<a class="channel" href="#">Dori</a>
+									<a class="channel" href="channel">Dori</a>
 								</div>
 							</div>
 						</div>
 					</aside>
 				<?php } ?>
-			</div>
-	
-			<div id="accueil" style="display: none;">
-
-				<h3>Quelques liens :</h3>
-
-				<a href="video" style="color: blue">Page d'une vidéo</a><br />
-				<a href="annotations" style="color: blue">Éditeur d'annotations</a><br />
-				<a href="embed" style="color: blue">Embed d'une vidéo</a><br />
-				<a href="login" style="color: blue">Connexion</a><br />
-				<a href="register" style="color: blue">Inscription</a><br />
-				<a href="404" style="color: blue">404</a><br />
-
 			</div>
 
 			<?php include 'footer.php'; ?>

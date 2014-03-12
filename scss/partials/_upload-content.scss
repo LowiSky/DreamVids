@@ -1,75 +1,65 @@
 #upload-content {
-	display: table;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 600px;
 	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 	form {
-		text-align: center;
+		margin: auto;
+		margin-bottom: 30px;
+		padding: 15px;
+		
+		color: #858484;
+		background-color: #f1f0f0;
+
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+
+		-webkit-box-shadow: 1px 2px 0px #e2e2e2;
+		   -moz-box-shadow: 1px 2px 0px #e2e2e2;
+			-ms-box-shadow: 1px 2px 0px #e2e2e2;
+			 -o-box-shadow: 1px 2px 0px #e2e2e2;
+				box-shadow: 1px 2px 0px #e2e2e2;
 
 		label {
-			display: block;
-			width: 100%;
+			i { display: block; }
 
-			i {
-				float: left;
-
-				width: 30%;
-				margin-top: 10px;
-				margin-left: -10px;
-
-				text-align: right;
-				font-style: normal;
-				font-size: 20px;
-
-				@media (max-width: 600px) { width: 35%; }
-				@media (max-width: 500px) { width: 45%; }
-			}
-
-			input, textarea, select {
-				width: 70%;
-				padding: 8px;
-				margin-left: 5px;
-				
-				border: 1px solid #bcbcbc;
-				font-family: 'Source Sans Pro', Arial;
-				font-size: 20px;
-
-				@media (max-width: 600px) { width: 65%; }
-				@media (max-width: 500px) { width: 55%; }
+			input:not([type="checkbox"]),
+			textarea,
+			select {
+				display: block;
+			    width: 100%;
+			    height: 40px;
+				margin: 10px 0 15px 0;
+			    padding: 8px;
+	
+				border: none;
+				font-family: Arial;
 
 				-webkit-box-sizing: border-box;
-				   -moz-box-sizing: border-box;
-					-ms-box-sizing: border-box;
-					 -o-box-sizing: border-box;
-						box-sizing: border-box;
-
-				-webkit-transition: border 0.1s;
-				   -moz-transition: border 0.1s;
-					-ms-transition: border 0.1s;
-					 -o-transition: border 0.1s;
-						transition: border 0.1s;
-
-				&:focus, &:active {
-					outline: none;
-					border: 1px solid #40a6e0;
-				}
-
-				&[type="file"] {
-					padding: 0;
-					margin: 8px 0 10px 5px;
-					
-					border: none;
-					font-family: 'Source Sans Pro', Arial;
-					font-size: 18px;
-				}
+				-moz-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				-o-box-sizing: border-box;
+				box-sizing: border-box;
+	
+				&:focus,
+				&:active { outline: none; }
+			}
+			
+			textarea {
+				resize: vertical;
+			    height: 80px;
 			}
 
-			textarea { resize: vertical; }
+			input[type="file"] { margin-top: 0; }
 		}
 
 		input[type="submit"] {
-			width: 70%;
+			width: 100%;
 			height: 40px;
 			margin: auto;
 			margin-top: 20px;

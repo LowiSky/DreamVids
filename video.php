@@ -25,7 +25,7 @@
 							<img src="img/avatar_top_nav.png" alt="Image de la chaîne">
 							<span id="hover_subscribe" data-vid="0"><i>S'abonner</i></span>
 							<div id="video-top-channel-infos">
-								<p id="video-top-pseudo">Pseudo</p>
+								<a id="video-top-pseudo" href="channel">Pseudo</a>
 								<hr>
 								<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
 							</div>
@@ -102,7 +102,7 @@
 							<div class="comment-head">
 								<div class="user">
 									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
-									<p>Pseudo</p>
+									<a href="channel">Pseudo</a>
 								</div>
 								<div class="date">
 									<p>12 / 06 à 8h09</p>
@@ -123,7 +123,7 @@
 							<div class="comment-head">
 								<div class="user">
 									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
-									<p>Lorem</p>
+									<a href="channel">Lorem</a>
 								</div>
 								<div class="date">
 									<p>18 / 06 à 15h09</p>
@@ -144,7 +144,7 @@
 							<div class="comment-head">
 								<div class="user">
 									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
-									<p>Pseudo</p>
+									<a href="channel">Pseudo</a>
 								</div>
 								<div class="date">
 									<p>12 / 06 à 8h09</p>
@@ -178,7 +178,7 @@
 							<a href="video"><h4>Les Simpson, le film</h4></a>
 							<div>
 								<span class="view">401</span>
-								<a class="channel" href="#">Home Simpson</a>
+								<a class="channel" href="channel">Home Simpson</a>
 							</div>
 						</div>
 					</div>
@@ -192,7 +192,7 @@
 							<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
 							<div>
 								<span class="view">32 546</span>
-								<a class="channel" href="#">Nemo</a>
+								<a class="channel" href="channel">Nemo</a>
 							</div>
 						</div>
 					</div>
@@ -206,7 +206,7 @@
 							<a href="video"><h4>Rio</h4></a>
 							<div>
 								<span class="view">1 752</span>
-								<a class="channel" href="#">Hungry Bird</a>
+								<a class="channel" href="channel">Hungry Bird</a>
 							</div>
 						</div>
 					</div>
@@ -220,7 +220,7 @@
 							<a href="video"><h4>La Haut ! Bande Annonce</h4></a>
 							<div>
 								<span class="view">513</span>
-								<a class="channel" href="#">Pixar</a>
+								<a class="channel" href="channel">Pixar</a>
 							</div>
 						</div>
 					</div>
