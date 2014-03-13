@@ -703,7 +703,7 @@ footer #inner-footer .rights .love i {
 @-webkit-keyframes heart {
   /* line 74, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 
   /* line 75, ../scss/partials/_footer.scss */
@@ -713,14 +713,14 @@ footer #inner-footer .rights .love i {
 
   /* line 76, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 }
 
 @-moz-keyframes heart {
   /* line 79, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 
   /* line 80, ../scss/partials/_footer.scss */
@@ -730,14 +730,14 @@ footer #inner-footer .rights .love i {
 
   /* line 81, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 }
 
 @-ms-keyframes heart {
   /* line 84, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 
   /* line 85, ../scss/partials/_footer.scss */
@@ -747,14 +747,14 @@ footer #inner-footer .rights .love i {
 
   /* line 86, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 }
 
 @-o-keyframes heart {
   /* line 89, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 
   /* line 90, ../scss/partials/_footer.scss */
@@ -764,14 +764,14 @@ footer #inner-footer .rights .love i {
 
   /* line 91, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 }
 
 @keyframes heart {
   /* line 94, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 
   /* line 95, ../scss/partials/_footer.scss */
@@ -781,7 +781,7 @@ footer #inner-footer .rights .love i {
 
   /* line 96, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
   }
 }
 
@@ -4177,10 +4177,11 @@ video {
   position: absolute;
   bottom: 40px;
   left: 40px;
-  width: 40%;
+  width: 45%;
   height: 170px;
+  overflow: hidden;
 }
-/* line 53, ../scss/partials/_wide-channel.scss */
+/* line 55, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left .bgLoader {
   float: left;
   width: 170px;
@@ -4194,18 +4195,26 @@ video {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 70, ../scss/partials/_wide-channel.scss */
+@media (max-width: 400px) {
+  /* line 55, ../scss/partials/_wide-channel.scss */
+  .content.wide.channel > .inner .left .bgLoader {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+  }
+}
+/* line 78, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left p {
   margin-top: 25px;
   font-size: 35px;
   color: #333;
   cursor: default;
 }
-/* line 78, ../scss/partials/_wide-channel.scss */
+/* line 86, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button {
   display: inline-block;
   width: 155px;
-  height: 40px;
+  min-height: 40px;
   margin: 30px 0 0 5px;
   border: none;
   cursor: pointer;
@@ -4219,27 +4228,34 @@ video {
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-/* line 93, ../scss/partials/_wide-channel.scss */
+/* line 101, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button:hover {
   background-color: #6cbae7;
 }
-/* line 94, ../scss/partials/_wide-channel.scss */
+/* line 102, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button:active {
   background-color: #2a9cdc;
 }
-/* line 102, ../scss/partials/_wide-channel.scss */
+@media (max-width: 400px) {
+  /* line 86, ../scss/partials/_wide-channel.scss */
+  .content.wide.channel > .inner .left button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+/* line 115, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button.subscribed {
   background-color: #666666;
 }
-/* line 104, ../scss/partials/_wide-channel.scss */
+/* line 117, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button.subscribed:hover {
   background-color: gray;
 }
-/* line 105, ../scss/partials/_wide-channel.scss */
+/* line 118, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button.subscribed:active {
   background-color: #595959;
 }
-/* line 108, ../scss/partials/_wide-channel.scss */
+/* line 121, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button:active, .content.wide.channel > .inner .left button:focus {
   outline: none;
 }
@@ -4249,13 +4265,13 @@ video {
     height: 80%;
     text-align: center;
   }
-  /* line 117, ../scss/partials/_wide-channel.scss */
+  /* line 134, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .left .bgLoader {
     float: none;
     display: block;
     margin: auto;
   }
-  /* line 123, ../scss/partials/_wide-channel.scss */
+  /* line 140, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .left p {
     clear: both;
   }
@@ -4266,7 +4282,14 @@ video {
     left: 20px;
   }
 }
-/* line 127, ../scss/partials/_wide-channel.scss */
+@media (max-width: 900px) and (max-width: 400px) {
+  /* line 45, ../scss/partials/_wide-channel.scss */
+  .content.wide.channel > .inner .left {
+    left: 8px;
+    width: 40%;
+  }
+}
+/* line 144, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .right {
   position: absolute;
   bottom: 40px;
@@ -4284,29 +4307,30 @@ video {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media (max-width: 600px) {
-  /* line 127, ../scss/partials/_wide-channel.scss */
-  .content.wide.channel > .inner .right {
-    font-size: 17px;
-  }
-}
 @media (max-width: 900px) {
-  /* line 127, ../scss/partials/_wide-channel.scss */
+  /* line 144, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .right {
     max-height: 80%;
     height: auto;
   }
 }
 @media (max-width: 600px) {
-  /* line 127, ../scss/partials/_wide-channel.scss */
-  .content.wide.channel > .inner .right {
-    width: 40%;
-  }
-}
-@media (max-width: 450px) {
-  /* line 127, ../scss/partials/_wide-channel.scss */
+  /* line 144, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .right {
     right: 20px;
+    width: 40%;
+    padding: 10px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 400px) {
+  /* line 144, ../scss/partials/_wide-channel.scss */
+  .content.wide.channel > .inner .right {
+    top: 35px;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
   }
 }
 

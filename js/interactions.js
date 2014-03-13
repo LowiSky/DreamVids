@@ -13,8 +13,6 @@ var subscribe_button = document.getElementById("subscribe-button") || document.c
 // Menu utilisateur
 
 button_nav_mobile.addEventListener('click', function() {
-    window.navigator.vibrate(20);
-
     if (button_nav_mobile.className == "open") {
         button_nav_mobile.className = '';
         nav.className = '';
@@ -26,20 +24,14 @@ button_nav_mobile.addEventListener('click', function() {
 
 
 button_user_info.addEventListener('click', function() {
-    window.navigator.vibrate(20);
-
     user_info_menu.style.display = user_info_menu.style.display != 'inline' ? 'inline' : 'none';
 });
 
 body.addEventListener('click', function(event) {
-    window.navigator.vibrate(20);
-
     user_info_menu.style.display = event.target.id != 'top-nav-user-information-button' && event.target.parentNode.id != 'top-nav-user-information-button' ? 'none' : user_info_menu.style.display;
 });
 
 hover_subscribe.addEventListener('click', function() {
-    window.navigator.vibrate(20);
-
     if (hover_subscribe.className == 'subscribed') {
         hover_subscribe.className = '';
         hover_subscribe.childNodes[0].innerHTML = "S'abonner";
@@ -60,8 +52,6 @@ hover_subscribe.addEventListener('click', function() {
 // S'abonner sur une page chaine
 
 subscribe_button.addEventListener('click', function() {
-    window.navigator.vibrate(20);
-
     if (subscribe_button.className == 'subscribed') {
         subscribe_button.className = '';
         subscribe_button.innerHTML = subscribe_button.dataset.text.split('|')[0];
