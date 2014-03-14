@@ -31,15 +31,15 @@
 		margin-left: 1%;
 		margin-right: 1%;
 		
-		&:nth-child(3n+2) { clear: both; }
+		&:nth-child(3n+1) { clear: both; }
 
 		@media (max-width: 900px) {
 			width: 45%;
 			margin-left: 2%;
 			margin-right: 2%;
 
-			&:nth-child(3n+2) { clear: none; }
-			&:nth-child(even) { clear: both; }
+			&:nth-child(3n+1) { clear: none!important; }
+			&:nth-child(odd) { clear: both; }
 		}
 
 		@media (max-width: 550px) {

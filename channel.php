@@ -42,9 +42,15 @@
 			</div>
 
 			<div class="content">
+				<nav class="tabs">
+					<ul>
+  						<li class="channel/current"><a href="videos">Vidéos</a></li>
+  						<li><a href="channel/playlists">Playlists</a></li>
+  						<li><a href="channel/nawak">N'importe nawak</a></li>
+  					</ul>
+				</nav>
+
 				<aside class="full-cards-list">
-					<h3>Vidéos</h3>
-					
 					<div class="card video">
 						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
 							<div class="time">12:05</div>

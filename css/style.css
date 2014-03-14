@@ -703,85 +703,85 @@ footer #inner-footer .rights .love i {
 @-webkit-keyframes heart {
   /* line 74, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 
   /* line 75, ../scss/partials/_footer.scss */
   50% {
-    text-shadow: 0 0 20px #d5093c;
+    text-shadow: 0 0 20px rgba(213, 9, 60, 1);
   }
 
   /* line 76, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 }
 
 @-moz-keyframes heart {
   /* line 79, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 
   /* line 80, ../scss/partials/_footer.scss */
   50% {
-    text-shadow: 0 0 20px #d5093c;
+    text-shadow: 0 0 20px rgba(213, 9, 60, 1);
   }
 
   /* line 81, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 }
 
 @-ms-keyframes heart {
   /* line 84, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 
   /* line 85, ../scss/partials/_footer.scss */
   50% {
-    text-shadow: 0 0 20px #d5093c;
+    text-shadow: 0 0 20px rgba(213, 9, 60, 1);
   }
 
   /* line 86, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 }
 
 @-o-keyframes heart {
   /* line 89, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 
   /* line 90, ../scss/partials/_footer.scss */
   50% {
-    text-shadow: 0 0 20px #d5093c;
+    text-shadow: 0 0 20px rgba(213, 9, 60, 1);
   }
 
   /* line 91, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 }
 
 @keyframes heart {
   /* line 94, ../scss/partials/_footer.scss */
   0% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 
   /* line 95, ../scss/partials/_footer.scss */
   50% {
-    text-shadow: 0 0 20px #d5093c;
+    text-shadow: 0 0 20px rgba(213, 9, 60, 1);
   }
 
   /* line 96, ../scss/partials/_footer.scss */
   100% {
-    text-shadow: 0 0 20px rgba(213, 9, 60, 0);
+    text-shadow: 0 0 20px rgba(213, 9, 60, 0.2);
   }
 }
 
@@ -3750,6 +3750,79 @@ video {
   color: white;
 }
 
+/* line 1, ../scss/partials/_tabs.scss */
+nav.tabs {
+  margin: 20px 0 20px 0;
+}
+/* line 4, ../scss/partials/_tabs.scss */
+nav.tabs ul {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+/* line 8, ../scss/partials/_tabs.scss */
+nav.tabs ul li {
+  display: inline-block;
+  width: 15%;
+  height: 25px;
+  padding-top: 10px;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  /* line 8, ../scss/partials/_tabs.scss */
+  nav.tabs ul li {
+    width: 25%;
+  }
+}
+@media (max-width: 600px) {
+  /* line 8, ../scss/partials/_tabs.scss */
+  nav.tabs ul li {
+    width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  /* line 8, ../scss/partials/_tabs.scss */
+  nav.tabs ul li {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  /* line 23, ../scss/partials/_tabs.scss */
+  nav.tabs ul li:hover:after, nav.tabs ul li.current:after {
+    width: 80%!important;
+  }
+}
+/* line 28, ../scss/partials/_tabs.scss */
+nav.tabs ul li a {
+  color: #40A6E0;
+  font-size: 20px;
+}
+/* line 33, ../scss/partials/_tabs.scss */
+nav.tabs ul li:after {
+  position: relative;
+  bottom: -4px;
+  left: 0;
+  display: block;
+  width: 0%;
+  height: 4px;
+  margin: auto;
+  background: #40A6E0;
+  opacity: 0;
+  content: "";
+  -webkit-transition: 0.15s;
+  -moz-transition: 0.15s;
+  -ms-transition: 0.15s;
+  -o-transition: 0.15s;
+  transition: 0.15s;
+}
+/* line 55, ../scss/partials/_tabs.scss */
+nav.tabs ul li:hover:after, nav.tabs ul li.current:after {
+  width: 100%;
+  opacity: 1;
+}
+/* line 60, ../scss/partials/_tabs.scss */
+nav.tabs ul li:nth-child(n+2) {
+  margin-left: 2%;
+}
+
 /* line 1, ../scss/partials/_upload-animation.scss */
 #uploader {
   overflow: hidden;
@@ -4846,7 +4919,7 @@ video {
   margin-right: 1%;
 }
 /* line 34, ../scss/cards-lists/_full-cards-list.scss */
-.full-cards-list .card:nth-child(3n+2) {
+.full-cards-list .card:nth-child(3n+1) {
   clear: both;
 }
 @media (max-width: 900px) {
@@ -4857,11 +4930,11 @@ video {
     margin-right: 2%;
   }
   /* line 41, ../scss/cards-lists/_full-cards-list.scss */
-  .full-cards-list .card:nth-child(3n+2) {
-    clear: none;
+  .full-cards-list .card:nth-child(3n+1) {
+    clear: none!important;
   }
   /* line 42, ../scss/cards-lists/_full-cards-list.scss */
-  .full-cards-list .card:nth-child(even) {
+  .full-cards-list .card:nth-child(odd) {
     clear: both;
   }
 }
@@ -5607,7 +5680,7 @@ video {
 
 /* Contenu principale des pages
    ======================================= */
-/* line 57, ../scss/style.scss */
+/* line 58, ../scss/style.scss */
 .content {
   display: table;
   width: 100%;
@@ -5638,7 +5711,7 @@ video {
 
   -  Visuel */
 /* Exemple */
-/* line 96, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 #declaration-order .exemple {
   position: absolute;
   float: left;
