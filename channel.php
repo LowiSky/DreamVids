@@ -44,7 +44,7 @@
 			<div class="content">
 				<nav class="tabs">
 					<ul>
-  						<li class="channel/current"><a href="videos">Vidéos</a></li>
+  						<li class="current"><a href="channel/current">Vidéos</a></li>
   						<li><a href="channel/playlists">Playlists</a></li>
   						<li><a href="channel/nawak">N'importe nawak</a></li>
   					</ul>
@@ -176,6 +176,18 @@
 							</div>
 						</div>
 					</div>
+
+					<nav class="pagination">
+						<ul>
+							<a href="?page=2"><li>Précédent</li></a>
+							<li class="current">3</li>
+							<a href="?page=4"><li>4</li></a>
+							...
+							<a href="?page=11"><li>11</li></a>
+							<a href="?page=12"><li>12</li></a>
+							<a href="?page=4"><li>Suivant</li></a>
+						</ul>
+					</nav>
 				</aside>
 			</div>
 
