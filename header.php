@@ -24,7 +24,7 @@
 								<div id="top-nav-user-information-menu">
 									<ul>
 										<li><a href="channel">Ma chaîne</a></li>
-										<li><a href="#">Mon compte</a></li>
+										<li><a href="profile">Mon compte</a></li>
 										<li><a href="#">Déconnection</a></li>
 									</ul>
 								</div>

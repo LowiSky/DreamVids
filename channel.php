@@ -44,7 +44,7 @@
 			<div class="content">
 				<nav class="tabs">
 					<ul>
-  						<li class="current"><a href="channel/current">Vidéos</a></li>
+  						<li class="current"><a href="channel">Vidéos</a></li>
   						<li><a href="channel/playlists">Playlists</a></li>
   						<li><a href="channel/nawak">N'importe nawak</a></li>
   					</ul>

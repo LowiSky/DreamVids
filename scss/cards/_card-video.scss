@@ -87,8 +87,8 @@
 				&:after { margin-left: -11px; }
 			}
 		}
-
 	}
+
 	.description {
 		a {
 			h4 {
@@ -108,7 +108,7 @@
 			font-size: 14px;
 
 			.view {
-				display: block;
+				display: inline-block;
 	
 				&:before {
 					display: inline-block;
@@ -125,6 +125,83 @@
 				float: right;
 				margin-top: -15px;
 				color: #40a6e0;
+			}
+		}
+	}
+
+	&.long {
+		height: 160px;
+
+		.thumbnail {
+			width: 50%;
+			height: 100%;
+		}
+
+		.description {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			
+			width: 70%;
+			height: 100%;
+
+			a > h4 { font-size: 16px; }
+
+			.buttons {
+				position: absolute;
+				top: 45px;
+				left: 15px;
+
+				width: 100%;
+
+				button {
+					display: block;
+					width: 150px;
+					height: 35px;
+					margin-bottom: 5px;
+
+					border: none;
+					color: white;
+					cursor: pointer;
+					background: #E83C1A;
+
+					&:focus,
+					&:active { outline: none; }
+
+					&:hover  { background: lighten(#E83C1A, 10%); }
+					&:active { background:  darken(#E83C1A,  5%); }
+
+					&:first-child {
+						background: #40A6E0;
+
+						&:hover  { background: lighten(#40A6E0, 10%); }
+						&:active { background:  darken(#40A6E0,  5%); }
+					}
+				}
+			}
+
+			div {
+				position: absolute;
+				bottom: 10px;
+				left: 5px;
+				right: 5px;
+
+				.plus,
+				.moins {
+					display: inline-block;
+				
+					&:before {
+						display: inline-block;
+						margin-left: 14px;
+						margin-right: 2px;
+						font-weight: bold;
+						
+						content: "+";
+					}
+				}
+
+				.plus:before { content: "+"; }
+				.moins:before { content: "-"; }
 			}
 		}
 	}

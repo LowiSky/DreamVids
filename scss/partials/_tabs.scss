@@ -13,18 +13,6 @@ nav.tabs {
 			
 			text-align: center;
 
-			@media (max-width: 1000px) { width: 25%; }
-			@media (max-width: 600px)  { width: 30%; }
-			@media (max-width: 500px)  {
-				width: 95%;
-				margin-bottom: 20px;
-
-				&:hover:after,
-				&.current:after {
-					width: 80%!important;
-				}
-			}
-
 			a {
 				color: #40A6E0;
 				font-size: 20px;
@@ -57,7 +45,44 @@ nav.tabs {
 				opacity: 1;
 			}
 	
-			&:nth-child(n+2) { margin-left: 2%; }
+			margin-left: 2%;
+		}
+	}
+
+	&:not(.four) {
+		ul > li {
+			@media (max-width: 1000px) { width: 25%; }
+			@media (max-width: 600px)  { width: 30%; }
+			@media (max-width: 500px)  {
+				width: 95%;
+				margin-bottom: 20px;
+
+				&:hover:after,
+				&.current:after {
+					width: 70%!important;
+				}
+			}
+		}
+	}
+
+	&.four {
+		ul > li {
+			@media (max-width: 1000px) { width: 20%; }
+			@media (max-width: 800px)  {
+				width: 95%;
+				margin-bottom: 20px;
+
+				&:hover:after,
+				&.current:after {
+					width: 50%!important;
+				}
+			}
+			@media (max-width: 500px)  {
+				&:hover:after,
+				&.current:after {
+					width: 70%!important;
+				}
+			}
 		}
 	}
 }

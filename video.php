@@ -247,8 +247,8 @@
 				},
 				{
 					format: 720,
-					mp4:'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.mp4',
-					webm:'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.webm'}
+					mp4: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.mp4',
+					webm: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.webm'}
 			]);
 			setAnnotations([
 				{
