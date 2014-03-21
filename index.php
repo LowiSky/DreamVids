@@ -256,6 +256,8 @@
 								<p class="subscribers"><b>248</b> Abonnés</p>
 							</a>
 						</ul>
+						
+						<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/250x250"></script></div>
 					</aside>
 				<?php } else { ?>
 					<aside class="aside-channels">
@@ -316,6 +318,8 @@
 							<span class="ch-more">Voir tout</span>
 							<span class="ch-less">Voir moins</span>
 						</ul>
+
+						<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/250x250"></script></div>
 					</aside>
 				<?php } ?>
 	
@@ -502,6 +506,7 @@
 						</div>
 					</aside>
 				<?php } ?>
+
 			</div>
 
 			<?php include 'footer.php'; ?>

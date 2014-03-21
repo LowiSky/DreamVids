@@ -63,6 +63,8 @@
 							<p class="subscribers"><b>9 725</b> Abonnés</p>
 						</a>
 					</ul>
+
+					<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/250x250"></script></div>
 				</aside>
 	
 				<aside class="aside-cards-list">

@@ -77,6 +77,8 @@
 						<span class="ch-more">Voir tout</span>
 						<span class="ch-less">Voir moins</span>
 					</ul>
+
+					<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/250x250"></script></div>
 				</aside>
 	
 				<aside class="aside-cards-list">
@@ -184,6 +186,18 @@
 						</a>
 						<i>Il y a 1 jour</i>
 					</div>
+
+					<nav class="pagination">
+						<ul>
+							<a href="?page=2"><li>Précédent</li></a>
+							<li class="current">3</li>
+							<a href="?page=4"><li>4</li></a>
+							...
+							<a href="?page=11"><li>11</li></a>
+							<a href="?page=12"><li>12</li></a>
+							<a href="?page=4"><li>Suivant</li></a>
+						</ul>
+					</nav>
 	
 				</aside>
 			</div>

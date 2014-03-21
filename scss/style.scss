@@ -30,6 +30,7 @@
 @import "partials/upload-large-modal.scss";
 @import "partials/wide-channel.scss";
 @import "partials/profile.scss";
+@import "partials/contributors.scss";
 
 /* Style des cartes
    ======================================= */
@@ -63,6 +64,12 @@
     width: 100%;
     max-width: 1000px;
     margin: auto;
+}
+.center {
+    position: relative;
+    top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 /* ===============================================

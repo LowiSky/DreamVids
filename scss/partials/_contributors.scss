@@ -1,0 +1,48 @@
+.contributors {
+	li {
+		.avatar {
+			float: left;
+
+			width: 80px;
+			height: 80px;
+
+			margin: -40px 15px 5px 10px;
+
+			border-radius: 10px;
+		}
+
+		h1 {
+			margin-top: 50px;
+			margin-bottom: 5px;
+
+			font-size: 32px;
+			color: #333;
+		}
+
+		.description {
+			clear: both;
+
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			margin-top: 10px;
+
+			color: white;
+			cursor: pointer;
+
+			&:active,
+			&:focus { outline: none; }
+
+			&.twitter {
+				background: #55acee;
+
+				&:hover  { background: lighten(#55acee, 5%); }
+				&:active { background:  darken(#55acee, 5%); }
+			}
+		}
+	}
+}

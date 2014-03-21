@@ -1218,7 +1218,7 @@ footer #inner-footer .rights .love i {
   width: 30%;
   min-height: 100px;
 }
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   /* line 1, ../scss/partials/_aside-channels.scss */
   .aside-channels {
     float: none;
@@ -1265,14 +1265,14 @@ footer #inner-footer .rights .love i {
   margin-bottom: 0;
   padding: 10px;
 }
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   /* line 42, ../scss/partials/_aside-channels.scss */
   .aside-channels ul .channels {
     float: left;
     width: 40%;
   }
 }
-@media (max-width: 700px) and (max-width: 420px) {
+@media (max-width: 850px) and (max-width: 420px) {
   /* line 42, ../scss/partials/_aside-channels.scss */
   .aside-channels ul .channels {
     float: none;
@@ -3860,7 +3860,7 @@ nav.pagination ul li {
   position: relative;
   display: inline-block;
   padding: 8px;
-  margin: 0 5px;
+  margin: 0 5px 10px 5px;
   background: #f1f0f0;
   color: #333;
   -webkit-box-shadow: 1px 2px 0px #e2e2e2;
@@ -4585,6 +4585,52 @@ nav.pagination ul li:not(.current):active {
   background-color: #33a0de;
 }
 
+/* line 3, ../scss/partials/_contributors.scss */
+.contributors li .avatar {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: -40px 15px 5px 10px;
+  border-radius: 10px;
+}
+/* line 14, ../scss/partials/_contributors.scss */
+.contributors li h1 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-size: 32px;
+  color: #333;
+}
+/* line 22, ../scss/partials/_contributors.scss */
+.contributors li .description {
+  clear: both;
+  font-size: 20px;
+  line-height: 24px;
+}
+/* line 29, ../scss/partials/_contributors.scss */
+.contributors li .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+/* line 38, ../scss/partials/_contributors.scss */
+.contributors li .button:active, .contributors li .button:focus {
+  outline: none;
+}
+/* line 40, ../scss/partials/_contributors.scss */
+.contributors li .button.twitter {
+  background: #55acee;
+}
+/* line 43, ../scss/partials/_contributors.scss */
+.contributors li .button.twitter:hover {
+  background: #6cb7f0;
+}
+/* line 44, ../scss/partials/_contributors.scss */
+.contributors li .button.twitter:active {
+  background: #3ea1ec;
+}
+
 /* Style des cartes
    ======================================= */
 /* line 1, ../scss/cards/_card.scss */
@@ -5005,7 +5051,7 @@ nav.pagination ul li:not(.current):active {
   min-height: 100px;
   float: left;
 }
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   /* line 1, ../scss/cards-lists/_aside-cards-list.scss */
   .aside-cards-list {
     float: none;
@@ -5070,7 +5116,7 @@ nav.pagination ul li:not(.current):active {
   -o-box-shadow: 1px 2px 0px #e0e0e0;
   box-shadow: 1px 2px 0px #e0e0e0;
 }
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   /* line 51, ../scss/cards-lists/_aside-cards-list.scss */
   .aside-cards-list .big-button {
     left: 0;
@@ -5184,26 +5230,20 @@ nav.pagination ul li:not(.current):active {
 /* line 27, ../scss/cards-lists/_full-cards-list.scss */
 .full-cards-list .card {
   float: left;
+  clear: none;
   width: 30%;
   margin-left: 1%;
   margin-right: 1%;
 }
-/* line 34, ../scss/cards-lists/_full-cards-list.scss */
-.full-cards-list .card:nth-child(3n+1) {
-  clear: both;
-}
 @media (max-width: 900px) {
   /* line 27, ../scss/cards-lists/_full-cards-list.scss */
   .full-cards-list .card {
+    clear: none!important;
     width: 45%;
     margin-left: 2%;
     margin-right: 2%;
   }
   /* line 41, ../scss/cards-lists/_full-cards-list.scss */
-  .full-cards-list .card:nth-child(3n+1) {
-    clear: none!important;
-  }
-  /* line 42, ../scss/cards-lists/_full-cards-list.scss */
   .full-cards-list .card:nth-child(odd) {
     clear: both;
   }
@@ -5988,12 +6028,20 @@ nav.pagination ul li:not(.current):active {
 
 /* Contenu principale des pages
    ======================================= */
-/* line 61, ../scss/style.scss */
+/* line 62, ../scss/style.scss */
 .content {
   display: table;
   width: 100%;
   max-width: 1000px;
   margin: auto;
+}
+
+/* line 68, ../scss/style.scss */
+.center {
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 /* ===============================================
@@ -6019,7 +6067,7 @@ nav.pagination ul li:not(.current):active {
 
   -  Visuel */
 /* Exemple */
-/* line 100, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 #declaration-order .exemple {
   position: absolute;
   float: left;

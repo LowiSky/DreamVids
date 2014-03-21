@@ -26,19 +26,18 @@
 
 	.card {
 		float: left;
+		clear: none;
 
 		width: 30%;
 		margin-left: 1%;
 		margin-right: 1%;
-		
-		&:nth-child(3n+1) { clear: both; }
 
 		@media (max-width: 900px) {
+			clear: none!important;
 			width: 45%;
 			margin-left: 2%;
 			margin-right: 2%;
 
-			&:nth-child(3n+1) { clear: none!important; }
 			&:nth-child(odd) { clear: both; }
 		}
 

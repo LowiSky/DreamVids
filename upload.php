@@ -56,6 +56,8 @@
 				</form>
 			</div>
 
+			<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/468x60"></script></div>
+
 			<?php include 'footer.php'; ?>
 			
 		</div>
