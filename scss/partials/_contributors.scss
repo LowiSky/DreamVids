@@ -1,12 +1,16 @@
 .contributors {
 	li {
+		float: left;
+		width: 40%;
+		margin: 2%;
+
 		.avatar {
 			float: left;
 
 			width: 80px;
 			height: 80px;
 
-			margin: -40px 15px 5px 10px;
+			margin: 10px 15px 5px 10px;
 
 			border-radius: 10px;
 		}
