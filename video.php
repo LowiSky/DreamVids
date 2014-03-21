@@ -95,7 +95,12 @@
 	
 			<div class="content">
 				<section id="comments">
-						<h3>Commentaires Populaires</h3>
+					<form onsubmit="return false;" method="post" action="">
+						<textarea id="text_comment" required rows="4" cols="10" placeholder="Commentaire"></textarea>
+						<input id="submit_comment" type="submit" value="Envoyer">
+					</form>
+
+					<h3>Commentaires Populaires</h3>
 	
 					<div id="comments-best">
 						<div class="comment">
