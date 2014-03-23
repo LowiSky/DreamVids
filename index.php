@@ -90,7 +90,7 @@
 
 					<div id="boxBest">
 						<?php if (!$connected) { ?>
-							<h3>Meilleures vidéos :</h3>
+							<h3 class="title">Meilleures vidéos :</h3>
 							<ul id="sliderList" class="slide1">
 								<li onclick="slideTo(1);"></li>
 								<li onclick="slideTo(2);"></li>
@@ -148,7 +148,7 @@
 								</div>
 							</section>
 						<?php } else { ?>
-							<h3>Vidéos à découvrir :</h3>
+							<h3 class="title">Vidéos à découvrir :</h3>
 							<ul id="sliderList" class="slide1">
 								<li onclick="slideTo(1);"></li>
 								<li onclick="slideTo(2);"></li>
@@ -213,7 +213,7 @@
 			<div class="content">
 				<?php if (!$connected) { ?>
 					<aside class="aside-channels">
-						<h3>Meilleures chaînes</h3>
+						<h3 class="title">Meilleures chaînes</h3>
 						<ul class="medal">
 							<a href="channel" class="channels">
 								<span style="background-image: url(http://lorempicsum.com/up/255/200/2)" class="avatar"></span>
@@ -261,7 +261,7 @@
 					</aside>
 				<?php } else { ?>
 					<aside class="aside-channels">
-						<h3>Mes abonnements</h3>
+						<h3 class="title">Mes abonnements</h3>
 						<ul class="limited">
 							<a href="channel" class="channels" data-new="12">
 								<span style="background-image: url(http://lorempicsum.com/simpsons/255/200/2)" class="avatar"></span>
@@ -325,7 +325,7 @@
 	
 				<?php if (!$connected) { ?>
 					<aside class="aside-cards-list">
-						<h3>Vidéos à découvrir</h3>
+						<h3 class="title">Vidéos à découvrir</h3>
 						
 						<div class="card video">
 							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
@@ -413,7 +413,7 @@
 					</aside>
 				<?php } else { ?>
 					<aside class="aside-cards-list">
-						<h3>Vidéos de mes abonnements</h3>
+						<h3 class="title">Vidéos de mes abonnements</h3>
 						
 						<div class="card video">
 							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/up/350/200/1">
@@ -475,7 +475,7 @@
 					</aside>
 
 					<aside class="aside-cards-list">
-						<h3>Meilleures vidéos</h3>
+						<h3 class="title">Meilleures vidéos</h3>
 						
 						<div class="card video">
 							<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/350/200/1">

@@ -20,7 +20,7 @@
 
 			<div class="content">
 				<aside class="aside-channels">
-					<h3>Suggestions</h3>
+					<h3 class="title">Suggestions</h3>
 					<ul>
 						<a href="channel" class="channels">
 							<span style="background-image: url(http://lorempicsum.com/nemo/350/200/1)" class="avatar"></span>
@@ -68,7 +68,7 @@
 				</aside>
 	
 				<aside class="aside-cards-list">
-					<h3>Vidéos à découvrirs</h3>
+					<h3 class="title">Vidéos à découvrirs</h3>
 					
 					<div class="card video">
 						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/futurama/350/200/1">

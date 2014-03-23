@@ -37,11 +37,11 @@
 		input[type="file"] {
 			position: absolute;
 			top: 0;
-			left: 0;
+			left: -5000px;
 			z-index: 300;
 
 			display: block;
-			width: 100%;
+			width: 10000px;
 			height: 100%;
 
 			font-size: 350px;

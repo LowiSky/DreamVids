@@ -17,18 +17,18 @@
 				<div id="top-nav-user-information">
 					<?php 
 						if ($connected = rand(0, 4)) { ?>
-							<a id="top-nav-user-information-button">
+							<span id="top-nav-user-information-button">
 								<img src="http://lorempicsum.com/simpsons/255/200/5" alt="Votre avatar" id="top-nav-user-information-button-img">
 								<h4 id="top-nav-user-information-button-h4">Pseudo</h4>
 								<img src="img/arrow_top_nav.png" alt="Voir vos informations" id="top-nav-user-arrow">
 								<div id="top-nav-user-information-menu">
 									<ul>
-										<li><a href="channel">Ma chaîne</a></li>
-										<li><a href="profile">Mon compte</a></li>
-										<li><a href="#">Déconnection</a></li>
+										<a href="channel">Ma chaîne</a>
+										<a href="profile">Mon compte</a>
+										<a href="#">Déconnexion</a>
 									</ul>
 								</div>
-							</a>
+							</span>
 					<?php }
 						else { ?>
 							<div id="top-connection">

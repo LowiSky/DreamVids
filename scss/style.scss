@@ -17,20 +17,19 @@
 @import "partials/annotations-tools.scss";
 @import "partials/wide-content.scss";
 @import "partials/bgLoader.scss";
-@import "partials/checkbox.scss";
 @import "partials/embed.scss";
 @import "partials/fonts.scss";
 @import "partials/home-large-modal.scss";
-@import "partials/login-register.scss";
 @import "partials/player.scss";
 @import "partials/tabs.scss";
 @import "partials/pagination.scss";
 @import "partials/upload-animation.scss";
-@import "partials/upload-content.scss";
 @import "partials/upload-large-modal.scss";
 @import "partials/wide-channel.scss";
-@import "partials/profile.scss";
 @import "partials/contributors.scss";
+@import "partials/forms.scss";
+@import "partials/titles.scss";
+@import "partials/messages.scss";
 
 /* Style des cartes
    ======================================= */
@@ -77,6 +76,14 @@
     margin-bottom: 40px;
     text-align: center;
     overflow: hidden;
+}
+
+.middle {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* ===============================================

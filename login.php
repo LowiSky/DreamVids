@@ -18,9 +18,10 @@
 
 			<?php include 'header.php'; ?>
 	
-			<section id="login">
-				<h1>Connexion <a href="register">Inscription</a></h1>
-				<form method="post" action="">
+			<section class="middle">
+				<h1 class="title">Connexion <a href="register">Inscription</a></h1>
+
+				<form class="form middle" method="post" action="">
 					<label for="username">Pseudo :</label>
 					<input type="text" name="username" id="username" placeholder="Pseudo"/><br />
 					

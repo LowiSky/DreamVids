@@ -19,6 +19,12 @@
 			<?php include 'header.php'; ?>
 
 			<div class="content">
+				<nav class="tabs">
+					<ul>
+						<li class="current"><a href="contributors-dev">Développeurs</a></li>
+						<li><a href="contributors-modos">Modérateurs</a></li>
+					</ul>
+				</nav>
 
 				<ul class="contributors">
 
@@ -29,9 +35,21 @@
 					</li>
 
 					<li>
+						<a target="_blank" href="https://twitter.com/DarkWos1" class="left"><img class="avatar" src="https://pbs.twimg.com/profile_images/416865907382575104/ICDxEuCo.png"></a>
+						<a target="_blank" href="https://twitter.com/DarkWos1"><h1>Dorian</h1></a>
+						<div class="description">Darkwos, 16 ans, lycéen en 1re ES, je suis passionné d'informatique, de design, de jeux vidéo depuis toujours. Je suis cofondateur de DreamVids. J'assure tout ce qui touche au visuel pour le site .</div>
+					</li>
+
+					<li>
 						<a class="left" target="_blank" href="https://twitter.com/_quadrifoglio"><img class="avatar" src="https://pbs.twimg.com/profile_images/378800000727360878/e9cd7f6cfbe5f600f8308ac057a38501.png"></a>
 						<a target="_blank" href="https://twitter.com/_quadrifoglio"><h1>Quadrifoglio</h1></a>
 						<div class="description">16 ans, 1&egrave;reS, passionn&eacute; d'informatique et d'astronomie depuis toujours. D&eacute;veloppeur serveur DreamVids, je travaille principalement de mani&egrave;re acharn&eacute;e sur la prochaine version du site !</p>
+					</li>
+					
+					<li>
+						<a class="left" target="_blank" href="https://twitter.com/jeremy__fr"><img class="avatar" src="https://pbs.twimg.com/profile_images/417066062715158529/TB8tT9p0.png"></a>
+						<a target="_blank" href="https://twitter.com/jeremy__fr"><h1>Jeremy</h1></a>
+						<div class="description">Jeremy, 15 ans, je g&eacute;re sur DreamVids le community management (Twitter/Email), je me passionne pour le d&eacute;veloppement web et les nouvelles technologies</p>
 					</li>
 
 					<li>
@@ -47,12 +65,6 @@
 					</li>
 
 					<li>
-						<a class="left" target="_blank" href="https://twitter.com/TaccolaA"><img class="avatar" src="http://dreamvids.fr/uploads/Snapcube/avatar.png"></a>
-						<a target="_blank" href="https://twitter.com/TaccolaA"><h1>Snapcube</h1></a>
-						<div class="description">Snapcube, 15 ans, lyc&eacute;en en seconde. Adore l'informatique et surtout la programmation (surtout PHP et Java). Mod&eacute;rateur Dreamvids. A fait le Ctrl+Enter pour envoyer les commentaires :P. Suit le projet depuis le d&eacute;but avant d'avoir &eacute;t&eacute; recrut&eacute; en tant que mod&eacute;rateur.</p>
-					</li>
-
-					<li>
 						<a class="left" target="_blank" href="https://twitter.com/Bestt_Alex"><img class="avatar" src="http://image.noelshack.com/fichiers/2014/09/1393266985-logo-bestt.png"></a>
 						<a target="_blank" href="https://twitter.com/Bestt_Alex"><h1>Bestt_Alex</h1></a>
 						<div class="description">Passionn&eacute; par l'informatique et plus particuli&eacute;rement par le domaine du web je suis quelqu'un de dynamique et toujours en qu&ecirc;te de savoir !</p>
@@ -62,12 +74,6 @@
 						<a class="left" target="_blank" href="https://twitter.com/JamesHemery"><img class="avatar" src="https://pbs.twimg.com/profile_images/426859163226865664/k7LpkzoD.png"></a>
 						<a target="_blank" href="https://twitter.com/JamesHemery"><h1>James Hemery</h1></a>
 						<div class="description">Passionn&eacute; par les nouvelles technologies et le d&eacute;veloppement, j'aime apprendre de nouvelles notions et partager mon exp&eacute;rience en vid&eacute;o, j'ai r&eacute;alis&eacute; avec Stornitz l'API de DreamVids</p>
-					</li>
-
-					<li>
-						<a class="left" target="_blank" href="https://twitter.com/jeremy__fr"><img class="avatar" src="https://pbs.twimg.com/profile_images/417066062715158529/TB8tT9p0.png"></a>
-						<a target="_blank" href="https://twitter.com/jeremy__fr"><h1>Jeremy</h1></a>
-						<div class="description">Jeremy, 15 ans, je g&eacute;re sur DreamVids le community management (Twitter/Email), je me passionne pour le d&eacute;veloppement web et les nouvelles technologies</p>
 					</li>
 					
 				</ul>

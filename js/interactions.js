@@ -24,11 +24,11 @@ button_nav_mobile.addEventListener('click', function() {
 
 
 button_user_info.addEventListener('click', function() {
-    user_info_menu.style.display = user_info_menu.style.display != 'inline' ? 'inline' : 'none';
+    user_info_menu.className = user_info_menu.className != 'show' ? 'show' : '';
 });
 
 body.addEventListener('click', function(event) {
-    user_info_menu.style.display = event.target.id != 'top-nav-user-information-button' && event.target.parentNode.id != 'top-nav-user-information-button' ? 'none' : user_info_menu.style.display;
+    user_info_menu.className = event.target.id != 'top-nav-user-information-button' && event.target.parentNode.id != 'top-nav-user-information-button' ? '' : user_info_menu.className;
 });
 
 hover_subscribe.addEventListener('click', function() {

@@ -22,29 +22,6 @@ $comment-color: #959595;
 
 	@media (max-width: 750px)  { width: 100%; }
 
-	h3 {
-		height: 100px;
-		margin-left: 25px;
-
-		font-weight: normal;
-		font-size: 18px;
-		color: $video_h3_color;
-		line-height: 90px;
-
-		&:after {
-			position: relative;
-			bottom: 30px;
-
-			display: block;
-			height: 4px;
-			width: 25px;
-
-			content: "";
-			background-color: $hr_bg_color;
-			border: none;
-		}
-	}
-
 	form {
 		textarea {
 			width: 100%;

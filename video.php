@@ -82,12 +82,12 @@
 					</div>
 					<hr/>
 					<div id="buttons">
-						<img class="share" src="img/share.png"/>
-						<img class="star" src="img/star.png"/>
-						<img class="flag" src="img/flag.png"/>
-						<img class="embed-icon" src="img/embed.png"/>
-						<input class="embed" type="checkbox" onclick="document.getElementById('embed-input').select();"/>
-						<input id="embed-input" value="Mega code d'embed de la mort qui tue !" onclick="this.select();" type="text" spellcheck="false"/>
+						<img class="share" src="img/share.png">
+						<img class="flag" src="img/flag.png">
+						<a href="http://yolo.com" target="_blank"><img class="download" src="img/download.png"></a>
+						<img class="embed-icon" src="img/embed.png">
+						<input class="embed" type="checkbox" onclick="document.getElementById('embed-input').select();">
+						<input id="embed-input" value="Mega code d'embed de la mort qui tue !" onclick="this.select();" type="text" spellcheck="false">
 					</div>
 				</section>
 			</section>
@@ -100,7 +100,7 @@
 						<input id="submit_comment" type="submit" value="Envoyer">
 					</form>
 
-					<h3>Commentaires Populaires</h3>
+					<h3 class="title">Commentaires Populaires</h3>
 	
 					<div id="comments-best">
 						<div class="comment">

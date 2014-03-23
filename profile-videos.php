@@ -21,7 +21,7 @@
 			<div class="content">
 
 				<section class="profile">
-					<h1>Espace membre</h1>
+					<h1 class="title">Espace membre</h1>
 
 					<nav class="tabs four">
 						<ul>
@@ -40,10 +40,7 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Up !</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
 								<div><span class="view">12 530</span><span class="plus">34</span><span class="moins">2</span></div>
 							</div>
 						</div>
@@ -55,10 +52,8 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Nemo</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
+								<b class="visibility" data-visibility="1">Non répertoriées</b>
 								<div><span class="view">10 576</span><span class="plus">34</span><span class="moins">2</span></div>
 							</div>
 						</div>
@@ -70,10 +65,8 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
+								<b class="visibility" data-visibility="2">Privée</b>
 								<div><span class="view">32 546</span><span class="plus">14</span><span class="moins">84</span></div>
 							</div>
 						</div>
@@ -85,10 +78,7 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Rio</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
 								<div><span class="view">1 752</span><span class="plus">7</span><span class="moins">0</span></div>
 							</div>
 						</div>
@@ -100,10 +90,7 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Up !</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
 								<div><span class="view">12 530</span><span class="plus">128</span><span class="moins">9</span></div>
 							</div>
 						</div>
@@ -115,10 +102,8 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Nemo</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
+								<b class="visibility" data-visibility="1">Non répertoriées</b>
 								<div><span class="view">10 576</span><span class="plus">254</span><span class="moins">57</span></div>
 							</div>
 						</div>
@@ -130,10 +115,8 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Les Simpson, le film</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
+								<b class="visibility" data-visibility="1">Non répertoriées</b>
 								<div><span class="view">401</span><span class="plus">71</span><span class="moins">9</span></div>
 							</div>
 						</div>
@@ -145,10 +128,8 @@
 							</div>
 							<div class="description">
 								<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
-								<span class="buttons">
-									<button>Paramètres</button>
-									<button>Supprimer</button>
-								</span>
+								<a href="video-settings"><button>Paramètres</button></a>
+								<b class="visibility" data-visibility="2">Privée</b>
 								<div><span class="view">32 546</span><span class="plus">54</span><span class="moins">0</span></div>
 							</div>
 						</div>

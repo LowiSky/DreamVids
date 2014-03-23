@@ -19,11 +19,7 @@
 			<?php include 'header.php'; ?>
 	
 			<div class="content">
-				<div id="video-top-infos">
-					<div id="video-top-title">
-						<h1>Titre de la vidéo</h1>
-					</div>
-				</div>
+				<h1 class="title">Titre de la vidéo</h1>
 
 				<div class="annoted" id="player">
 					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://puu.sh/6Tf6f.png">

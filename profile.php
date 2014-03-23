@@ -21,7 +21,7 @@
 			<div class="content">
 
 				<section class="profile">
-					<h1>Espace membre</h1>
+					<h1 class="title">Espace membre</h1>
 
 					<nav class="tabs four">
 						<ul>
@@ -32,7 +32,7 @@
   						</ul>
 					</nav>
 
-					<form method="post" action="">
+					<form class="form" method="post" action="">
 						<label for="email">Adresse email :</label>
 						<input value="yolo@swag.fr" type="text" name="email" placeholder="Adresse email"><br />
 
@@ -43,13 +43,13 @@
 							<img class="preview" src="https://fr.gravatar.com/userimage/57826048/c82ae77d5ac9635e8ace8071f81941b9.png?size=100">
 							Avatar :
 						</label>
-						<input type="file" name="avatar" accept="image/*"><br />
+						<input type="file" data-text="Choisir un fichier" name="avatar" accept="image/*"><br />
 
 						<label for="backgroundChannel">
 							<img class="preview" src="http://dreamvids.fr/uploads/Dimou/background.JPG">
-							Avatar :
+							Fond de ma chaine :
 						</label>
-						<input type="file" name="backgroundChannel" accept="image/*"><br />
+						<input type="file" data-text="Choisir un fichier" name="backgroundChannel" accept="image/*"><br />
 
 						<label for="language">Langue :</label>
 						<select name="language">

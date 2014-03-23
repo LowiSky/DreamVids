@@ -1,5 +1,6 @@
 Options +FollowSymlinks
 RewriteEngine On
+
 RewriteRule	^video$	video.php	[L]
 RewriteRule	^annotations$	annotations.php	[L]
 RewriteRule	^embed$	embed.php	[L]
@@ -13,6 +14,9 @@ RewriteRule	^search$	search.php	[L]
 RewriteRule	^profile$	profile.php	[L]
 RewriteRule	^profile-pass$	profile-pass.php	[L]
 RewriteRule	^profile-videos$	profile-videos.php	[L]
-RewriteRule	^contributors$	contributors.php	[L]
-
+RewriteRule	^contributors$	contributors-dev.php	[L]
+RewriteRule	^contributors-dev$	contributors-dev.php	[L]
+RewriteRule	^contributors-modos$	contributors-modos.php	[L]
+RewriteRule	^video-settings$	video-settings.php	[L]
+RewriteRule	^messages$	messages.php	[L]
 RewriteRule	^404$	404.php	[L]
