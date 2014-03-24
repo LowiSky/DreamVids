@@ -90,7 +90,7 @@
 
 					<div id="boxBest">
 						<?php if (!$connected) { ?>
-							<h3 class="title">Meilleures vidéos :</h3>
+							<h3>Meilleures vidéos :</h3>
 							<ul id="sliderList" class="slide1">
 								<li onclick="slideTo(1);"></li>
 								<li onclick="slideTo(2);"></li>
@@ -148,7 +148,7 @@
 								</div>
 							</section>
 						<?php } else { ?>
-							<h3 class="title">Vidéos à découvrir :</h3>
+							<h3>Vidéos à découvrir :</h3>
 							<ul id="sliderList" class="slide1">
 								<li onclick="slideTo(1);"></li>
 								<li onclick="slideTo(2);"></li>
@@ -517,5 +517,6 @@
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
 		<script src="js/bgLoader.js"></script>
+		<script src="js/filePreview.js"></script>
 	</body>
 </html>

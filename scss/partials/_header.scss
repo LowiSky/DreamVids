@@ -62,7 +62,6 @@ header {
 		position: absolute;
 		top: 0;
 		right: 0;
-		z-index: 999;
 
 		display: inline-block;
 
@@ -231,6 +230,7 @@ header {
 				position: absolute;
 				top: 60px;
 				right: 0;
+				z-index: 101;
 				
 				display: none;
 

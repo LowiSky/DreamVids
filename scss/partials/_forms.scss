@@ -28,6 +28,8 @@
 		margin-right: 10px;
 
 		cursor: pointer;
+
+		&.none { margin: 0; }
 	}
 
 	input:not([type="checkbox"]) {
@@ -76,11 +78,6 @@
 	    height: 80px;
 	}
 
-	input[type="file"] {
-		max-width: 300px;
-		margin-top: 3px;
-	}
-
 	input[type="submit"] {
 	    color: white;
 	    background-color: #40a6e0;
@@ -93,13 +90,17 @@
 	    &:active { background-color:  darken(#40a6e0, 3); }
 	}
 
+	label i { margin-left: -190px; }
+
 	input[type="file"] {
 		position: relative;
-		top: -10px;
+		float: left;
 
-		width: 220px;
-		margin: 10px 0 15px 0;
+		width: 200px;
+		margin: 13px 0 25px -5px;
 		cursor: pointer;
+
+		+ * { clear: both; }
 
 		&:before {
 		    position: relative;
@@ -178,27 +179,8 @@
 		&:hover:after   { opacity: 0.2; }
 		&:checked:after { opacity: 1; }
 
-		&[disabled] {
-			cursor: default;
-			
-			&:hover:before { content: ""; }
-
-			&:checked:before { background: #dddddd; }
-
-			+ label {
-			    color: #999999;
-			    cursor: default;
-			}
-		}
+		&[disabled] { cursor: default; }
 		
-		+ label {
-		    position: relative;
-		    right: 5px;
-		    
-		    width: auto!important;
-		    margin-left: 5px!important;
-		    
-		    cursor: pointer;
-		}
+		+ label { cursor: pointer; }
 	}
 }

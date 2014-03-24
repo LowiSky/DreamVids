@@ -38,14 +38,14 @@
 							<i>Tags :</i><input value="nyan, cat" id="video-tags" type="text" name="video-tags" placeholder="Tags" spellcheck="false"/>
 						</label>
 
-						<label for="backgroundChannel">
+						<label for="thumbnails">
 							<img class="preview" src="http://dreamvids.fr/uploads/Plasma/h8WjOG.jpg">
-							Miniature :
+							<i>Miniature :</i>
+							<input type="file" data-text="Choisir un fichier" name="thumbnails" accept="image/*"><br />
 						</label>
-						<input type="file" data-text="Choisir un fichier" name="backgroundChannel" accept="image/*"><br />
 
 						<label for="video-visibility">
-							<i>Visibilité :</i>
+							Visibilité :
 							<select name="video-visibility" id="video-visibility">
 								<option value="2">Publique</option>
 								<option value="1">Non listée</option>
@@ -70,5 +70,6 @@
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
 		<script src="js/bgLoader.js"></script>
+		<script src="js/filePreview.js"></script>
 	</body>
 </html>

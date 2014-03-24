@@ -20,6 +20,11 @@
 
 			<div id="upload-large-modal">
 				<div class="bgLoader" id="backgroundLoader" data-background="img/backgrounds/002.jpg"></div>
+
+				<section id="message-upload">
+					<h3>Déposez votre fichier vidéo dans cette zone pour l'uploader</h3>
+					<p>(Pour selectionner votre fichier manuellement cliquez sur le nuage)</p>
+				</section>
 	
 				<section id="uploader">
 					<span id="upload-illustration">
@@ -41,29 +46,31 @@
 			<div id="upload-content">
 				<form class="form middle" method="post" action="">
 					<label for="video-title">
-						<i>Titre de la vidéo :</i>
+						Titre de la vidéo :
 						<input id="video-title" type="text" name="video-title" placeholder="Titre" spellcheck="false"/>
 					</label>
 					
 					<label for="video-description">
-						<i>Description :</i>
+						Description :
 						<textarea name="video-description" id="video-description" rows="4" placeholder="Description"></textarea>
 					</label>
 					
 					<label for="video-tags">
-						<i>Tags :</i><input id="video-tags" type="text" name="video-tags" placeholder="Tags" spellcheck="false"/>
+						Tags :<input id="video-tags" type="text" name="video-tags" placeholder="Tags" spellcheck="false"/>
+					</label>
+
+					<label for="upload-tumbnail">
+						<img class="preview none filePreview" data-input="upload-tumbnail" id="preview-upload-thumbnail" src="">
+						<i>Miniature :</i>
+						<input type="file" data-text="Choisir un fichier" data-preview="preview-upload-thumbnail" name="upload-tumbnail" id="upload-tumbnail" accept="image/*"><br />
 					</label>
 					
-					<label for="video-tumbnail"><i>Miniature :</i><input type="file" data-text="Choisir un fichier" name="video-tumbnail" id="video-tumbnail" accept="image/*"></label>
-					
-					<label for="video-visibility">
-						<i>Visibilité :</i>
-						<select name="video-visibility" id="video-visibility">
-							<option value="2">Publique</option>
-							<option value="1">Non listée</option>
-							<option value="0">Privée</option>
-						</select>
-					</label>
+					<label for="video-visibility">Visibilité :</label>	
+					<select name="video-visibility" id="video-visibility">
+						<option value="2">Publique</option>
+						<option value="1">Non listée</option>
+						<option value="0">Privée</option>
+					</select>
 					
 					<input type="checkbox" checked id="canDL" name="canDL"/><label for="canDL">Autoriser le téléchargement</label><br />
 					
@@ -81,5 +88,6 @@
 		<script src="js/interactions.js"></script>
 		<script src="js/upload.js"></script>
 		<script src="js/bgLoader.js"></script>
+		<script src="js/filePreview.js"></script>
 	</body>
 </html>

@@ -99,6 +99,7 @@
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
 		<script src="js/bgLoader.js"></script>
+		<script src="js/filePreview.js"></script>
 
 		<script src="js/annotations.js"></script>
 		<script src="js/player.js"></script>

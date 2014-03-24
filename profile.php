@@ -40,16 +40,16 @@
 						<input value="Blou" type="text" name="username" placeholder="Pseudo"><br />
 
 						<label for="avatar">
-							<img class="preview" src="https://fr.gravatar.com/userimage/57826048/c82ae77d5ac9635e8ace8071f81941b9.png?size=100">
-							Avatar :
+							<img class="preview filePreview" data-input="avatarInputFile" id="preview-avatarInputFile" src="https://fr.gravatar.com/userimage/57826048/c82ae77d5ac9635e8ace8071f81941b9.png?size=100">
+							<i>Avatar :</i>
+							<input type="file" data-text="Choisir un fichier" data-preview="preview-avatarInputFile" id="avatarInputFile" name="avatarInputFile" name="avatar" accept="image/*"><br />
 						</label>
-						<input type="file" data-text="Choisir un fichier" name="avatar" accept="image/*"><br />
 
 						<label for="backgroundChannel">
-							<img class="preview" src="http://dreamvids.fr/uploads/Dimou/background.JPG">
-							Fond de ma chaine :
+							<img class="preview filePreview" data-input="backgroundChannel" id="preview-backgroundChannel" src="http://dreamvids.fr/uploads/Dimou/background.JPG">
+							<i>Fond de ma chaine :</i>
+							<input type="file" data-text="Choisir un fichier" data-preview="preview-backgroundChannel" name="backgroundChannel" id="backgroundChannel" accept="image/*"><br />
 						</label>
-						<input type="file" data-text="Choisir un fichier" name="backgroundChannel" accept="image/*"><br />
 
 						<label for="language">Langue :</label>
 						<select name="language">
@@ -70,5 +70,6 @@
 		<script src="js/ajax.js"></script>
 		<script src="js/interactions.js"></script>
 		<script src="js/bgLoader.js"></script>
+		<script src="js/filePreview.js"></script>
 	</body>
 </html>

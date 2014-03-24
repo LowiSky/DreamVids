@@ -1,6 +1,6 @@
 var bgLoader = function(element) {
     this.element = element;
-    this.src = this.element.getAttribute('data-background');;
+    this.src = this.element.getAttribute('data-background');
     this.element.style.backgroundImage = 'url(' + this.src + ')';
 
     this.imgLoader = new Image();
@@ -10,7 +10,6 @@ var bgLoader = function(element) {
         element.className += ' bgLoaded';
     }, false);
 }
-
 
 var elements = document.getElementsByClassName('bgLoader');
 if (elements && elements.length) {
