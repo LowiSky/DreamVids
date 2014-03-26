@@ -25,6 +25,7 @@
 									<ul>
 										<a href="channel">Ma chaîne</a>
 										<a href="profile">Mon compte</a>
+										<a href="messages">Mes messages</a>
 										<a href="#">Déconnexion</a>
 									</ul>
 								</div>

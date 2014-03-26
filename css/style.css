@@ -4055,13 +4055,33 @@ nav.pagination ul li:not(.current):active {
   top: 10px;
   font-size: 28px;
 }
-/* line 46, ../scss/partials/_upload-large-modal.scss */
+@media (max-width: 800px) {
+  /* line 40, ../scss/partials/_upload-large-modal.scss */
+  #upload-large-modal #message-upload h3 {
+    display: none;
+  }
+}
+/* line 48, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #message-upload p {
   position: relative;
   top: 15px;
   font-size: 18px;
 }
-/* line 53, ../scss/partials/_upload-large-modal.scss */
+@media (max-width: 800px) {
+  /* line 48, ../scss/partials/_upload-large-modal.scss */
+  #upload-large-modal #message-upload p {
+    top: 22px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  /* line 48, ../scss/partials/_upload-large-modal.scss */
+  #upload-large-modal #message-upload p {
+    top: 13px;
+    font-size: 20px;
+  }
+}
+/* line 65, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #uploader {
   position: relative;
   top: 50px;
@@ -4071,7 +4091,7 @@ nav.pagination ul li:not(.current):active {
   margin: auto;
   background: rgba(255, 255, 255, 0.5);
 }
-/* line 64, ../scss/partials/_upload-large-modal.scss */
+/* line 76, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #uploader input[type="file"] {
   position: absolute;
   top: 0;
@@ -4084,7 +4104,7 @@ nav.pagination ul li:not(.current):active {
   opacity: 0;
   cursor: pointer;
 }
-/* line 79, ../scss/partials/_upload-large-modal.scss */
+/* line 91, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #uploader #file-name {
   position: absolute;
   bottom: 20px;
@@ -4096,7 +4116,7 @@ nav.pagination ul li:not(.current):active {
   font-weight: bold;
   text-align: center;
 }
-/* line 94, ../scss/partials/_upload-large-modal.scss */
+/* line 106, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload {
   position: absolute;
   bottom: -30px;
@@ -4105,7 +4125,7 @@ nav.pagination ul li:not(.current):active {
   height: 30px;
   overflow: hidden;
 }
-/* line 103, ../scss/partials/_upload-large-modal.scss */
+/* line 115, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload #progress-bar {
   position: relative;
   width: 0;
@@ -4117,7 +4137,7 @@ nav.pagination ul li:not(.current):active {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-/* line 117, ../scss/partials/_upload-large-modal.scss */
+/* line 129, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload #progress-bar[data-restant]:before {
   position: absolute;
   right: 10px;
@@ -4132,7 +4152,7 @@ nav.pagination ul li:not(.current):active {
   font-size: 22px;
   line-height: 30px;
 }
-/* line 134, ../scss/partials/_upload-large-modal.scss */
+/* line 146, ../scss/partials/_upload-large-modal.scss */
 #upload-large-modal #progress-upload #progress-bar[data-percent]:after {
   position: absolute;
   left: 100%;
@@ -4743,6 +4763,329 @@ h3.title:after {
   border: none;
   content: "";
   background-color: #f1f0f0;
+}
+
+/* line 3, ../scss/partials/_messages.scss */
+.messages h1 button {
+  float: right;
+  padding: 8px 20px;
+  background: #40a6e0;
+  color: white;
+  font-family: "Source Sans Pro", Arial;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+/* line 15, ../scss/partials/_messages.scss */
+.messages h1 button:hover {
+  background: #56b0e4;
+}
+/* line 16, ../scss/partials/_messages.scss */
+.messages h1 button:active {
+  background: #2a9cdc;
+}
+/* line 19, ../scss/partials/_messages.scss */
+.messages h1 button:focus, .messages h1 button:active {
+  outline: none;
+}
+/* line 23, ../scss/partials/_messages.scss */
+.messages .list,
+.messages .message {
+  position: relative;
+  float: left;
+  display: block;
+  height: 700px;
+  margin: 5px 0 20px 0;
+  padding: 0;
+  background: #f1f0f0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #ddd;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 44, ../scss/partials/_messages.scss */
+.messages .list {
+  position: relative;
+  width: 30%;
+}
+/* line 49, ../scss/partials/_messages.scss */
+.messages .list select,
+.messages .list button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 8px;
+  border: none;
+  background: #F1F0F0;
+}
+/* line 60, ../scss/partials/_messages.scss */
+.messages .list select:focus, .messages .list select:active,
+.messages .list button:focus,
+.messages .list button:active {
+  outline: none;
+}
+/* line 63, ../scss/partials/_messages.scss */
+.messages .list select {
+  border-bottom: 1px solid #ccc;
+}
+/* line 65, ../scss/partials/_messages.scss */
+.messages .list button {
+  cursor: pointer;
+  height: 80px;
+}
+/* line 71, ../scss/partials/_messages.scss */
+.messages .list ul li {
+  position: relative;
+  height: 70px;
+  padding: 10px 0 10px 15px;
+  overflow: hidden;
+  background: white;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+/* line 82, ../scss/partials/_messages.scss */
+.messages .list ul li.new:before {
+  position: absolute;
+  left: 5px;
+  top: 10%;
+  display: block;
+  height: 80%;
+  width: 5px;
+  content: "";
+  background: #40a6e0;
+}
+/* line 95, ../scss/partials/_messages.scss */
+.messages .list ul li.current {
+  background: #40a6e0;
+}
+/* line 100, ../scss/partials/_messages.scss */
+.messages .list ul li.current,
+.messages .list ul li.current h3,
+.messages .list ul li.current .members a {
+  color: white;
+}
+/* line 103, ../scss/partials/_messages.scss */
+.messages .list ul li .avatar {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px 5px 0;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 119, ../scss/partials/_messages.scss */
+.messages .list ul li h3 {
+  font-size: 20px;
+  color: #333;
+}
+/* line 124, ../scss/partials/_messages.scss */
+.messages .list ul li .members a {
+  color: #777;
+}
+/* line 126, ../scss/partials/_messages.scss */
+.messages .list ul li p {
+  margin-top: 2px;
+}
+/* line 133, ../scss/partials/_messages.scss */
+.messages .message {
+  position: relative;
+  width: 70%;
+  border-left: none;
+}
+/* line 141, ../scss/partials/_messages.scss */
+.messages .message .title,
+.messages .message .content,
+.messages .message .answer {
+  position: absolute;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 152, ../scss/partials/_messages.scss */
+.messages .message .title {
+  top: 0;
+  height: 10%;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+/* line 161, ../scss/partials/_messages.scss */
+.messages .message .title h1 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #333;
+}
+/* line 168, ../scss/partials/_messages.scss */
+.messages .message .content {
+  top: 10%;
+  height: 70%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* line 174, ../scss/partials/_messages.scss */
+.messages .message .content li {
+  display: block;
+  width: 90%;
+  margin: 10px 0;
+}
+/* line 179, ../scss/partials/_messages.scss */
+.messages .message .content li .infos {
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+  text-align: center;
+}
+/* line 186, ../scss/partials/_messages.scss */
+.messages .message .content li .infos .avatar {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 201, ../scss/partials/_messages.scss */
+.messages .message .content li .infos p {
+  clear: both;
+  color: #333;
+}
+/* line 207, ../scss/partials/_messages.scss */
+.messages .message .content li div {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  margin: 5px;
+  padding: 10px;
+  background: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 224, ../scss/partials/_messages.scss */
+.messages .message .content li div:before, .messages .message .content li div:after {
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 0px;
+  content: "";
+}
+/* line 235, ../scss/partials/_messages.scss */
+.messages .message .content li.left {
+  float: left;
+  margin-left: 10px;
+}
+/* line 239, ../scss/partials/_messages.scss */
+.messages .message .content li.left .infos, .messages .message .content li.left div {
+  float: left;
+}
+/* line 243, ../scss/partials/_messages.scss */
+.messages .message .content li.left div {
+  margin-left: 15px;
+}
+/* line 246, ../scss/partials/_messages.scss */
+.messages .message .content li.left div:before {
+  left: -15px;
+  top: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+/* line 257, ../scss/partials/_messages.scss */
+.messages .message .content li.right {
+  float: right;
+  margin-right: 10px;
+}
+/* line 261, ../scss/partials/_messages.scss */
+.messages .message .content li.right .infos, .messages .message .content li.right div {
+  float: right;
+}
+/* line 265, ../scss/partials/_messages.scss */
+.messages .message .content li.right div {
+  margin-right: 15px;
+}
+/* line 268, ../scss/partials/_messages.scss */
+.messages .message .content li.right div:after {
+  top: 0;
+  right: -15px;
+  border-style: solid;
+  border-width: 15px 15px 0 0;
+  border-color: #ffffff transparent transparent transparent;
+}
+/* line 281, ../scss/partials/_messages.scss */
+.messages .message .answer {
+  top: 80%;
+  height: 20%;
+  border-top: 1px solid #ddd;
+}
+/* line 289, ../scss/partials/_messages.scss */
+.messages .message .answer textarea,
+.messages .message .answer button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 297, ../scss/partials/_messages.scss */
+.messages .message .answer textarea {
+  width: 100%;
+  height: 70%;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  resize: none;
+  font-family: "Source Sans Pro", Arial;
+  font-size: 18px;
+}
+/* line 310, ../scss/partials/_messages.scss */
+.messages .message .answer textarea:focus, .messages .message .answer textarea:active {
+  outline: none;
+}
+/* line 313, ../scss/partials/_messages.scss */
+.messages .message .answer button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 30%;
+  margin: 0;
+  background: #40a6e0;
+  color: white;
+  font-family: "Source Sans Pro", Arial;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+/* line 329, ../scss/partials/_messages.scss */
+.messages .message .answer button:hover {
+  background: #56b0e4;
+}
+/* line 330, ../scss/partials/_messages.scss */
+.messages .message .answer button:active {
+  background: #2a9cdc;
+}
+/* line 333, ../scss/partials/_messages.scss */
+.messages .message .answer button:focus, .messages .message .answer button:active {
+  outline: none;
 }
 
 /* Style des cartes

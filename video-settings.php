@@ -38,10 +38,10 @@
 							<i>Tags :</i><input value="nyan, cat" id="video-tags" type="text" name="video-tags" placeholder="Tags" spellcheck="false"/>
 						</label>
 
-						<label for="thumbnails">
-							<img class="preview" src="http://dreamvids.fr/uploads/Plasma/h8WjOG.jpg">
+						<label for="tumbnail">
+							<img class="preview filePreview" data-input="tumbnail" id="preview-thumbnail" src="http://dreamvids.fr/uploads/Plasma/h8WjOG.jpg">
 							<i>Miniature :</i>
-							<input type="file" data-text="Choisir un fichier" name="thumbnails" accept="image/*"><br />
+							<input type="file" data-text="Choisir un fichier" data-preview="preview-thumbnail" name="tumbnail" id="tumbnail" accept="image/*"><br />
 						</label>
 
 						<label for="video-visibility">

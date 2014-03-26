@@ -87,9 +87,6 @@ uploadInput.addEventListener('change', function(event) {
             progressBar.style.width = '100%';
         };
 
-        var form = new FormData();
-        form.append('videoInput', uploadInput.files[0]);
-
         uploadHttpRequest.send(form);
         timeUpload.started = new Date().getTime();
     } else {
