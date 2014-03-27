@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width = device-width, initial-scale = 1">
 		<meta charset="utf-8">
 
-		<title>Nom Nom Nom - Nom de la chaîne - DreamVids</title>
+		<title>Simpleworld - Motion designer - Simpleworld - DreamVids</title>
 	</head>
 
 	<!-- // // BODY \\ \\-->
@@ -22,20 +22,20 @@
 				<div id="video-top-infos">
 					<div id="video-top-title">
 						<div id="video-top-channel">
-							<img src="img/avatar_top_nav.png" alt="Image de la chaîne">
+							<img src="http://dreamvids.fr/uploads/Simpleworld/avatar.png" alt="Image de la chaîne">
 							<span id="hover_subscribe" data-vid="0"><i>S'abonner</i></span>
 							<div id="video-top-channel-infos">
-								<a id="video-top-pseudo" href="channel">Pseudo</a>
+								<a id="video-top-pseudo" href="channel">Simpleworld</a>
 								<hr>
 								<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
 							</div>
 						</div>
-						<h1 title="Nom Nom Nom Nom Nom Nom">Nom Nom Nom Nom Nom Nom</h1>
+						<h1 title="Simpleworld - Motion designer">Simpleworld - Motion designer</h1>
 					</div>
 				</div>
 				
 				<div id="player">
-					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://dreamvids.fr/uploads/Dimou/AxRw02.jpg">
+					<video x-webkit-airplay="allow" autobuffer preload="auto" poster="http://dreamvids.fr/uploads/Simpleworld/cI1e5r.png">
 						<source id="srcMp4" type="video/mp4"/>
 						<source id="srcWebm" type="video/webm"/>
 					</video>
@@ -90,6 +90,8 @@
 						<input id="embed-input" value="Mega code d'embed de la mort qui tue !" onclick="this.select();" type="text" spellcheck="false">
 					</div>
 				</section>
+
+				<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/468x60"></script></div>
 			</section>
 	
 	
@@ -165,8 +167,6 @@
 								</ul>
 							</div>
 						</div>
-	
-						<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/468x60"></script></div>
 					</div>
 	
 				</section>
@@ -249,20 +249,22 @@
 			setVideo([
 				{
 					format: 360,
-					mp4: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_640x360p.mp4',
-					webm: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_640x360p.webm'
+					mp4: 'http://dreamvids.fr/uploads/Simpleworld/cI1e5r.mov_640x360p.mp4',
+					webm: 'http://dreamvids.fr/uploads/Simpleworld/cI1e5r.mov_640x360p.webm'
 				},
 				{
 					format: 720,
-					mp4: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.mp4',
-					webm: 'http://dreamvids.fr/uploads/Dimou/AxRw02.webm_1280x720p.webm'}
+					mp4:'http://dreamvids.fr/uploads/Simpleworld/cI1e5r.mov_1280x720p.mp4',
+					webm:'http://dreamvids.fr/uploads/Simpleworld/cI1e5r.mov_1280x720p.webm'
+				}
 			]);
 			setAnnotations([
 				{
-					text: "Oh une annotation !",
+					text: "SimpleWorld",
 					left: 20, top: 20,
 					width: 45, height: 10,
-					start: 5, end: 12
+					start: 3, end: 8,
+					color: "orange"
 				}
 			]);
 			setVolume(1);

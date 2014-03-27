@@ -526,7 +526,7 @@ function createAnnotation(id, data) { // Création d'une annotation
     element.className = 'annotation ' + (data.color ? data.color : '');
 
     if (!(video.currentTime > data.start && video.currentTime < data.end))
-        element.className += 'hidden';
+        element.className += ' hidden';
 
     element.dataset.start = data.start;
     element.dataset.end = data.end;

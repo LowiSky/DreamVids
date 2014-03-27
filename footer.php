@@ -10,8 +10,11 @@
 		<div class="row">
 			<h1>Partenaires</h1>
 			
-			<a href="https://twitter.com/AdoptRecords">AdoptMusic</a>
-			<a href="#">Votre site ici ?</a>
+			<a href="http://twitter.com/iamauska" target="_blank">iamauska</a>
+      		<a href="http://www.webpodcasteurs.fr/" target="_blank">Web Podcasteurs</a>
+      		<a href="http://geek-info.org/" target="_blank">Geek-info</a>
+      		<a href="http://inthekey.fr/" target="_blank">InTheKey</a>
+      		<a href="javascript:void(0)" onclick="alert('Envoyez un E-Mail à \'jeremy [at] dreamvids [dot] fr\'')">Votre site ici ?</a>
 		</div>
 
 		<div class="row">
@@ -19,6 +22,7 @@
 			
 			<a href="https://twitter.com/DreamVids_">Twitter</a>
 			<a href="https://facebook.com/DreamVids">Facebook</a>
+			<a href="http://webchat.freenode.net/?channels=%23DreamVids">Chat IRC</a>
 		</div>
 
 		<div class="rights">

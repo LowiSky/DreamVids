@@ -351,6 +351,7 @@ header a {
 }
 /* line 279, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li {
+  position: relative;
   display: inline-block;
   width: 120px;
   margin-left: 10px;
@@ -359,7 +360,7 @@ header a {
   font-size: 14px;
   text-align: center;
 }
-/* line 289, ../scss/partials/_header.scss */
+/* line 291, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li:after {
   position: relative;
   top: -4px;
@@ -372,7 +373,7 @@ header a {
   opacity: 0;
 }
 @media (min-width: 640px) {
-  /* line 289, ../scss/partials/_header.scss */
+  /* line 291, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li:after {
     -webkit-transition: 0.15s;
     -moz-transition: 0.15s;
@@ -381,24 +382,49 @@ header a {
     transition: 0.15s;
   }
 }
-/* line 311, ../scss/partials/_header.scss */
+/* line 313, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li:hover:after, #bottom-nav #inner-bottom-nav nav li.current:after {
   width: 100%;
   opacity: 1;
 }
-/* line 317, ../scss/partials/_header.scss */
+/* line 319, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a {
   color: #959595;
 }
-/* line 320, ../scss/partials/_header.scss */
+/* line 322, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav nav li a:hover {
   color: #40a6e0;
 }
 /* line 325, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav li[data-new]:before {
+  position: absolute;
+  top: -5px;
+  right: -3px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #F9A41E;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  content: attr(data-new);
+  border: 3px solid white;
+}
+/* line 345, ../scss/partials/_header.scss */
+#bottom-nav #inner-bottom-nav nav li:not([data-new="1"]):not([data-new="2"]):not([data-new="3"]):not([data-new="4"]):not([data-new="5"]):not([data-new="6"]):not([data-new="7"]):not([data-new="8"]):not([data-new="9"]):before {
+  top: -8px;
+  right: -8px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+/* line 357, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #mobile-nav-icon {
   display: none;
 }
-/* line 327, ../scss/partials/_header.scss */
+/* line 359, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social {
   position: absolute;
   top: 0;
@@ -407,37 +433,37 @@ header a {
   display: inline-block;
   vertical-align: top;
 }
-/* line 337, ../scss/partials/_header.scss */
+/* line 369, ../scss/partials/_header.scss */
 #bottom-nav #inner-bottom-nav #bottom-nav-social li {
   display: inline-block;
   margin-right: 10px;
   line-height: 42px;
 }
 
-@media (max-width: 600px) {
-  /* line 348, ../scss/partials/_header.scss */
+@media (max-width: 700px) {
+  /* line 380, ../scss/partials/_header.scss */
   #top-nav a {
     width: 70px!important;
   }
-  /* line 351, ../scss/partials/_header.scss */
+  /* line 383, ../scss/partials/_header.scss */
   #top-nav a #top-nav-logo-text {
     display: none;
   }
 
-  /* line 357, ../scss/partials/_header.scss */
+  /* line 389, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information {
     text-align: right;
   }
-  /* line 361, ../scss/partials/_header.scss */
+  /* line 393, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button h4 {
     display: none;
   }
-  /* line 363, ../scss/partials/_header.scss */
+  /* line 395, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-nav-user-information-button #top-nav-user-arrow {
     margin-left: 15px;
   }
 
-  /* line 371, ../scss/partials/_header.scss */
+  /* line 403, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav {
     position: fixed;
     top: 0;
@@ -456,38 +482,32 @@ header a {
     -o-transition: 0.2s;
     transition: 0.2s;
   }
-  /* line 381, ../scss/partials/_header.scss */
+  /* line 413, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav.open {
     margin-left: -5px;
     box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.5);
   }
-  /* line 398, ../scss/partials/_header.scss */
+  /* line 430, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li {
     display: block;
     width: 200px;
     margin-left: 5px;
   }
-  /* line 405, ../scss/partials/_header.scss */
+  /* line 437, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li:after {
-    display: none;
-  }
-  /* line 406, ../scss/partials/_header.scss */
-  #bottom-nav #inner-bottom-nav nav li:before {
     position: absolute;
-    left: 4px;
-    display: inline-block;
+    top: 2px;
+    left: 15px;
     width: 4px;
-    height: 0;
-    content: "";
-    background-color: #40a6e0;
+    height: 34px;
     opacity: 0;
   }
-  /* line 419, ../scss/partials/_header.scss */
-  #bottom-nav #inner-bottom-nav nav li:hover:before {
-    height: 40px;
+  /* line 448, ../scss/partials/_header.scss */
+  #bottom-nav #inner-bottom-nav nav li:hover:after, #bottom-nav #inner-bottom-nav nav li.current:after {
+    width: 4px;
     opacity: 1;
   }
-  /* line 427, ../scss/partials/_header.scss */
+  /* line 456, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon {
     position: relative;
     left: 15px;
@@ -505,7 +525,7 @@ header a {
     -o-transition: 0.2s;
     transition: 0.2s;
   }
-  /* line 447, ../scss/partials/_header.scss */
+  /* line 476, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p {
     position: relative;
     top: 8px;
@@ -518,7 +538,7 @@ header a {
     -o-transition: 0.2s;
     transition: 0.2s;
   }
-  /* line 462, ../scss/partials/_header.scss */
+  /* line 491, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p:before, #bottom-nav #inner-bottom-nav #mobile-nav-icon p:after {
     position: relative;
     display: block;
@@ -532,28 +552,28 @@ header a {
     -o-transition: -o-transform 0.5s;
     transition: transform 0.5s;
   }
-  /* line 478, ../scss/partials/_header.scss */
+  /* line 507, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p:before {
     top: -6px;
   }
-  /* line 479, ../scss/partials/_header.scss */
+  /* line 508, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon p:after {
     top: 6px;
     margin-top: -3px;
   }
-  /* line 486, ../scss/partials/_header.scss */
+  /* line 515, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon:hover p {
     background: #999;
   }
-  /* line 490, ../scss/partials/_header.scss */
+  /* line 519, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon:hover p:before, #bottom-nav #inner-bottom-nav #mobile-nav-icon:hover p:after {
     background: #999;
   }
-  /* line 494, ../scss/partials/_header.scss */
+  /* line 523, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open {
     left: 210px;
   }
-  /* line 498, ../scss/partials/_header.scss */
+  /* line 527, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p {
     background: transparent;
     -webkit-transition: 0;
@@ -562,12 +582,12 @@ header a {
     -o-transition: 0;
     transition: 0;
   }
-  /* line 507, ../scss/partials/_header.scss */
+  /* line 536, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:before, #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:after {
     top: 0;
     background: white;
   }
-  /* line 511, ../scss/partials/_header.scss */
+  /* line 540, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -575,7 +595,7 @@ header a {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  /* line 517, ../scss/partials/_header.scss */
+  /* line 546, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open p:after {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -584,42 +604,42 @@ header a {
     transform: rotate(-45deg);
   }
 }
-@media (max-width: 600px) and (max-width: 350px) {
-  /* line 398, ../scss/partials/_header.scss */
+@media (max-width: 700px) and (max-width: 350px) {
+  /* line 430, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav nav li {
     width: 170px;
   }
 }
-@media (max-width: 600px) and (max-width: 350px) {
-  /* line 494, ../scss/partials/_header.scss */
+@media (max-width: 700px) and (max-width: 350px) {
+  /* line 523, ../scss/partials/_header.scss */
   #bottom-nav #inner-bottom-nav #mobile-nav-icon.open {
     left: 185px;
   }
 }
 @media (max-width: 450px) {
-  /* line 532, ../scss/partials/_header.scss */
+  /* line 561, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right {
     position: absolute;
     top: 0;
     right: 0;
   }
-  /* line 538, ../scss/partials/_header.scss */
+  /* line 567, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 100px;
     padding-left: 10px;
   }
-  /* line 545, ../scss/partials/_header.scss */
+  /* line 574, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
     width: 120px;
   }
 }
 @media (max-width: 350px) {
-  /* line 554, ../scss/partials/_header.scss */
+  /* line 583, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right form input[type="text"] {
     width: 50px;
     padding-left: 5px;
   }
-  /* line 561, ../scss/partials/_header.scss */
+  /* line 590, ../scss/partials/_header.scss */
   #inner-top-nav #inner-top-nav-right #top-nav-user-information #top-connection {
     width: 100px;
   }
@@ -4842,39 +4862,51 @@ h3.title:after {
 .messages .list ul li {
   position: relative;
   height: 70px;
-  padding: 10px 0 10px 15px;
+  padding: 10px 0 10px 10px;
   overflow: hidden;
   background: white;
   cursor: pointer;
   border-bottom: 1px solid #ccc;
 }
-/* line 82, ../scss/partials/_messages.scss */
-.messages .list ul li.new:before {
-  position: absolute;
-  left: 5px;
-  top: 10%;
-  display: block;
-  height: 80%;
-  width: 5px;
-  content: "";
-  background: #40a6e0;
+@media (min-width: 640px) {
+  /* line 71, ../scss/partials/_messages.scss */
+  .messages .list ul li {
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+  }
 }
-/* line 95, ../scss/partials/_messages.scss */
+/* line 90, ../scss/partials/_messages.scss */
 .messages .list ul li.current {
   background: #40a6e0;
 }
-/* line 100, ../scss/partials/_messages.scss */
-.messages .list ul li.current,
-.messages .list ul li.current h3,
-.messages .list ul li.current .members a {
+/* line 94, ../scss/partials/_messages.scss */
+.messages .list ul li.current, .messages .list ul li.current h3,
+.messages .list ul li.current .members {
   color: white;
 }
-/* line 103, ../scss/partials/_messages.scss */
+/* line 97, ../scss/partials/_messages.scss */
+.messages .list ul li:hover:not(.current) {
+  background: #f5f5f5;
+}
+/* line 98, ../scss/partials/_messages.scss */
+.messages .list ul li:active:not(.current) {
+  background: #80c4ea;
+}
+/* line 102, ../scss/partials/_messages.scss */
+.messages .list ul li:active:not(.current), .messages .list ul li:active:not(.current) h3,
+.messages .list ul li:active:not(.current) .members {
+  color: white;
+}
+/* line 105, ../scss/partials/_messages.scss */
 .messages .list ul li .avatar {
+  position: relative;
   float: left;
-  width: 50px;
-  height: 50px;
-  margin: 5px 5px 5px 0;
+  width: 70px;
+  height: 70px;
+  margin: 0 5px 5px 0;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4882,26 +4914,51 @@ h3.title:after {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 119, ../scss/partials/_messages.scss */
+/* line 121, ../scss/partials/_messages.scss */
+.messages .list ul li .avatar[data-new]:before {
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #F9A41E;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  content: attr(data-new);
+  border: 3px solid white;
+}
+/* line 140, ../scss/partials/_messages.scss */
+.messages .list ul li .avatar:not([data-new="1"]):not([data-new="2"]):not([data-new="3"]):not([data-new="4"]):not([data-new="5"]):not([data-new="6"]):not([data-new="7"]):not([data-new="8"]):not([data-new="9"]):before {
+  top: -8px;
+  right: -8px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+/* line 151, ../scss/partials/_messages.scss */
 .messages .list ul li h3 {
-  font-size: 20px;
+  font-size: 22px;
   color: #333;
 }
-/* line 124, ../scss/partials/_messages.scss */
-.messages .list ul li .members a {
+/* line 156, ../scss/partials/_messages.scss */
+.messages .list ul li .members {
   color: #777;
 }
-/* line 126, ../scss/partials/_messages.scss */
+/* line 158, ../scss/partials/_messages.scss */
 .messages .list ul li p {
   margin-top: 2px;
 }
-/* line 133, ../scss/partials/_messages.scss */
+/* line 163, ../scss/partials/_messages.scss */
 .messages .message {
   position: relative;
   width: 70%;
   border-left: none;
 }
-/* line 141, ../scss/partials/_messages.scss */
+/* line 171, ../scss/partials/_messages.scss */
 .messages .message .title,
 .messages .message .content,
 .messages .message .answer {
@@ -4913,7 +4970,7 @@ h3.title:after {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 152, ../scss/partials/_messages.scss */
+/* line 182, ../scss/partials/_messages.scss */
 .messages .message .title {
   top: 0;
   height: 10%;
@@ -4921,33 +4978,33 @@ h3.title:after {
   background: white;
   border-bottom: 1px solid #ddd;
 }
-/* line 161, ../scss/partials/_messages.scss */
+/* line 191, ../scss/partials/_messages.scss */
 .messages .message .title h1 {
   margin-bottom: 5px;
   font-size: 20px;
   color: #333;
 }
-/* line 168, ../scss/partials/_messages.scss */
+/* line 198, ../scss/partials/_messages.scss */
 .messages .message .content {
   top: 10%;
   height: 70%;
   overflow-y: auto;
   overflow-x: hidden;
 }
-/* line 174, ../scss/partials/_messages.scss */
+/* line 204, ../scss/partials/_messages.scss */
 .messages .message .content li {
   display: block;
   width: 90%;
   margin: 10px 0;
 }
-/* line 179, ../scss/partials/_messages.scss */
+/* line 209, ../scss/partials/_messages.scss */
 .messages .message .content li .infos {
   width: 50px;
   height: 60px;
   margin: 5px;
   text-align: center;
 }
-/* line 186, ../scss/partials/_messages.scss */
+/* line 216, ../scss/partials/_messages.scss */
 .messages .message .content li .infos .avatar {
   display: block;
   width: 50px;
@@ -4960,12 +5017,12 @@ h3.title:after {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 201, ../scss/partials/_messages.scss */
+/* line 231, ../scss/partials/_messages.scss */
 .messages .message .content li .infos p {
   clear: both;
   color: #333;
 }
-/* line 207, ../scss/partials/_messages.scss */
+/* line 237, ../scss/partials/_messages.scss */
 .messages .message .content li div {
   position: relative;
   display: inline-block;
@@ -4979,7 +5036,7 @@ h3.title:after {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 224, ../scss/partials/_messages.scss */
+/* line 254, ../scss/partials/_messages.scss */
 .messages .message .content li div:before, .messages .message .content li div:after {
   position: absolute;
   display: block;
@@ -4987,20 +5044,20 @@ h3.title:after {
   height: 0px;
   content: "";
 }
-/* line 235, ../scss/partials/_messages.scss */
+/* line 265, ../scss/partials/_messages.scss */
 .messages .message .content li.left {
   float: left;
   margin-left: 10px;
 }
-/* line 239, ../scss/partials/_messages.scss */
+/* line 269, ../scss/partials/_messages.scss */
 .messages .message .content li.left .infos, .messages .message .content li.left div {
   float: left;
 }
-/* line 243, ../scss/partials/_messages.scss */
+/* line 273, ../scss/partials/_messages.scss */
 .messages .message .content li.left div {
   margin-left: 15px;
 }
-/* line 246, ../scss/partials/_messages.scss */
+/* line 276, ../scss/partials/_messages.scss */
 .messages .message .content li.left div:before {
   left: -15px;
   top: 0;
@@ -5008,20 +5065,20 @@ h3.title:after {
   border-width: 0 15px 15px 0;
   border-color: transparent #ffffff transparent transparent;
 }
-/* line 257, ../scss/partials/_messages.scss */
+/* line 287, ../scss/partials/_messages.scss */
 .messages .message .content li.right {
   float: right;
   margin-right: 10px;
 }
-/* line 261, ../scss/partials/_messages.scss */
+/* line 291, ../scss/partials/_messages.scss */
 .messages .message .content li.right .infos, .messages .message .content li.right div {
   float: right;
 }
-/* line 265, ../scss/partials/_messages.scss */
+/* line 295, ../scss/partials/_messages.scss */
 .messages .message .content li.right div {
   margin-right: 15px;
 }
-/* line 268, ../scss/partials/_messages.scss */
+/* line 298, ../scss/partials/_messages.scss */
 .messages .message .content li.right div:after {
   top: 0;
   right: -15px;
@@ -5029,13 +5086,13 @@ h3.title:after {
   border-width: 15px 15px 0 0;
   border-color: #ffffff transparent transparent transparent;
 }
-/* line 281, ../scss/partials/_messages.scss */
+/* line 311, ../scss/partials/_messages.scss */
 .messages .message .answer {
   top: 80%;
   height: 20%;
   border-top: 1px solid #ddd;
 }
-/* line 289, ../scss/partials/_messages.scss */
+/* line 319, ../scss/partials/_messages.scss */
 .messages .message .answer textarea,
 .messages .message .answer button {
   -webkit-box-sizing: border-box;
@@ -5044,7 +5101,7 @@ h3.title:after {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 297, ../scss/partials/_messages.scss */
+/* line 327, ../scss/partials/_messages.scss */
 .messages .message .answer textarea {
   width: 100%;
   height: 70%;
@@ -5056,11 +5113,11 @@ h3.title:after {
   font-family: "Source Sans Pro", Arial;
   font-size: 18px;
 }
-/* line 310, ../scss/partials/_messages.scss */
+/* line 340, ../scss/partials/_messages.scss */
 .messages .message .answer textarea:focus, .messages .message .answer textarea:active {
   outline: none;
 }
-/* line 313, ../scss/partials/_messages.scss */
+/* line 343, ../scss/partials/_messages.scss */
 .messages .message .answer button {
   position: absolute;
   bottom: 0;
@@ -5075,15 +5132,15 @@ h3.title:after {
   border: none;
   cursor: pointer;
 }
-/* line 329, ../scss/partials/_messages.scss */
+/* line 359, ../scss/partials/_messages.scss */
 .messages .message .answer button:hover {
   background: #56b0e4;
 }
-/* line 330, ../scss/partials/_messages.scss */
+/* line 360, ../scss/partials/_messages.scss */
 .messages .message .answer button:active {
   background: #2a9cdc;
 }
-/* line 333, ../scss/partials/_messages.scss */
+/* line 363, ../scss/partials/_messages.scss */
 .messages .message .answer button:focus, .messages .message .answer button:active {
   outline: none;
 }

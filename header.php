@@ -50,7 +50,8 @@
 					<li <?php if ($page == 'index') echo 'class="current"';?>><a href="index.php">Accueil</a></li>
 					<li <?php if ($page == 'discover') echo 'class="current"';?>><a href="discover">Découvrir</a></li>
 					<?php if ($connected) { ?>
-						<li <?php if ($page == 'flux') echo 'class="current"';?>><a href="flux">Flux d'activité</a></li>
+						<li <?php if ($page == 'flux') echo 'class="current"';?> data-new="12"><a href="flux">Flux d'activité</a></li>
+						<li <?php if ($page == 'messages') echo 'class="current"';?> data-new="3"><a href="messages">Messagerie</a></li>
 						<li <?php if ($page == 'upload') echo 'class="current"';?>><a href="upload">Uploader</a></li>
 					<?php } ?>
 				</ul>
