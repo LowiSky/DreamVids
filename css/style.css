@@ -4957,8 +4957,9 @@ h3.title:after {
   position: relative;
   width: 70%;
   border-left: none;
+  overflow: hidden;
 }
-/* line 171, ../scss/partials/_messages.scss */
+/* line 172, ../scss/partials/_messages.scss */
 .messages .message .title,
 .messages .message .content,
 .messages .message .answer {
@@ -4970,7 +4971,7 @@ h3.title:after {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 182, ../scss/partials/_messages.scss */
+/* line 183, ../scss/partials/_messages.scss */
 .messages .message .title {
   top: 0;
   height: 10%;
@@ -4978,33 +4979,109 @@ h3.title:after {
   background: white;
   border-bottom: 1px solid #ddd;
 }
-/* line 191, ../scss/partials/_messages.scss */
+/* line 192, ../scss/partials/_messages.scss */
 .messages .message .title h1 {
   margin-bottom: 5px;
   font-size: 20px;
   color: #333;
 }
 /* line 198, ../scss/partials/_messages.scss */
+.messages .message .title.none {
+  display: none;
+}
+/* line 201, ../scss/partials/_messages.scss */
+.messages .message .create-form {
+  top: 0;
+  height: 10%;
+  padding: 0;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+/* line 210, ../scss/partials/_messages.scss */
+.messages .message .create-form label p {
+  float: left;
+  position: relative;
+  left: 5%;
+  top: 40px;
+  margin-left: -32px;
+  color: #aaa;
+  font-size: 20px;
+}
+/* line 222, ../scss/partials/_messages.scss */
+.messages .message .create-form input {
+  position: relative;
+  left: 5%;
+  top: -5px;
+  width: 70%;
+  padding: 0;
+  margin: 5px 0 5px -10px;
+  border: none;
+  font-family: "Source Sans Pro", Arial;
+  font-size: 18px;
+}
+/* line 236, ../scss/partials/_messages.scss */
+.messages .message .create-form input:focus, .messages .message .create-form input:active {
+  outline: none;
+}
+/* line 239, ../scss/partials/_messages.scss */
+.messages .message .create-form input:first-child {
+  left: 0;
+  margin-left: 5px;
+  top: 0;
+  font-size: 22px;
+}
+/* line 246, ../scss/partials/_messages.scss */
+.messages .message .create-form .submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 10%;
+  margin: 0;
+  background: #40a6e0;
+  color: white;
+  font-family: "Source Sans Pro", Arial;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+/* line 263, ../scss/partials/_messages.scss */
+.messages .message .create-form .submit:hover, .messages .message .create-form .submit:focus {
+  background: #56b0e4;
+}
+/* line 264, ../scss/partials/_messages.scss */
+.messages .message .create-form .submit:active {
+  background: #2a9cdc;
+}
+/* line 267, ../scss/partials/_messages.scss */
+.messages .message .create-form .submit:focus, .messages .message .create-form .submit:active {
+  outline: none;
+}
+/* line 270, ../scss/partials/_messages.scss */
+.messages .message .create-form.none {
+  display: none;
+}
+/* line 273, ../scss/partials/_messages.scss */
 .messages .message .content {
   top: 10%;
   height: 70%;
   overflow-y: auto;
   overflow-x: hidden;
 }
-/* line 204, ../scss/partials/_messages.scss */
+/* line 279, ../scss/partials/_messages.scss */
 .messages .message .content li {
   display: block;
   width: 90%;
   margin: 10px 0;
 }
-/* line 209, ../scss/partials/_messages.scss */
+/* line 284, ../scss/partials/_messages.scss */
 .messages .message .content li .infos {
   width: 50px;
   height: 60px;
   margin: 5px;
   text-align: center;
 }
-/* line 216, ../scss/partials/_messages.scss */
+/* line 291, ../scss/partials/_messages.scss */
 .messages .message .content li .infos .avatar {
   display: block;
   width: 50px;
@@ -5017,12 +5094,12 @@ h3.title:after {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 231, ../scss/partials/_messages.scss */
+/* line 306, ../scss/partials/_messages.scss */
 .messages .message .content li .infos p {
   clear: both;
   color: #333;
 }
-/* line 237, ../scss/partials/_messages.scss */
+/* line 312, ../scss/partials/_messages.scss */
 .messages .message .content li div {
   position: relative;
   display: inline-block;
@@ -5036,7 +5113,7 @@ h3.title:after {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 254, ../scss/partials/_messages.scss */
+/* line 329, ../scss/partials/_messages.scss */
 .messages .message .content li div:before, .messages .message .content li div:after {
   position: absolute;
   display: block;
@@ -5044,20 +5121,20 @@ h3.title:after {
   height: 0px;
   content: "";
 }
-/* line 265, ../scss/partials/_messages.scss */
+/* line 340, ../scss/partials/_messages.scss */
 .messages .message .content li.left {
   float: left;
   margin-left: 10px;
 }
-/* line 269, ../scss/partials/_messages.scss */
+/* line 344, ../scss/partials/_messages.scss */
 .messages .message .content li.left .infos, .messages .message .content li.left div {
   float: left;
 }
-/* line 273, ../scss/partials/_messages.scss */
+/* line 348, ../scss/partials/_messages.scss */
 .messages .message .content li.left div {
   margin-left: 15px;
 }
-/* line 276, ../scss/partials/_messages.scss */
+/* line 351, ../scss/partials/_messages.scss */
 .messages .message .content li.left div:before {
   left: -15px;
   top: 0;
@@ -5065,20 +5142,20 @@ h3.title:after {
   border-width: 0 15px 15px 0;
   border-color: transparent #ffffff transparent transparent;
 }
-/* line 287, ../scss/partials/_messages.scss */
+/* line 362, ../scss/partials/_messages.scss */
 .messages .message .content li.right {
   float: right;
   margin-right: 10px;
 }
-/* line 291, ../scss/partials/_messages.scss */
+/* line 366, ../scss/partials/_messages.scss */
 .messages .message .content li.right .infos, .messages .message .content li.right div {
   float: right;
 }
-/* line 295, ../scss/partials/_messages.scss */
+/* line 370, ../scss/partials/_messages.scss */
 .messages .message .content li.right div {
   margin-right: 15px;
 }
-/* line 298, ../scss/partials/_messages.scss */
+/* line 373, ../scss/partials/_messages.scss */
 .messages .message .content li.right div:after {
   top: 0;
   right: -15px;
@@ -5086,13 +5163,23 @@ h3.title:after {
   border-width: 15px 15px 0 0;
   border-color: #ffffff transparent transparent transparent;
 }
-/* line 311, ../scss/partials/_messages.scss */
+/* line 386, ../scss/partials/_messages.scss */
 .messages .message .answer {
   top: 80%;
   height: 20%;
   border-top: 1px solid #ddd;
 }
-/* line 319, ../scss/partials/_messages.scss */
+@media (min-width: 640px) {
+  /* line 386, ../scss/partials/_messages.scss */
+  .messages .message .answer {
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -ms-transition: top 0.3s;
+    -o-transition: top 0.3s;
+    transition: top 0.3s;
+  }
+}
+/* line 400, ../scss/partials/_messages.scss */
 .messages .message .answer textarea,
 .messages .message .answer button {
   -webkit-box-sizing: border-box;
@@ -5101,7 +5188,7 @@ h3.title:after {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 327, ../scss/partials/_messages.scss */
+/* line 408, ../scss/partials/_messages.scss */
 .messages .message .answer textarea {
   width: 100%;
   height: 70%;
@@ -5113,12 +5200,12 @@ h3.title:after {
   font-family: "Source Sans Pro", Arial;
   font-size: 18px;
 }
-/* line 340, ../scss/partials/_messages.scss */
+/* line 421, ../scss/partials/_messages.scss */
 .messages .message .answer textarea:focus, .messages .message .answer textarea:active {
   outline: none;
 }
-/* line 343, ../scss/partials/_messages.scss */
-.messages .message .answer button {
+/* line 424, ../scss/partials/_messages.scss */
+.messages .message .answer .submit {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -5132,17 +5219,25 @@ h3.title:after {
   border: none;
   cursor: pointer;
 }
-/* line 359, ../scss/partials/_messages.scss */
-.messages .message .answer button:hover {
+/* line 441, ../scss/partials/_messages.scss */
+.messages .message .answer .submit:hover, .messages .message .answer .submit:focus {
   background: #56b0e4;
 }
-/* line 360, ../scss/partials/_messages.scss */
-.messages .message .answer button:active {
+/* line 442, ../scss/partials/_messages.scss */
+.messages .message .answer .submit:active {
   background: #2a9cdc;
 }
-/* line 363, ../scss/partials/_messages.scss */
-.messages .message .answer button:focus, .messages .message .answer button:active {
+/* line 445, ../scss/partials/_messages.scss */
+.messages .message .answer .submit:focus, .messages .message .answer .submit:active {
   outline: none;
+}
+/* line 450, ../scss/partials/_messages.scss */
+.messages .message.none .answer {
+  top: 100%;
+}
+/* line 452, ../scss/partials/_messages.scss */
+.messages .message.none .title {
+  height: 10%;
 }
 
 /* Style des cartes

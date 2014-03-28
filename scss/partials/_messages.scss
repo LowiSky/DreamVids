@@ -165,6 +165,7 @@
 		width: 70%;
 
 		border-left: none;
+		overflow: hidden;
 
 		.title,
 		.content,
@@ -193,6 +194,80 @@
 				font-size: 20px;
 				color: #333;
 			}
+
+			&.none { display: none; }
+		}
+
+		.create-form {
+			top: 0;
+
+			height: 10%;
+			padding: 0;
+
+			background: white;
+			border-bottom: 1px solid #ddd;
+
+			label p {
+				float: left;
+				position: relative;
+				left: 5%;
+				top: 40px;
+
+				margin-left: -32px;
+
+				color: #aaa;
+				font-size: 20px;
+			}
+
+			input {
+				position: relative;
+				left: 5%;
+				top: -5px;
+
+				width: 70%;
+				padding: 0;
+				margin: 5px 0 5px -10px;
+
+				border: none;
+				font-family: "Source Sans Pro", Arial;
+				font-size: 18px;
+
+				&:focus,
+				&:active { outline: none; }
+			}
+
+			input:first-child {
+				left: 0;
+				margin-left: 5px;
+				top: 0;
+				font-size: 22px;
+			}
+
+			.submit {
+				position: absolute;
+				top: 0;
+				right: 0;
+				
+				width: 20%;
+				height: 10%;
+				margin: 0;
+
+				background: #40a6e0;
+				color: white;
+				font-family: "Source Sans Pro", Arial;
+				font-size: 17px;
+				border: none;
+				cursor: pointer;
+
+				&:hover,
+				&:focus  { background: lighten(#40a6e0, 5%); }
+				&:active { background:  darken(#40a6e0, 5%); }
+
+				&:focus,
+				&:active { outline: none; }
+			}
+
+			&.none { display: none; }
 		}
 
 		.content {
@@ -310,10 +385,16 @@
 
 		.answer {
 			top: 80%;
-
 			height: 20%;
-
 			border-top: 1px solid #ddd;
+
+			@media (min-width: 640px) {
+				-webkit-transition: top 0.3s;
+				   -moz-transition: top 0.3s;
+					-ms-transition: top 0.3s;
+					 -o-transition: top 0.3s;
+						transition: top 0.3s;
+			}
 
 			textarea,
 			button {
@@ -340,7 +421,7 @@
 				&:active { outline: none; }
 			}
 
-			button {
+			.submit {
 				position: absolute;
 				bottom: 0;
 				right: 0;
@@ -356,12 +437,19 @@
 				border: none;
 				cursor: pointer;
 
-				&:hover  { background: lighten(#40a6e0, 5%); }
+				&:hover,
+				&:focus  { background: lighten(#40a6e0, 5%); }
 				&:active { background:  darken(#40a6e0, 5%); }
 
 				&:focus,
 				&:active { outline: none; }
 			}
+		}
+
+		&.none {
+			.answer { top: 100%; }
+
+			.title { height: 10%; }
 		}
 	}
 }

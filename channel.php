@@ -47,7 +47,7 @@
 					<ul>
   						<li class="current"><a href="channel">Vidéos</a></li>
   						<li><a href="channel/playlists">Playlists</a></li>
-  						<li><a href="channel/nawak">N'importe nawak</a></li>
+  						<li><a href="messages?to=Bidule">Envoyer un MP</a></li>
   					</ul>
 				</nav>
 

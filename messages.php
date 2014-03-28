@@ -21,7 +21,7 @@
 			<div class="content">
 
 				<section class="messages">
-					<h1 class="title">Messages privés <button>Nouveau</button></h1>
+					<h1 class="title">Messages privés <button onclick="createDiscution();">Nouveau</button></h1>
 
 					<aside class="list">
 						<select name="video-visibility" id="video-visibility">
@@ -36,21 +36,26 @@
 						</ul>
 					</aside>
 
-					<aside class="message">
+					<aside class="message none" id="message-right-content">
 						<div class="title" id="discution-infos">
 							<h1>Veuillez selectionner une conversation</h1>
+						</div>
+						<div class="create-form none" id="create-form">
+							<input type="text" placeholder="Sujet" id="create-input-title">
+							<label for="create-input-members">
+								<p>@</p>
+								<input type="text" placeholder="Membres" id="create-input-members">
+							</label>
+
+							<button id="create-submit" class="submit">Créer</button>
 						</div>
 
 						<ul class="content" id="messages-discution"></ul>
 
 						<div class="answer">
-							<textarea name="answer-text" id="answer-text" cols="50" rows="5" placeholder="Votre réponse..."></textarea>
+							<textarea name="message-text" id="message-text" cols="50" rows="5" placeholder="Votre réponse..."></textarea>
 
-							<div class="attachment">
-								
-							</div>
-
-							<button class="submit">Répondre</button>
+							<button id="message-submit" class="submit">Répondre</button>
 						</div>
 					</aside>
 				</section>
@@ -66,5 +71,17 @@
 		<script src="js/bgLoader.js"></script>
 		<script src="js/filePreview.js"></script>
 		<script src="js/messages.js"></script>
+
+		<?php 
+
+			if (isset($_GET["to"])) { ?>
+				
+				<script>
+					createDiscution("<?php echo $_GET["to"]; ?>");
+				</script>
+
+			<?php }
+
+		 ?>
 	</body>
 </html>
