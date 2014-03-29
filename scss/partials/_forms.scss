@@ -176,11 +176,17 @@
 		&:hover:before,
 		&[disabled]:checked:before { opacity: 1; }
 
-		&:hover:after   { opacity: 0.2; }
+		&:hover:after   { opacity: 0.1; }
 		&:checked:after { opacity: 1; }
 
 		&[disabled] { cursor: default; }
 		
 		+ label { cursor: pointer; }
 	}
+
+	label.checkbox-dependence,
+	label.checkbox-dependence input { opacity: 0.2; }
+
+	input:checked ~ label.checkbox-dependence,
+	input:checked ~ label.checkbox-dependence input { opacity: 1; }
 }

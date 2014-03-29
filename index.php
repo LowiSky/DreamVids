@@ -257,7 +257,7 @@
 							</a>
 						</ul>
 						
-						<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/250x250"></script></div>
+						<div class="center"><img src="http://dummyimage.com/250x250/f0f0f0/242424&text=add" width="250" height="250"></div>
 					</aside>
 				<?php } else { ?>
 					<aside class="aside-channels">
@@ -319,7 +319,7 @@
 							<span class="ch-less">Voir moins</span>
 						</ul>
 
-						<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/250x250"></script></div>
+						<div class="center"><img src="http://dummyimage.com/250x250/f0f0f0/242424&text=add" width="250" height="250"></div>
 					</aside>
 				<?php } ?>
 	

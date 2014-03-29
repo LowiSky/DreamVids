@@ -4269,7 +4269,17 @@ nav.pagination ul li:not(.current):active {
   color: #333;
   cursor: default;
 }
-/* line 86, ../scss/partials/_wide-channel.scss */
+/* line 85, ../scss/partials/_wide-channel.scss */
+.content.wide.channel > .inner .left p.validate:after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -5px 0 0 10px;
+  content: "";
+  background-image: url(../img/validate.png);
+  background-size: 20px 20px;
+}
+/* line 97, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button {
   display: inline-block;
   width: 155px;
@@ -4287,34 +4297,34 @@ nav.pagination ul li:not(.current):active {
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-/* line 101, ../scss/partials/_wide-channel.scss */
+/* line 112, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button:hover {
   background-color: #6cbae7;
 }
-/* line 102, ../scss/partials/_wide-channel.scss */
+/* line 113, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button:active {
   background-color: #2a9cdc;
 }
 @media (max-width: 400px) {
-  /* line 86, ../scss/partials/_wide-channel.scss */
+  /* line 97, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .left button {
     width: 100%;
     font-size: 16px;
   }
 }
-/* line 115, ../scss/partials/_wide-channel.scss */
+/* line 126, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button.subscribed {
   background-color: #666666;
 }
-/* line 117, ../scss/partials/_wide-channel.scss */
+/* line 128, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button.subscribed:hover {
   background-color: gray;
 }
-/* line 118, ../scss/partials/_wide-channel.scss */
+/* line 129, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button.subscribed:active {
   background-color: #595959;
 }
-/* line 121, ../scss/partials/_wide-channel.scss */
+/* line 132, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .left button:active, .content.wide.channel > .inner .left button:focus {
   outline: none;
 }
@@ -4324,13 +4334,13 @@ nav.pagination ul li:not(.current):active {
     height: 80%;
     text-align: center;
   }
-  /* line 134, ../scss/partials/_wide-channel.scss */
+  /* line 145, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .left .bgLoader {
     float: none;
     display: block;
     margin: auto;
   }
-  /* line 140, ../scss/partials/_wide-channel.scss */
+  /* line 151, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .left p {
     clear: both;
   }
@@ -4348,7 +4358,7 @@ nav.pagination ul li:not(.current):active {
     width: 40%;
   }
 }
-/* line 144, ../scss/partials/_wide-channel.scss */
+/* line 155, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .right {
   position: absolute;
   bottom: 40px;
@@ -4367,14 +4377,14 @@ nav.pagination ul li:not(.current):active {
   box-sizing: border-box;
 }
 @media (max-width: 900px) {
-  /* line 144, ../scss/partials/_wide-channel.scss */
+  /* line 155, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .right {
     max-height: 80%;
     height: auto;
   }
 }
 @media (max-width: 600px) {
-  /* line 144, ../scss/partials/_wide-channel.scss */
+  /* line 155, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .right {
     right: 20px;
     width: 40%;
@@ -4383,7 +4393,7 @@ nav.pagination ul li:not(.current):active {
   }
 }
 @media (max-width: 400px) {
-  /* line 144, ../scss/partials/_wide-channel.scss */
+  /* line 155, ../scss/partials/_wide-channel.scss */
   .content.wide.channel > .inner .right {
     top: 35px;
     right: 0;
@@ -4698,7 +4708,7 @@ nav.pagination ul li:not(.current):active {
 }
 /* line 179, ../scss/partials/_forms.scss */
 .form input[type="checkbox"]:hover:after {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 /* line 180, ../scss/partials/_forms.scss */
 .form input[type="checkbox"]:checked:after {
@@ -4711,6 +4721,16 @@ nav.pagination ul li:not(.current):active {
 /* line 184, ../scss/partials/_forms.scss */
 .form input[type="checkbox"] + label {
   cursor: pointer;
+}
+/* line 188, ../scss/partials/_forms.scss */
+.form label.checkbox-dependence,
+.form label.checkbox-dependence input {
+  opacity: 0.2;
+}
+/* line 191, ../scss/partials/_forms.scss */
+.form input:checked ~ label.checkbox-dependence,
+.form input:checked ~ label.checkbox-dependence input {
+  opacity: 1;
 }
 
 /* line 1, ../scss/partials/_titles.scss */
@@ -5238,6 +5258,62 @@ h3.title:after {
 /* line 452, ../scss/partials/_messages.scss */
 .messages .message.none .title {
   height: 10%;
+}
+
+/* line 1, ../scss/partials/_moderating-commands.scss */
+.moderating-commands {
+  text-align: center;
+}
+/* line 4, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button {
+  width: 21%;
+  height: 40px;
+  margin: 1.5%;
+  font-family: "Source Sans Pro", Arial;
+  font-size: 17px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* line 16, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button:active, .moderating-commands button:focus {
+  outline: none;
+}
+/* line 18, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.blue {
+  background: #40A6E0;
+}
+/* line 21, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.blue:hover {
+  background: #56b0e4;
+}
+/* line 22, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.blue:active {
+  background: #2a9cdc;
+}
+/* line 25, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.orange {
+  background: #FC7F3C;
+}
+/* line 28, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.orange:hover {
+  background: #fc8f55;
+}
+/* line 29, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.orange:active {
+  background: #fc6f23;
+}
+/* line 32, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.red {
+  background: #E70739;
+}
+/* line 35, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.red:hover {
+  background: #f81044;
+}
+/* line 36, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.red:active {
+  background: #ce0633;
 }
 
 /* Style des cartes
@@ -5999,47 +6075,78 @@ h3.title:after {
   color: #40a6e0;
   font-weight: bold;
 }
-/* line 113, ../scss/video/_comments.scss */
+/* line 112, ../scss/video/_comments.scss */
+#comments .comment .comment-head .user a.validate:after {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin: 0 0 -1px 5px;
+  content: "";
+  background-image: url(../img/validate.png);
+  background-size: 13px 13px;
+}
+/* line 124, ../scss/video/_comments.scss */
+#comments .comment .comment-head .user .rank {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  padding: 5px 5px 3px 5px;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+/* line 133, ../scss/video/_comments.scss */
+#comments .comment .comment-head .user .rank[data-rank="1"] {
+  background: #D96565;
+}
+/* line 134, ../scss/video/_comments.scss */
+#comments .comment .comment-head .user .rank[data-rank="2"] {
+  background: #D9D865;
+}
+/* line 135, ../scss/video/_comments.scss */
+#comments .comment .comment-head .user .rank[data-rank="3"] {
+  background: #5BAADC;
+}
+/* line 138, ../scss/video/_comments.scss */
 #comments .comment .comment-head .date {
   float: right;
   display: inline-block;
   vertical-align: baseline;
 }
-/* line 118, ../scss/video/_comments.scss */
+/* line 143, ../scss/video/_comments.scss */
 #comments .comment .comment-head .date p {
   font-size: 15px;
   line-height: 27px;
 }
-/* line 125, ../scss/video/_comments.scss */
+/* line 150, ../scss/video/_comments.scss */
 #comments .comment .comment-text {
   margin-bottom: 5px;
   padding-left: 25px;
 }
-/* line 130, ../scss/video/_comments.scss */
+/* line 155, ../scss/video/_comments.scss */
 #comments .comment .comment-notation {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 135, ../scss/video/_comments.scss */
+/* line 160, ../scss/video/_comments.scss */
 #comments .comment .comment-notation ul {
   list-style: none;
 }
-/* line 137, ../scss/video/_comments.scss */
+/* line 162, ../scss/video/_comments.scss */
 #comments .comment .comment-notation li {
   display: inline-block;
   margin-right: 30px;
 }
-/* line 141, ../scss/video/_comments.scss */
+/* line 166, ../scss/video/_comments.scss */
 #comments .comment .comment-notation li a {
   margin-right: 10px;
 }
-/* line 145, ../scss/video/_comments.scss */
+/* line 170, ../scss/video/_comments.scss */
 #comments .comment .comment-notation .plus,
 #comments .comment .comment-notation .plus a {
   color: #48a84f;
 }
-/* line 148, ../scss/video/_comments.scss */
+/* line 173, ../scss/video/_comments.scss */
 #comments .comment .comment-notation .moins,
 #comments .comment .comment-notation .moins a {
   color: #dd4e47;
@@ -6202,25 +6309,35 @@ h3.title:after {
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-pseudo {
   color: #40a6e0;
 }
-/* line 158, ../scss/video/_titre.scss */
+/* line 159, ../scss/video/_titre.scss */
+#video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-pseudo.validate:after {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin: 0 0 -1px 5px;
+  content: "";
+  background-image: url(../img/validate.png);
+  background-size: 13px 13px;
+}
+/* line 171, ../scss/video/_titre.scss */
 #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos .strong {
   margin-right: 4px;
   font-weight: bold;
 }
 
 @media (max-width: 600px) {
-  /* line 168, ../scss/video/_titre.scss */
+  /* line 181, ../scss/video/_titre.scss */
   #video-top-infos {
     padding: 0;
   }
-  /* line 171, ../scss/video/_titre.scss */
+  /* line 184, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title {
     display: block;
     padding: 10px;
     margin-top: -5px;
     padding-right: 10px;
   }
-  /* line 177, ../scss/video/_titre.scss */
+  /* line 190, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title h1 {
     clear: both;
     color: #858484;
@@ -6228,7 +6345,7 @@ h3.title:after {
     font-size: 24px;
     line-height: 30px;
   }
-  /* line 186, ../scss/video/_titre.scss */
+  /* line 199, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel {
     position: relative;
     top: 10px;
@@ -6236,7 +6353,7 @@ h3.title:after {
     display: block;
     margin-bottom: -5px;
   }
-  /* line 194, ../scss/video/_titre.scss */
+  /* line 207, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img {
     width: 25px;
     height: 25px;
@@ -6244,7 +6361,7 @@ h3.title:after {
     margin-right: 15px;
     margin-bottom: -3px;
   }
-  /* line 201, ../scss/video/_titre.scss */
+  /* line 214, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe {
     position: relative;
     top: -1px;
@@ -6255,7 +6372,7 @@ h3.title:after {
     margin-right: 12px;
     background-size: 50px 25px;
   }
-  /* line 213, ../scss/video/_titre.scss */
+  /* line 226, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i {
     width: 80px;
     left: 100%;
@@ -6264,7 +6381,7 @@ h3.title:after {
     padding-top: 7px;
     font-size: 15px;
   }
-  /* line 223, ../scss/video/_titre.scss */
+  /* line 236, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe > i:before {
     left: 12px;
     margin-left: -5px;
@@ -6272,26 +6389,26 @@ h3.title:after {
     border-right: 5px solid transparent;
     border-bottom: 5px solid rgba(0, 0, 0, 0.5);
   }
-  /* line 234, ../scss/video/_titre.scss */
+  /* line 247, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed > i:before {
     border-bottom: 5px solid rgba(150, 195, 152, 0.8);
   }
-  /* line 236, ../scss/video/_titre.scss */
+  /* line 249, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel img ~ #hover_subscribe.subscribed {
     background-position: 25px 0;
   }
-  /* line 239, ../scss/video/_titre.scss */
+  /* line 252, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos {
     top: -10px;
     margin-bottom: 20px;
     vertical-align: baseline;
   }
-  /* line 244, ../scss/video/_titre.scss */
+  /* line 257, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-pseudo {
     top: -2px;
     display: inline-block;
   }
-  /* line 249, ../scss/video/_titre.scss */
+  /* line 262, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos hr {
     display: inline-block;
     width: 1px;
@@ -6301,7 +6418,7 @@ h3.title:after {
     background-color: #ebebeb;
     vertical-align: middle;
   }
-  /* line 260, ../scss/video/_titre.scss */
+  /* line 273, ../scss/video/_titre.scss */
   #video-top-infos #video-top-title #video-top-channel #video-top-channel-infos #video-top-abonnes {
     left: 20px;
     display: inline-block;
@@ -6654,7 +6771,7 @@ h3.title:after {
 
 /* Contenu principale des pages
    ======================================= */
-/* line 61, ../scss/style.scss */
+/* line 62, ../scss/style.scss */
 .content {
   display: block;
   width: 100%;
@@ -6663,7 +6780,7 @@ h3.title:after {
   overflow: hidden;
 }
 
-/* line 69, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .center {
   width: 100%;
   clear: both;
@@ -6675,7 +6792,7 @@ h3.title:after {
   overflow: hidden;
 }
 
-/* line 81, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 .middle {
   width: 100%;
   max-width: 600px;
@@ -6707,7 +6824,7 @@ h3.title:after {
 
   -  Visuel */
 /* Exemple */
-/* line 121, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 #declaration-order .exemple {
   position: absolute;
   float: left;

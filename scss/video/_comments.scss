@@ -108,7 +108,32 @@ $comment-color: #959595;
 					margin-left: 15px;
 					color: #40a6e0;
 					font-weight: bold;
-				}		
+
+					&.validate:after {
+						display: inline-block;
+						width: 13px;
+						height: 13px;
+						margin: 0 0 -1px 5px;
+	
+						content: "";
+						background-image: url(../img/validate.png);
+						background-size: 13px 13px;
+					}
+				}
+
+				.rank {
+					display: inline-block;
+					margin: 0 0 0 10px;
+					padding: 5px 5px 3px 5px;
+
+					color: white;
+					font-size: 10px;
+					text-transform: uppercase;
+	
+					&[data-rank="1"] { background: #D96565; }
+					&[data-rank="2"] { background: #D9D865; }
+					&[data-rank="3"] { background: #5BAADC; }
+				}
 			}
 			.date {
 				float: right;

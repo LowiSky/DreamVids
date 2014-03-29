@@ -8,7 +8,14 @@ if ($idDiscution == 0) {
 			"title" => "Lorem Ipsum",
 			"members" => array("Yolo")
 		),
-		"messages" => array()
+		"messages" => array(
+			array(
+				"id" => 0,
+				"avatar" => "http://lorempicsum.com/nemo/255/200/2",
+				"pseudo" => "Bidule",
+				"text" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, laborum enim expedita"
+			)
+		)
 	);
 } else if (rand(0, 1)) {
 	$json = array(

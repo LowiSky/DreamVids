@@ -71,6 +71,12 @@
 						<option value="1">Non listée</option>
 						<option value="0">Privée</option>
 					</select>
+
+					<input type="checkbox" id="late" name="late"/><label for="late">Mise en ligne tardive</label><br />
+					<label for="video-tags" class="checkbox-dependence">
+						<input type="datetime-local" id="datetime" name="datetime">
+					</label>
+
 					
 					<input type="checkbox" checked id="canDL" name="canDL"/><label for="canDL">Autoriser le téléchargement</label><br />
 					
@@ -78,7 +84,7 @@
 				</form>
 			</div>
 
-			<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/468x60"></script></div>
+			<div class="center"><img src="http://dummyimage.com/468x60/f0f0f0/242424&text=add" width="468" height="60"></div>
 
 			<?php include 'footer.php'; ?>
 			

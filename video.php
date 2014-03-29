@@ -25,7 +25,7 @@
 							<img src="http://dreamvids.fr/uploads/Simpleworld/avatar.png" alt="Image de la chaîne">
 							<span id="hover_subscribe" data-vid="0"><i>S'abonner</i></span>
 							<div id="video-top-channel-infos">
-								<a id="video-top-pseudo" href="channel">Simpleworld</a>
+								<a id="video-top-pseudo" href="channel" class="validate">Simpleworld</a>
 								<hr>
 								<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
 							</div>
@@ -91,7 +91,14 @@
 					</div>
 				</section>
 
-				<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/468x60"></script></div>
+				<form method="post" action="" role="form" class="moderating-commands">
+					<button class="blue" name="unflag_vid">Annuler le flag</button>			
+					<a href="messages?to=Simpleworld"><button type="button" class="orange" name="send_message_author">Envoyer un message</button></a>
+					<button class="red" name="suspend_vid">Suspendre</button>
+					<button type="submit" class="red" name="request_delete_vid">Demander la suppression</button>
+				</form>
+
+				<div class="center"><img src="http://dummyimage.com/468x60/f0f0f0/242424&text=add" width="468" height="60"></div>
 			</section>
 	
 	
@@ -130,7 +137,7 @@
 							<div class="comment-head">
 								<div class="user">
 									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
-									<a href="channel">Lorem</a>
+									<a href="channel" class="validate">Lorem</a><b class="rank" data-rank="1">Admin</b>
 								</div>
 								<div class="date">
 									<p>18 / 06 à 15h09</p>
@@ -152,6 +159,48 @@
 								<div class="user">
 									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
 									<a href="channel">Pseudo</a>
+								</div>
+								<div class="date">
+									<p>12 / 06 à 8h09</p>
+								</div>
+							</div>
+							<div class="comment-text">
+								<p>Laudantium aperiam sit recusandae perferendis quod deleniti minima consequatur dicta vitae praesentium inventore earum mollitia cumque iste totam nostrum fugit porro sed quibusdam velit! Officiis, temporibus doloribus consequuntur debitis assumenda quidem obcaecati adipisci quaerat.</p>
+							</div>
+							<div class="comment-notation">
+								<ul>
+									<li class="plus"><a href="#">+</a>854</li>
+									<li class="moins"><a href="#">-</a>24</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="comment">
+							<div class="comment-head">
+								<div class="user">
+									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
+									<a href="channel">Lorem</a><b class="rank" data-rank="3">Staff</b>
+								</div>
+								<div class="date">
+									<p>18 / 06 à 15h09</p>
+								</div>
+							</div>
+							<div class="comment-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="comment-notation">
+								<ul>
+									<li class="plus"><a href="#">+</a>25</li>
+									<li class="moins"><a href="#">-</a>0</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="comment">
+							<div class="comment-head">
+								<div class="user">
+									<img src="img/avatar_user.png" alt="Avatar de Pseudo">
+									<a href="channel">Pseudo</a><b class="rank" data-rank="2">Modo</b>
 								</div>
 								<div class="date">
 									<p>12 / 06 à 8h09</p>

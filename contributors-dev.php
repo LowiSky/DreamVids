@@ -78,7 +78,7 @@
 					
 				</ul>
 
-				<div class="center"><script type="text/javascript" src="//ad.pandad.eu/get-script/52e2e034a12777692532abd1/468x60"></script></div>
+				<div class="center"><img src="http://dummyimage.com/468x60/f0f0f0/242424&text=add" width="468" height="60"></div>
 			</div>
 
 			<?php include 'footer.php'; ?>

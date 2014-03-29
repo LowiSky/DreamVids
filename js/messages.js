@@ -21,6 +21,8 @@ var messagesList = document.getElementById("messages-list"),
     createInputMembers = document.getElementById("create-input-members"),
     createSubmit = document.getElementById("create-submit"),
 
+    sortsDropdown = document.getElementById("sorts-dropdown"),
+
     discutionId = null;
 
 var scrolling = false,
@@ -121,8 +123,15 @@ function addMessageInDiscution(message) {
     messagesDiscution.appendChild(li);
 }
 
-function loadMessagesInList() {
-    ajax.post("ajax/messagesList.php").then(function(result) {
+function loadMessagesInList(sorts) {
+    settings = {};
+    if (sorts) {
+        settings = {
+            sorts: sorts
+        }
+    }
+
+    ajax.post("ajax/messagesList.php", settings).then(function(result) {
         messagesList.innerHTML = "";
 
         messages = JSON.parse(result.responseText);
@@ -137,10 +146,11 @@ function loadMessagesInList() {
     });
 }
 
-loadMessagesInList();
+loadMessagesInList(sortsDropdown.value);
 
 function loadDiscution(id) {
     discutionId = id;
+    console.log(id);
 
     ajax.post("ajax/messageDiscution.php", {
         "idDiscution": id
@@ -215,6 +225,10 @@ createSubmit.addEventListener('click', function() {
         "members": createInputMembers
     }).then(function(result) {
         loadDiscution(result.responseText);
-        loadMessagesInList();
+        loadMessagesInList(sortsDropdown.value);
     });
+}, false);
+
+sortsDropdown.addEventListener('change', function(event) {
+    loadMessagesInList(sortsDropdown.value);
 }, false);

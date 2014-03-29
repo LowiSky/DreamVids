@@ -24,7 +24,7 @@
 					<h1 class="title">Messages privés <button onclick="createDiscution();">Nouveau</button></h1>
 
 					<aside class="list">
-						<select name="video-visibility" id="video-visibility">
+						<select name="sorts-dropdown" id="sorts-dropdown">
 							<option value="1">Tous les messages</option>
 							<option value="2">Messages non lus</option>
 							<option value="3">Messages de mes abonnements</option>
@@ -60,6 +60,7 @@
 					</aside>
 				</section>
 
+				<div class="center"><img src="http://dummyimage.com/468x60/f0f0f0/242424&text=add" width="468" height="60"></div>
 			</div>
 
 			<?php include 'footer.php'; ?>

@@ -30,7 +30,7 @@
 
 					<div class="left">
 						<span class="bgLoader" data-background="http://lorempicsum.com/up/350/200/6"></span>
-						<p>Russell</p>
+						<p class="validate">Russell</p>
 						<button id="subscribe-button" data-text="S'abonner|Se désabonner">S'abonner</button>
 					</div>
 

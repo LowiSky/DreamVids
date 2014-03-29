@@ -81,6 +81,17 @@
 			font-size: 35px;
 			color: #333;
 			cursor: default;
+
+			&.validate:after {
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				margin: -5px 0 0 10px;
+			
+				content: "";
+				background-image: url(../img/validate.png);
+				background-size: 20px 20px;
+			}
 		}
 
 		button {

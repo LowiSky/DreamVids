@@ -1,5 +1,14 @@
 <?php 
 
+if (isset($_POST['sorts'])) {
+	/*  Trier par :
+
+	1 : Tous les messages
+	2 : Messages non lus
+	3 : Messages de mes abonnements
+	4 : Mes messages favoris */
+}
+
 $json = array(
 	array(
 		"id" => 0,
