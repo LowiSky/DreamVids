@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width = device-width, initial-scale = 1">
 		<meta charset="utf-8">
 
-		<title>Mot de passe - DreamVids</title>
+		<title>Ma chaine - DreamVids</title>
 	</head>
 
 	<!-- // // BODY \\ \\-->
@@ -26,21 +26,21 @@
 					<nav class="tabs four">
 						<ul>
   							<li><a href="profile">Mon compte</a></li>
-  							<li><a href="profile-channel">Ma chaine</a></li>
-  							<li class="current"><a href="profile-pass">Mot de passe</a></li>
+  							<li class="current"><a href="profile-channel">Ma chaine</a></li>
+  							<li><a href="profile-pass">Mot de passe</a></li>
   							<li><a href="profile-videos">Mes vidéos</a></li>
   						</ul>
 					</nav>
 
 					<form class="form" method="post" action="">
-						<label for="currentPass">Mot de passe actuel :</label>
-						<input type="password" name="currentPass"><br />
+						<label for="backgroundChannel">
+							<img class="preview filePreview" data-input="backgroundChannel" id="preview-backgroundChannel" src="http://dreamvids.fr/uploads/Dimou/background.JPG">
+							<i>Fond de ma chaine :</i>
+							<input type="file" data-text="Choisir un fichier" data-preview="preview-backgroundChannel" name="backgroundChannel" id="backgroundChannel" accept="image/*"><br />
+						</label>
 
-						<label for="newPass">Nouveau mot de passe :</label>
-						<input type="password" name="newPass"><br />
-
-						<label for="newPassConfirm">Confirmation du nouveau mot de passe :</label>
-						<input type="password" name="newPassConfirm"><br />
+						<label for="username">Description :</label>
+						<textarea type="text" name="description" placeholder="Description de ma chaine..."></textarea>
 
 						<input type="submit" name="submit" value="Enregistrer">
 					</form>

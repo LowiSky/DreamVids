@@ -26,9 +26,9 @@
 					<nav class="tabs four">
 						<ul>
   							<li class="current"><a href="profile">Mon compte</a></li>
+  							<li><a href="profile-channel">Ma chaine</a></li>
   							<li><a href="profile-pass">Mot de passe</a></li>
   							<li><a href="profile-videos">Mes vidéos</a></li>
-  							<li><a href="messages">Messagerie</a></li>
   						</ul>
 					</nav>
 
@@ -43,12 +43,6 @@
 							<img class="preview filePreview" data-input="avatarInputFile" id="preview-avatarInputFile" src="https://fr.gravatar.com/userimage/57826048/c82ae77d5ac9635e8ace8071f81941b9.png?size=100">
 							<i>Avatar :</i>
 							<input type="file" data-text="Choisir un fichier" data-preview="preview-avatarInputFile" id="avatarInputFile" name="avatarInputFile" name="avatar" accept="image/*"><br />
-						</label>
-
-						<label for="backgroundChannel">
-							<img class="preview filePreview" data-input="backgroundChannel" id="preview-backgroundChannel" src="http://dreamvids.fr/uploads/Dimou/background.JPG">
-							<i>Fond de ma chaine :</i>
-							<input type="file" data-text="Choisir un fichier" data-preview="preview-backgroundChannel" name="backgroundChannel" id="backgroundChannel" accept="image/*"><br />
 						</label>
 
 						<label for="language">Langue :</label>

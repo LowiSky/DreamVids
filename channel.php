@@ -25,7 +25,8 @@
 					<ul class="top">
 						<li><b>12 864</b> Abonnés</li>
 						<li><b>124</b> Vidéos</li>
-						<li><b>76 261</b> +</li>
+						<li><b>8 261</b> +</li>
+						<li><b>98 423</b> Vues</li>
 					</ul>
 
 					<div class="left">

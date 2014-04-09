@@ -98,7 +98,7 @@
 					<button type="submit" class="red" name="request_delete_vid">Demander la suppression</button>
 				</form>
 
-				<div class="center"><img src="http://dummyimage.com/468x60/f0f0f0/242424&text=add" width="468" height="60"></div>
+				<div class="center"><img src="http://dummyimage.com/468x60/f0f0f0/242424&text=ad" width="468" height="60"></div>
 			</section>
 	
 	

@@ -56,20 +56,16 @@
 						</div>
 					</div>
 
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/nemo/627/300/4">
-							<div class="time">3:27</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>Nemo [Bande Annonce]</h4></a>
-							<div>
-								<span class="view">32 546</span>
-								<a class="channel" href="channel">Nemo</a>
-							</div>
-						</div>
+					<div class="card subscribe">
+						<a href="channel">
+							<div class="avatar bgLoader" data-background="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8P-98bG9w0zc1SYmG3LIj-gw3rP76qK100mRYmwbJBzdR2-hW"></div>
+							<p>
+								<b>Nyan Cat</b><br />
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, excepturi, a, corporis voluptate odit error suscipit doloremque totam quis qui necessitatibus eum dolor blanditiis veniam saepe ipsum obcaecati esse nulla?
+							</p>
+						</a>
 					</div>
-					
+
 					<div class="card video">
 						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/simpsons/350/200/6">
 							<div class="time">2:34:53</div>
@@ -126,18 +122,14 @@
 						</div>
 					</div>
 
-					<div class="card video">
-						<div class="thumbnail bgLoader" data-background="http://lorempicsum.com/futurama/350/200/1">
-							<div class="time">6:27</div>
-							<a href="video" class="overlay"></a>
-						</div>
-						<div class="description">
-							<a href="video"><h4>Futurama</h4></a>
-							<div>
-								<span class="view">32 546</span>
-								<a class="channel" href="channel">blop</a>
-							</div>
-						</div>
+					<div class="card subscribe">
+						<a href="channel">
+							<div class="avatar bgLoader" data-background="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRP-DSg6A3t4wnQUlyQGrcm5WLLiGZBRo9zCWjldTLOPiYQVnTY"></div>
+							<p>
+								<b>Catty</b><br />
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, excepturi, a, corporis voluptate odit error suscipit doloremque totam quis qui necessitatibus eum dolor blanditiis veniam saepe ipsum obcaecati esse nulla?
+							</p>
+						</a>
 					</div>
 	
 					<div class="card video">
