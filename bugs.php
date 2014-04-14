@@ -37,8 +37,56 @@
 				</form>
 			</div>
 
-			<div class="bug-content">
-				
+			<div class="bug-content content">
+				<h1 class="title">Bugs reportés :</h1>
+
+				<ul class="bugs">
+					
+					<li>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, labore animi ratione! Facilis, voluptatibus, nesciunt, voluptate totam tempore quia culpa reprehenderit harum reiciendis optio consequuntur odit possimus perferendis saepe illo!</div>
+						
+						<a href="http://img15.hostingpics.net/pics/365235reportsbug.png" class="link">img15.hostingpics.net/pics/365235reportsbug.png</a>
+
+						<span class="infos">
+							Par <a href="channel">Machin</a> le 05/05/2014
+							<i class="state" data-state="0">En attente</i>
+						</span>
+					</li>
+
+					<li>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, labore animi ratione! Facilis, voluptatibus, nesciunt, voluptate totam tempore quia culpa reprehenderit harum reiciendis optio consequuntur odit possimus perferendis saepe illo!</div>
+						
+						<a href="http://img15.hostingpics.net/pics/365235reportsbug.png" class="link">img15.hostingpics.net/pics/365235reportsbug.png</a>
+
+						<span class="infos">
+							Par <a href="channel">Bidule</a> le 05/05/2014
+							<i class="state" data-state="1">Pris en considération</i>
+						</span>
+					</li>
+
+					<li>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, labore animi ratione! Facilis, voluptatibus, nesciunt, voluptate totam tempore quia culpa reprehenderit harum reiciendis optio consequuntur odit possimus perferendis saepe illo!</div>
+						
+						<a href="http://img15.hostingpics.net/pics/365235reportsbug.png" class="link">img15.hostingpics.net/pics/365235reportsbug.png</a>
+
+						<span class="infos">
+							Par <a href="channel">Machin</a> le 05/05/2014
+							<i class="state" data-state="0">En attente</i>
+						</span>
+					</li>
+
+					<li>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, labore animi ratione! Facilis, voluptatibus, nesciunt, voluptate totam tempore quia culpa reprehenderit harum reiciendis optio consequuntur odit possimus perferendis saepe illo!</div>
+						
+						<a href="http://img15.hostingpics.net/pics/365235reportsbug.png" class="link">img15.hostingpics.net/pics/365235reportsbug.png</a>
+
+						<span class="infos">
+							Par <a href="channel">Machin</a> le 05/05/2014
+							<i class="state" data-state="2">En cours de correction</i>
+						</span>
+					</li>
+
+				</ul>
 			</div>
 
 			<div class="center"><img src="http://dummyimage.com/468x60/f0f0f0/242424&text=ad" width="468" height="60"></div>

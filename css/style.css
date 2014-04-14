@@ -4200,70 +4200,6 @@ nav.pagination ul li:not(.current):active {
   line-height: 32px;
 }
 
-/* line 1, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal {
-  position: relative;
-  height: 500px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-/* line 8, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal #backgroundLoader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 26, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal form {
-  position: relative;
-  top: 50px;
-  width: 100%;
-  height: 400px;
-  max-width: 1000px;
-  margin: auto;
-  background: rgba(107, 186, 231, 0.7);
-  -webkit-box-shadow: 0 0 0 0 white;
-  -moz-box-shadow: 0 0 0 0 white;
-  -ms-box-shadow: 0 0 0 0 white;
-  -o-box-shadow: 0 0 0 0 white;
-  box-shadow: 0 0 0 0 white;
-}
-/* line 43, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal form .title {
-  margin: 20px 10px 30px 10px!important;
-  color: white;
-}
-/* line 47, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal form .title:after {
-  background: white;
-}
-/* line 50, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal form label {
-  color: white;
-}
-/* line 52, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal form input[type="submit"] {
-  position: absolute;
-  left: 25%;
-  bottom: 30px;
-  width: 50%;
-  margin: auto;
-  color: #40a6e0;
-}
-/* line 65, ../scss/partials/_bug-large-modal.scss */
-.bug-large-modal form input[type="submit"], .bug-large-modal form input[type="submit"]:hover, .bug-large-modal form input[type="submit"]:active, .bug-large-modal form input[type="submit"]:focus {
-  background: white;
-}
-
 /* line 2, ../scss/partials/_wide-channel.scss */
 .content.wide.channel > .inner .top {
   position: absolute;
@@ -5391,6 +5327,134 @@ h3.title:after {
 /* line 36, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.red:active {
   background: #ce0633;
+}
+
+/* line 2, ../scss/partials/_bug-content.scss */
+.bug-content li {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #64b6e5;
+  font-size: 19px;
+}
+/* line 11, ../scss/partials/_bug-content.scss */
+.bug-content li .link {
+  display: block;
+  margin: 10px 0 40px 0;
+  color: #4eace1;
+}
+/* line 17, ../scss/partials/_bug-content.scss */
+.bug-content li .link:hover {
+  text-decoration: underline;
+}
+/* line 20, ../scss/partials/_bug-content.scss */
+.bug-content li .infos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  padding: 10px;
+  background: #64b6e5;
+}
+/* line 32, ../scss/partials/_bug-content.scss */
+.bug-content li .infos,
+.bug-content li .infos a {
+  color: white;
+}
+/* line 34, ../scss/partials/_bug-content.scss */
+.bug-content li .infos a:hover {
+  text-decoration: underline;
+}
+/* line 36, ../scss/partials/_bug-content.scss */
+.bug-content li .infos .state {
+  float: right;
+  font-size: 20px;
+}
+/* line 40, ../scss/partials/_bug-content.scss */
+.bug-content li .infos .state:before {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  content: "";
+  border-radius: 50%;
+}
+/* line 50, ../scss/partials/_bug-content.scss */
+.bug-content li .infos .state[data-state="0"]:before {
+  background: #fb4506;
+}
+/* line 51, ../scss/partials/_bug-content.scss */
+.bug-content li .infos .state[data-state="1"]:before {
+  background: #fbff06;
+}
+/* line 52, ../scss/partials/_bug-content.scss */
+.bug-content li .infos .state[data-state="2"]:before {
+  background: #97d2ff;
+}
+
+/* line 1, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal {
+  position: relative;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+/* line 8, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal #backgroundLoader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 26, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal form {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 400px;
+  max-width: 1000px;
+  margin: auto;
+  background: rgba(107, 186, 231, 0.7);
+  -webkit-box-shadow: 0 0 0 0 white;
+  -moz-box-shadow: 0 0 0 0 white;
+  -ms-box-shadow: 0 0 0 0 white;
+  -o-box-shadow: 0 0 0 0 white;
+  box-shadow: 0 0 0 0 white;
+}
+/* line 43, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal form .title {
+  margin: 20px 10px 30px 10px!important;
+  color: white;
+}
+/* line 47, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal form .title:after {
+  background: white;
+}
+/* line 50, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal form label {
+  color: white;
+}
+/* line 52, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal form input[type="submit"] {
+  position: absolute;
+  left: 25%;
+  bottom: 30px;
+  width: 50%;
+  margin: auto;
+  color: #40a6e0;
+}
+/* line 65, ../scss/partials/_bug-large-modal.scss */
+.bug-large-modal form input[type="submit"], .bug-large-modal form input[type="submit"]:hover, .bug-large-modal form input[type="submit"]:active, .bug-large-modal form input[type="submit"]:focus {
+  background: white;
 }
 
 /* Style des cartes
@@ -6848,7 +6912,7 @@ h3.title:after {
 
 /* Contenu principale des pages
    ======================================= */
-/* line 63, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .content {
   display: block;
   width: 100%;
@@ -6857,7 +6921,7 @@ h3.title:after {
   overflow: hidden;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 .center {
   width: 100%;
   clear: both;
@@ -6869,7 +6933,7 @@ h3.title:after {
   overflow: hidden;
 }
 
-/* line 83, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .middle {
   width: 100%;
   max-width: 600px;
@@ -6901,7 +6965,7 @@ h3.title:after {
 
   -  Visuel */
 /* Exemple */
-/* line 123, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 #declaration-order .exemple {
   position: absolute;
   float: left;
