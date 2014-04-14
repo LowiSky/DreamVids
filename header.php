@@ -6,6 +6,8 @@
 					<img src="img/icon_logo.png" alt="Logo DreamVids" id="top-nav-logo-icon" class="top-nav-icon-logo" />
 					<img src="img/text_logo.png" alt="DreamVids" id="top-nav-logo-text" class="top-nav-text-logo" />
 				</a>
+
+				<a class="bug-report" href="bugs">Un bug ?</a>
 			</div>
 			<div id="inner-top-nav-right">
 

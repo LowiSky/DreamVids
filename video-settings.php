@@ -24,19 +24,14 @@
 					<h1 class="title">Parametres de la vidéo "Nyan Cat"</h1>
 
 					<form class="form" method="post" action="">
-						<label for="video-title">
-							<i>Titre de la vidéo :</i>
-							<input value="Nyan Cat" id="video-title" type="text" name="video-title" placeholder="Titre" spellcheck="false"/>
-						</label>
+						<label for="video-title">Titre de la vidéo :</label>
+						<input value="Nyan Cat" id="video-title" type="text" name="video-title" placeholder="Titre" spellcheck="false"/>
 						
-						<label for="video-description">
-							<i>Description :</i>
-							<textarea name="video-description" id="video-description" rows="4" placeholder="Description">Nyan Nyan Nyan Nyan Nyan</textarea>
-						</label>
+						<label for="video-description">Description :</label>
+						<textarea name="video-description" id="video-description" rows="4" placeholder="Description">Nyan Nyan Nyan Nyan Nyan</textarea>
 						
-						<label for="video-tags">
-							<i>Tags :</i><input value="nyan, cat" id="video-tags" type="text" name="video-tags" placeholder="Tags" spellcheck="false"/>
-						</label>
+						<label for="video-tags">Tags :</label>
+						<input value="nyan, cat" id="video-tags" type="text" name="video-tags" placeholder="Tags" spellcheck="false"/>
 
 						<label for="tumbnail">
 							<img class="preview filePreview" data-input="tumbnail" id="preview-thumbnail" src="http://dreamvids.fr/uploads/Plasma/h8WjOG.jpg">

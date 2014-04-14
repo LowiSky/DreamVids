@@ -42,6 +42,8 @@ header {
 		padding-right: 15px;
 
 		a {
+			float: left;
+
 			display: block;
 			height: 60px;
 			width: 180px;
@@ -54,6 +56,16 @@ header {
 				position: relative;
 				left: 15px;
 				top: -4px;
+			}
+		}
+
+		.bug-report {
+			float: left;
+			margin: 22px 0 0 20px;
+
+			@media (max-width: 520px) {
+				margin: 73px 0 0 -10px;
+				color: #888;
 			}
 		}
 	}
