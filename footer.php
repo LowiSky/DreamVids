@@ -5,6 +5,7 @@
 			
 			<a href="contributors">Contributeurs</a>
 			<a href="http://dreamvids.net/">Blog de développement</a>
+			<a href="bugs">Reporter un bug</a>
 		</div>
 
 		<div class="row">

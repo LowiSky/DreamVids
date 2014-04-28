@@ -18,7 +18,13 @@
 
 			<?php include 'header.php'; ?>
 	
-			<section class="content">
+			<section class="content" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+				<meta itemprop="thumbnailUrl" content="http://dreamvids.fr/uploads/Simpleworld/cI1e5r.png">
+				<meta itemprop="embedURL" content="http://dreamvids.fr/embed/bachibouzouk">
+				<meta itemprop="uploadDate" content="2011-07-05T08:00:00+08:00">
+				<meta itemprop="duration" content="T1M33S"><!-- 1 minute et 33 secondes -->
+				<meta itemprop="contentURL" content="http://dreamvids.fr/uploads/Simpleworld/cI1e5r.mov_640x360p.mp4">
+
 				<div id="video-top-infos">
 					<div id="video-top-title">
 						<div id="video-top-channel">
@@ -30,7 +36,7 @@
 								<p id="video-top-abonnes"><span class="strong">64 350</span> abonnés</p>
 							</div>
 						</div>
-						<h1 title="Simpleworld - Motion designer">Simpleworld - Motion designer</h1>
+						<h1 title="Simpleworld - Motion designer" itemprop="name">Simpleworld - Motion designer</h1>
 					</div>
 				</div>
 				
@@ -66,16 +72,28 @@
 						<span id="fullscreen" class="fullscreen"></span>
 					</div>
 				</div>
-				<section id="videoInfos">
+				<section id="videoInfos" itemprop="review" itemscope itemtype="http://schema.org/Review">
 					<div id="videoVues">20 220 vues</div>
 					<hr />
 					<div id="votes">
 						<p id="votePlus" onclick="plus(1);">1752</p>
-						<m id="voteMoins" onclick="moins(1);">3</m>
+						<m id="voteMoins" onclick="moins(1);">53</m>
 					</div>
+
+					<meta itemprop="reviewRating" content="<?php echo 1752 + 53 ?>">
+
+					<div itemprop="review" itemscope itemtype="http://schema.org/Review">
+						<span itemprop="reviewRating">5</span> stars -
+						<b>"<span itemprop="name">A masterpiece of literature</span>" </b>
+						by <span itemprop="author">John Doe</span>,
+						Written on <meta itemprop="datePublished" content="2006-05-04">May 4, 2006
+						<span itemprop="reviewBody">I really enjoyed this book. It captures the essential
+						challenge people face as they try make sense of their lives and grow to adulthood.</span>
+					</div>
+
 					<hr/>
 					<div id="description">
-						<div id="innerDescription">
+						<div id="innerDescription" itemprop="description">
 							Ceci est une description que j'ai écrite à la main très très très longtemps pour avoir quelque chose de plus réaliste et inutile et pour pouvoir commiter quelquechose vu que je n'avais aucune idée de quoi faire.
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laudantium, labore assumenda corporis ea dolor saepe nostrum quae molestias nobis illum accusamus magnam rerum! Velit, fuga, laborum qui ducimus nesciunt sequi necessitatibus dolores illo itaque tenetur ea cupiditate temporibus vero amet dolorem veniam possimus perferendis explicabo sed debitis delectus aliquam.
 						</div>

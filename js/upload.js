@@ -21,30 +21,18 @@ function tempsRestant(timestamp) {
     var minutes = Math.round(seconds / 60);
     var heures = Math.round(minutes / 60);
 
-    if (seconds < 1)
-        return "une seconde";
-    else if (seconds < 60)
-        return seconds + " secondes";
-    else if (minutes === 1)
-        return minutes + " une minute";
-    else if (minutes < 14)
-        return minutes + " minutes";
-    else if (minutes < 16)
-        return "un quart d'heures";
-    else if (minutes < 29)
-        return minutes + " minutes";
-    else if (minutes < 31)
-        return "une demi heure";
-    else if (minutes < 55)
-        return minutes + " minutes";
-    else if (minutes < 65)
-        return "une heure";
-    else if (minutes < 120)
-        return "une heure";
-    else if (minutes < 1440)
-        return heures + " heures";
-    else
-        return "très longtemps";
+    if (seconds < 1) { return "une seconde"; }
+    else if (seconds < 60) { return seconds + " secondes"; }
+    else if (minutes === 1) { return minutes + " une minute"; }
+    else if (minutes < 14) { return minutes + " minutes"; }
+    else if (minutes < 16) { return "un quart d'heures"; }
+    else if (minutes < 29) { return minutes + " minutes"; }
+    else if (minutes < 31) { return "une demi heure"; }
+    else if (minutes < 55) { return minutes + " minutes"; }
+    else if (minutes < 65) { return "une heure"; }
+    else if (minutes < 120) { return "une heure"; }
+    else if (minutes < 1440) { return heures + " heures"; }
+    else { return "très longtemps"; }
 }
 
 uploadInput.addEventListener('change', function(event) {
@@ -52,6 +40,10 @@ uploadInput.addEventListener('change', function(event) {
     var validsExtensions = ['webm', 'mp4', 'mov', 'avi', 'wmv', 'ogg', 'ogv'];
 
     if (validsExtensions.indexOf(extension) != -1) {
+        document.body.onbeforeunload = function(){
+            return "Si vous quittez la page, l'upload sera annulé";
+        }
+
         uploader.className = uploader.className.replace(' hover', '');
         uploader.className = 'uploading';
 
@@ -87,7 +79,7 @@ uploadInput.addEventListener('change', function(event) {
             progressBar.style.width = '100%';
         };
 
-        uploadHttpRequest.send(form);
+        uploadHttpRequest.send(event.cible);
         timeUpload.started = new Date().getTime();
     } else {
         alert("Type de fichier incorrect");
