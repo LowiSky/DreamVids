@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width = device-width, initial-scale = 1">
 		<meta charset="utf-8">
 
-		<title>Ma chaine - DreamVids</title>
+		<title>Mes chaînes - DreamVids</title>
 	</head>
 
 	<!-- // // BODY \\ \\-->
@@ -26,24 +26,30 @@
 					<nav class="tabs four">
 						<ul>
   							<li><a href="profile">Mon compte</a></li>
-  							<li class="current"><a href="profile-channel">Ma chaine</a></li>
   							<li><a href="profile-pass">Mot de passe</a></li>
+  							<li class="current"><a href="channels">Mes chaînes</a></li>
   							<li><a href="profile-videos">Mes vidéos</a></li>
   						</ul>
 					</nav>
 
-					<form class="form" method="post" action="">
-						<label for="backgroundChannel">
-							<img class="preview filePreview" data-input="backgroundChannel" id="preview-backgroundChannel" src="http://dreamvids.fr/uploads/Dimou/background.JPG">
-							<i>Fond de ma chaine :</i>
-							<input type="file" data-text="Choisir un fichier" data-preview="preview-backgroundChannel" name="backgroundChannel" id="backgroundChannel" accept="image/*"><br />
-						</label>
+					<div class="moderating-commands">
+						<a href="create-channel"><button class="blue big" name="create-channel">Créer une nouvelle chaîne</button></a>		
+					</div>
 
-						<label for="username">Description :</label>
-						<textarea type="text" name="description" placeholder="Description de ma chaine..."></textarea>
+					<aside class="long-cards-list">
+						<div class="card channel long">
+							<a href="channel-settings">
+								<div class="avatar bgLoader" data-background="http://lorempicsum.com/futurama/255/200/2"></div>
+							</a>
 
-						<input type="submit" name="submit" value="Enregistrer">
-					</form>
+							<div class="description">
+								<a href="channel"><b>Chnok</b></a>
+								<a href="channel-settings"><button>Paramètres</button></a>
+								<b class="principal">Chaîne principale</b>
+								<span class="subscriber"><b>64 520</b> Abonnés</span>
+							</div>
+						</div>
+					</aside>
 				</section>
 
 			</div>

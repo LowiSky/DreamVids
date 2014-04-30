@@ -74,21 +74,20 @@
 				</div>
 				<section id="videoInfos" itemprop="review" itemscope itemtype="http://schema.org/Review">
 					<div id="videoVues">20 220 vues</div>
-					<hr />
+					<hr>
+						
+					<?php 
+						$plus = 267;
+						$moins = 100;
+					?>
+
 					<div id="votes">
-						<p id="votePlus" onclick="plus(1);">1752</p>
-						<m id="voteMoins" onclick="moins(1);">53</m>
+						<p id="votePlus" onclick="plus(1);"><?php echo $plus; ?></p>
+						<m id="voteMoins" onclick="moins(1);"><?php echo $moins; ?></m>
 					</div>
 
-					<meta itemprop="reviewRating" content="<?php echo 1752 + 53 ?>">
-
 					<div itemprop="review" itemscope itemtype="http://schema.org/Review">
-						<span itemprop="reviewRating">5</span> stars -
-						<b>"<span itemprop="name">A masterpiece of literature</span>" </b>
-						by <span itemprop="author">John Doe</span>,
-						Written on <meta itemprop="datePublished" content="2006-05-04">May 4, 2006
-						<span itemprop="reviewBody">I really enjoyed this book. It captures the essential
-						challenge people face as they try make sense of their lives and grow to adulthood.</span>
+						<meta itemprop="reviewRating" content="<?php echo round(($plus + $moins) / $plus); ?>">
 					</div>
 
 					<hr/>
@@ -98,7 +97,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, laudantium, labore assumenda corporis ea dolor saepe nostrum quae molestias nobis illum accusamus magnam rerum! Velit, fuga, laborum qui ducimus nesciunt sequi necessitatibus dolores illo itaque tenetur ea cupiditate temporibus vero amet dolorem veniam possimus perferendis explicabo sed debitis delectus aliquam.
 						</div>
 					</div>
-					<hr/>
+					<hr>
 					<div id="buttons">
 						<img class="share" src="img/share.png">
 						<img class="flag" src="img/flag.png">

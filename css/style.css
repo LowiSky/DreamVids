@@ -5280,39 +5280,61 @@ h3.title:after {
 .moderating-commands button:active, .moderating-commands button:focus {
   outline: none;
 }
-/* line 18, ../scss/partials/_moderating-commands.scss */
+@media (max-width: 1050px) {
+  /* line 4, ../scss/partials/_moderating-commands.scss */
+  .moderating-commands button {
+    width: 44%;
+  }
+}
+@media (max-width: 600px) {
+  /* line 4, ../scss/partials/_moderating-commands.scss */
+  .moderating-commands button {
+    width: 96%;
+  }
+}
+/* line 21, ../scss/partials/_moderating-commands.scss */
+.moderating-commands button.big {
+  width: 50%;
+}
+@media (max-width: 600px) {
+  /* line 21, ../scss/partials/_moderating-commands.scss */
+  .moderating-commands button.big {
+    width: 96%;
+  }
+}
+/* line 27, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.blue {
   background: #40A6E0;
 }
-/* line 21, ../scss/partials/_moderating-commands.scss */
+/* line 30, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.blue:hover {
   background: #56b0e4;
 }
-/* line 22, ../scss/partials/_moderating-commands.scss */
+/* line 31, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.blue:active {
   background: #2a9cdc;
 }
-/* line 25, ../scss/partials/_moderating-commands.scss */
+/* line 34, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.orange {
   background: #FC7F3C;
 }
-/* line 28, ../scss/partials/_moderating-commands.scss */
+/* line 37, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.orange:hover {
   background: #fc8f55;
 }
-/* line 29, ../scss/partials/_moderating-commands.scss */
+/* line 38, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.orange:active {
   background: #fc6f23;
 }
-/* line 32, ../scss/partials/_moderating-commands.scss */
+/* line 41, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.red {
   background: #E70739;
 }
-/* line 35, ../scss/partials/_moderating-commands.scss */
+/* line 44, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.red:hover {
   background: #f81044;
 }
-/* line 36, ../scss/partials/_moderating-commands.scss */
+/* line 45, ../scss/partials/_moderating-commands.scss */
 .moderating-commands button.red:active {
   background: #ce0633;
 }
@@ -5796,12 +5818,12 @@ h3.title:after {
   color: #a4a4a4;
 }
 
-/* line 2, ../scss/cards/_card-subscribe.scss */
-.card.subscribe a {
+/* line 2, ../scss/cards/_card-channel.scss */
+.card.channel a {
   display: block;
 }
-/* line 5, ../scss/cards/_card-subscribe.scss */
-.card.subscribe a .avatar {
+/* line 5, ../scss/cards/_card-channel.scss */
+.card.channel a .avatar {
   position: absolute;
   top: 0;
   left: 0;
@@ -5816,8 +5838,8 @@ h3.title:after {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 24, ../scss/cards/_card-subscribe.scss */
-.card.subscribe a p {
+/* line 24, ../scss/cards/_card-channel.scss */
+.card.channel a p {
   padding: 20px;
   padding-top: 20px;
   margin-top: 80px;
@@ -5825,29 +5847,139 @@ h3.title:after {
   font-size: 20px;
   line-height: 28px;
 }
-/* line 33, ../scss/cards/_card-subscribe.scss */
-.card.subscribe a p b {
+/* line 33, ../scss/cards/_card-channel.scss */
+.card.channel a p b {
   font-weight: bold;
 }
-/* line 37, ../scss/cards/_card-subscribe.scss */
-.card.subscribe .subscriber {
+/* line 37, ../scss/cards/_card-channel.scss */
+.card.channel .subscriber {
   position: absolute;
   bottom: 15px;
   left: 15px;
   font-size: 18px;
 }
-/* line 44, ../scss/cards/_card-subscribe.scss */
-.card.subscribe .subscriber b {
+/* line 44, ../scss/cards/_card-channel.scss */
+.card.channel .subscriber b {
   font-weight: bold;
 }
-/* line 47, ../scss/cards/_card-subscribe.scss */
-.card.subscribe i {
+/* line 47, ../scss/cards/_card-channel.scss */
+.card.channel i {
   position: absolute;
   bottom: 8px;
   right: 8px;
   font-size: 17px;
   font-style: italic;
   color: #a4a4a4;
+}
+/* line 57, ../scss/cards/_card-channel.scss */
+.card.channel.long {
+  width: 95%;
+  height: 160px;
+}
+/* line 61, ../scss/cards/_card-channel.scss */
+.card.channel.long .avatar {
+  width: 30%;
+  height: 100%;
+}
+@media (max-width: 1000px) {
+  /* line 61, ../scss/cards/_card-channel.scss */
+  .card.channel.long .avatar {
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  /* line 61, ../scss/cards/_card-channel.scss */
+  .card.channel.long .avatar {
+    width: 35%;
+  }
+}
+/* line 69, ../scss/cards/_card-channel.scss */
+.card.channel.long .description {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  width: 70%;
+  height: 100%;
+}
+@media (max-width: 1000px) {
+  /* line 69, ../scss/cards/_card-channel.scss */
+  .card.channel.long .description {
+    left: 50%;
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  /* line 69, ../scss/cards/_card-channel.scss */
+  .card.channel.long .description {
+    left: 35%;
+    width: 65%;
+  }
+}
+/* line 86, ../scss/cards/_card-channel.scss */
+.card.channel.long .description a > b {
+  display: block;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 95, ../scss/cards/_card-channel.scss */
+.card.channel.long .description button {
+  display: block;
+  width: 90%;
+  max-width: 200px;
+  height: 35px;
+  margin: 15px 0 5px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: #40a6e0;
+}
+/* line 108, ../scss/cards/_card-channel.scss */
+.card.channel.long .description button:hover {
+  background: #6cbae7;
+}
+/* line 109, ../scss/cards/_card-channel.scss */
+.card.channel.long .description button:active {
+  background: #2a9cdc;
+}
+/* line 112, ../scss/cards/_card-channel.scss */
+.card.channel.long .description button:focus, .card.channel.long .description button:active {
+  outline: none;
+}
+/* line 115, ../scss/cards/_card-channel.scss */
+.card.channel.long .description .principal {
+  display: block;
+  margin: 15px 0 0 15px;
+  color: #E70739;
+}
+/* line 121, ../scss/cards/_card-channel.scss */
+.card.channel.long .description div {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  right: 5px;
+}
+/* line 128, ../scss/cards/_card-channel.scss */
+.card.channel.long .description div .plus,
+.card.channel.long .description div .moins {
+  display: inline-block;
+}
+/* line 131, ../scss/cards/_card-channel.scss */
+.card.channel.long .description div .plus:before,
+.card.channel.long .description div .moins:before {
+  display: inline-block;
+  margin-left: 14px;
+  margin-right: 2px;
+  font-weight: bold;
+}
+/* line 139, ../scss/cards/_card-channel.scss */
+.card.channel.long .description div .plus:before {
+  content: "+";
+}
+/* line 140, ../scss/cards/_card-channel.scss */
+.card.channel.long .description div .moins:before {
+  content: "-";
 }
 
 /* Listes de cartes

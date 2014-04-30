@@ -98,7 +98,7 @@
 						</div>
 					</div>
 
-					<div class="card subscribe">
+					<div class="card channel">
 						<a href="channel">
 							<div class="avatar bgLoader" data-background="http://lorempicsum.com/futurama/255/200/2"></div>
 							<p><b>Chnok</b> s'est abonné à votre chaîne</p>
@@ -168,7 +168,7 @@
 						</div>
 					</div>
 
-					<div class="card subscribe">
+					<div class="card channel">
 						<a href="#">
 							<div class="avatar bgLoader" data-background="http://lorempicsum.com/simpsons/255/200/5"></div>
 							<p><b>6 personnes</b> se sont abonnés à votre chaîne</p>

@@ -23,7 +23,7 @@
 								<img src="img/arrow_top_nav.png" alt="Voir vos informations" id="top-nav-user-arrow">
 								<div id="top-nav-user-information-menu">
 									<ul>
-										<a href="channel">Ma chaîne</a>
+										<a href="channels">Mes chaînes</a>
 										<a href="profile">Mon compte</a>
 										<a href="messages">Mes messages</a>
 										<a href="#">Déconnexion</a>

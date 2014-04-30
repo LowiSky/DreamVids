@@ -26,8 +26,8 @@
 					<nav class="tabs four">
 						<ul>
   							<li><a href="profile">Mon compte</a></li>
-  							<li><a href="profile-channel">Ma chaîne</a></li>
   							<li><a href="profile-pass">Mot de passe</a></li>
+  							<li><a href="channels">Mes chaînes</a></li>
   							<li class="current"><a href="profile-videos">Mes vidéos</a></li>
   						</ul>
 					</nav>

@@ -15,6 +15,15 @@
 		&:active,
 		&:focus { outline: none; }
 
+		@media (max-width: 1050px) { width: 44%; }
+		@media (max-width:  600px) { width: 96%; }
+
+		&.big {
+			width: 50%;
+
+			@media (max-width: 600px) { width: 96%; }
+		}
+
 		&.blue {
 			background: #40A6E0;
 
